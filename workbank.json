@@ -6,11 +6,11 @@
   "owner": "",
   "author": "Wen",
   "category": "Testing recite button",
-  "version": "20220503.1",
+  "version": "20220511.1",
   "pageFormatType": 0,
   "created": "1/1/2022",
-  "modified": "Tue May 03 2022 16:13:57 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Tue May 03 2022 16:13:57 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Sat Jun 04 2022 21:25:23 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Sat Jun 04 2022 21:25:23 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -46,11 +46,13 @@
                 "id": 0,
                 "termIdx": 0,
                 "content": "The",
+                "cueList": "",
                 "firstTermIdx": 0,
                 "lastTermIdx": 0,
-                "type": 14,
+                "type": 16,
                 "meta": {
                   "content": "The",
+                  "cues": [],
                   "termIdx": 0,
                   "nextTermIdx": [
                     1
@@ -98,11 +100,13 @@
                 "id": 0,
                 "termIdx": 1,
                 "content": "quick",
+                "cueList": "",
                 "firstTermIdx": 1,
                 "lastTermIdx": 1,
-                "type": 14,
+                "type": 16,
                 "meta": {
                   "content": "quick",
+                  "cues": [],
                   "termIdx": 1,
                   "nextTermIdx": [
                     2
@@ -152,11 +156,13 @@
                 "id": 0,
                 "termIdx": 2,
                 "content": "brown",
+                "cueList": "",
                 "firstTermIdx": 2,
                 "lastTermIdx": 2,
-                "type": 14,
+                "type": 16,
                 "meta": {
                   "content": "brown",
+                  "cues": [],
                   "termIdx": 2,
                   "nextTermIdx": [
                     3
@@ -206,11 +212,13 @@
                 "id": 0,
                 "termIdx": 3,
                 "content": "fox",
+                "cueList": "",
                 "firstTermIdx": 3,
                 "lastTermIdx": 3,
-                "type": 14,
+                "type": 16,
                 "meta": {
                   "content": "fox",
+                  "cues": [],
                   "termIdx": 3,
                   "nextTermIdx": [],
                   "prevTermIdx": [
@@ -266,6 +274,7 @@
   "terminalList": [
     {
       "content": "The",
+      "cues": [],
       "termIdx": 0,
       "nextTermIdx": [
         1
@@ -289,6 +298,7 @@
     },
     {
       "content": "quick",
+      "cues": [],
       "termIdx": 1,
       "nextTermIdx": [
         2
@@ -314,6 +324,7 @@
     },
     {
       "content": "brown",
+      "cues": [],
       "termIdx": 2,
       "nextTermIdx": [
         3
@@ -339,6 +350,7 @@
     },
     {
       "content": "fox",
+      "cues": [],
       "termIdx": 3,
       "nextTermIdx": [],
       "prevTermIdx": [
@@ -406,5 +418,6 @@
       "lastPunctuation": ""
     }
   ],
-  "linkList": []
+  "linkList": [],
+  "fillinList": []
 }
