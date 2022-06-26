@@ -8,9 +8,9 @@
   "category": "Fillins",
   "version": "20220511.1",
   "pageFormatType": 0,
-  "created": "Mon Jun 20 2022 13:00:54 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Mon Jun 20 2022 13:00:54 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Mon Jun 20 2022 13:00:54 GMT-0700 (Pacific Daylight Time)",
+  "created": "Tue Jun 21 2022 10:34:35 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Tue Jun 21 2022 10:34:35 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Tue Jun 21 2022 10:34:35 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -37,11 +37,12 @@
       "meta": {
         "sectionFillinIdx": 0,
         "title": "fillin heading",
-        "responseTableLabel": "fillin response heading",
-        "responseTableColumns": 4,
+        "label": "fillin response heading",
+        "format": "grid",
+        "gridColumns": 4,
         "groupDuplicates": true,
-        "showCategory": false,
-        "responseTableCategoryIncluded": false,
+        "showCategoryHint": false,
+        "includeCategory": false,
         "sortOrder": true,
         "allowReset": false
       }
@@ -2896,6 +2897,18 @@
       "type": "tbd",
       "meta": {
         "context": ""
+      }
+    },
+    {
+      "id": 0,
+      "name": "",
+      "description": "",
+      "firstTermIdx": -9999,
+      "lastTermIdx": -9999,
+      "items": [],
+      "type": "empty",
+      "meta": {
+        "count": 1
       }
     }
   ],
