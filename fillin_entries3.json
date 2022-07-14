@@ -8,9 +8,9 @@
   "category": "Fillins",
   "version": "20220511.1",
   "pageFormatType": 0,
-  "created": "Wed Jul 13 2022 08:56:06 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Wed Jul 13 2022 08:56:06 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Wed Jul 13 2022 08:56:06 GMT-0700 (Pacific Daylight Time)",
+  "created": "Thu Jul 14 2022 09:06:48 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Thu Jul 14 2022 09:06:48 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Thu Jul 14 2022 09:06:48 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -2900,7 +2900,7 @@
       "items": [],
       "type": "fillin",
       "meta": {
-        "sectionFillinIdx": 0,
+        "sectionFillinIdx": 1,
         "title": "fillin heading 2",
         "label": "fillin response heading 2",
         "format": "grid",
@@ -3038,8 +3038,8 @@
                             }
                           }
                         ],
-                        "sectionFillinIdx": 0,
-                        "fillinIdx": 2
+                        "sectionFillinIdx": 1,
+                        "fillinIdx": 0
                       }
                     },
                     {
@@ -3821,8 +3821,8 @@
                             }
                           }
                         ],
-                        "sectionFillinIdx": 0,
-                        "fillinIdx": 3
+                        "sectionFillinIdx": 1,
+                        "fillinIdx": 1
                       }
                     },
                     {
@@ -5387,20 +5387,26 @@
       "sortOrder": true,
       "fillinList": [
         {
-          "content": "man",
-          "referenceCount": 1
-        },
-        {
           "content": "market",
           "referenceCount": 3
         },
         {
-          "content": "sales",
+          "content": "walking",
+          "referenceCount": 3
+        }
+      ]
+    },
+    {
+      "groupDuplicates": true,
+      "sortOrder": true,
+      "fillinList": [
+        {
+          "content": "man",
           "referenceCount": 1
         },
         {
-          "content": "walking",
-          "referenceCount": 3
+          "content": "sales",
+          "referenceCount": 1
         }
       ]
     }
