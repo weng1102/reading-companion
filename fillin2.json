@@ -8,9 +8,9 @@
   "category": "Miscellaneous",
   "version": "20220511.1",
   "pageFormatType": 0,
-  "created": "Mon Jun 20 2022 13:00:54 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Mon Jun 20 2022 13:00:54 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Mon Jun 20 2022 13:00:54 GMT-0700 (Pacific Daylight Time)",
+  "created": "Tue Jul 26 2022 10:47:55 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Tue Jul 26 2022 10:47:55 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Tue Jul 26 2022 10:47:55 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -55,10 +55,10 @@
                   "audible": true,
                   "linkable": false,
                   "visible": true,
-                  "fillin": false,
                   "visited": false,
                   "linkIdx": -9999,
                   "hintsIdx": -9999,
+                  "responseIdx": -9999,
                   "bold": false,
                   "italics": false,
                   "markupTag": false
@@ -84,10 +84,10 @@
                   "audible": false,
                   "linkable": false,
                   "visible": true,
-                  "fillin": false,
                   "visited": false,
                   "linkIdx": -9999,
                   "hintsIdx": -9999,
+                  "responseIdx": -9999,
                   "bold": false,
                   "italics": false,
                   "markupTag": false
@@ -98,8 +98,8 @@
                 "termIdx": -9999,
                 "content": "walking",
                 "cueList": "",
-                "firstTermIdx": -9999,
-                "lastTermIdx": -9999,
+                "firstTermIdx": 1,
+                "lastTermIdx": 1,
                 "type": 4,
                 "meta": {
                   "terminals": [
@@ -128,18 +128,18 @@
                         "audible": true,
                         "linkable": false,
                         "visible": true,
-                        "fillin": false,
                         "visited": false,
                         "linkIdx": -9999,
                         "hintsIdx": -9999,
+                        "responseIdx": -9999,
                         "bold": false,
                         "italics": false,
                         "markupTag": false
                       }
                     }
                   ],
-                  "sectionFillinIdx": 0,
-                  "fillinIdx": 0
+                  "sectionIdx": 0,
+                  "responseIdx": 0
                 }
               },
               {
@@ -162,10 +162,10 @@
                   "audible": false,
                   "linkable": false,
                   "visible": true,
-                  "fillin": false,
                   "visited": false,
                   "linkIdx": -9999,
                   "hintsIdx": -9999,
+                  "responseIdx": -9999,
                   "bold": false,
                   "italics": false,
                   "markupTag": false
@@ -197,10 +197,10 @@
       "audible": true,
       "linkable": false,
       "visible": true,
-      "fillin": false,
       "visited": false,
       "linkIdx": -9999,
       "hintsIdx": -9999,
+      "responseIdx": -9999,
       "bold": false,
       "italics": false,
       "markupTag": false,
@@ -224,10 +224,10 @@
       "audible": true,
       "linkable": false,
       "visible": true,
-      "fillin": false,
       "visited": false,
       "linkIdx": -9999,
       "hintsIdx": -9999,
+      "responseIdx": -9999,
       "bold": false,
       "italics": false,
       "markupTag": false,
@@ -255,12 +255,13 @@
     {
       "groupDuplicates": true,
       "sortOrder": true,
-      "fillinList": [
+      "responses": [
         {
           "content": "walking",
           "referenceCount": 1
         }
-      ]
+      ],
+      "loaded": false
     }
   ]
 }
