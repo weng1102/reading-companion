@@ -8,9 +8,9 @@
   "category": "Fillins",
   "version": "20220511.1",
   "pageFormatType": 0,
-  "created": "Sat Aug 06 2022 14:07:17 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Sat Aug 06 2022 14:07:17 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Sat Aug 06 2022 14:07:17 GMT-0700 (Pacific Daylight Time)",
+  "created": "Mon Aug 08 2022 10:56:26 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Mon Aug 08 2022 10:56:26 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Mon Aug 08 2022 10:56:26 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -58,7 +58,7 @@
               "sentences": [
                 {
                   "id": 0,
-                  "content": "A=(article) [_walking=(noun, to amble)_] is walking the market=(noun, place to shop).",
+                  "content": "A=(article) [_man=(noun, a male person)_] is walking=(verb, to amble) the market=(noun, place to shop).",
                   "firstTermIdx": 0,
                   "lastTermIdx": 5,
                   "terminals": [
@@ -127,7 +127,7 @@
                     {
                       "id": 0,
                       "termIdx": -9999,
-                      "content": "walking",
+                      "content": "man",
                       "cueList": "",
                       "firstTermIdx": 1,
                       "lastTermIdx": 1,
@@ -137,16 +137,16 @@
                           {
                             "id": 0,
                             "termIdx": 1,
-                            "content": "walking",
-                            "cueList": "noun, to amble",
+                            "content": "man",
+                            "cueList": "noun, a male person",
                             "firstTermIdx": 1,
                             "lastTermIdx": 1,
                             "type": 16,
                             "meta": {
-                              "content": "walking",
+                              "content": "man",
                               "cues": [
                                 "noun",
-                                " to amble"
+                                " a male person"
                               ],
                               "termIdx": 1,
                               "nextTermIdx": [
@@ -269,13 +269,16 @@
                       "id": 0,
                       "termIdx": 3,
                       "content": "walking",
-                      "cueList": "",
+                      "cueList": "verb, to amble",
                       "firstTermIdx": 3,
                       "lastTermIdx": 3,
                       "type": 16,
                       "meta": {
                         "content": "walking",
-                        "cues": [],
+                        "cues": [
+                          "verb",
+                          " to amble"
+                        ],
                         "termIdx": 3,
                         "nextTermIdx": [
                           4
@@ -944,7 +947,7 @@
               "sentences": [
                 {
                   "id": 2,
-                  "content": "He is walking the [_walking=(verb1)_].",
+                  "content": "He is walking the [_walkings=(verb1)_].",
                   "firstTermIdx": 13,
                   "lastTermIdx": 17,
                   "terminals": [
@@ -1199,7 +1202,7 @@
                     {
                       "id": 0,
                       "termIdx": -9999,
-                      "content": "walking",
+                      "content": "walkings",
                       "cueList": "",
                       "firstTermIdx": 17,
                       "lastTermIdx": 17,
@@ -1209,13 +1212,13 @@
                           {
                             "id": 0,
                             "termIdx": 17,
-                            "content": "walking",
+                            "content": "walkings",
                             "cueList": "verb1",
                             "firstTermIdx": 17,
                             "lastTermIdx": 17,
                             "type": 16,
                             "meta": {
-                              "content": "walking",
+                              "content": "walkings",
                               "cues": [
                                 "verb1"
                               ],
@@ -1235,7 +1238,7 @@
                               "visited": false,
                               "linkIdx": -9999,
                               "hintsIdx": -9999,
-                              "responseIdx": 0,
+                              "responseIdx": 2,
                               "bold": false,
                               "italics": false,
                               "markupTag": false
@@ -1524,7 +1527,7 @@
                               "visited": false,
                               "linkIdx": -9999,
                               "hintsIdx": -9999,
-                              "responseIdx": 0,
+                              "responseIdx": 3,
                               "bold": false,
                               "italics": false,
                               "markupTag": false
@@ -3885,10 +3888,10 @@
       "sectionIdx": 0
     },
     {
-      "content": "walking",
+      "content": "man",
       "cues": [
         "noun",
-        " to amble"
+        " a male person"
       ],
       "termIdx": 1,
       "nextTermIdx": [
@@ -3941,7 +3944,10 @@
     },
     {
       "content": "walking",
-      "cues": [],
+      "cues": [
+        "verb",
+        " to amble"
+      ],
       "termIdx": 3,
       "nextTermIdx": [
         4
@@ -4307,7 +4313,7 @@
       "sectionIdx": 2
     },
     {
-      "content": "walking",
+      "content": "walkings",
       "cues": [
         "verb1"
       ],
@@ -5379,12 +5385,20 @@
       "sortOrder": true,
       "responses": [
         {
-          "content": "walking",
-          "referenceCount": 3
+          "content": "man",
+          "referenceCount": 1
         },
         {
           "content": "market",
           "referenceCount": 3
+        },
+        {
+          "content": "walkings",
+          "referenceCount": 1
+        },
+        {
+          "content": "walking",
+          "referenceCount": 1
         }
       ],
       "loaded": false
