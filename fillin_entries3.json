@@ -8,9 +8,9 @@
   "category": "Fillins",
   "version": "20220511.1",
   "pageFormatType": 0,
-  "created": "Mon Aug 08 2022 10:56:26 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Mon Aug 08 2022 10:56:26 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Mon Aug 08 2022 10:56:26 GMT-0700 (Pacific Daylight Time)",
+  "created": "Mon Aug 08 2022 11:03:26 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Mon Aug 08 2022 11:03:26 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Mon Aug 08 2022 11:03:26 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -476,7 +476,7 @@
               "sentences": [
                 {
                   "id": 1,
-                  "content": "The walking is walking to the [_market_].",
+                  "content": "The walking is walking to the [_fair_].",
                   "firstTermIdx": 6,
                   "lastTermIdx": 12,
                   "terminals": [
@@ -855,7 +855,7 @@
                     {
                       "id": 0,
                       "termIdx": -9999,
-                      "content": "market",
+                      "content": "fair",
                       "cueList": "",
                       "firstTermIdx": 12,
                       "lastTermIdx": 12,
@@ -865,13 +865,13 @@
                           {
                             "id": 0,
                             "termIdx": 12,
-                            "content": "market",
+                            "content": "fair",
                             "cueList": "",
                             "firstTermIdx": 12,
                             "lastTermIdx": 12,
                             "type": 16,
                             "meta": {
-                              "content": "market",
+                              "content": "fair",
                               "cues": [],
                               "termIdx": 12,
                               "nextTermIdx": [
@@ -1727,7 +1727,7 @@
                               "visited": false,
                               "linkIdx": -9999,
                               "hintsIdx": -9999,
-                              "responseIdx": 1,
+                              "responseIdx": 4,
                               "bold": false,
                               "italics": false,
                               "markupTag": false
@@ -2839,7 +2839,7 @@
                               "visited": false,
                               "linkIdx": -9999,
                               "hintsIdx": -9999,
-                              "responseIdx": 1,
+                              "responseIdx": 4,
                               "bold": false,
                               "italics": false,
                               "markupTag": false
@@ -4183,7 +4183,7 @@
       "sectionIdx": 1
     },
     {
-      "content": "market",
+      "content": "fair",
       "cues": [],
       "termIdx": 12,
       "nextTermIdx": [
@@ -5389,8 +5389,8 @@
           "referenceCount": 1
         },
         {
-          "content": "market",
-          "referenceCount": 3
+          "content": "fair",
+          "referenceCount": 1
         },
         {
           "content": "walkings",
@@ -5399,6 +5399,10 @@
         {
           "content": "walking",
           "referenceCount": 1
+        },
+        {
+          "content": "market",
+          "referenceCount": 2
         }
       ],
       "loaded": false
