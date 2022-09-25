@@ -8,9 +8,9 @@
   "category": "Fillins",
   "version": "20220511.1",
   "pageFormatType": 0,
-  "created": "Sat Sep 24 2022 20:14:17 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Sat Sep 24 2022 20:14:17 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Sat Sep 24 2022 20:14:17 GMT-0700 (Pacific Daylight Time)",
+  "created": "Sun Sep 25 2022 09:01:01 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Sun Sep 25 2022 09:01:01 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Sun Sep 25 2022 09:01:01 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -3084,8 +3084,8 @@
         "sectionFillinIdx": 1,
         "title": "fillin heading 2",
         "label": "fillin response heading 2",
-        "format": "grid",
-        "gridColumns": 10,
+        "format": "list",
+        "gridColumns": 1,
         "groupDuplicates": true,
         "showCategoryHint": false,
         "includeCategory": false,
@@ -6848,6 +6848,7 @@
   "linkList": [],
   "fillinList": [
     {
+      "format": "grid",
       "groupDuplicates": true,
       "sortOrder": true,
       "gridColumns": 3,
@@ -6878,9 +6879,10 @@
       "modified": false
     },
     {
+      "format": "list",
       "groupDuplicates": true,
       "sortOrder": false,
-      "gridColumns": 10,
+      "gridColumns": 1,
       "allowReset": false,
       "responses": [
         {
