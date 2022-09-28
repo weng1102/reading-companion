@@ -8,9 +8,9 @@
   "category": "Fillins",
   "version": "20220511.1",
   "pageFormatType": 0,
-  "created": "Sun Sep 25 2022 09:01:01 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Sun Sep 25 2022 09:01:01 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Sun Sep 25 2022 09:01:01 GMT-0700 (Pacific Daylight Time)",
+  "created": "Tue Sep 27 2022 14:40:50 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Tue Sep 27 2022 14:40:50 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Tue Sep 27 2022 14:40:50 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -39,10 +39,11 @@
         "title": "fillin heading 1",
         "label": "fillin response heading 1",
         "format": "grid",
-        "gridColumns": 3,
+        "allowUserFormatting": true,
         "groupDuplicates": true,
         "showCategoryHint": false,
         "includeCategory": false,
+        "gridColumns": 3,
         "sortOrder": true,
         "allowReset": true,
         "prompts": [
@@ -3019,7 +3020,7 @@
                               "hintsIdx": -9999,
                               "fillin": {
                                 "sectionIdx": 0,
-                                "responseIdx": 4
+                                "responseIdx": 5
                               },
                               "bold": false,
                               "italics": false,
@@ -3085,10 +3086,11 @@
         "title": "fillin heading 2",
         "label": "fillin response heading 2",
         "format": "list",
-        "gridColumns": 1,
+        "allowUserFormatting": true,
         "groupDuplicates": true,
         "showCategoryHint": false,
         "includeCategory": false,
+        "gridColumns": 1,
         "sortOrder": false,
         "allowReset": false,
         "prompts": [
@@ -6068,7 +6070,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 4
+        "responseIdx": 5
       },
       "bold": false,
       "italics": false,
@@ -6849,6 +6851,7 @@
   "fillinList": [
     {
       "format": "grid",
+      "allowUserFormatting": true,
       "groupDuplicates": true,
       "sortOrder": true,
       "gridColumns": 3,
@@ -6856,23 +6859,33 @@
       "responses": [
         {
           "content": "man",
+          "insertOrder": 0,
           "referenceCount": 1
         },
         {
           "content": "slow",
+          "insertOrder": 1,
           "referenceCount": 1
         },
         {
           "content": "dog",
+          "insertOrder": 2,
           "referenceCount": 1
         },
         {
           "content": "walking",
+          "insertOrder": 3,
           "referenceCount": 1
         },
         {
           "content": "market",
-          "referenceCount": 2
+          "insertOrder": 4,
+          "referenceCount": 1
+        },
+        {
+          "content": "market",
+          "insertOrder": 5,
+          "referenceCount": 1
         }
       ],
       "loaded": false,
@@ -6880,6 +6893,7 @@
     },
     {
       "format": "list",
+      "allowUserFormatting": true,
       "groupDuplicates": true,
       "sortOrder": false,
       "gridColumns": 1,
@@ -6887,10 +6901,12 @@
       "responses": [
         {
           "content": "man",
+          "insertOrder": 0,
           "referenceCount": 1
         },
         {
           "content": "sales",
+          "insertOrder": 1,
           "referenceCount": 1
         }
       ],
