@@ -8,9 +8,9 @@
   "category": "Fillins",
   "version": "20220511.1",
   "pageFormatType": 0,
-  "created": "Tue Sep 27 2022 14:40:50 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Tue Sep 27 2022 14:40:50 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Tue Sep 27 2022 14:40:50 GMT-0700 (Pacific Daylight Time)",
+  "created": "Wed Oct 12 2022 09:56:15 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Wed Oct 12 2022 09:56:15 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Wed Oct 12 2022 09:56:15 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -45,6 +45,7 @@
         "includeCategory": false,
         "gridColumns": 3,
         "sortOrder": true,
+        "showReferenceCount": true,
         "allowReset": true,
         "prompts": [
           {
@@ -3092,6 +3093,7 @@
         "includeCategory": false,
         "gridColumns": 1,
         "sortOrder": false,
+        "showReferenceCount": true,
         "allowReset": false,
         "prompts": [
           {
@@ -6850,12 +6852,14 @@
   "linkList": [],
   "fillinList": [
     {
+      "idx": 0,
       "format": "grid",
       "allowUserFormatting": true,
       "groupDuplicates": true,
       "sortOrder": true,
       "gridColumns": 3,
       "allowReset": true,
+      "showReferenceCount": true,
       "responses": [
         {
           "content": "man",
@@ -6892,12 +6896,14 @@
       "modified": false
     },
     {
+      "idx": 1,
       "format": "list",
       "allowUserFormatting": true,
       "groupDuplicates": true,
       "sortOrder": false,
       "gridColumns": 1,
       "allowReset": false,
+      "showReferenceCount": true,
       "responses": [
         {
           "content": "man",
