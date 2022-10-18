@@ -6,11 +6,11 @@
   "owner": "anonymous",
   "author": "anonymous",
   "category": "Miscellaneous",
-  "version": "20220511.1",
+  "version": "20221017.1",
   "pageFormatType": 0,
-  "created": "Sat Sep 24 2022 20:14:16 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Sat Sep 24 2022 20:14:16 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Sat Sep 24 2022 20:14:16 GMT-0700 (Pacific Daylight Time)",
+  "created": "Mon Oct 17 2022 21:20:14 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Mon Oct 17 2022 21:20:14 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Mon Oct 17 2022 21:20:14 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -94,11 +94,13 @@
         "title": "fillin heading",
         "label": "fillin response heading",
         "format": "list",
-        "gridColumns": 0,
+        "allowUserFormatting": true,
         "groupDuplicates": true,
         "showCategoryHint": false,
         "includeCategory": false,
+        "gridColumns": 0,
         "sortOrder": true,
+        "showReferenceCount": true,
         "allowReset": false,
         "prompts": [
           {
@@ -2023,7 +2025,7 @@
                               "hintsIdx": -9999,
                               "fillin": {
                                 "sectionIdx": 0,
-                                "responseIdx": 0
+                                "responseIdx": 1
                               },
                               "bold": false,
                               "italics": false,
@@ -2239,7 +2241,7 @@
                               "hintsIdx": -9999,
                               "fillin": {
                                 "sectionIdx": 0,
-                                "responseIdx": 1
+                                "responseIdx": 2
                               },
                               "bold": false,
                               "italics": false,
@@ -2980,7 +2982,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 0
+        "responseIdx": 1
       },
       "bold": false,
       "italics": false,
@@ -3065,7 +3067,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 1
+        "responseIdx": 2
       },
       "bold": false,
       "italics": false,
@@ -3134,17 +3136,28 @@
   "linkList": [],
   "fillinList": [
     {
+      "idx": 0,
+      "format": "list",
+      "allowUserFormatting": true,
       "groupDuplicates": true,
       "sortOrder": true,
       "gridColumns": 0,
       "allowReset": false,
+      "showReferenceCount": true,
       "responses": [
         {
           "content": "walking",
-          "referenceCount": 2
+          "insertOrder": 0,
+          "referenceCount": 1
+        },
+        {
+          "content": "walking",
+          "insertOrder": 1,
+          "referenceCount": 1
         },
         {
           "content": "market",
+          "insertOrder": 2,
           "referenceCount": 1
         }
       ],
