@@ -8,9 +8,9 @@
   "category": "Fillins",
   "version": "20221017.1",
   "pageFormatType": 0,
-  "created": "Wed Oct 19 2022 10:33:13 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Wed Oct 19 2022 10:33:13 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Wed Oct 19 2022 10:33:13 GMT-0700 (Pacific Daylight Time)",
+  "created": "Fri Oct 21 2022 12:59:51 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Fri Oct 21 2022 12:59:51 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Fri Oct 21 2022 12:59:51 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -37,29 +37,18 @@
       "meta": {
         "sectionFillinIdx": 0,
         "title": "Breakfast",
-        "label": "What do I have for breakfast",
-        "format": "grid",
-        "allowUserFormatting": true,
-        "groupDuplicates": true,
-        "showCategoryHint": false,
-        "includeCategory": false,
+        "description": "What do I have for breakfast",
+        "layout": "grid",
         "gridColumns": 4,
-        "sortOrder": true,
+        "sortOrder": "insert",
+        "allowUserFormatting": true,
+        "unique": true,
+        "showResponseHints": true,
+        "showPromptHints": true,
+        "groupByCategory": true,
         "showReferenceCount": true,
         "allowReset": true,
         "prompts": [
-          {
-            "id": 0,
-            "name": "",
-            "description": "",
-            "firstTermIdx": -9999,
-            "lastTermIdx": -9999,
-            "items": [],
-            "type": "empty",
-            "meta": {
-              "count": 1
-            }
-          },
           {
             "id": 0,
             "name": "",
@@ -6944,72 +6933,74 @@
   "fillinList": [
     {
       "idx": 0,
-      "format": "grid",
-      "allowUserFormatting": true,
-      "groupDuplicates": true,
-      "sortOrder": true,
+      "layout": "grid",
       "gridColumns": 4,
-      "allowReset": true,
+      "sortOrder": "insert",
+      "unique": true,
       "showReferenceCount": true,
+      "groupByCategory": true,
+      "allowReset": true,
+      "showHints": true,
+      "allowUserFormatting": true,
       "responses": [
         {
           "content": "coffee",
-          "insertOrder": 0,
+          "category": "",
           "referenceCount": 1
         },
         {
           "content": "milk",
-          "insertOrder": 1,
+          "category": "",
           "referenceCount": 1
         },
         {
           "content": "spoon",
-          "insertOrder": 2,
+          "category": "",
           "referenceCount": 1
         },
         {
           "content": "whipped",
-          "insertOrder": 3,
+          "category": "",
           "referenceCount": 1
         },
         {
           "content": "cream",
-          "insertOrder": 4,
+          "category": "",
           "referenceCount": 1
         },
         {
           "content": "pills",
-          "insertOrder": 5,
+          "category": "",
           "referenceCount": 1
         },
         {
           "content": "eggs",
-          "insertOrder": 6,
+          "category": "",
           "referenceCount": 1
         },
         {
           "content": "fork",
-          "insertOrder": 7,
+          "category": "",
           "referenceCount": 1
         },
         {
           "content": "strawberries",
-          "insertOrder": 8,
+          "category": "",
           "referenceCount": 1
         },
         {
           "content": "blueberries",
-          "insertOrder": 9,
+          "category": "",
           "referenceCount": 1
         },
         {
           "content": "orange",
-          "insertOrder": 10,
+          "category": "",
           "referenceCount": 1
         },
         {
           "content": "juice",
-          "insertOrder": 11,
+          "category": "",
           "referenceCount": 1
         }
       ],

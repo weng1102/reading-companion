@@ -8,9 +8,9 @@
   "category": "Fillins",
   "version": "20221017.1",
   "pageFormatType": 0,
-  "created": "Tue Oct 18 2022 06:57:04 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Tue Oct 18 2022 06:57:04 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Tue Oct 18 2022 06:57:04 GMT-0700 (Pacific Daylight Time)",
+  "created": "Fri Oct 21 2022 13:00:11 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Fri Oct 21 2022 13:00:11 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Fri Oct 21 2022 13:00:11 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -36,15 +36,16 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 0,
-        "title": "fillin heading 1",
-        "label": "fillin response heading 1",
-        "format": "grid",
-        "allowUserFormatting": true,
-        "groupDuplicates": true,
-        "showCategoryHint": false,
-        "includeCategory": false,
+        "title": "fillin response heading 1",
+        "description": "fillin response description 1",
+        "layout": "grid",
         "gridColumns": 4,
-        "sortOrder": true,
+        "sortOrder": "insert",
+        "allowUserFormatting": true,
+        "unique": true,
+        "showResponseHints": true,
+        "showPromptHints": true,
+        "groupByCategory": true,
         "showReferenceCount": true,
         "allowReset": true,
         "prompts": [
@@ -3085,15 +3086,16 @@
       "meta": {
         "sectionFillinIdx": 1,
         "title": "fillin heading 2",
-        "label": "fillin response heading 2",
-        "format": "list",
+        "description": "fillin response heading 2",
+        "layout": "list",
+        "gridColumns": 0,
+        "sortOrder": "alphabetical",
         "allowUserFormatting": true,
-        "groupDuplicates": true,
-        "showCategoryHint": false,
-        "includeCategory": false,
-        "gridColumns": 1,
-        "sortOrder": false,
-        "showReferenceCount": true,
+        "unique": true,
+        "showResponseHints": false,
+        "showPromptHints": false,
+        "groupByCategory": false,
+        "showReferenceCount": false,
         "allowReset": false,
         "prompts": [
           {
@@ -6853,42 +6855,44 @@
   "fillinList": [
     {
       "idx": 0,
-      "format": "grid",
-      "allowUserFormatting": true,
-      "groupDuplicates": true,
-      "sortOrder": true,
+      "layout": "grid",
       "gridColumns": 4,
-      "allowReset": true,
+      "sortOrder": "insert",
+      "unique": true,
       "showReferenceCount": true,
+      "groupByCategory": true,
+      "allowReset": true,
+      "showHints": true,
+      "allowUserFormatting": true,
       "responses": [
         {
           "content": "man",
-          "insertOrder": 0,
+          "category": "",
           "referenceCount": 1
         },
         {
           "content": "slow",
-          "insertOrder": 1,
+          "category": "",
           "referenceCount": 1
         },
         {
           "content": "dog",
-          "insertOrder": 2,
+          "category": "",
           "referenceCount": 1
         },
         {
           "content": "walking",
-          "insertOrder": 3,
+          "category": "",
           "referenceCount": 1
         },
         {
           "content": "market",
-          "insertOrder": 4,
+          "category": "",
           "referenceCount": 1
         },
         {
           "content": "market",
-          "insertOrder": 5,
+          "category": "",
           "referenceCount": 1
         }
       ],
@@ -6897,22 +6901,24 @@
     },
     {
       "idx": 1,
-      "format": "list",
-      "allowUserFormatting": true,
-      "groupDuplicates": true,
-      "sortOrder": false,
-      "gridColumns": 1,
+      "layout": "list",
+      "gridColumns": 0,
+      "sortOrder": "alphabetical",
+      "unique": true,
+      "showReferenceCount": false,
+      "groupByCategory": false,
       "allowReset": false,
-      "showReferenceCount": true,
+      "showHints": false,
+      "allowUserFormatting": true,
       "responses": [
         {
           "content": "man",
-          "insertOrder": 0,
+          "category": "",
           "referenceCount": 1
         },
         {
           "content": "sales",
-          "insertOrder": 1,
+          "category": "",
           "referenceCount": 1
         }
       ],
