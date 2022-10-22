@@ -8,9 +8,9 @@
   "category": "Miscellaneous",
   "version": "20221017.1",
   "pageFormatType": 0,
-  "created": "Mon Oct 17 2022 21:20:14 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Mon Oct 17 2022 21:20:14 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Mon Oct 17 2022 21:20:14 GMT-0700 (Pacific Daylight Time)",
+  "created": "Sat Oct 22 2022 07:15:07 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Sat Oct 22 2022 07:15:07 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Sat Oct 22 2022 07:15:07 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -6164,22 +6164,24 @@
   "fillinList": [
     {
       "idx": 0,
-      "format": "grid",
-      "allowUserFormatting": true,
-      "groupDuplicates": true,
-      "sortOrder": true,
-      "gridColumns": 0,
-      "allowReset": true,
+      "layout": "grid",
+      "gridColumns": 3,
+      "sortOrder": "insert",
+      "unique": true,
       "showReferenceCount": false,
+      "groupByCategory": false,
+      "allowReset": true,
+      "showHints": false,
+      "allowUserFormatting": true,
       "responses": [
         {
           "content": "walking",
-          "insertOrder": 0,
+          "category": "",
           "referenceCount": 1
         },
         {
           "content": "walking",
-          "insertOrder": 1,
+          "category": "",
           "referenceCount": 1
         }
       ],
