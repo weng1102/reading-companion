@@ -8,9 +8,9 @@
   "category": "Fillins",
   "version": "20221017.1",
   "pageFormatType": 0,
-  "created": "Sun Oct 23 2022 20:42:02 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Sun Oct 23 2022 20:42:03 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Sun Oct 23 2022 20:42:03 GMT-0700 (Pacific Daylight Time)",
+  "created": "Sat Oct 29 2022 09:32:22 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Sat Oct 29 2022 09:32:22 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Sat Oct 29 2022 09:32:22 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -36,11 +36,11 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 0,
-        "title": "fillin response heading 1",
-        "description": "fillin response description 1",
+        "promptsLabel": "fillin response description 1",
+        "responsesLabel": "fillin response heading 1",
         "layout": "grid",
         "gridColumns": 4,
-        "sortOrder": "insert",
+        "sortOrder": "alphabetical",
         "allowUserFormatting": true,
         "unique": true,
         "showResponseHints": true,
@@ -48,6 +48,7 @@
         "groupByCategory": true,
         "showReferenceCount": false,
         "allowReset": true,
+        "promptColumns": 1,
         "prompts": [
           {
             "id": 0,
@@ -3267,11 +3268,11 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 1,
-        "title": "fillin heading 2",
-        "description": "fillin response heading 2",
+        "promptsLabel": "fillin response heading 2",
+        "responsesLabel": "fillin heading 2",
         "layout": "list",
         "gridColumns": 0,
-        "sortOrder": "insert",
+        "sortOrder": "alphabetical",
         "allowUserFormatting": true,
         "unique": true,
         "showResponseHints": false,
@@ -3279,6 +3280,7 @@
         "groupByCategory": false,
         "showReferenceCount": false,
         "allowReset": false,
+        "promptColumns": 1,
         "prompts": [
           {
             "id": 6,
@@ -7089,13 +7091,14 @@
       "idx": 0,
       "layout": "grid",
       "gridColumns": 4,
-      "sortOrder": "insert",
+      "sortOrder": "alphabetical",
       "unique": true,
       "showReferenceCount": false,
       "groupByCategory": true,
       "allowReset": true,
       "showHints": true,
       "allowUserFormatting": true,
+      "promptColumns": 1,
       "responses": [
         {
           "content": "slow",
@@ -7120,13 +7123,14 @@
       "idx": 1,
       "layout": "list",
       "gridColumns": 0,
-      "sortOrder": "insert",
+      "sortOrder": "alphabetical",
       "unique": true,
       "showReferenceCount": false,
       "groupByCategory": false,
       "allowReset": false,
       "showHints": false,
       "allowUserFormatting": true,
+      "promptColumns": 1,
       "responses": [
         {
           "content": "sales",
