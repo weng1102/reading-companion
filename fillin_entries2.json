@@ -8,9 +8,9 @@
   "category": "Fillins",
   "version": "20221017.1",
   "pageFormatType": 0,
-  "created": "Sat Oct 22 2022 07:15:07 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Sat Oct 22 2022 07:15:07 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Sat Oct 22 2022 07:15:07 GMT-0700 (Pacific Daylight Time)",
+  "created": "Wed Nov 02 2022 06:42:21 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Wed Nov 02 2022 06:42:21 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Wed Nov 02 2022 06:42:21 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -36,8 +36,8 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 0,
-        "title": "fillin heading",
-        "description": "fillin response heading",
+        "promptsLabel": "fillin response heading",
+        "responsesLabel": "fillin heading",
         "layout": "grid",
         "gridColumns": 0,
         "sortOrder": "insert",
@@ -48,6 +48,7 @@
         "groupByCategory": false,
         "showReferenceCount": true,
         "allowReset": false,
+        "promptColumns": 1,
         "prompts": [
           {
             "id": 0,
@@ -4395,6 +4396,7 @@
       "allowReset": false,
       "showHints": false,
       "allowUserFormatting": true,
+      "promptColumns": 1,
       "responses": [
         {
           "content": "walking",
