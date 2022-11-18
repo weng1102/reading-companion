@@ -8,9 +8,9 @@
   "category": "Verbs with images",
   "version": "20221017.1",
   "pageFormatType": 0,
-  "created": "Thu Nov 17 2022 19:58:38 GMT-0800 (Pacific Standard Time)",
-  "modified": "Thu Nov 17 2022 19:58:38 GMT-0800 (Pacific Standard Time)",
-  "transformed": "Thu Nov 17 2022 19:58:38 GMT-0800 (Pacific Standard Time)",
+  "created": "Thu Nov 17 2022 20:13:00 GMT-0800 (Pacific Standard Time)",
+  "modified": "Thu Nov 17 2022 20:13:00 GMT-0800 (Pacific Standard Time)",
+  "transformed": "Thu Nov 17 2022 20:13:00 GMT-0800 (Pacific Standard Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -225,7 +225,7 @@
             "type": "fillin",
             "meta": {
               "sectionFillinIdx": 0,
-              "promptsLabel": "What is the happening in the picture:",
+              "promptsLabel": "What action is depicted in the picture:",
               "responsesLabel": "",
               "layout": "none",
               "gridColumns": 6,
@@ -244,104 +244,74 @@
                   "id": 0,
                   "name": "",
                   "description": "",
-                  "firstTermIdx": -9999,
-                  "lastTermIdx": -9999,
-                  "items": [
-                    {
-                      "id": 0,
-                      "name": "",
-                      "description": "",
-                      "firstTermIdx": -9999,
-                      "lastTermIdx": -9999,
-                      "items": [
-                        {
-                          "id": 0,
-                          "name": "",
-                          "description": "",
-                          "firstTermIdx": 2,
-                          "lastTermIdx": 2,
-                          "items": [],
-                          "type": "paragraph",
-                          "meta": {
-                            "sentences": [
-                              {
-                                "id": 2,
-                                "content": "[_baking_]",
-                                "firstTermIdx": 2,
-                                "lastTermIdx": 2,
-                                "terminals": [
-                                  {
-                                    "id": 0,
-                                    "termIdx": -9999,
-                                    "content": "baking",
-                                    "cueList": "",
-                                    "firstTermIdx": 2,
-                                    "lastTermIdx": 2,
-                                    "type": 4,
-                                    "meta": {
-                                      "terminals": [
-                                        {
-                                          "id": 0,
-                                          "termIdx": 2,
-                                          "content": "baking",
-                                          "cueList": "",
-                                          "firstTermIdx": 2,
-                                          "lastTermIdx": 2,
-                                          "type": 16,
-                                          "meta": {
-                                            "content": "baking",
-                                            "cues": [],
-                                            "termIdx": 2,
-                                            "nextTermIdx": [
-                                              3
-                                            ],
-                                            "prevTermIdx": [
-                                              1
-                                            ],
-                                            "altpronunciation": "",
-                                            "altrecognition": "",
-                                            "recitable": true,
-                                            "audible": true,
-                                            "linkable": false,
-                                            "visible": true,
-                                            "visited": false,
-                                            "linkIdx": -9999,
-                                            "hintsIdx": -9999,
-                                            "fillin": {
-                                              "sectionIdx": 0,
-                                              "responseIdx": 0
-                                            },
-                                            "bold": false,
-                                            "italics": false,
-                                            "markupTag": false
-                                          }
-                                        }
-                                      ],
-                                      "sectionFillinIdx": 0
-                                    }
-                                  }
-                                ],
-                                "lastPunctuation": ""
-                              }
-                            ],
-                            "style": ""
-                          }
-                        }
-                      ],
-                      "type": "listitem",
-                      "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
-                      }
-                    }
-                  ],
+                  "firstTermIdx": 2,
+                  "lastTermIdx": 2,
+                  "items": [],
+                  "type": "paragraph",
                   "meta": {
-                    "depth": 1,
-                    "startNumber": 0,
-                    "listType": 6
-                  },
-                  "type": "ordered_list"
+                    "sentences": [
+                      {
+                        "id": 2,
+                        "content": "[_baking_]",
+                        "firstTermIdx": 2,
+                        "lastTermIdx": 2,
+                        "terminals": [
+                          {
+                            "id": 0,
+                            "termIdx": -9999,
+                            "content": "baking",
+                            "cueList": "",
+                            "firstTermIdx": 2,
+                            "lastTermIdx": 2,
+                            "type": 4,
+                            "meta": {
+                              "terminals": [
+                                {
+                                  "id": 0,
+                                  "termIdx": 2,
+                                  "content": "baking",
+                                  "cueList": "",
+                                  "firstTermIdx": 2,
+                                  "lastTermIdx": 2,
+                                  "type": 16,
+                                  "meta": {
+                                    "content": "baking",
+                                    "cues": [],
+                                    "termIdx": 2,
+                                    "nextTermIdx": [
+                                      3
+                                    ],
+                                    "prevTermIdx": [
+                                      1
+                                    ],
+                                    "altpronunciation": "",
+                                    "altrecognition": "",
+                                    "recitable": true,
+                                    "audible": true,
+                                    "linkable": false,
+                                    "visible": true,
+                                    "visited": false,
+                                    "linkIdx": -9999,
+                                    "hintsIdx": -9999,
+                                    "fillin": {
+                                      "sectionIdx": 0,
+                                      "responseIdx": 0
+                                    },
+                                    "bold": false,
+                                    "italics": false,
+                                    "markupTag": false
+                                  }
+                                }
+                              ],
+                              "sectionFillinIdx": 0
+                            }
+                          }
+                        ],
+                        "lastPunctuation": ""
+                      }
+                    ],
+                    "style": ""
+                  }
                 }
               ]
             }
