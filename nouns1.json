@@ -8,9 +8,9 @@
   "category": "Fillins",
   "version": "20221017.1",
   "pageFormatType": 0,
-  "created": "Fri Dec 16 2022 13:04:33 GMT-0800 (Pacific Standard Time)",
-  "modified": "Fri Dec 16 2022 13:04:33 GMT-0800 (Pacific Standard Time)",
-  "transformed": "Fri Dec 16 2022 13:04:33 GMT-0800 (Pacific Standard Time)",
+  "created": "Wed Dec 28 2022 11:08:54 GMT-0800 (Pacific Standard Time)",
+  "modified": "Wed Dec 28 2022 11:08:54 GMT-0800 (Pacific Standard Time)",
+  "transformed": "Wed Dec 28 2022 11:08:54 GMT-0800 (Pacific Standard Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -2763,7 +2763,7 @@
               "sentences": [
                 {
                   "id": 6,
-                  "content": "I warm up leftovers in the [_microwave [_oven_].",
+                  "content": "I warm up leftovers in the [_microwave_] [_oven_].",
                   "firstTermIdx": 37,
                   "lastTermIdx": 44,
                   "terminals": [
@@ -3146,13 +3146,13 @@
                     {
                       "id": 0,
                       "termIdx": -9999,
-                      "content": " [",
+                      "content": " ",
                       "cueList": "",
                       "firstTermIdx": -9999,
                       "lastTermIdx": -9999,
                       "type": 15,
                       "meta": {
-                        "content": " [",
+                        "content": " ",
                         "cues": [],
                         "termIdx": -9999,
                         "nextTermIdx": [],
@@ -3178,69 +3178,51 @@
                     {
                       "id": 0,
                       "termIdx": -9999,
-                      "content": "_",
-                      "cueList": "",
-                      "firstTermIdx": -9999,
-                      "lastTermIdx": -9999,
-                      "type": 10,
-                      "meta": {
-                        "content": "_",
-                        "cues": [],
-                        "termIdx": -9999,
-                        "nextTermIdx": [],
-                        "prevTermIdx": [],
-                        "altpronunciation": "",
-                        "altrecognition": "",
-                        "recitable": false,
-                        "audible": false,
-                        "linkable": false,
-                        "visible": true,
-                        "visited": false,
-                        "linkIdx": -9999,
-                        "hintsIdx": -9999,
-                        "fillin": {
-                          "sectionIdx": -9999,
-                          "responseIdx": -9999
-                        },
-                        "bold": false,
-                        "italics": false,
-                        "markupTag": false
-                      }
-                    },
-                    {
-                      "id": 0,
-                      "termIdx": 43,
                       "content": "microwave",
                       "cueList": "",
                       "firstTermIdx": 43,
                       "lastTermIdx": 43,
-                      "type": 16,
+                      "type": 4,
                       "meta": {
-                        "content": "microwave",
-                        "cues": [],
-                        "termIdx": 43,
-                        "nextTermIdx": [
-                          44
+                        "terminals": [
+                          {
+                            "id": 0,
+                            "termIdx": 43,
+                            "content": "microwave",
+                            "cueList": "",
+                            "firstTermIdx": 43,
+                            "lastTermIdx": 43,
+                            "type": 16,
+                            "meta": {
+                              "content": "microwave",
+                              "cues": [],
+                              "termIdx": 43,
+                              "nextTermIdx": [
+                                44
+                              ],
+                              "prevTermIdx": [
+                                42
+                              ],
+                              "altpronunciation": "",
+                              "altrecognition": "",
+                              "recitable": true,
+                              "audible": true,
+                              "linkable": false,
+                              "visible": true,
+                              "visited": false,
+                              "linkIdx": -9999,
+                              "hintsIdx": -9999,
+                              "fillin": {
+                                "sectionIdx": 0,
+                                "responseIdx": 5
+                              },
+                              "bold": false,
+                              "italics": false,
+                              "markupTag": false
+                            }
+                          }
                         ],
-                        "prevTermIdx": [
-                          42
-                        ],
-                        "altpronunciation": "",
-                        "altrecognition": "",
-                        "recitable": true,
-                        "audible": true,
-                        "linkable": false,
-                        "visible": true,
-                        "visited": false,
-                        "linkIdx": -9999,
-                        "hintsIdx": -9999,
-                        "fillin": {
-                          "sectionIdx": -9999,
-                          "responseIdx": -9999
-                        },
-                        "bold": false,
-                        "italics": false,
-                        "markupTag": false
+                        "sectionFillinIdx": 0
                       }
                     },
                     {
@@ -3314,7 +3296,7 @@
                               "hintsIdx": -9999,
                               "fillin": {
                                 "sectionIdx": 0,
-                                "responseIdx": 5
+                                "responseIdx": 6
                               },
                               "bold": false,
                               "italics": false,
@@ -3623,7 +3605,7 @@
                               "hintsIdx": -9999,
                               "fillin": {
                                 "sectionIdx": 0,
-                                "responseIdx": 6
+                                "responseIdx": 7
                               },
                               "bold": false,
                               "italics": false,
@@ -4000,7 +3982,7 @@
                               "hintsIdx": -9999,
                               "fillin": {
                                 "sectionIdx": 0,
-                                "responseIdx": 7
+                                "responseIdx": 8
                               },
                               "bold": false,
                               "italics": false,
@@ -4445,7 +4427,7 @@
                               "hintsIdx": -9999,
                               "fillin": {
                                 "sectionIdx": 0,
-                                "responseIdx": 8
+                                "responseIdx": 9
                               },
                               "bold": false,
                               "italics": false,
@@ -5832,20 +5814,20 @@
               "sentences": [
                 {
                   "id": 15,
-                  "content": "Cyndi plays board [_games_].",
+                  "content": "Cindy plays board [_games_].",
                   "firstTermIdx": 77,
                   "lastTermIdx": 80,
                   "terminals": [
                     {
                       "id": 0,
                       "termIdx": 77,
-                      "content": "Cyndi",
+                      "content": "Cindy",
                       "cueList": "",
                       "firstTermIdx": 77,
                       "lastTermIdx": 77,
                       "type": 16,
                       "meta": {
-                        "content": "Cyndi",
+                        "content": "Cindy",
                         "cues": [],
                         "termIdx": 77,
                         "nextTermIdx": [
@@ -22567,8 +22549,8 @@
       "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
-        "sectionIdx": -9999,
-        "responseIdx": -9999
+        "sectionIdx": 0,
+        "responseIdx": 5
       },
       "bold": false,
       "italics": false,
@@ -22597,7 +22579,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 5
+        "responseIdx": 6
       },
       "bold": false,
       "italics": false,
@@ -22713,7 +22695,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 6
+        "responseIdx": 7
       },
       "bold": false,
       "italics": false,
@@ -22858,7 +22840,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 7
+        "responseIdx": 8
       },
       "bold": false,
       "italics": false,
@@ -23032,7 +23014,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 8
+        "responseIdx": 9
       },
       "bold": false,
       "italics": false,
@@ -23534,7 +23516,7 @@
       "sectionIdx": 11
     },
     {
-      "content": "Cyndi",
+      "content": "Cindy",
       "cues": [],
       "termIdx": 77,
       "nextTermIdx": [
@@ -23544,7 +23526,7 @@
         76
       ],
       "altpronunciation": "",
-      "altrecognition": "c[iy]nd[yi]",
+      "altrecognition": "",
       "recitable": true,
       "audible": true,
       "linkable": false,
@@ -29712,6 +29694,11 @@
         },
         {
           "content": "refrigerator",
+          "category": "",
+          "referenceCount": 1
+        },
+        {
+          "content": "microwave",
           "category": "",
           "referenceCount": 1
         },
