@@ -8,9 +8,9 @@
   "category": "Sentence Completion (trailing word)",
   "version": "20221017.1",
   "pageFormatType": 0,
-  "created": "Fri Dec 30 2022 13:21:40 GMT-0800 (Pacific Standard Time)",
-  "modified": "Fri Dec 30 2022 13:21:40 GMT-0800 (Pacific Standard Time)",
-  "transformed": "Fri Dec 30 2022 13:21:40 GMT-0800 (Pacific Standard Time)",
+  "created": "Sat Jan 07 2023 10:55:07 GMT-0800 (Pacific Standard Time)",
+  "modified": "Sat Jan 07 2023 10:55:07 GMT-0800 (Pacific Standard Time)",
+  "transformed": "Sat Jan 07 2023 10:55:07 GMT-0800 (Pacific Standard Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -2536,10 +2536,10 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 0,
-        "promptsLabel": "Recite the following prompts including the underlined word:",
+        "promptsLabel": "Recite the following prompts including the underlined words:",
         "responsesLabel": "",
         "layout": "grid",
-        "gridColumns": 0,
+        "gridColumns": 6,
         "sortOrder": "insert",
         "allowUserFormatting": true,
         "unique": true,
@@ -2547,9 +2547,9 @@
         "showPromptHints": true,
         "groupByCategory": true,
         "showReferenceCount": true,
-        "showPrompts": false,
+        "showPrompts": true,
         "allowReset": true,
-        "promptColumns": 1,
+        "promptColumns": 2,
         "prompts": [
           {
             "id": 0,
@@ -94083,7 +94083,7 @@
     {
       "idx": 0,
       "layout": "grid",
-      "gridColumns": 0,
+      "gridColumns": 6,
       "sortOrder": "insert",
       "unique": true,
       "showReferenceCount": true,
@@ -94091,8 +94091,8 @@
       "allowReset": true,
       "showHints": true,
       "allowUserFormatting": true,
-      "promptColumns": 1,
-      "showPrompts": false,
+      "promptColumns": 2,
+      "showPrompts": true,
       "responses": [
         {
           "content": "father",
