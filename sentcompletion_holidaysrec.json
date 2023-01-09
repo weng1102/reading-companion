@@ -8,9 +8,9 @@
   "category": "Sentence Completion (trailing word)",
   "version": "20221017.1",
   "pageFormatType": 0,
-  "created": "Mon Jan 09 2023 13:32:54 GMT-0800 (Pacific Standard Time)",
-  "modified": "Mon Jan 09 2023 13:32:54 GMT-0800 (Pacific Standard Time)",
-  "transformed": "Mon Jan 09 2023 13:32:54 GMT-0800 (Pacific Standard Time)",
+  "created": "Mon Jan 09 2023 13:48:16 GMT-0800 (Pacific Standard Time)",
+  "modified": "Mon Jan 09 2023 13:48:16 GMT-0800 (Pacific Standard Time)",
+  "transformed": "Mon Jan 09 2023 13:48:16 GMT-0800 (Pacific Standard Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -2828,7 +2828,7 @@
       "name": "",
       "description": "",
       "firstTermIdx": -9999,
-      "lastTermIdx": 194,
+      "lastTermIdx": 175,
       "items": [],
       "type": "fillin",
       "meta": {
@@ -13407,76 +13407,104 @@
               "listType": 6
             },
             "type": "ordered_list"
-          },
-          {
-            "id": 0,
-            "name": "",
-            "description": "",
-            "firstTermIdx": -9999,
-            "lastTermIdx": -9999,
-            "items": [],
-            "type": "empty",
-            "meta": {
-              "count": 1
-            }
-          },
-          {
-            "id": 0,
-            "name": "",
-            "description": "",
-            "firstTermIdx": 176,
-            "lastTermIdx": -9999,
-            "items": [],
-            "type": "heading",
-            "meta": {
-              "heading": {
-                "id": 28,
-                "content": "Holdiays",
-                "firstTermIdx": 176,
-                "lastTermIdx": 176,
-                "terminals": [
-                  {
-                    "id": 0,
-                    "termIdx": 176,
-                    "content": "Holdiays",
-                    "cueList": "",
-                    "firstTermIdx": 176,
-                    "lastTermIdx": 176,
-                    "type": 16,
-                    "meta": {
-                      "content": "Holdiays",
-                      "cues": [],
-                      "termIdx": 176,
-                      "nextTermIdx": [
-                        177
-                      ],
-                      "prevTermIdx": [
-                        175
-                      ],
-                      "altpronunciation": "",
-                      "altrecognition": "",
-                      "recitable": true,
-                      "audible": true,
-                      "linkable": false,
-                      "visible": true,
-                      "visited": false,
-                      "linkIdx": -9999,
-                      "hintsIdx": -9999,
-                      "fillin": {
-                        "sectionIdx": -9999,
-                        "responseIdx": -9999
-                      },
-                      "bold": false,
-                      "italics": false,
-                      "markupTag": false
-                    }
-                  }
+          }
+        ]
+      }
+    },
+    {
+      "id": 0,
+      "name": "",
+      "description": "",
+      "firstTermIdx": -9999,
+      "lastTermIdx": -9999,
+      "items": [],
+      "type": "empty",
+      "meta": {
+        "count": 1
+      }
+    },
+    {
+      "id": 0,
+      "name": "",
+      "description": "",
+      "firstTermIdx": 176,
+      "lastTermIdx": -9999,
+      "items": [],
+      "type": "heading",
+      "meta": {
+        "heading": {
+          "id": 28,
+          "content": "Holidays",
+          "firstTermIdx": 176,
+          "lastTermIdx": 176,
+          "terminals": [
+            {
+              "id": 0,
+              "termIdx": 176,
+              "content": "Holidays",
+              "cueList": "",
+              "firstTermIdx": 176,
+              "lastTermIdx": 176,
+              "type": 16,
+              "meta": {
+                "content": "Holidays",
+                "cues": [],
+                "termIdx": 176,
+                "nextTermIdx": [
+                  177
                 ],
-                "lastPunctuation": ""
-              },
-              "level": 4
+                "prevTermIdx": [
+                  175
+                ],
+                "altpronunciation": "",
+                "altrecognition": "",
+                "recitable": true,
+                "audible": true,
+                "linkable": false,
+                "visible": true,
+                "visited": false,
+                "linkIdx": -9999,
+                "hintsIdx": -9999,
+                "fillin": {
+                  "sectionIdx": -9999,
+                  "responseIdx": -9999
+                },
+                "bold": false,
+                "italics": false,
+                "markupTag": false
+              }
             }
-          },
+          ],
+          "lastPunctuation": ""
+        },
+        "level": 4
+      }
+    },
+    {
+      "id": 0,
+      "name": "",
+      "description": "",
+      "firstTermIdx": -9999,
+      "lastTermIdx": 194,
+      "items": [],
+      "type": "fillin",
+      "meta": {
+        "sectionFillinIdx": 2,
+        "promptsLabel": "Fillin the following blanks:",
+        "responsesLabel": "Use the following responses in the prompts below",
+        "layout": "grid",
+        "gridColumns": 6,
+        "sortOrder": "insert",
+        "allowUserFormatting": true,
+        "unique": true,
+        "showResponseHints": true,
+        "showPromptHints": true,
+        "groupByCategory": true,
+        "showReferenceCount": true,
+        "showPrompts": false,
+        "allowReset": true,
+        "promptColumns": 2,
+        "prompts": [
           {
             "id": 0,
             "name": "",
@@ -14189,8 +14217,8 @@
                                       "linkIdx": -9999,
                                       "hintsIdx": -9999,
                                       "fillin": {
-                                        "sectionIdx": 1,
-                                        "responseIdx": 22
+                                        "sectionIdx": 2,
+                                        "responseIdx": 0
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -14198,7 +14226,7 @@
                                     }
                                   }
                                 ],
-                                "sectionFillinIdx": 1
+                                "sectionFillinIdx": 2
                               }
                             },
                             {
@@ -14785,8 +14813,8 @@
                                       "linkIdx": -9999,
                                       "hintsIdx": -9999,
                                       "fillin": {
-                                        "sectionIdx": 1,
-                                        "responseIdx": 23
+                                        "sectionIdx": 2,
+                                        "responseIdx": 1
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -14794,7 +14822,7 @@
                                     }
                                   }
                                 ],
-                                "sectionFillinIdx": 1
+                                "sectionFillinIdx": 2
                               }
                             },
                             {
@@ -15201,7 +15229,7 @@
       "items": [],
       "type": "fillin",
       "meta": {
-        "sectionFillinIdx": 2,
+        "sectionFillinIdx": 3,
         "promptsLabel": "Fillin the following blanks:",
         "responsesLabel": "Use the following responses in the prompts below",
         "layout": "grid",
@@ -15565,7 +15593,7 @@
       "items": [],
       "type": "fillin",
       "meta": {
-        "sectionFillinIdx": 3,
+        "sectionFillinIdx": 4,
         "promptsLabel": "Fillin the following blanks:",
         "responsesLabel": "Use the following responses in the prompts below",
         "layout": "grid",
@@ -15859,7 +15887,7 @@
       "items": [],
       "type": "fillin",
       "meta": {
-        "sectionFillinIdx": 4,
+        "sectionFillinIdx": 5,
         "promptsLabel": "Fillin the following blanks:",
         "responsesLabel": "",
         "layout": "none",
@@ -20994,7 +21022,7 @@
       "sectionIdx": 22
     },
     {
-      "content": "Holdiays",
+      "content": "Holidays",
       "cues": [],
       "termIdx": 176,
       "nextTermIdx": [
@@ -21303,8 +21331,8 @@
       "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
-        "sectionIdx": 1,
-        "responseIdx": 22
+        "sectionIdx": 2,
+        "responseIdx": 0
       },
       "bold": false,
       "italics": false,
@@ -21535,8 +21563,8 @@
       "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
-        "sectionIdx": 1,
-        "responseIdx": 23
+        "sectionIdx": 2,
+        "responseIdx": 1
       },
       "bold": false,
       "italics": false,
@@ -21895,7 +21923,7 @@
     },
     {
       "headingLevel": 4,
-      "title": "Holdiays",
+      "title": "Holidays",
       "termIdx": 176,
       "terminalCountPriorToHeading": -9999
     },
@@ -22359,7 +22387,25 @@
           "content": "weeks",
           "category": "",
           "referenceCount": 1
-        },
+        }
+      ],
+      "loaded": false,
+      "modified": false
+    },
+    {
+      "idx": 2,
+      "layout": "grid",
+      "gridColumns": 6,
+      "sortOrder": "insert",
+      "unique": true,
+      "showReferenceCount": true,
+      "groupByCategory": true,
+      "allowReset": true,
+      "showHints": true,
+      "allowUserFormatting": true,
+      "promptColumns": 2,
+      "showPrompts": false,
+      "responses": [
         {
           "content": "Year",
           "category": "",
@@ -22375,7 +22421,7 @@
       "modified": false
     },
     {
-      "idx": 2,
+      "idx": 3,
       "layout": "grid",
       "gridColumns": 6,
       "sortOrder": "alphabetical",
@@ -22392,7 +22438,7 @@
       "modified": false
     },
     {
-      "idx": 3,
+      "idx": 4,
       "layout": "grid",
       "gridColumns": 6,
       "sortOrder": "random",
@@ -22409,7 +22455,7 @@
       "modified": false
     },
     {
-      "idx": 4,
+      "idx": 5,
       "layout": "none",
       "gridColumns": 6,
       "sortOrder": "insert",
