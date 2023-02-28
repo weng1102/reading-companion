@@ -8,9 +8,9 @@
   "category": "Sentence Completion (trailing word)",
   "version": "20221017.1",
   "pageFormatType": 0,
-  "created": "Tue Feb 28 2023 12:41:59 GMT-0800 (Pacific Standard Time)",
-  "modified": "Tue Feb 28 2023 12:41:59 GMT-0800 (Pacific Standard Time)",
-  "transformed": "Tue Feb 28 2023 12:41:59 GMT-0800 (Pacific Standard Time)",
+  "created": "Tue Feb 28 2023 12:57:07 GMT-0800 (Pacific Standard Time)",
+  "modified": "Tue Feb 28 2023 12:57:07 GMT-0800 (Pacific Standard Time)",
+  "transformed": "Tue Feb 28 2023 12:57:07 GMT-0800 (Pacific Standard Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -19097,7 +19097,7 @@
                       "sentences": [
                         {
                           "id": 37,
-                          "content": "Bismarck is the capital of [_North-} [_Dakota_].",
+                          "content": "Bismarck is the capital of [_North_] [_Dakota_].",
                           "firstTermIdx": 245,
                           "lastTermIdx": 251,
                           "terminals": [
@@ -19421,13 +19421,13 @@
                             {
                               "id": 0,
                               "termIdx": -9999,
-                              "content": " [",
+                              "content": " ",
                               "cueList": "",
                               "firstTermIdx": -9999,
                               "lastTermIdx": -9999,
                               "type": 16,
                               "meta": {
-                                "content": " [",
+                                "content": " ",
                                 "cues": [],
                                 "termIdx": -9999,
                                 "nextTermIdx": [],
@@ -19454,137 +19454,52 @@
                             {
                               "id": 0,
                               "termIdx": -9999,
-                              "content": "_",
-                              "cueList": "",
-                              "firstTermIdx": -9999,
-                              "lastTermIdx": -9999,
-                              "type": 11,
-                              "meta": {
-                                "content": "_",
-                                "cues": [],
-                                "termIdx": -9999,
-                                "nextTermIdx": [],
-                                "prevTermIdx": [],
-                                "altpronunciation": "",
-                                "altrecognition": "",
-                                "recitable": false,
-                                "audible": false,
-                                "linkable": false,
-                                "visible": true,
-                                "visited": false,
-                                "numberAsNumerals": false,
-                                "linkIdx": -9999,
-                                "hintsIdx": -9999,
-                                "fillin": {
-                                  "sectionIdx": -9999,
-                                  "responseIdx": -9999
-                                },
-                                "bold": false,
-                                "italics": false,
-                                "markupTag": false
-                              }
-                            },
-                            {
-                              "id": 0,
-                              "termIdx": 250,
                               "content": "North",
                               "cueList": "",
                               "firstTermIdx": 250,
                               "lastTermIdx": 250,
-                              "type": 17,
+                              "type": 4,
                               "meta": {
-                                "content": "North",
-                                "cues": [],
-                                "termIdx": 250,
-                                "nextTermIdx": [
-                                  251
+                                "terminals": [
+                                  {
+                                    "id": 0,
+                                    "termIdx": 250,
+                                    "content": "North",
+                                    "cueList": "",
+                                    "firstTermIdx": 250,
+                                    "lastTermIdx": 250,
+                                    "type": 17,
+                                    "meta": {
+                                      "content": "North",
+                                      "cues": [],
+                                      "termIdx": 250,
+                                      "nextTermIdx": [
+                                        251
+                                      ],
+                                      "prevTermIdx": [
+                                        249
+                                      ],
+                                      "altpronunciation": "",
+                                      "altrecognition": "",
+                                      "recitable": true,
+                                      "audible": true,
+                                      "linkable": false,
+                                      "visible": true,
+                                      "visited": false,
+                                      "numberAsNumerals": false,
+                                      "linkIdx": -9999,
+                                      "hintsIdx": -9999,
+                                      "fillin": {
+                                        "sectionIdx": 0,
+                                        "responseIdx": 38
+                                      },
+                                      "bold": false,
+                                      "italics": false,
+                                      "markupTag": false
+                                    }
+                                  }
                                 ],
-                                "prevTermIdx": [
-                                  249
-                                ],
-                                "altpronunciation": "",
-                                "altrecognition": "",
-                                "recitable": true,
-                                "audible": true,
-                                "linkable": false,
-                                "visible": true,
-                                "visited": false,
-                                "numberAsNumerals": false,
-                                "linkIdx": -9999,
-                                "hintsIdx": -9999,
-                                "fillin": {
-                                  "sectionIdx": -9999,
-                                  "responseIdx": -9999
-                                },
-                                "bold": false,
-                                "italics": false,
-                                "markupTag": false
-                              }
-                            },
-                            {
-                              "id": 0,
-                              "termIdx": -9999,
-                              "content": "-",
-                              "cueList": "",
-                              "firstTermIdx": -9999,
-                              "lastTermIdx": -9999,
-                              "type": 11,
-                              "meta": {
-                                "content": "-",
-                                "cues": [],
-                                "termIdx": -9999,
-                                "nextTermIdx": [],
-                                "prevTermIdx": [],
-                                "altpronunciation": "",
-                                "altrecognition": "",
-                                "recitable": false,
-                                "audible": false,
-                                "linkable": false,
-                                "visible": true,
-                                "visited": false,
-                                "numberAsNumerals": false,
-                                "linkIdx": -9999,
-                                "hintsIdx": -9999,
-                                "fillin": {
-                                  "sectionIdx": -9999,
-                                  "responseIdx": -9999
-                                },
-                                "bold": false,
-                                "italics": false,
-                                "markupTag": false
-                              }
-                            },
-                            {
-                              "id": 0,
-                              "termIdx": -9999,
-                              "content": "}",
-                              "cueList": "",
-                              "firstTermIdx": -9999,
-                              "lastTermIdx": -9999,
-                              "type": 11,
-                              "meta": {
-                                "content": "}",
-                                "cues": [],
-                                "termIdx": -9999,
-                                "nextTermIdx": [],
-                                "prevTermIdx": [],
-                                "altpronunciation": "",
-                                "altrecognition": "",
-                                "recitable": false,
-                                "audible": false,
-                                "linkable": false,
-                                "visible": true,
-                                "visited": false,
-                                "numberAsNumerals": false,
-                                "linkIdx": -9999,
-                                "hintsIdx": -9999,
-                                "fillin": {
-                                  "sectionIdx": -9999,
-                                  "responseIdx": -9999
-                                },
-                                "bold": false,
-                                "italics": false,
-                                "markupTag": false
+                                "sectionFillinIdx": 0
                               }
                             },
                             {
@@ -19660,7 +19575,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 0,
-                                        "responseIdx": 38
+                                        "responseIdx": 39
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -20132,7 +20047,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 0,
-                                        "responseIdx": 39
+                                        "responseIdx": 40
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -20674,7 +20589,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 0,
-                                        "responseIdx": 40
+                                        "responseIdx": 41
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -21146,7 +21061,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 0,
-                                        "responseIdx": 41
+                                        "responseIdx": 42
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -21618,7 +21533,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 0,
-                                        "responseIdx": 42
+                                        "responseIdx": 43
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -22090,7 +22005,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 0,
-                                        "responseIdx": 43
+                                        "responseIdx": 44
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -22174,7 +22089,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 0,
-                                        "responseIdx": 44
+                                        "responseIdx": 45
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -22646,7 +22561,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 0,
-                                        "responseIdx": 45
+                                        "responseIdx": 46
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -22730,7 +22645,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 0,
-                                        "responseIdx": 46
+                                        "responseIdx": 47
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -23202,7 +23117,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 0,
-                                        "responseIdx": 47
+                                        "responseIdx": 48
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -23286,7 +23201,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 0,
-                                        "responseIdx": 48
+                                        "responseIdx": 49
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -23758,7 +23673,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 0,
-                                        "responseIdx": 49
+                                        "responseIdx": 50
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -24230,7 +24145,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 0,
-                                        "responseIdx": 50
+                                        "responseIdx": 51
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -24842,7 +24757,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 0,
-                                        "responseIdx": 51
+                                        "responseIdx": 52
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -25314,7 +25229,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 0,
-                                        "responseIdx": 52
+                                        "responseIdx": 53
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -25786,7 +25701,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 0,
-                                        "responseIdx": 53
+                                        "responseIdx": 54
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -26258,7 +26173,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 0,
-                                        "responseIdx": 54
+                                        "responseIdx": 55
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -26730,7 +26645,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 0,
-                                        "responseIdx": 55
+                                        "responseIdx": 56
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -26814,7 +26729,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 0,
-                                        "responseIdx": 56
+                                        "responseIdx": 57
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -27286,7 +27201,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 0,
-                                        "responseIdx": 57
+                                        "responseIdx": 58
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -27758,7 +27673,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 0,
-                                        "responseIdx": 58
+                                        "responseIdx": 59
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -36711,8 +36626,8 @@
       "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
-        "sectionIdx": -9999,
-        "responseIdx": -9999
+        "sectionIdx": 0,
+        "responseIdx": 38
       },
       "bold": false,
       "italics": false,
@@ -36742,7 +36657,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 38
+        "responseIdx": 39
       },
       "bold": false,
       "italics": false,
@@ -36922,7 +36837,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 39
+        "responseIdx": 40
       },
       "bold": false,
       "italics": false,
@@ -37132,7 +37047,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 40
+        "responseIdx": 41
       },
       "bold": false,
       "italics": false,
@@ -37312,7 +37227,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 41
+        "responseIdx": 42
       },
       "bold": false,
       "italics": false,
@@ -37492,7 +37407,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 42
+        "responseIdx": 43
       },
       "bold": false,
       "italics": false,
@@ -37672,7 +37587,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 43
+        "responseIdx": 44
       },
       "bold": false,
       "italics": false,
@@ -37702,7 +37617,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 44
+        "responseIdx": 45
       },
       "bold": false,
       "italics": false,
@@ -37882,7 +37797,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 45
+        "responseIdx": 46
       },
       "bold": false,
       "italics": false,
@@ -37912,7 +37827,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 46
+        "responseIdx": 47
       },
       "bold": false,
       "italics": false,
@@ -38092,7 +38007,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 47
+        "responseIdx": 48
       },
       "bold": false,
       "italics": false,
@@ -38122,7 +38037,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 48
+        "responseIdx": 49
       },
       "bold": false,
       "italics": false,
@@ -38302,7 +38217,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 49
+        "responseIdx": 50
       },
       "bold": false,
       "italics": false,
@@ -38482,7 +38397,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 50
+        "responseIdx": 51
       },
       "bold": false,
       "italics": false,
@@ -38722,7 +38637,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 51
+        "responseIdx": 52
       },
       "bold": false,
       "italics": false,
@@ -38902,7 +38817,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 52
+        "responseIdx": 53
       },
       "bold": false,
       "italics": false,
@@ -39082,7 +38997,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 53
+        "responseIdx": 54
       },
       "bold": false,
       "italics": false,
@@ -39262,7 +39177,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 54
+        "responseIdx": 55
       },
       "bold": false,
       "italics": false,
@@ -39442,7 +39357,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 55
+        "responseIdx": 56
       },
       "bold": false,
       "italics": false,
@@ -39472,7 +39387,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 56
+        "responseIdx": 57
       },
       "bold": false,
       "italics": false,
@@ -39652,7 +39567,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 57
+        "responseIdx": 58
       },
       "bold": false,
       "italics": false,
@@ -39832,7 +39747,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 58
+        "responseIdx": 59
       },
       "bold": false,
       "italics": false,
@@ -41055,6 +40970,11 @@
         },
         {
           "content": "Carolina",
+          "category": "",
+          "referenceCount": 1
+        },
+        {
+          "content": "North",
           "category": "",
           "referenceCount": 1
         },
