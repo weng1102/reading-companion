@@ -8,9 +8,9 @@
   "category": "Sentence Completion (trailing word)",
   "version": "20221017.1",
   "pageFormatType": 0,
-  "created": "Sat Mar 11 2023 20:02:48 GMT-0800 (Pacific Standard Time)",
-  "modified": "Sat Mar 11 2023 20:02:48 GMT-0800 (Pacific Standard Time)",
-  "transformed": "Sat Mar 11 2023 20:02:48 GMT-0800 (Pacific Standard Time)",
+  "created": "Sat Mar 11 2023 21:18:30 GMT-0800 (Pacific Standard Time)",
+  "modified": "Sat Mar 11 2023 21:18:30 GMT-0800 (Pacific Standard Time)",
+  "transformed": "Sat Mar 11 2023 21:18:30 GMT-0800 (Pacific Standard Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -2212,7 +2212,7 @@
           "showResponseHints": true,
           "showPromptHints": true,
           "groupByCategory": true,
-          "showResponsesInPrompts": true,
+          "showResponsesInPrompts": false,
           "unique": true,
           "showReferenceCount": true,
           "helpfulness": 304
@@ -2220,7 +2220,7 @@
         "gridColumns": 6,
         "allowReset": true,
         "appHelpLevel": 0,
-        "promptColumns": 2,
+        "promptColumns": 1,
         "showHelpSlider": true,
         "prompts": [
           {
@@ -11090,16 +11090,16 @@
           "showResponseHints": true,
           "showPromptHints": true,
           "groupByCategory": true,
-          "showResponsesInPrompts": true,
+          "showResponsesInPrompts": false,
           "unique": true,
           "showReferenceCount": true,
           "helpfulness": 304
         },
         "gridColumns": 6,
         "allowReset": true,
-        "appHelpLevel": -1,
-        "promptColumns": 2,
-        "showHelpSlider": true,
+        "appHelpLevel": -2,
+        "promptColumns": 1,
+        "showHelpSlider": false,
         "prompts": [
           {
             "id": 0,
@@ -27798,6 +27798,8 @@
   "fillinList": [
     {
       "idx": 0,
+      "showHelpSlider": true,
+      "appHelpLevel": 0,
       "authorHelp": {
         "description": "no description",
         "responsesLabel": "Responses already filled in",
@@ -27807,14 +27809,14 @@
         "showResponseHints": true,
         "showPromptHints": true,
         "groupByCategory": true,
-        "showResponsesInPrompts": true,
+        "showResponsesInPrompts": false,
         "unique": true,
         "showReferenceCount": true,
         "helpfulness": 304
       },
       "allowReset": true,
       "gridColumns": 6,
-      "promptColumns": 2,
+      "promptColumns": 1,
       "responses": [
         {
           "content": "morning",
@@ -27937,6 +27939,8 @@
     },
     {
       "idx": 1,
+      "showHelpSlider": false,
+      "appHelpLevel": -2,
       "authorHelp": {
         "description": "no description",
         "responsesLabel": "Responses already filled in",
@@ -27946,14 +27950,14 @@
         "showResponseHints": true,
         "showPromptHints": true,
         "groupByCategory": true,
-        "showResponsesInPrompts": true,
+        "showResponsesInPrompts": false,
         "unique": true,
         "showReferenceCount": true,
         "helpfulness": 304
       },
       "allowReset": true,
       "gridColumns": 6,
-      "promptColumns": 2,
+      "promptColumns": 1,
       "responses": [
         {
           "content": "morning",
