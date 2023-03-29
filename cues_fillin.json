@@ -6,11 +6,11 @@
   "owner": "anonymous",
   "author": "Wen",
   "category": "Testing",
-  "version": "20221017.1",
+  "version": "20230329.1",
   "pageFormatType": 0,
-  "created": "Sat Mar 11 2023 18:32:22 GMT-0800 (Pacific Standard Time)",
-  "modified": "Sat Mar 11 2023 18:32:22 GMT-0800 (Pacific Standard Time)",
-  "transformed": "Sat Mar 11 2023 18:32:22 GMT-0800 (Pacific Standard Time)",
+  "created": "Wed Mar 29 2023 12:47:08 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Wed Mar 29 2023 12:47:08 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Wed Mar 29 2023 12:47:08 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -24,12 +24,14 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 0,
-        "authorHelp": {
+        "helpPresetLevel": -1,
+        "authorHelpSetting": {
           "description": "no description",
-          "responsesLabel": "grid",
-          "promptsLabel": "",
+          "responsesLabel": "",
+          "promptsLabel": "4",
           "layout": "grid",
           "sortOrder": "insert",
+          "gridColumns": 6,
           "showResponseHints": false,
           "showPromptHints": false,
           "groupByCategory": false,
@@ -38,11 +40,9 @@
           "showReferenceCount": true,
           "helpfulness": 304
         },
-        "gridColumns": 4,
         "allowReset": false,
-        "appHelpLevel": -1,
         "promptColumns": 1,
-        "showHelpSlider": false,
+        "showHelpPresets": false,
         "prompts": [
           {
             "id": 0,
@@ -4262,12 +4262,30 @@
   "fillinList": [
     {
       "idx": 0,
-      "authorHelp": {
+      "showHelpPresets": false,
+      "helpPresetLevel": -1,
+      "authorHelpSetting": {
         "description": "no description",
-        "responsesLabel": "grid",
-        "promptsLabel": "",
+        "responsesLabel": "",
+        "promptsLabel": "4",
         "layout": "grid",
         "sortOrder": "insert",
+        "gridColumns": 6,
+        "showResponseHints": false,
+        "showPromptHints": false,
+        "groupByCategory": false,
+        "showResponsesInPrompts": false,
+        "unique": true,
+        "showReferenceCount": true,
+        "helpfulness": 304
+      },
+      "currentHelpSetting": {
+        "description": "no description",
+        "responsesLabel": "",
+        "promptsLabel": "4",
+        "layout": "grid",
+        "sortOrder": "insert",
+        "gridColumns": 6,
         "showResponseHints": false,
         "showPromptHints": false,
         "groupByCategory": false,
@@ -4277,7 +4295,6 @@
         "helpfulness": 304
       },
       "allowReset": false,
-      "gridColumns": 4,
       "promptColumns": 1,
       "responses": [
         {

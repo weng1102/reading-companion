@@ -6,11 +6,11 @@
   "owner": "anonymous",
   "author": "Wen",
   "category": "Fillins",
-  "version": "20221017.1",
+  "version": "20230329.1",
   "pageFormatType": 0,
-  "created": "Sat Mar 11 2023 18:32:22 GMT-0800 (Pacific Standard Time)",
-  "modified": "Sat Mar 11 2023 18:32:23 GMT-0800 (Pacific Standard Time)",
-  "transformed": "Sat Mar 11 2023 18:32:23 GMT-0800 (Pacific Standard Time)",
+  "created": "Wed Mar 29 2023 12:47:08 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Wed Mar 29 2023 12:47:08 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Wed Mar 29 2023 12:47:08 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -24,25 +24,25 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 0,
-        "authorHelp": {
+        "helpPresetLevel": -1,
+        "authorHelpSetting": {
           "description": "no description",
-          "responsesLabel": "grid",
-          "promptsLabel": "4",
+          "responsesLabel": "alphabetical",
+          "promptsLabel": "true",
           "layout": "grid",
           "sortOrder": "insert",
-          "showResponseHints": true,
+          "gridColumns": 6,
+          "showResponseHints": false,
           "showPromptHints": false,
           "groupByCategory": true,
           "showResponsesInPrompts": false,
           "unique": true,
           "showReferenceCount": true,
-          "helpfulness": 304
+          "helpfulness": 314
         },
-        "gridColumns": 0,
-        "allowReset": true,
-        "appHelpLevel": -1,
+        "allowReset": false,
         "promptColumns": 1,
-        "showHelpSlider": false,
+        "showHelpPresets": false,
         "prompts": [
           {
             "id": 0,
@@ -511,22 +511,39 @@
   "fillinList": [
     {
       "idx": 0,
-      "authorHelp": {
+      "showHelpPresets": false,
+      "helpPresetLevel": -1,
+      "authorHelpSetting": {
         "description": "no description",
-        "responsesLabel": "grid",
-        "promptsLabel": "4",
+        "responsesLabel": "alphabetical",
+        "promptsLabel": "true",
         "layout": "grid",
         "sortOrder": "insert",
-        "showResponseHints": true,
+        "gridColumns": 6,
+        "showResponseHints": false,
         "showPromptHints": false,
         "groupByCategory": true,
         "showResponsesInPrompts": false,
         "unique": true,
         "showReferenceCount": true,
-        "helpfulness": 304
+        "helpfulness": 314
       },
-      "allowReset": true,
-      "gridColumns": 0,
+      "currentHelpSetting": {
+        "description": "no description",
+        "responsesLabel": "alphabetical",
+        "promptsLabel": "true",
+        "layout": "grid",
+        "sortOrder": "insert",
+        "gridColumns": 6,
+        "showResponseHints": false,
+        "showPromptHints": false,
+        "groupByCategory": true,
+        "showResponsesInPrompts": false,
+        "unique": true,
+        "showReferenceCount": true,
+        "helpfulness": 314
+      },
+      "allowReset": false,
       "promptColumns": 1,
       "responses": [
         {
