@@ -8,9 +8,9 @@
   "category": "Sentence Completion (trailing word)",
   "version": "20221017.1",
   "pageFormatType": 0,
-  "created": "Tue Mar 28 2023 19:37:53 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Tue Mar 28 2023 19:37:53 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Tue Mar 28 2023 19:37:53 GMT-0700 (Pacific Daylight Time)",
+  "created": "Wed Mar 29 2023 07:50:00 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Wed Mar 29 2023 07:50:00 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Wed Mar 29 2023 07:50:00 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -13372,7 +13372,7 @@
                       "sentences": [
                         {
                           "id": 27,
-                          "content": "We celebrate the first day of the year on [_New_] [_Year's_] [_Day_].",
+                          "content": "We celebrate the first day of the year on [_New_] [_Year's_] Day.",
                           "firstTermIdx": 172,
                           "lastTermIdx": 183,
                           "terminals": [
@@ -14176,53 +14176,39 @@
                             },
                             {
                               "id": 0,
-                              "termIdx": -9999,
+                              "termIdx": 183,
                               "content": "Day",
                               "cueList": "",
                               "firstTermIdx": 183,
                               "lastTermIdx": 183,
-                              "type": 4,
+                              "type": 17,
                               "meta": {
-                                "terminals": [
-                                  {
-                                    "id": 0,
-                                    "termIdx": 183,
-                                    "content": "Day",
-                                    "cueList": "",
-                                    "firstTermIdx": 183,
-                                    "lastTermIdx": 183,
-                                    "type": 17,
-                                    "meta": {
-                                      "content": "Day",
-                                      "cues": [],
-                                      "termIdx": 183,
-                                      "nextTermIdx": [
-                                        184
-                                      ],
-                                      "prevTermIdx": [
-                                        182
-                                      ],
-                                      "altpronunciation": "",
-                                      "altrecognition": "",
-                                      "recitable": true,
-                                      "audible": true,
-                                      "linkable": false,
-                                      "visible": true,
-                                      "visited": false,
-                                      "numberAsNumerals": false,
-                                      "linkIdx": -9999,
-                                      "hintsIdx": -9999,
-                                      "fillin": {
-                                        "sectionIdx": 1,
-                                        "responseIdx": 2
-                                      },
-                                      "bold": false,
-                                      "italics": false,
-                                      "markupTag": false
-                                    }
-                                  }
+                                "content": "Day",
+                                "cues": [],
+                                "termIdx": 183,
+                                "nextTermIdx": [
+                                  184
                                 ],
-                                "sectionFillinIdx": 1
+                                "prevTermIdx": [
+                                  182
+                                ],
+                                "altpronunciation": "",
+                                "altrecognition": "",
+                                "recitable": true,
+                                "audible": true,
+                                "linkable": false,
+                                "visible": true,
+                                "visited": false,
+                                "numberAsNumerals": false,
+                                "linkIdx": -9999,
+                                "hintsIdx": -9999,
+                                "fillin": {
+                                  "sectionIdx": -9999,
+                                  "responseIdx": -9999
+                                },
+                                "bold": false,
+                                "italics": false,
+                                "markupTag": false
                               }
                             },
                             {
@@ -14292,9 +14278,9 @@
                       "sentences": [
                         {
                           "id": 28,
-                          "content": "We commemorate civil rights leader on [_Martin_] [_Luther_] [_Day_]. ",
+                          "content": "We commemorate civil rights leader on [_Martin_] [_Luther_] [_King_] Day.",
                           "firstTermIdx": 184,
-                          "lastTermIdx": 192,
+                          "lastTermIdx": 193,
                           "terminals": [
                             {
                               "id": 0,
@@ -14756,7 +14742,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 1,
-                                        "responseIdx": 3
+                                        "responseIdx": 2
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -14840,6 +14826,90 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 1,
+                                        "responseIdx": 3
+                                      },
+                                      "bold": false,
+                                      "italics": false,
+                                      "markupTag": false
+                                    }
+                                  }
+                                ],
+                                "sectionFillinIdx": 1
+                              }
+                            },
+                            {
+                              "id": 0,
+                              "termIdx": -9999,
+                              "content": " ",
+                              "cueList": "",
+                              "firstTermIdx": -9999,
+                              "lastTermIdx": -9999,
+                              "type": 16,
+                              "meta": {
+                                "content": " ",
+                                "cues": [],
+                                "termIdx": -9999,
+                                "nextTermIdx": [],
+                                "prevTermIdx": [],
+                                "altpronunciation": "",
+                                "altrecognition": "",
+                                "recitable": false,
+                                "audible": false,
+                                "linkable": false,
+                                "visible": true,
+                                "visited": false,
+                                "numberAsNumerals": false,
+                                "linkIdx": -9999,
+                                "hintsIdx": -9999,
+                                "fillin": {
+                                  "sectionIdx": -9999,
+                                  "responseIdx": -9999
+                                },
+                                "bold": false,
+                                "italics": false,
+                                "markupTag": false
+                              }
+                            },
+                            {
+                              "id": 0,
+                              "termIdx": -9999,
+                              "content": "King",
+                              "cueList": "",
+                              "firstTermIdx": 192,
+                              "lastTermIdx": 192,
+                              "type": 4,
+                              "meta": {
+                                "terminals": [
+                                  {
+                                    "id": 0,
+                                    "termIdx": 192,
+                                    "content": "King",
+                                    "cueList": "",
+                                    "firstTermIdx": 192,
+                                    "lastTermIdx": 192,
+                                    "type": 17,
+                                    "meta": {
+                                      "content": "King",
+                                      "cues": [],
+                                      "termIdx": 192,
+                                      "nextTermIdx": [
+                                        193
+                                      ],
+                                      "prevTermIdx": [
+                                        191
+                                      ],
+                                      "altpronunciation": "",
+                                      "altrecognition": "",
+                                      "recitable": true,
+                                      "audible": true,
+                                      "linkable": false,
+                                      "visible": true,
+                                      "visited": false,
+                                      "numberAsNumerals": false,
+                                      "linkIdx": -9999,
+                                      "hintsIdx": -9999,
+                                      "fillin": {
+                                        "sectionIdx": 1,
                                         "responseIdx": 4
                                       },
                                       "bold": false,
@@ -14886,179 +14956,39 @@
                             },
                             {
                               "id": 0,
-                              "termIdx": -9999,
+                              "termIdx": 193,
                               "content": "Day",
-                              "cueList": "",
-                              "firstTermIdx": 192,
-                              "lastTermIdx": 192,
-                              "type": 4,
-                              "meta": {
-                                "terminals": [
-                                  {
-                                    "id": 0,
-                                    "termIdx": 192,
-                                    "content": "Day",
-                                    "cueList": "",
-                                    "firstTermIdx": 192,
-                                    "lastTermIdx": 192,
-                                    "type": 17,
-                                    "meta": {
-                                      "content": "Day",
-                                      "cues": [],
-                                      "termIdx": 192,
-                                      "nextTermIdx": [
-                                        193
-                                      ],
-                                      "prevTermIdx": [
-                                        191
-                                      ],
-                                      "altpronunciation": "",
-                                      "altrecognition": "",
-                                      "recitable": true,
-                                      "audible": true,
-                                      "linkable": false,
-                                      "visible": true,
-                                      "visited": false,
-                                      "numberAsNumerals": false,
-                                      "linkIdx": -9999,
-                                      "hintsIdx": -9999,
-                                      "fillin": {
-                                        "sectionIdx": 1,
-                                        "responseIdx": 5
-                                      },
-                                      "bold": false,
-                                      "italics": false,
-                                      "markupTag": false
-                                    }
-                                  }
-                                ],
-                                "sectionFillinIdx": 1
-                              }
-                            },
-                            {
-                              "id": 0,
-                              "termIdx": -9999,
-                              "content": ".",
-                              "cueList": "",
-                              "firstTermIdx": -9999,
-                              "lastTermIdx": -9999,
-                              "type": 11,
-                              "meta": {
-                                "content": ".",
-                                "cues": [],
-                                "termIdx": -9999,
-                                "nextTermIdx": [],
-                                "prevTermIdx": [],
-                                "altpronunciation": "",
-                                "altrecognition": "",
-                                "recitable": false,
-                                "audible": false,
-                                "linkable": false,
-                                "visible": true,
-                                "visited": false,
-                                "numberAsNumerals": false,
-                                "linkIdx": -9999,
-                                "hintsIdx": -9999,
-                                "fillin": {
-                                  "sectionIdx": -9999,
-                                  "responseIdx": -9999
-                                },
-                                "bold": false,
-                                "italics": false,
-                                "markupTag": false
-                              }
-                            },
-                            {
-                              "id": 0,
-                              "termIdx": -9999,
-                              "content": " ",
-                              "cueList": "",
-                              "firstTermIdx": -9999,
-                              "lastTermIdx": -9999,
-                              "type": 16,
-                              "meta": {
-                                "content": " ",
-                                "cues": [],
-                                "termIdx": -9999,
-                                "nextTermIdx": [],
-                                "prevTermIdx": [],
-                                "altpronunciation": "",
-                                "altrecognition": "",
-                                "recitable": false,
-                                "audible": false,
-                                "linkable": false,
-                                "visible": true,
-                                "visited": false,
-                                "numberAsNumerals": false,
-                                "linkIdx": -9999,
-                                "hintsIdx": -9999,
-                                "fillin": {
-                                  "sectionIdx": -9999,
-                                  "responseIdx": -9999
-                                },
-                                "bold": false,
-                                "italics": false,
-                                "markupTag": false
-                              }
-                            }
-                          ],
-                          "lastPunctuation": "."
-                        },
-                        {
-                          "id": 29,
-                          "content": "[_King_].",
-                          "firstTermIdx": 193,
-                          "lastTermIdx": 193,
-                          "terminals": [
-                            {
-                              "id": 0,
-                              "termIdx": -9999,
-                              "content": "King",
                               "cueList": "",
                               "firstTermIdx": 193,
                               "lastTermIdx": 193,
-                              "type": 4,
+                              "type": 17,
                               "meta": {
-                                "terminals": [
-                                  {
-                                    "id": 0,
-                                    "termIdx": 193,
-                                    "content": "King",
-                                    "cueList": "",
-                                    "firstTermIdx": 193,
-                                    "lastTermIdx": 193,
-                                    "type": 17,
-                                    "meta": {
-                                      "content": "King",
-                                      "cues": [],
-                                      "termIdx": 193,
-                                      "nextTermIdx": [
-                                        194
-                                      ],
-                                      "prevTermIdx": [
-                                        192
-                                      ],
-                                      "altpronunciation": "",
-                                      "altrecognition": "",
-                                      "recitable": true,
-                                      "audible": true,
-                                      "linkable": false,
-                                      "visible": true,
-                                      "visited": false,
-                                      "numberAsNumerals": false,
-                                      "linkIdx": -9999,
-                                      "hintsIdx": -9999,
-                                      "fillin": {
-                                        "sectionIdx": 1,
-                                        "responseIdx": 6
-                                      },
-                                      "bold": false,
-                                      "italics": false,
-                                      "markupTag": false
-                                    }
-                                  }
+                                "content": "Day",
+                                "cues": [],
+                                "termIdx": 193,
+                                "nextTermIdx": [
+                                  194
                                 ],
-                                "sectionFillinIdx": 1
+                                "prevTermIdx": [
+                                  192
+                                ],
+                                "altpronunciation": "",
+                                "altrecognition": "",
+                                "recitable": true,
+                                "audible": true,
+                                "linkable": false,
+                                "visible": true,
+                                "visited": false,
+                                "numberAsNumerals": false,
+                                "linkIdx": -9999,
+                                "hintsIdx": -9999,
+                                "fillin": {
+                                  "sectionIdx": -9999,
+                                  "responseIdx": -9999
+                                },
+                                "bold": false,
+                                "italics": false,
+                                "markupTag": false
                               }
                             },
                             {
@@ -15127,8 +15057,8 @@
                     "meta": {
                       "sentences": [
                         {
-                          "id": 30,
-                          "content": "We celebrate romance and love on [_Valentine's_] [_Day_].",
+                          "id": 29,
+                          "content": "We celebrate romance and love on [_Valentine's_] Day.",
                           "firstTermIdx": 194,
                           "lastTermIdx": 201,
                           "terminals": [
@@ -15592,7 +15522,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 1,
-                                        "responseIdx": 7
+                                        "responseIdx": 5
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -15638,53 +15568,39 @@
                             },
                             {
                               "id": 0,
-                              "termIdx": -9999,
+                              "termIdx": 201,
                               "content": "Day",
                               "cueList": "",
                               "firstTermIdx": 201,
                               "lastTermIdx": 201,
-                              "type": 4,
+                              "type": 17,
                               "meta": {
-                                "terminals": [
-                                  {
-                                    "id": 0,
-                                    "termIdx": 201,
-                                    "content": "Day",
-                                    "cueList": "",
-                                    "firstTermIdx": 201,
-                                    "lastTermIdx": 201,
-                                    "type": 17,
-                                    "meta": {
-                                      "content": "Day",
-                                      "cues": [],
-                                      "termIdx": 201,
-                                      "nextTermIdx": [
-                                        202
-                                      ],
-                                      "prevTermIdx": [
-                                        200
-                                      ],
-                                      "altpronunciation": "",
-                                      "altrecognition": "",
-                                      "recitable": true,
-                                      "audible": true,
-                                      "linkable": false,
-                                      "visible": true,
-                                      "visited": false,
-                                      "numberAsNumerals": false,
-                                      "linkIdx": -9999,
-                                      "hintsIdx": -9999,
-                                      "fillin": {
-                                        "sectionIdx": 1,
-                                        "responseIdx": 8
-                                      },
-                                      "bold": false,
-                                      "italics": false,
-                                      "markupTag": false
-                                    }
-                                  }
+                                "content": "Day",
+                                "cues": [],
+                                "termIdx": 201,
+                                "nextTermIdx": [
+                                  202
                                 ],
-                                "sectionFillinIdx": 1
+                                "prevTermIdx": [
+                                  200
+                                ],
+                                "altpronunciation": "",
+                                "altrecognition": "",
+                                "recitable": true,
+                                "audible": true,
+                                "linkable": false,
+                                "visible": true,
+                                "visited": false,
+                                "numberAsNumerals": false,
+                                "linkIdx": -9999,
+                                "hintsIdx": -9999,
+                                "fillin": {
+                                  "sectionIdx": -9999,
+                                  "responseIdx": -9999
+                                },
+                                "bold": false,
+                                "italics": false,
+                                "markupTag": false
                               }
                             },
                             {
@@ -15753,8 +15669,8 @@
                     "meta": {
                       "sentences": [
                         {
-                          "id": 31,
-                          "content": "We honor Washington and Lincoln on [_Presidents_] [_Day_].",
+                          "id": 30,
+                          "content": "We honor Washington and Lincoln on [_Presidents_] Day.",
                           "firstTermIdx": 202,
                           "lastTermIdx": 209,
                           "terminals": [
@@ -16218,7 +16134,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 1,
-                                        "responseIdx": 9
+                                        "responseIdx": 6
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -16264,53 +16180,39 @@
                             },
                             {
                               "id": 0,
-                              "termIdx": -9999,
+                              "termIdx": 209,
                               "content": "Day",
                               "cueList": "",
                               "firstTermIdx": 209,
                               "lastTermIdx": 209,
-                              "type": 4,
+                              "type": 17,
                               "meta": {
-                                "terminals": [
-                                  {
-                                    "id": 0,
-                                    "termIdx": 209,
-                                    "content": "Day",
-                                    "cueList": "",
-                                    "firstTermIdx": 209,
-                                    "lastTermIdx": 209,
-                                    "type": 17,
-                                    "meta": {
-                                      "content": "Day",
-                                      "cues": [],
-                                      "termIdx": 209,
-                                      "nextTermIdx": [
-                                        210
-                                      ],
-                                      "prevTermIdx": [
-                                        208
-                                      ],
-                                      "altpronunciation": "",
-                                      "altrecognition": "",
-                                      "recitable": true,
-                                      "audible": true,
-                                      "linkable": false,
-                                      "visible": true,
-                                      "visited": false,
-                                      "numberAsNumerals": false,
-                                      "linkIdx": -9999,
-                                      "hintsIdx": -9999,
-                                      "fillin": {
-                                        "sectionIdx": 1,
-                                        "responseIdx": 10
-                                      },
-                                      "bold": false,
-                                      "italics": false,
-                                      "markupTag": false
-                                    }
-                                  }
+                                "content": "Day",
+                                "cues": [],
+                                "termIdx": 209,
+                                "nextTermIdx": [
+                                  210
                                 ],
-                                "sectionFillinIdx": 1
+                                "prevTermIdx": [
+                                  208
+                                ],
+                                "altpronunciation": "",
+                                "altrecognition": "",
+                                "recitable": true,
+                                "audible": true,
+                                "linkable": false,
+                                "visible": true,
+                                "visited": false,
+                                "numberAsNumerals": false,
+                                "linkIdx": -9999,
+                                "hintsIdx": -9999,
+                                "fillin": {
+                                  "sectionIdx": -9999,
+                                  "responseIdx": -9999
+                                },
+                                "bold": false,
+                                "italics": false,
+                                "markupTag": false
                               }
                             },
                             {
@@ -16379,7 +16281,7 @@
                     "meta": {
                       "sentences": [
                         {
-                          "id": 32,
+                          "id": 31,
                           "content": "Christians begin lent on [_Ash_] [_Wednesday_].",
                           "firstTermIdx": 210,
                           "lastTermIdx": 215,
@@ -16704,7 +16606,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 1,
-                                        "responseIdx": 11
+                                        "responseIdx": 7
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -16788,7 +16690,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 1,
-                                        "responseIdx": 12
+                                        "responseIdx": 8
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -16865,7 +16767,7 @@
                     "meta": {
                       "sentences": [
                         {
-                          "id": 33,
+                          "id": 32,
                           "content": "Christians celebrate the Resurrection of Christ on [_Easter_].",
                           "firstTermIdx": 216,
                           "lastTermIdx": 223,
@@ -17400,7 +17302,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 1,
-                                        "responseIdx": 13
+                                        "responseIdx": 9
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -17477,8 +17379,8 @@
                     "meta": {
                       "sentences": [
                         {
-                          "id": 34,
-                          "content": "We honor those who died defending our country on [_Memorial_] [_Day_].",
+                          "id": 33,
+                          "content": "We honor those who died defending our country on [_Memorial_] Day.",
                           "firstTermIdx": 224,
                           "lastTermIdx": 234,
                           "terminals": [
@@ -18152,7 +18054,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 1,
-                                        "responseIdx": 14
+                                        "responseIdx": 10
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -18198,53 +18100,39 @@
                             },
                             {
                               "id": 0,
-                              "termIdx": -9999,
+                              "termIdx": 234,
                               "content": "Day",
                               "cueList": "",
                               "firstTermIdx": 234,
                               "lastTermIdx": 234,
-                              "type": 4,
+                              "type": 17,
                               "meta": {
-                                "terminals": [
-                                  {
-                                    "id": 0,
-                                    "termIdx": 234,
-                                    "content": "Day",
-                                    "cueList": "",
-                                    "firstTermIdx": 234,
-                                    "lastTermIdx": 234,
-                                    "type": 17,
-                                    "meta": {
-                                      "content": "Day",
-                                      "cues": [],
-                                      "termIdx": 234,
-                                      "nextTermIdx": [
-                                        235
-                                      ],
-                                      "prevTermIdx": [
-                                        233
-                                      ],
-                                      "altpronunciation": "",
-                                      "altrecognition": "",
-                                      "recitable": true,
-                                      "audible": true,
-                                      "linkable": false,
-                                      "visible": true,
-                                      "visited": false,
-                                      "numberAsNumerals": false,
-                                      "linkIdx": -9999,
-                                      "hintsIdx": -9999,
-                                      "fillin": {
-                                        "sectionIdx": 1,
-                                        "responseIdx": 15
-                                      },
-                                      "bold": false,
-                                      "italics": false,
-                                      "markupTag": false
-                                    }
-                                  }
+                                "content": "Day",
+                                "cues": [],
+                                "termIdx": 234,
+                                "nextTermIdx": [
+                                  235
                                 ],
-                                "sectionFillinIdx": 1
+                                "prevTermIdx": [
+                                  233
+                                ],
+                                "altpronunciation": "",
+                                "altrecognition": "",
+                                "recitable": true,
+                                "audible": true,
+                                "linkable": false,
+                                "visible": true,
+                                "visited": false,
+                                "numberAsNumerals": false,
+                                "linkIdx": -9999,
+                                "hintsIdx": -9999,
+                                "fillin": {
+                                  "sectionIdx": -9999,
+                                  "responseIdx": -9999
+                                },
+                                "bold": false,
+                                "italics": false,
+                                "markupTag": false
                               }
                             },
                             {
@@ -18313,7 +18201,7 @@
                     "meta": {
                       "sentences": [
                         {
-                          "id": 35,
+                          "id": 34,
                           "content": "We commemorate the freeing of enslaved African Americans on [_Juneteenth_].",
                           "firstTermIdx": 235,
                           "lastTermIdx": 244,
@@ -18988,7 +18876,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 1,
-                                        "responseIdx": 16
+                                        "responseIdx": 11
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -19065,8 +18953,8 @@
                     "meta": {
                       "sentences": [
                         {
-                          "id": 36,
-                          "content": "We celebrate the labor of the common worker on [_Labor_] [_Day_].",
+                          "id": 35,
+                          "content": "We celebrate the labor of the common worker on [_Labor_] Day.",
                           "firstTermIdx": 245,
                           "lastTermIdx": 255,
                           "terminals": [
@@ -19740,7 +19628,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 1,
-                                        "responseIdx": 17
+                                        "responseIdx": 12
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -19786,53 +19674,39 @@
                             },
                             {
                               "id": 0,
-                              "termIdx": -9999,
+                              "termIdx": 255,
                               "content": "Day",
                               "cueList": "",
                               "firstTermIdx": 255,
                               "lastTermIdx": 255,
-                              "type": 4,
+                              "type": 17,
                               "meta": {
-                                "terminals": [
-                                  {
-                                    "id": 0,
-                                    "termIdx": 255,
-                                    "content": "Day",
-                                    "cueList": "",
-                                    "firstTermIdx": 255,
-                                    "lastTermIdx": 255,
-                                    "type": 17,
-                                    "meta": {
-                                      "content": "Day",
-                                      "cues": [],
-                                      "termIdx": 255,
-                                      "nextTermIdx": [
-                                        256
-                                      ],
-                                      "prevTermIdx": [
-                                        254
-                                      ],
-                                      "altpronunciation": "",
-                                      "altrecognition": "",
-                                      "recitable": true,
-                                      "audible": true,
-                                      "linkable": false,
-                                      "visible": true,
-                                      "visited": false,
-                                      "numberAsNumerals": false,
-                                      "linkIdx": -9999,
-                                      "hintsIdx": -9999,
-                                      "fillin": {
-                                        "sectionIdx": 1,
-                                        "responseIdx": 18
-                                      },
-                                      "bold": false,
-                                      "italics": false,
-                                      "markupTag": false
-                                    }
-                                  }
+                                "content": "Day",
+                                "cues": [],
+                                "termIdx": 255,
+                                "nextTermIdx": [
+                                  256
                                 ],
-                                "sectionFillinIdx": 1
+                                "prevTermIdx": [
+                                  254
+                                ],
+                                "altpronunciation": "",
+                                "altrecognition": "",
+                                "recitable": true,
+                                "audible": true,
+                                "linkable": false,
+                                "visible": true,
+                                "visited": false,
+                                "numberAsNumerals": false,
+                                "linkIdx": -9999,
+                                "hintsIdx": -9999,
+                                "fillin": {
+                                  "sectionIdx": -9999,
+                                  "responseIdx": -9999
+                                },
+                                "bold": false,
+                                "italics": false,
+                                "markupTag": false
                               }
                             },
                             {
@@ -19901,8 +19775,8 @@
                     "meta": {
                       "sentences": [
                         {
-                          "id": 37,
-                          "content": "We commemorate the end of World War 1 on [_Veterans_] [_Day_].",
+                          "id": 36,
+                          "content": "We commemorate the end of World War 1 on [_Veterans_] Day.",
                           "firstTermIdx": 256,
                           "lastTermIdx": 266,
                           "terminals": [
@@ -20576,7 +20450,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 1,
-                                        "responseIdx": 19
+                                        "responseIdx": 13
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -20622,53 +20496,39 @@
                             },
                             {
                               "id": 0,
-                              "termIdx": -9999,
+                              "termIdx": 266,
                               "content": "Day",
                               "cueList": "",
                               "firstTermIdx": 266,
                               "lastTermIdx": 266,
-                              "type": 4,
+                              "type": 17,
                               "meta": {
-                                "terminals": [
-                                  {
-                                    "id": 0,
-                                    "termIdx": 266,
-                                    "content": "Day",
-                                    "cueList": "",
-                                    "firstTermIdx": 266,
-                                    "lastTermIdx": 266,
-                                    "type": 17,
-                                    "meta": {
-                                      "content": "Day",
-                                      "cues": [],
-                                      "termIdx": 266,
-                                      "nextTermIdx": [
-                                        267
-                                      ],
-                                      "prevTermIdx": [
-                                        265
-                                      ],
-                                      "altpronunciation": "",
-                                      "altrecognition": "",
-                                      "recitable": true,
-                                      "audible": true,
-                                      "linkable": false,
-                                      "visible": true,
-                                      "visited": false,
-                                      "numberAsNumerals": false,
-                                      "linkIdx": -9999,
-                                      "hintsIdx": -9999,
-                                      "fillin": {
-                                        "sectionIdx": 1,
-                                        "responseIdx": 20
-                                      },
-                                      "bold": false,
-                                      "italics": false,
-                                      "markupTag": false
-                                    }
-                                  }
+                                "content": "Day",
+                                "cues": [],
+                                "termIdx": 266,
+                                "nextTermIdx": [
+                                  267
                                 ],
-                                "sectionFillinIdx": 1
+                                "prevTermIdx": [
+                                  265
+                                ],
+                                "altpronunciation": "",
+                                "altrecognition": "",
+                                "recitable": true,
+                                "audible": true,
+                                "linkable": false,
+                                "visible": true,
+                                "visited": false,
+                                "numberAsNumerals": false,
+                                "linkIdx": -9999,
+                                "hintsIdx": -9999,
+                                "fillin": {
+                                  "sectionIdx": -9999,
+                                  "responseIdx": -9999
+                                },
+                                "bold": false,
+                                "italics": false,
+                                "markupTag": false
                               }
                             },
                             {
@@ -20737,7 +20597,7 @@
                     "meta": {
                       "sentences": [
                         {
-                          "id": 38,
+                          "id": 37,
                           "content": "We celebrate the harvest and other blessings on [_Thanksgiving_].",
                           "firstTermIdx": 267,
                           "lastTermIdx": 275,
@@ -21342,7 +21202,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 1,
-                                        "responseIdx": 21
+                                        "responseIdx": 14
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -21419,7 +21279,7 @@
                     "meta": {
                       "sentences": [
                         {
-                          "id": 39,
+                          "id": 38,
                           "content": "Christians commemorate the birth of Christ on [_Christmas_].",
                           "firstTermIdx": 276,
                           "lastTermIdx": 283,
@@ -21954,7 +21814,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 1,
-                                        "responseIdx": 22
+                                        "responseIdx": 15
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -22031,8 +21891,8 @@
                     "meta": {
                       "sentences": [
                         {
-                          "id": 40,
-                          "content": "We celebrate the newly elected president on [_Inauguration_] [_Day_].",
+                          "id": 39,
+                          "content": "We celebrate the newly elected president on [_Inauguration_] Day.",
                           "firstTermIdx": 284,
                           "lastTermIdx": 292,
                           "terminals": [
@@ -22566,7 +22426,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 1,
-                                        "responseIdx": 23
+                                        "responseIdx": 16
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -22612,51 +22472,37 @@
                             },
                             {
                               "id": 0,
-                              "termIdx": -9999,
+                              "termIdx": 292,
                               "content": "Day",
                               "cueList": "",
                               "firstTermIdx": 292,
                               "lastTermIdx": 292,
-                              "type": 4,
+                              "type": 17,
                               "meta": {
-                                "terminals": [
-                                  {
-                                    "id": 0,
-                                    "termIdx": 292,
-                                    "content": "Day",
-                                    "cueList": "",
-                                    "firstTermIdx": 292,
-                                    "lastTermIdx": 292,
-                                    "type": 17,
-                                    "meta": {
-                                      "content": "Day",
-                                      "cues": [],
-                                      "termIdx": 292,
-                                      "nextTermIdx": [],
-                                      "prevTermIdx": [
-                                        291
-                                      ],
-                                      "altpronunciation": "",
-                                      "altrecognition": "",
-                                      "recitable": true,
-                                      "audible": true,
-                                      "linkable": false,
-                                      "visible": true,
-                                      "visited": false,
-                                      "numberAsNumerals": false,
-                                      "linkIdx": -9999,
-                                      "hintsIdx": -9999,
-                                      "fillin": {
-                                        "sectionIdx": 1,
-                                        "responseIdx": 24
-                                      },
-                                      "bold": false,
-                                      "italics": false,
-                                      "markupTag": false
-                                    }
-                                  }
+                                "content": "Day",
+                                "cues": [],
+                                "termIdx": 292,
+                                "nextTermIdx": [],
+                                "prevTermIdx": [
+                                  291
                                 ],
-                                "sectionFillinIdx": 1
+                                "altpronunciation": "",
+                                "altrecognition": "",
+                                "recitable": true,
+                                "audible": true,
+                                "linkable": false,
+                                "visible": true,
+                                "visited": false,
+                                "numberAsNumerals": false,
+                                "linkIdx": -9999,
+                                "hintsIdx": -9999,
+                                "fillin": {
+                                  "sectionIdx": -9999,
+                                  "responseIdx": -9999
+                                },
+                                "bold": false,
+                                "italics": false,
+                                "markupTag": false
                               }
                             },
                             {
@@ -28241,8 +28087,8 @@
       "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
-        "sectionIdx": 1,
-        "responseIdx": 2
+        "sectionIdx": -9999,
+        "responseIdx": -9999
       },
       "bold": false,
       "italics": false,
@@ -28452,7 +28298,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 1,
-        "responseIdx": 3
+        "responseIdx": 2
       },
       "bold": false,
       "italics": false,
@@ -28482,7 +28328,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 1,
-        "responseIdx": 4
+        "responseIdx": 3
       },
       "bold": false,
       "italics": false,
@@ -28491,7 +28337,7 @@
       "sectionIdx": 24
     },
     {
-      "content": "Day",
+      "content": "King",
       "cues": [],
       "termIdx": 192,
       "nextTermIdx": [
@@ -28512,7 +28358,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 1,
-        "responseIdx": 5
+        "responseIdx": 4
       },
       "bold": false,
       "italics": false,
@@ -28521,7 +28367,7 @@
       "sectionIdx": 24
     },
     {
-      "content": "King",
+      "content": "Day",
       "cues": [],
       "termIdx": 193,
       "nextTermIdx": [
@@ -28541,13 +28387,13 @@
       "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
-        "sectionIdx": 1,
-        "responseIdx": 6
+        "sectionIdx": -9999,
+        "responseIdx": -9999
       },
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 29,
+      "sentenceIdx": 28,
       "sectionIdx": 24
     },
     {
@@ -28577,7 +28423,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 30,
+      "sentenceIdx": 29,
       "sectionIdx": 25
     },
     {
@@ -28607,7 +28453,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 30,
+      "sentenceIdx": 29,
       "sectionIdx": 25
     },
     {
@@ -28637,7 +28483,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 30,
+      "sentenceIdx": 29,
       "sectionIdx": 25
     },
     {
@@ -28667,7 +28513,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 30,
+      "sentenceIdx": 29,
       "sectionIdx": 25
     },
     {
@@ -28697,7 +28543,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 30,
+      "sentenceIdx": 29,
       "sectionIdx": 25
     },
     {
@@ -28727,7 +28573,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 30,
+      "sentenceIdx": 29,
       "sectionIdx": 25
     },
     {
@@ -28752,12 +28598,12 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 1,
-        "responseIdx": 7
+        "responseIdx": 5
       },
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 30,
+      "sentenceIdx": 29,
       "sectionIdx": 25
     },
     {
@@ -28781,13 +28627,13 @@
       "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
-        "sectionIdx": 1,
-        "responseIdx": 8
+        "sectionIdx": -9999,
+        "responseIdx": -9999
       },
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 30,
+      "sentenceIdx": 29,
       "sectionIdx": 25
     },
     {
@@ -28817,7 +28663,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 31,
+      "sentenceIdx": 30,
       "sectionIdx": 26
     },
     {
@@ -28847,7 +28693,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 31,
+      "sentenceIdx": 30,
       "sectionIdx": 26
     },
     {
@@ -28877,7 +28723,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 31,
+      "sentenceIdx": 30,
       "sectionIdx": 26
     },
     {
@@ -28907,7 +28753,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 31,
+      "sentenceIdx": 30,
       "sectionIdx": 26
     },
     {
@@ -28937,7 +28783,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 31,
+      "sentenceIdx": 30,
       "sectionIdx": 26
     },
     {
@@ -28967,7 +28813,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 31,
+      "sentenceIdx": 30,
       "sectionIdx": 26
     },
     {
@@ -28992,12 +28838,12 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 1,
-        "responseIdx": 9
+        "responseIdx": 6
       },
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 31,
+      "sentenceIdx": 30,
       "sectionIdx": 26
     },
     {
@@ -29021,13 +28867,13 @@
       "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
-        "sectionIdx": 1,
-        "responseIdx": 10
+        "sectionIdx": -9999,
+        "responseIdx": -9999
       },
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 31,
+      "sentenceIdx": 30,
       "sectionIdx": 26
     },
     {
@@ -29057,7 +28903,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 32,
+      "sentenceIdx": 31,
       "sectionIdx": 27
     },
     {
@@ -29087,7 +28933,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 32,
+      "sentenceIdx": 31,
       "sectionIdx": 27
     },
     {
@@ -29117,7 +28963,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 32,
+      "sentenceIdx": 31,
       "sectionIdx": 27
     },
     {
@@ -29147,7 +28993,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 32,
+      "sentenceIdx": 31,
       "sectionIdx": 27
     },
     {
@@ -29172,12 +29018,12 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 1,
-        "responseIdx": 11
+        "responseIdx": 7
       },
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 32,
+      "sentenceIdx": 31,
       "sectionIdx": 27
     },
     {
@@ -29202,12 +29048,12 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 1,
-        "responseIdx": 12
+        "responseIdx": 8
       },
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 32,
+      "sentenceIdx": 31,
       "sectionIdx": 27
     },
     {
@@ -29237,7 +29083,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 33,
+      "sentenceIdx": 32,
       "sectionIdx": 28
     },
     {
@@ -29267,7 +29113,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 33,
+      "sentenceIdx": 32,
       "sectionIdx": 28
     },
     {
@@ -29297,7 +29143,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 33,
+      "sentenceIdx": 32,
       "sectionIdx": 28
     },
     {
@@ -29327,7 +29173,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 33,
+      "sentenceIdx": 32,
       "sectionIdx": 28
     },
     {
@@ -29357,7 +29203,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 33,
+      "sentenceIdx": 32,
       "sectionIdx": 28
     },
     {
@@ -29387,7 +29233,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 33,
+      "sentenceIdx": 32,
       "sectionIdx": 28
     },
     {
@@ -29417,7 +29263,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 33,
+      "sentenceIdx": 32,
       "sectionIdx": 28
     },
     {
@@ -29442,12 +29288,12 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 1,
-        "responseIdx": 13
+        "responseIdx": 9
       },
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 33,
+      "sentenceIdx": 32,
       "sectionIdx": 28
     },
     {
@@ -29477,7 +29323,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 34,
+      "sentenceIdx": 33,
       "sectionIdx": 29
     },
     {
@@ -29507,7 +29353,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 34,
+      "sentenceIdx": 33,
       "sectionIdx": 29
     },
     {
@@ -29537,7 +29383,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 34,
+      "sentenceIdx": 33,
       "sectionIdx": 29
     },
     {
@@ -29567,7 +29413,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 34,
+      "sentenceIdx": 33,
       "sectionIdx": 29
     },
     {
@@ -29597,7 +29443,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 34,
+      "sentenceIdx": 33,
       "sectionIdx": 29
     },
     {
@@ -29627,7 +29473,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 34,
+      "sentenceIdx": 33,
       "sectionIdx": 29
     },
     {
@@ -29657,7 +29503,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 34,
+      "sentenceIdx": 33,
       "sectionIdx": 29
     },
     {
@@ -29687,7 +29533,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 34,
+      "sentenceIdx": 33,
       "sectionIdx": 29
     },
     {
@@ -29717,7 +29563,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 34,
+      "sentenceIdx": 33,
       "sectionIdx": 29
     },
     {
@@ -29742,12 +29588,12 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 1,
-        "responseIdx": 14
+        "responseIdx": 10
       },
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 34,
+      "sentenceIdx": 33,
       "sectionIdx": 29
     },
     {
@@ -29771,13 +29617,13 @@
       "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
-        "sectionIdx": 1,
-        "responseIdx": 15
+        "sectionIdx": -9999,
+        "responseIdx": -9999
       },
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 34,
+      "sentenceIdx": 33,
       "sectionIdx": 29
     },
     {
@@ -29807,7 +29653,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 35,
+      "sentenceIdx": 34,
       "sectionIdx": 30
     },
     {
@@ -29837,7 +29683,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 35,
+      "sentenceIdx": 34,
       "sectionIdx": 30
     },
     {
@@ -29867,7 +29713,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 35,
+      "sentenceIdx": 34,
       "sectionIdx": 30
     },
     {
@@ -29897,7 +29743,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 35,
+      "sentenceIdx": 34,
       "sectionIdx": 30
     },
     {
@@ -29927,7 +29773,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 35,
+      "sentenceIdx": 34,
       "sectionIdx": 30
     },
     {
@@ -29957,7 +29803,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 35,
+      "sentenceIdx": 34,
       "sectionIdx": 30
     },
     {
@@ -29987,7 +29833,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 35,
+      "sentenceIdx": 34,
       "sectionIdx": 30
     },
     {
@@ -30017,7 +29863,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 35,
+      "sentenceIdx": 34,
       "sectionIdx": 30
     },
     {
@@ -30047,7 +29893,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 35,
+      "sentenceIdx": 34,
       "sectionIdx": 30
     },
     {
@@ -30072,12 +29918,12 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 1,
-        "responseIdx": 16
+        "responseIdx": 11
       },
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 35,
+      "sentenceIdx": 34,
       "sectionIdx": 30
     },
     {
@@ -30107,7 +29953,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 36,
+      "sentenceIdx": 35,
       "sectionIdx": 31
     },
     {
@@ -30137,7 +29983,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 36,
+      "sentenceIdx": 35,
       "sectionIdx": 31
     },
     {
@@ -30167,7 +30013,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 36,
+      "sentenceIdx": 35,
       "sectionIdx": 31
     },
     {
@@ -30197,7 +30043,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 36,
+      "sentenceIdx": 35,
       "sectionIdx": 31
     },
     {
@@ -30227,7 +30073,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 36,
+      "sentenceIdx": 35,
       "sectionIdx": 31
     },
     {
@@ -30257,7 +30103,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 36,
+      "sentenceIdx": 35,
       "sectionIdx": 31
     },
     {
@@ -30287,7 +30133,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 36,
+      "sentenceIdx": 35,
       "sectionIdx": 31
     },
     {
@@ -30317,7 +30163,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 36,
+      "sentenceIdx": 35,
       "sectionIdx": 31
     },
     {
@@ -30347,7 +30193,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 36,
+      "sentenceIdx": 35,
       "sectionIdx": 31
     },
     {
@@ -30372,12 +30218,12 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 1,
-        "responseIdx": 17
+        "responseIdx": 12
       },
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 36,
+      "sentenceIdx": 35,
       "sectionIdx": 31
     },
     {
@@ -30401,13 +30247,13 @@
       "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
-        "sectionIdx": 1,
-        "responseIdx": 18
+        "sectionIdx": -9999,
+        "responseIdx": -9999
       },
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 36,
+      "sentenceIdx": 35,
       "sectionIdx": 31
     },
     {
@@ -30437,7 +30283,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 37,
+      "sentenceIdx": 36,
       "sectionIdx": 32
     },
     {
@@ -30467,7 +30313,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 37,
+      "sentenceIdx": 36,
       "sectionIdx": 32
     },
     {
@@ -30497,7 +30343,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 37,
+      "sentenceIdx": 36,
       "sectionIdx": 32
     },
     {
@@ -30527,7 +30373,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 37,
+      "sentenceIdx": 36,
       "sectionIdx": 32
     },
     {
@@ -30557,7 +30403,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 37,
+      "sentenceIdx": 36,
       "sectionIdx": 32
     },
     {
@@ -30587,7 +30433,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 37,
+      "sentenceIdx": 36,
       "sectionIdx": 32
     },
     {
@@ -30617,7 +30463,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 37,
+      "sentenceIdx": 36,
       "sectionIdx": 32
     },
     {
@@ -30647,7 +30493,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 37,
+      "sentenceIdx": 36,
       "sectionIdx": 32
     },
     {
@@ -30677,7 +30523,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 37,
+      "sentenceIdx": 36,
       "sectionIdx": 32
     },
     {
@@ -30702,12 +30548,12 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 1,
-        "responseIdx": 19
+        "responseIdx": 13
       },
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 37,
+      "sentenceIdx": 36,
       "sectionIdx": 32
     },
     {
@@ -30731,13 +30577,13 @@
       "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
-        "sectionIdx": 1,
-        "responseIdx": 20
+        "sectionIdx": -9999,
+        "responseIdx": -9999
       },
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 37,
+      "sentenceIdx": 36,
       "sectionIdx": 32
     },
     {
@@ -30767,7 +30613,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 38,
+      "sentenceIdx": 37,
       "sectionIdx": 33
     },
     {
@@ -30797,7 +30643,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 38,
+      "sentenceIdx": 37,
       "sectionIdx": 33
     },
     {
@@ -30827,7 +30673,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 38,
+      "sentenceIdx": 37,
       "sectionIdx": 33
     },
     {
@@ -30857,7 +30703,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 38,
+      "sentenceIdx": 37,
       "sectionIdx": 33
     },
     {
@@ -30887,7 +30733,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 38,
+      "sentenceIdx": 37,
       "sectionIdx": 33
     },
     {
@@ -30917,7 +30763,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 38,
+      "sentenceIdx": 37,
       "sectionIdx": 33
     },
     {
@@ -30947,7 +30793,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 38,
+      "sentenceIdx": 37,
       "sectionIdx": 33
     },
     {
@@ -30977,7 +30823,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 38,
+      "sentenceIdx": 37,
       "sectionIdx": 33
     },
     {
@@ -31002,12 +30848,12 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 1,
-        "responseIdx": 21
+        "responseIdx": 14
       },
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 38,
+      "sentenceIdx": 37,
       "sectionIdx": 33
     },
     {
@@ -31037,7 +30883,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 39,
+      "sentenceIdx": 38,
       "sectionIdx": 34
     },
     {
@@ -31067,7 +30913,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 39,
+      "sentenceIdx": 38,
       "sectionIdx": 34
     },
     {
@@ -31097,7 +30943,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 39,
+      "sentenceIdx": 38,
       "sectionIdx": 34
     },
     {
@@ -31127,7 +30973,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 39,
+      "sentenceIdx": 38,
       "sectionIdx": 34
     },
     {
@@ -31157,7 +31003,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 39,
+      "sentenceIdx": 38,
       "sectionIdx": 34
     },
     {
@@ -31187,7 +31033,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 39,
+      "sentenceIdx": 38,
       "sectionIdx": 34
     },
     {
@@ -31217,7 +31063,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 39,
+      "sentenceIdx": 38,
       "sectionIdx": 34
     },
     {
@@ -31242,12 +31088,12 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 1,
-        "responseIdx": 22
+        "responseIdx": 15
       },
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 39,
+      "sentenceIdx": 38,
       "sectionIdx": 34
     },
     {
@@ -31277,7 +31123,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 40,
+      "sentenceIdx": 39,
       "sectionIdx": 35
     },
     {
@@ -31307,7 +31153,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 40,
+      "sentenceIdx": 39,
       "sectionIdx": 35
     },
     {
@@ -31337,7 +31183,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 40,
+      "sentenceIdx": 39,
       "sectionIdx": 35
     },
     {
@@ -31367,7 +31213,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 40,
+      "sentenceIdx": 39,
       "sectionIdx": 35
     },
     {
@@ -31397,7 +31243,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 40,
+      "sentenceIdx": 39,
       "sectionIdx": 35
     },
     {
@@ -31427,7 +31273,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 40,
+      "sentenceIdx": 39,
       "sectionIdx": 35
     },
     {
@@ -31457,7 +31303,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 40,
+      "sentenceIdx": 39,
       "sectionIdx": 35
     },
     {
@@ -31482,12 +31328,12 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 1,
-        "responseIdx": 23
+        "responseIdx": 16
       },
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 40,
+      "sentenceIdx": 39,
       "sectionIdx": 35
     },
     {
@@ -31509,13 +31355,13 @@
       "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
-        "sectionIdx": 1,
-        "responseIdx": 24
+        "sectionIdx": -9999,
+        "responseIdx": -9999
       },
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 40,
+      "sentenceIdx": 39,
       "sectionIdx": 35
     }
   ],
@@ -31870,11 +31716,6 @@
     },
     {
       "firstTermIdx": 184,
-      "lastTermIdx": 192,
-      "lastPunctuation": "."
-    },
-    {
-      "firstTermIdx": 193,
       "lastTermIdx": 193,
       "lastPunctuation": "."
     },
@@ -32135,22 +31976,12 @@
           "referenceCount": 1
         },
         {
-          "content": "Day",
-          "category": "",
-          "referenceCount": 1
-        },
-        {
           "content": "Martin",
           "category": "",
           "referenceCount": 1
         },
         {
           "content": "Luther",
-          "category": "",
-          "referenceCount": 1
-        },
-        {
-          "content": "Day",
           "category": "",
           "referenceCount": 1
         },
@@ -32165,17 +31996,7 @@
           "referenceCount": 1
         },
         {
-          "content": "Day",
-          "category": "",
-          "referenceCount": 1
-        },
-        {
           "content": "Presidents",
-          "category": "",
-          "referenceCount": 1
-        },
-        {
-          "content": "Day",
           "category": "",
           "referenceCount": 1
         },
@@ -32200,11 +32021,6 @@
           "referenceCount": 1
         },
         {
-          "content": "Day",
-          "category": "",
-          "referenceCount": 1
-        },
-        {
           "content": "Juneteenth",
           "category": "",
           "referenceCount": 1
@@ -32215,17 +32031,7 @@
           "referenceCount": 1
         },
         {
-          "content": "Day",
-          "category": "",
-          "referenceCount": 1
-        },
-        {
           "content": "Veterans",
-          "category": "",
-          "referenceCount": 1
-        },
-        {
-          "content": "Day",
           "category": "",
           "referenceCount": 1
         },
@@ -32241,11 +32047,6 @@
         },
         {
           "content": "Inauguration",
-          "category": "",
-          "referenceCount": 1
-        },
-        {
-          "content": "Day",
           "category": "",
           "referenceCount": 1
         }
