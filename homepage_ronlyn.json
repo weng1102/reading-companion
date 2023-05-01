@@ -9,8 +9,8 @@
   "version": "20230423.1",
   "pageFormatType": 0,
   "created": "11/9/2022",
-  "modified": "Wed Apr 26 2023 08:05:23 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Wed Apr 26 2023 08:05:23 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Mon May 01 2023 13:28:49 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Mon May 01 2023 13:28:49 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -307,13 +307,14 @@
               "label": "My stroke story",
               "width": 0,
               "height": 0,
-              "attributes": "",
+              "attributes": " ",
               "link": {
                 "page": "",
                 "directory": "",
-                "sectionIdx": -9999,
-                "terminalIdx": -9999
+                "linkIdxType": "page",
+                "idx": -9999
               },
+              "linkIdx": -9999,
               "className": "imageentry-image",
               "style": ""
             }
@@ -332,7 +333,7 @@
               "sentences": [
                 {
                   "id": 3,
-                  "content": "[My Stroke Story](mystrokevc,0,0). ",
+                  "content": "[My Stroke Story](mystrokevc,page). ",
                   "firstTermIdx": 4,
                   "lastTermIdx": 6,
                   "terminals": [
@@ -527,12 +528,12 @@
                         "destination": {
                           "page": "mystrokevc",
                           "directory": "",
-                          "sectionIdx": 0,
-                          "terminalIdx": 0
+                          "linkIdxType": "page",
+                          "idx": -9999
                         },
                         "className": "",
                         "style": "",
-                        "linkIdx": 0
+                        "linkIdx": -9999
                       }
                     },
                     {
@@ -6089,9 +6090,10 @@
               "link": {
                 "page": "",
                 "directory": "",
-                "sectionIdx": -9999,
-                "terminalIdx": -9999
+                "linkIdxType": "page",
+                "idx": -9999
               },
+              "linkIdx": -9999,
               "className": "imageentry-image",
               "style": ""
             }
@@ -6110,7 +6112,7 @@
               "sentences": [
                 {
                   "id": 17,
-                  "content": "[My Aphasia Strategies](mystrategies,0,0). ",
+                  "content": "[My Aphasia Strategies](mystrategies,page). ",
                   "firstTermIdx": 82,
                   "lastTermIdx": 84,
                   "terminals": [
@@ -6305,12 +6307,12 @@
                         "destination": {
                           "page": "mystrategies",
                           "directory": "",
-                          "sectionIdx": 0,
-                          "terminalIdx": 0
+                          "linkIdxType": "page",
+                          "idx": -9999
                         },
                         "className": "",
                         "style": "",
-                        "linkIdx": 1
+                        "linkIdx": -9999
                       }
                     },
                     {
@@ -12221,9 +12223,10 @@
               "link": {
                 "page": "",
                 "directory": "",
-                "sectionIdx": -9999,
-                "terminalIdx": -9999
+                "linkIdxType": "page",
+                "idx": -9999
               },
+              "linkIdx": -9999,
               "className": "imageentry-image",
               "style": ""
             }
@@ -15568,7 +15571,7 @@
                 "sentences": [
                   {
                     "id": 37,
-                    "content": "[Common Nouns](nouns1,0,0)",
+                    "content": "[Common Nouns](nouns1,page)",
                     "firstTermIdx": 211,
                     "lastTermIdx": 212,
                     "terminals": [
@@ -15693,12 +15696,12 @@
                           "destination": {
                             "page": "nouns1",
                             "directory": "",
-                            "sectionIdx": 0,
-                            "terminalIdx": 0
+                            "linkIdxType": "page",
+                            "idx": -9999
                           },
                           "className": "",
                           "style": "",
-                          "linkIdx": 2
+                          "linkIdx": -9999
                         }
                       }
                     ],
@@ -15735,7 +15738,7 @@
                 "sentences": [
                   {
                     "id": 38,
-                    "content": "[Subject/Verb conjugation](commonverbs_fillin,0,0)",
+                    "content": "[Subject/Verb conjugation](commonverbs_fillin,page)",
                     "firstTermIdx": 213,
                     "lastTermIdx": 215,
                     "terminals": [
@@ -15930,12 +15933,12 @@
                           "destination": {
                             "page": "commonverbs_fillin",
                             "directory": "",
-                            "sectionIdx": 0,
-                            "terminalIdx": 0
+                            "linkIdxType": "page",
+                            "idx": -9999
                           },
                           "className": "",
                           "style": "",
-                          "linkIdx": 3
+                          "linkIdx": -9999
                         }
                       }
                     ],
@@ -15972,7 +15975,7 @@
                 "sentences": [
                   {
                     "id": 39,
-                    "content": "[Practicing Verbs](verbs2,0,0)",
+                    "content": "[Practicing Verbs](verbs2,page)",
                     "firstTermIdx": 216,
                     "lastTermIdx": 217,
                     "terminals": [
@@ -16097,12 +16100,12 @@
                           "destination": {
                             "page": "verbs2",
                             "directory": "",
-                            "sectionIdx": 0,
-                            "terminalIdx": 0
+                            "linkIdxType": "page",
+                            "idx": -9999
                           },
                           "className": "",
                           "style": "",
-                          "linkIdx": 4
+                          "linkIdx": -9999
                         }
                       }
                     ],
@@ -16139,7 +16142,7 @@
                 "sentences": [
                   {
                     "id": 40,
-                    "content": "[Prepositions](preposition1,0,0)",
+                    "content": "[Prepositions](preposition1,terminal, 1)",
                     "firstTermIdx": 218,
                     "lastTermIdx": 218,
                     "terminals": [
@@ -16194,12 +16197,12 @@
                           "destination": {
                             "page": "preposition1",
                             "directory": "",
-                            "sectionIdx": 0,
-                            "terminalIdx": 0
+                            "linkIdxType": "terminal",
+                            "idx": 1
                           },
                           "className": "",
                           "style": "",
-                          "linkIdx": 5
+                          "linkIdx": -9999
                         }
                       }
                     ],
@@ -16957,7 +16960,7 @@
                 "sentences": [
                   {
                     "id": 43,
-                    "content": "[Foods](sentcompletion_food, 0,0)",
+                    "content": "[Foods](sentcompletion_food,page)",
                     "firstTermIdx": 228,
                     "lastTermIdx": 228,
                     "terminals": [
@@ -17012,12 +17015,12 @@
                           "destination": {
                             "page": "sentcompletion_food",
                             "directory": "",
-                            "sectionIdx": 0,
-                            "terminalIdx": 0
+                            "linkIdxType": "page",
+                            "idx": -9999
                           },
                           "className": "",
                           "style": "",
-                          "linkIdx": 6
+                          "linkIdx": -9999
                         }
                       }
                     ],
@@ -17054,7 +17057,7 @@
                 "sentences": [
                   {
                     "id": 44,
-                    "content": "[Social Speech](sentcompletion_socialspeech, 0,0)",
+                    "content": "[Social Speech](sentcompletion_socialspeech,page)",
                     "firstTermIdx": 229,
                     "lastTermIdx": 230,
                     "terminals": [
@@ -17179,12 +17182,12 @@
                           "destination": {
                             "page": "sentcompletion_socialspeech",
                             "directory": "",
-                            "sectionIdx": 0,
-                            "terminalIdx": 0
+                            "linkIdxType": "page",
+                            "idx": -9999
                           },
                           "className": "",
                           "style": "",
-                          "linkIdx": 7
+                          "linkIdx": -9999
                         }
                       }
                     ],
@@ -17221,7 +17224,7 @@
                 "sentences": [
                   {
                     "id": 45,
-                    "content": "[Things To Wear](sentcompletion_thingstowear, 0,0)",
+                    "content": "[Things To Wear](sentcompletion_thingstowear,page)",
                     "firstTermIdx": 231,
                     "lastTermIdx": 233,
                     "terminals": [
@@ -17416,12 +17419,12 @@
                           "destination": {
                             "page": "sentcompletion_thingstowear",
                             "directory": "",
-                            "sectionIdx": 0,
-                            "terminalIdx": 0
+                            "linkIdxType": "page",
+                            "idx": -9999
                           },
                           "className": "",
                           "style": "",
-                          "linkIdx": 8
+                          "linkIdx": -9999
                         }
                       }
                     ],
@@ -17458,7 +17461,7 @@
                 "sentences": [
                   {
                     "id": 46,
-                    "content": "[Household Tasks](sentcompletion_householdtasks, 0,0)",
+                    "content": "[Household Tasks](sentcompletion_householdtasks,page)",
                     "firstTermIdx": 234,
                     "lastTermIdx": 235,
                     "terminals": [
@@ -17583,12 +17586,12 @@
                           "destination": {
                             "page": "sentcompletion_householdtasks",
                             "directory": "",
-                            "sectionIdx": 0,
-                            "terminalIdx": 0
+                            "linkIdxType": "page",
+                            "idx": -9999
                           },
                           "className": "",
                           "style": "",
-                          "linkIdx": 9
+                          "linkIdx": -9999
                         }
                       }
                     ],
@@ -17625,7 +17628,7 @@
                 "sentences": [
                   {
                     "id": 47,
-                    "content": "[Friends and Family](sentcompletion_friendsandfamily, 0,0)",
+                    "content": "[Friends and Family](sentcompletion_friendsandfamily,page)",
                     "firstTermIdx": 236,
                     "lastTermIdx": 238,
                     "terminals": [
@@ -17820,12 +17823,12 @@
                           "destination": {
                             "page": "sentcompletion_friendsandfamily",
                             "directory": "",
-                            "sectionIdx": 0,
-                            "terminalIdx": 0
+                            "linkIdxType": "page",
+                            "idx": -9999
                           },
                           "className": "",
                           "style": "",
-                          "linkIdx": 10
+                          "linkIdx": -9999
                         }
                       }
                     ],
@@ -17862,7 +17865,7 @@
                 "sentences": [
                   {
                     "id": 48,
-                    "content": "[Holidays and Recreation](sentcompletion_holidaysrec, 0,0)",
+                    "content": "[Holidays and Recreation](sentcompletion_holidaysrec,page)",
                     "firstTermIdx": 239,
                     "lastTermIdx": 241,
                     "terminals": [
@@ -18057,12 +18060,12 @@
                           "destination": {
                             "page": "sentcompletion_holidaysrec",
                             "directory": "",
-                            "sectionIdx": 0,
-                            "terminalIdx": 0
+                            "linkIdxType": "page",
+                            "idx": -9999
                           },
                           "className": "",
                           "style": "",
-                          "linkIdx": 11
+                          "linkIdx": -9999
                         }
                       }
                     ],
@@ -18099,7 +18102,7 @@
                 "sentences": [
                   {
                     "id": 49,
-                    "content": "[Occupations](sentcompletion_occupations,0,0)",
+                    "content": "[Occupations](sentcompletion_occupations,page)",
                     "firstTermIdx": 242,
                     "lastTermIdx": 242,
                     "terminals": [
@@ -18154,12 +18157,12 @@
                           "destination": {
                             "page": "sentcompletion_occupations",
                             "directory": "",
-                            "sectionIdx": 0,
-                            "terminalIdx": 0
+                            "linkIdxType": "page",
+                            "idx": -9999
                           },
                           "className": "",
                           "style": "",
-                          "linkIdx": 12
+                          "linkIdx": -9999
                         }
                       }
                     ],
@@ -18196,7 +18199,7 @@
                 "sentences": [
                   {
                     "id": 50,
-                    "content": "[Yard work](sentcompletion_yardwork, 0,0)",
+                    "content": "[Yard work](sentcompletion_yardwork,page)",
                     "firstTermIdx": 243,
                     "lastTermIdx": 244,
                     "terminals": [
@@ -18321,12 +18324,12 @@
                           "destination": {
                             "page": "sentcompletion_yardwork",
                             "directory": "",
-                            "sectionIdx": 0,
-                            "terminalIdx": 0
+                            "linkIdxType": "page",
+                            "idx": -9999
                           },
                           "className": "",
                           "style": "",
-                          "linkIdx": 13
+                          "linkIdx": -9999
                         }
                       }
                     ],
@@ -18363,7 +18366,7 @@
                 "sentences": [
                   {
                     "id": 51,
-                    "content": "[State Capitals](sentcompletion_uscities,0,0)",
+                    "content": "[State Capitals](sentcompletion_uscities,page)",
                     "firstTermIdx": 245,
                     "lastTermIdx": 246,
                     "terminals": [
@@ -18488,12 +18491,12 @@
                           "destination": {
                             "page": "sentcompletion_uscities",
                             "directory": "",
-                            "sectionIdx": 0,
-                            "terminalIdx": 0
+                            "linkIdxType": "page",
+                            "idx": -9999
                           },
                           "className": "",
                           "style": "",
-                          "linkIdx": 14
+                          "linkIdx": -9999
                         }
                       }
                     ],
@@ -18806,9 +18809,10 @@
               "link": {
                 "page": "",
                 "directory": "",
-                "sectionIdx": -9999,
-                "terminalIdx": -9999
+                "linkIdxType": "page",
+                "idx": -9999
               },
+              "linkIdx": -9999,
               "className": "imageentry-image",
               "style": ""
             }
@@ -18827,7 +18831,7 @@
               "sentences": [
                 {
                   "id": 55,
-                  "content": "[Verb Flashcards](verbsimages,0,0). ",
+                  "content": "[Verb Flashcards](verbsimages,page). ",
                   "firstTermIdx": 251,
                   "lastTermIdx": 252,
                   "terminals": [
@@ -18952,12 +18956,12 @@
                         "destination": {
                           "page": "verbsimages",
                           "directory": "",
-                          "sectionIdx": 0,
-                          "terminalIdx": 0
+                          "linkIdxType": "page",
+                          "idx": -9999
                         },
                         "className": "",
                         "style": "",
-                        "linkIdx": 15
+                        "linkIdx": -9999
                       }
                     },
                     {
@@ -23210,9 +23214,10 @@
               "link": {
                 "page": "",
                 "directory": "",
-                "sectionIdx": -9999,
-                "terminalIdx": -9999
+                "linkIdxType": "page",
+                "idx": -9999
               },
+              "linkIdx": -9999,
               "className": "imageentry-image",
               "style": ""
             }
@@ -23828,7 +23833,7 @@
                       "sentences": [
                         {
                           "id": 67,
-                          "content": "[My Sentences](sentencebank_ronlyn,0,0)",
+                          "content": "[My Sentences](sentencebank_ronlyn,page)",
                           "firstTermIdx": 319,
                           "lastTermIdx": 320,
                           "terminals": [
@@ -23953,12 +23958,12 @@
                                 "destination": {
                                   "page": "sentencebank_ronlyn",
                                   "directory": "",
-                                  "sectionIdx": 0,
-                                  "terminalIdx": 0
+                                  "linkIdxType": "page",
+                                  "idx": -9999
                                 },
                                 "className": "",
                                 "style": "",
-                                "linkIdx": 16
+                                "linkIdx": -9999
                               }
                             }
                           ],
@@ -23995,7 +24000,7 @@
                       "sentences": [
                         {
                           "id": 68,
-                          "content": "[Three-word Sentences](3wordsentences,0,0)",
+                          "content": "[Three-word Sentences](3wordsentences,page)",
                           "firstTermIdx": 321,
                           "lastTermIdx": 323,
                           "terminals": [
@@ -24190,12 +24195,12 @@
                                 "destination": {
                                   "page": "3wordsentences",
                                   "directory": "",
-                                  "sectionIdx": 0,
-                                  "terminalIdx": 0
+                                  "linkIdxType": "page",
+                                  "idx": -9999
                                 },
                                 "className": "",
                                 "style": "",
-                                "linkIdx": 17
+                                "linkIdx": -9999
                               }
                             }
                           ],
@@ -24232,7 +24237,7 @@
                       "sentences": [
                         {
                           "id": 69,
-                          "content": "[Four-word Sentences](4wordsentences,0,0)",
+                          "content": "[Four-word Sentences](4wordsentences,page)",
                           "firstTermIdx": 324,
                           "lastTermIdx": 326,
                           "terminals": [
@@ -24427,12 +24432,12 @@
                                 "destination": {
                                   "page": "4wordsentences",
                                   "directory": "",
-                                  "sectionIdx": 0,
-                                  "terminalIdx": 0
+                                  "linkIdxType": "page",
+                                  "idx": -9999
                                 },
                                 "className": "",
                                 "style": "",
-                                "linkIdx": 18
+                                "linkIdx": -9999
                               }
                             }
                           ],
@@ -24469,7 +24474,7 @@
                       "sentences": [
                         {
                           "id": 70,
-                          "content": "[Five-word Sentences](5wordsentences,0,0)",
+                          "content": "[Five-word Sentences](5wordsentences,page)",
                           "firstTermIdx": 327,
                           "lastTermIdx": 329,
                           "terminals": [
@@ -24664,12 +24669,12 @@
                                 "destination": {
                                   "page": "5wordsentences",
                                   "directory": "",
-                                  "sectionIdx": 0,
-                                  "terminalIdx": 0
+                                  "linkIdxType": "page",
+                                  "idx": -9999
                                 },
                                 "className": "",
                                 "style": "",
-                                "linkIdx": 19
+                                "linkIdx": -9999
                               }
                             }
                           ],
@@ -24706,7 +24711,7 @@
                       "sentences": [
                         {
                           "id": 71,
-                          "content": "[Six-word Sentences](6wordsentences,0,0)",
+                          "content": "[Six-word Sentences](6wordsentences,page)",
                           "firstTermIdx": 330,
                           "lastTermIdx": 332,
                           "terminals": [
@@ -24901,12 +24906,12 @@
                                 "destination": {
                                   "page": "6wordsentences",
                                   "directory": "",
-                                  "sectionIdx": 0,
-                                  "terminalIdx": 0
+                                  "linkIdxType": "page",
+                                  "idx": -9999
                                 },
                                 "className": "",
                                 "style": "",
-                                "linkIdx": 20
+                                "linkIdx": -9999
                               }
                             }
                           ],
@@ -24943,7 +24948,7 @@
                       "sentences": [
                         {
                           "id": 72,
-                          "content": "[Seven-word Sentences](7wordsentences,0,0)",
+                          "content": "[Seven-word Sentences](7wordsentences,page)",
                           "firstTermIdx": 333,
                           "lastTermIdx": 335,
                           "terminals": [
@@ -25138,12 +25143,12 @@
                                 "destination": {
                                   "page": "7wordsentences",
                                   "directory": "",
-                                  "sectionIdx": 0,
-                                  "terminalIdx": 0
+                                  "linkIdxType": "page",
+                                  "idx": -9999
                                 },
                                 "className": "",
                                 "style": "",
-                                "linkIdx": 21
+                                "linkIdx": -9999
                               }
                             }
                           ],
@@ -25180,7 +25185,7 @@
                       "sentences": [
                         {
                           "id": 73,
-                          "content": "[Ten-word Sentences](10wordsentences,0,0)",
+                          "content": "[Ten-word Sentences](10wordsentences,page)",
                           "firstTermIdx": 336,
                           "lastTermIdx": 338,
                           "terminals": [
@@ -25373,12 +25378,12 @@
                                 "destination": {
                                   "page": "10wordsentences",
                                   "directory": "",
-                                  "sectionIdx": 0,
-                                  "terminalIdx": 0
+                                  "linkIdxType": "page",
+                                  "idx": -9999
                                 },
                                 "className": "",
                                 "style": "",
-                                "linkIdx": 22
+                                "linkIdx": -9999
                               }
                             }
                           ],
@@ -25545,7 +25550,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 0,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -25575,7 +25580,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 0,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -25605,7 +25610,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 0,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -27885,7 +27890,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 1,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -27915,7 +27920,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 1,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -27945,7 +27950,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 1,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -31755,7 +31760,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 2,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -31785,7 +31790,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 2,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -31815,7 +31820,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 3,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -31845,7 +31850,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 3,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -31875,7 +31880,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 3,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -31905,7 +31910,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 4,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -31935,7 +31940,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 4,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -31965,7 +31970,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 5,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -32265,7 +32270,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 6,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -32295,7 +32300,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 7,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -32325,7 +32330,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 7,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -32355,7 +32360,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 8,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -32385,7 +32390,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 8,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -32415,7 +32420,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 8,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -32445,7 +32450,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 9,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -32475,7 +32480,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 9,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -32505,7 +32510,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 10,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -32535,7 +32540,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 10,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -32565,7 +32570,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 10,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -32595,7 +32600,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 11,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -32625,7 +32630,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 11,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -32655,7 +32660,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 11,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -32685,7 +32690,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 12,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -32715,7 +32720,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 13,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -32745,7 +32750,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 13,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -32775,7 +32780,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 14,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -32805,7 +32810,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 14,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -32955,7 +32960,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 15,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -32985,7 +32990,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 15,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -34995,7 +35000,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 16,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -35025,7 +35030,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 16,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -35055,7 +35060,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 17,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -35085,7 +35090,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 17,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -35115,7 +35120,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 17,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -35145,7 +35150,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 18,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -35175,7 +35180,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 18,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -35205,7 +35210,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 18,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -35235,7 +35240,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 19,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -35265,7 +35270,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 19,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -35295,7 +35300,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 19,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -35325,7 +35330,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 20,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -35355,7 +35360,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 20,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -35385,7 +35390,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 20,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -35415,7 +35420,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 21,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -35445,7 +35450,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 21,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -35475,7 +35480,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 21,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -35505,7 +35510,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 22,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -35535,7 +35540,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 22,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -35563,7 +35568,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 22,
+      "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -36261,9 +36266,9 @@
       "label": "My Stroke Story",
       "destination": {
         "page": "mystrokevc",
-        "directory": "",
-        "sectionIdx": 0,
-        "terminalIdx": 0
+        "directory": "dist\\",
+        "linkIdxType": "page",
+        "idx": -9999
       },
       "valid": true
     },
@@ -36271,9 +36276,9 @@
       "label": "My Aphasia Strategies",
       "destination": {
         "page": "mystrategies",
-        "directory": "",
-        "sectionIdx": 0,
-        "terminalIdx": 0
+        "directory": "dist\\",
+        "linkIdxType": "page",
+        "idx": -9999
       },
       "valid": true
     },
@@ -36281,9 +36286,9 @@
       "label": "Common Nouns",
       "destination": {
         "page": "nouns1",
-        "directory": "",
-        "sectionIdx": 0,
-        "terminalIdx": 0
+        "directory": "dist\\",
+        "linkIdxType": "page",
+        "idx": -9999
       },
       "valid": true
     },
@@ -36291,9 +36296,9 @@
       "label": "Subject/Verb conjugation",
       "destination": {
         "page": "commonverbs_fillin",
-        "directory": "",
-        "sectionIdx": 0,
-        "terminalIdx": 0
+        "directory": "dist\\",
+        "linkIdxType": "page",
+        "idx": -9999
       },
       "valid": true
     },
@@ -36301,9 +36306,9 @@
       "label": "Practicing Verbs",
       "destination": {
         "page": "verbs2",
-        "directory": "",
-        "sectionIdx": 0,
-        "terminalIdx": 0
+        "directory": "dist\\",
+        "linkIdxType": "page",
+        "idx": -9999
       },
       "valid": true
     },
@@ -36311,9 +36316,9 @@
       "label": "Prepositions",
       "destination": {
         "page": "preposition1",
-        "directory": "",
-        "sectionIdx": 0,
-        "terminalIdx": 0
+        "directory": "dist\\",
+        "linkIdxType": "terminal",
+        "idx": 1
       },
       "valid": true
     },
@@ -36321,9 +36326,9 @@
       "label": "Foods",
       "destination": {
         "page": "sentcompletion_food",
-        "directory": "",
-        "sectionIdx": 0,
-        "terminalIdx": 0
+        "directory": "dist\\",
+        "linkIdxType": "page",
+        "idx": -9999
       },
       "valid": true
     },
@@ -36331,9 +36336,9 @@
       "label": "Social Speech",
       "destination": {
         "page": "sentcompletion_socialspeech",
-        "directory": "",
-        "sectionIdx": 0,
-        "terminalIdx": 0
+        "directory": "dist\\",
+        "linkIdxType": "page",
+        "idx": -9999
       },
       "valid": true
     },
@@ -36341,9 +36346,9 @@
       "label": "Things To Wear",
       "destination": {
         "page": "sentcompletion_thingstowear",
-        "directory": "",
-        "sectionIdx": 0,
-        "terminalIdx": 0
+        "directory": "dist\\",
+        "linkIdxType": "page",
+        "idx": -9999
       },
       "valid": true
     },
@@ -36351,9 +36356,9 @@
       "label": "Household Tasks",
       "destination": {
         "page": "sentcompletion_householdtasks",
-        "directory": "",
-        "sectionIdx": 0,
-        "terminalIdx": 0
+        "directory": "dist\\",
+        "linkIdxType": "page",
+        "idx": -9999
       },
       "valid": true
     },
@@ -36361,9 +36366,9 @@
       "label": "Friends and Family",
       "destination": {
         "page": "sentcompletion_friendsandfamily",
-        "directory": "",
-        "sectionIdx": 0,
-        "terminalIdx": 0
+        "directory": "dist\\",
+        "linkIdxType": "page",
+        "idx": -9999
       },
       "valid": true
     },
@@ -36371,9 +36376,9 @@
       "label": "Holidays and Recreation",
       "destination": {
         "page": "sentcompletion_holidaysrec",
-        "directory": "",
-        "sectionIdx": 0,
-        "terminalIdx": 0
+        "directory": "dist\\",
+        "linkIdxType": "page",
+        "idx": -9999
       },
       "valid": true
     },
@@ -36381,9 +36386,9 @@
       "label": "Occupations",
       "destination": {
         "page": "sentcompletion_occupations",
-        "directory": "",
-        "sectionIdx": 0,
-        "terminalIdx": 0
+        "directory": "dist\\",
+        "linkIdxType": "page",
+        "idx": -9999
       },
       "valid": true
     },
@@ -36391,9 +36396,9 @@
       "label": "Yard work",
       "destination": {
         "page": "sentcompletion_yardwork",
-        "directory": "",
-        "sectionIdx": 0,
-        "terminalIdx": 0
+        "directory": "dist\\",
+        "linkIdxType": "page",
+        "idx": -9999
       },
       "valid": true
     },
@@ -36401,9 +36406,9 @@
       "label": "State Capitals",
       "destination": {
         "page": "sentcompletion_uscities",
-        "directory": "",
-        "sectionIdx": 0,
-        "terminalIdx": 0
+        "directory": "dist\\",
+        "linkIdxType": "page",
+        "idx": -9999
       },
       "valid": true
     },
@@ -36411,9 +36416,9 @@
       "label": "Verb Flashcards",
       "destination": {
         "page": "verbsimages",
-        "directory": "",
-        "sectionIdx": 0,
-        "terminalIdx": 0
+        "directory": "dist\\",
+        "linkIdxType": "page",
+        "idx": -9999
       },
       "valid": true
     },
@@ -36421,9 +36426,9 @@
       "label": "My Sentences",
       "destination": {
         "page": "sentencebank_ronlyn",
-        "directory": "",
-        "sectionIdx": 0,
-        "terminalIdx": 0
+        "directory": "dist\\",
+        "linkIdxType": "page",
+        "idx": -9999
       },
       "valid": true
     },
@@ -36431,9 +36436,9 @@
       "label": "Three-word Sentences",
       "destination": {
         "page": "3wordsentences",
-        "directory": "",
-        "sectionIdx": 0,
-        "terminalIdx": 0
+        "directory": "dist\\",
+        "linkIdxType": "page",
+        "idx": -9999
       },
       "valid": true
     },
@@ -36441,9 +36446,9 @@
       "label": "Four-word Sentences",
       "destination": {
         "page": "4wordsentences",
-        "directory": "",
-        "sectionIdx": 0,
-        "terminalIdx": 0
+        "directory": "dist\\",
+        "linkIdxType": "page",
+        "idx": -9999
       },
       "valid": true
     },
@@ -36451,9 +36456,9 @@
       "label": "Five-word Sentences",
       "destination": {
         "page": "5wordsentences",
-        "directory": "",
-        "sectionIdx": 0,
-        "terminalIdx": 0
+        "directory": "dist\\",
+        "linkIdxType": "page",
+        "idx": -9999
       },
       "valid": true
     },
@@ -36461,9 +36466,9 @@
       "label": "Six-word Sentences",
       "destination": {
         "page": "6wordsentences",
-        "directory": "",
-        "sectionIdx": 0,
-        "terminalIdx": 0
+        "directory": "dist\\",
+        "linkIdxType": "page",
+        "idx": -9999
       },
       "valid": true
     },
@@ -36471,9 +36476,9 @@
       "label": "Seven-word Sentences",
       "destination": {
         "page": "7wordsentences",
-        "directory": "",
-        "sectionIdx": 0,
-        "terminalIdx": 0
+        "directory": "dist\\",
+        "linkIdxType": "page",
+        "idx": -9999
       },
       "valid": true
     },
@@ -36481,9 +36486,9 @@
       "label": "Ten-word Sentences",
       "destination": {
         "page": "10wordsentences",
-        "directory": "",
-        "sectionIdx": 0,
-        "terminalIdx": 0
+        "directory": "dist\\",
+        "linkIdxType": "page",
+        "idx": -9999
       },
       "valid": true
     }
