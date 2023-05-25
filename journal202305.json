@@ -9,8 +9,8 @@
   "version": "20230423.1",
   "pageFormatType": 0,
   "created": "5/23/2023",
-  "modified": "Wed May 24 2023 16:10:57 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Wed May 24 2023 16:10:57 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Wed May 24 2023 20:27:36 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Wed May 24 2023 20:27:36 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -4360,7 +4360,9 @@
                     "content": "23",
                     "cues": [],
                     "termIdx": 58,
-                    "nextTermIdx": [],
+                    "nextTermIdx": [
+                      59
+                    ],
                     "prevTermIdx": [
                       57
                     ],
@@ -4396,7 +4398,7 @@
       "name": "",
       "description": "",
       "firstTermIdx": 59,
-      "lastTermIdx": 58,
+      "lastTermIdx": 61,
       "items": [],
       "type": "image_entry",
       "meta": {
@@ -6192,7 +6194,9 @@
       "content": "23",
       "cues": [],
       "termIdx": 58,
-      "nextTermIdx": [],
+      "nextTermIdx": [
+        59
+      ],
       "prevTermIdx": [
         57
       ],
@@ -6214,6 +6218,94 @@
       "italics": false,
       "markupTag": false,
       "sentenceIdx": 11,
+      "sectionIdx": 0
+    },
+    {
+      "content": "Sunil",
+      "cues": [],
+      "termIdx": 59,
+      "nextTermIdx": [
+        60
+      ],
+      "prevTermIdx": [
+        58
+      ],
+      "altpronunciation": "",
+      "altrecognition": "",
+      "recitable": true,
+      "audible": true,
+      "linkable": false,
+      "visible": true,
+      "visited": false,
+      "numberAsNumerals": false,
+      "linkIdx": 1,
+      "hintsIdx": -9999,
+      "fillin": {
+        "sectionIdx": -9999,
+        "responseIdx": -9999
+      },
+      "bold": false,
+      "italics": false,
+      "markupTag": false,
+      "sentenceIdx": 12,
+      "sectionIdx": 0
+    },
+    {
+      "content": "and",
+      "cues": [],
+      "termIdx": 60,
+      "nextTermIdx": [
+        61
+      ],
+      "prevTermIdx": [
+        59
+      ],
+      "altpronunciation": "",
+      "altrecognition": "",
+      "recitable": true,
+      "audible": true,
+      "linkable": false,
+      "visible": true,
+      "visited": false,
+      "numberAsNumerals": false,
+      "linkIdx": 1,
+      "hintsIdx": -9999,
+      "fillin": {
+        "sectionIdx": -9999,
+        "responseIdx": -9999
+      },
+      "bold": false,
+      "italics": false,
+      "markupTag": false,
+      "sentenceIdx": 12,
+      "sectionIdx": 0
+    },
+    {
+      "content": "Anisha",
+      "cues": [],
+      "termIdx": 61,
+      "nextTermIdx": [],
+      "prevTermIdx": [
+        60
+      ],
+      "altpronunciation": "",
+      "altrecognition": "",
+      "recitable": true,
+      "audible": true,
+      "linkable": false,
+      "visible": true,
+      "visited": false,
+      "numberAsNumerals": false,
+      "linkIdx": 1,
+      "hintsIdx": -9999,
+      "fillin": {
+        "sectionIdx": -9999,
+        "responseIdx": -9999
+      },
+      "bold": false,
+      "italics": false,
+      "markupTag": false,
+      "sentenceIdx": 12,
       "sectionIdx": 0
     }
   ],
@@ -6339,8 +6431,8 @@
     },
     {
       "firstTermIdx": 59,
-      "lastTermIdx": 58,
-      "lastPunctuation": ""
+      "lastTermIdx": 61,
+      "lastPunctuation": ","
     }
   ],
   "linkList": [
@@ -6355,6 +6447,18 @@
         "terminalIdx": -9999
       },
       "valid": true
+    },
+    {
+      "label": "",
+      "destination": {
+        "page": "",
+        "directory": "",
+        "linkIdxType": "page",
+        "headingIdx": -9999,
+        "sectionIdx": -9999,
+        "terminalIdx": -9999
+      },
+      "valid": false
     }
   ],
   "fillinList": []
