@@ -8,9 +8,9 @@
   "category": "Sentence Completion (trailing word)",
   "version": "20230423.1",
   "pageFormatType": 0,
-  "created": "Wed May 17 2023 08:53:23 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Wed May 17 2023 08:53:23 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Wed May 17 2023 08:53:23 GMT-0700 (Pacific Daylight Time)",
+  "created": "Sat Jun 24 2023 11:48:23 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Sat Jun 24 2023 11:48:23 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Sat Jun 24 2023 11:48:23 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -46,6 +46,12 @@
               "termIdx": 0,
               "content": "formats",
               "cueList": "",
+              "cues": {
+                "partOfSpeech": "unknown",
+                "definition": "",
+                "image": "",
+                "alternatives": []
+              },
               "firstTermIdx": 0,
               "lastTermIdx": 0,
               "type": 17,
@@ -103,6 +109,12 @@
                 "termIdx": -9999,
                 "content": "February 10, 2010",
                 "cueList": "",
+                "cues": {
+                  "partOfSpeech": "unknown",
+                  "definition": "",
+                  "image": "",
+                  "alternatives": []
+                },
                 "firstTermIdx": 1,
                 "lastTermIdx": 4,
                 "type": 2,
@@ -348,6 +360,12 @@
                 "termIdx": -9999,
                 "content": "(408) 267-6076",
                 "cueList": "",
+                "cues": {
+                  "partOfSpeech": "unknown",
+                  "definition": "",
+                  "image": "",
+                  "alternatives": []
+                },
                 "firstTermIdx": 5,
                 "lastTermIdx": 14,
                 "type": 10,
@@ -788,6 +806,12 @@
                 "termIdx": 15,
                 "content": "10",
                 "cueList": "",
+                "cues": {
+                  "partOfSpeech": "unknown",
+                  "definition": "",
+                  "image": "",
+                  "alternatives": []
+                },
                 "firstTermIdx": 15,
                 "lastTermIdx": 15,
                 "type": 17,
@@ -825,6 +849,12 @@
                 "termIdx": -9999,
                 "content": " ",
                 "cueList": "",
+                "cues": {
+                  "partOfSpeech": "unknown",
+                  "definition": "",
+                  "image": "",
+                  "alternatives": []
+                },
                 "firstTermIdx": -9999,
                 "lastTermIdx": -9999,
                 "type": 16,
@@ -858,6 +888,12 @@
                 "termIdx": 16,
                 "content": "20",
                 "cueList": "",
+                "cues": {
+                  "partOfSpeech": "unknown",
+                  "definition": "",
+                  "image": "",
+                  "alternatives": []
+                },
                 "firstTermIdx": 16,
                 "lastTermIdx": 16,
                 "type": 17,
@@ -895,6 +931,12 @@
                 "termIdx": -9999,
                 "content": " ",
                 "cueList": "",
+                "cues": {
+                  "partOfSpeech": "unknown",
+                  "definition": "",
+                  "image": "",
+                  "alternatives": []
+                },
                 "firstTermIdx": -9999,
                 "lastTermIdx": -9999,
                 "type": 16,
@@ -928,6 +970,12 @@
                 "termIdx": 17,
                 "content": "30",
                 "cueList": "",
+                "cues": {
+                  "partOfSpeech": "unknown",
+                  "definition": "",
+                  "image": "",
+                  "alternatives": []
+                },
                 "firstTermIdx": 17,
                 "lastTermIdx": 17,
                 "type": 17,
@@ -983,10 +1031,12 @@
           "layout": "grid",
           "sortOrder": "insert",
           "gridColumns": 6,
-          "showResponseHints": false,
-          "showPromptHints": false,
-          "groupByCategory": false,
+          "showResponseTags": false,
+          "showPromptTags": false,
+          "groupByTags": false,
           "showResponsesInPrompts": false,
+          "responsesLayout": "above",
+          "showAlternatives": false,
           "unique": true,
           "showReferenceCount": true,
           "helpfulness": -1
