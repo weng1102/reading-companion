@@ -8,9 +8,9 @@
   "category": "Sentence Completion (trailing word)",
   "version": "20230423.1",
   "pageFormatType": 0,
-  "created": "Tue Jun 27 2023 22:00:11 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Tue Jun 27 2023 22:00:11 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Tue Jun 27 2023 22:00:11 GMT-0700 (Pacific Daylight Time)",
+  "created": "Thu Jun 29 2023 15:46:49 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Thu Jun 29 2023 15:46:49 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Thu Jun 29 2023 15:46:49 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -2517,7 +2517,7 @@
                       "sentences": [
                         {
                           "id": 3,
-                          "content": "Spaghetti and [_meatballs=(noun)_].",
+                          "content": "Spaghetti=(noun) and [_meatballs=(noun)_].",
                           "firstTermIdx": 30,
                           "lastTermIdx": 32,
                           "terminals": [
@@ -2525,9 +2525,9 @@
                               "id": 0,
                               "termIdx": 30,
                               "content": "Spaghetti",
-                              "cueList": "",
+                              "cueList": "noun",
                               "cues": {
-                                "partOfSpeech": "unknown",
+                                "partOfSpeech": "noun",
                                 "definition": "",
                                 "image": "",
                                 "alternatives": []
@@ -2537,7 +2537,9 @@
                               "type": 17,
                               "meta": {
                                 "content": "Spaghetti",
-                                "cues": [],
+                                "cues": [
+                                  "noun"
+                                ],
                                 "termIdx": 30,
                                 "nextTermIdx": [
                                   31
@@ -2823,7 +2825,7 @@
                       "sentences": [
                         {
                           "id": 4,
-                          "content": "Sausage and mushroom [_pizza_].",
+                          "content": "Sausage=(noun) and mushroom [_pizza=(noun)_].",
                           "firstTermIdx": 33,
                           "lastTermIdx": 36,
                           "terminals": [
@@ -2831,9 +2833,9 @@
                               "id": 0,
                               "termIdx": 33,
                               "content": "Sausage",
-                              "cueList": "",
+                              "cueList": "noun",
                               "cues": {
-                                "partOfSpeech": "unknown",
+                                "partOfSpeech": "noun",
                                 "definition": "",
                                 "image": "",
                                 "alternatives": []
@@ -2843,7 +2845,9 @@
                               "type": 17,
                               "meta": {
                                 "content": "Sausage",
-                                "cues": [],
+                                "cues": [
+                                  "noun"
+                                ],
                                 "termIdx": 33,
                                 "nextTermIdx": [
                                   34
@@ -3093,9 +3097,9 @@
                                     "id": 0,
                                     "termIdx": 36,
                                     "content": "pizza",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "unknown",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -3105,7 +3109,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "pizza",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 36,
                                       "nextTermIdx": [
                                         37
@@ -3209,7 +3215,7 @@
                       "sentences": [
                         {
                           "id": 5,
-                          "content": "Sirloin [_steak_].",
+                          "content": "Sirloin [_steak=(noun)_].",
                           "firstTermIdx": 37,
                           "lastTermIdx": 38,
                           "terminals": [
@@ -3315,9 +3321,9 @@
                                     "id": 0,
                                     "termIdx": 38,
                                     "content": "steak",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "unknown",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -3327,7 +3333,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "steak",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 38,
                                       "nextTermIdx": [
                                         39
@@ -3431,7 +3439,7 @@
                       "sentences": [
                         {
                           "id": 6,
-                          "content": "Fish and [_chips_].",
+                          "content": "Fish=(noun) and [_chips_].",
                           "firstTermIdx": 39,
                           "lastTermIdx": 41,
                           "terminals": [
@@ -3439,9 +3447,9 @@
                               "id": 0,
                               "termIdx": 39,
                               "content": "Fish",
-                              "cueList": "",
+                              "cueList": "noun",
                               "cues": {
-                                "partOfSpeech": "unknown",
+                                "partOfSpeech": "noun",
                                 "definition": "",
                                 "image": "",
                                 "alternatives": []
@@ -3451,7 +3459,9 @@
                               "type": 17,
                               "meta": {
                                 "content": "Fish",
-                                "cues": [],
+                                "cues": [
+                                  "noun"
+                                ],
                                 "termIdx": 39,
                                 "nextTermIdx": [
                                   40
@@ -3735,7 +3745,7 @@
                       "sentences": [
                         {
                           "id": 7,
-                          "content": "Prime rib [_roast_].",
+                          "content": "Prime rib [_roast=(noun)_].",
                           "firstTermIdx": 42,
                           "lastTermIdx": 44,
                           "terminals": [
@@ -3923,9 +3933,9 @@
                                     "id": 0,
                                     "termIdx": 44,
                                     "content": "roast",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "unknown",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -3935,7 +3945,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "roast",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 44,
                                       "nextTermIdx": [
                                         45
@@ -4039,7 +4051,7 @@
                       "sentences": [
                         {
                           "id": 8,
-                          "content": "Baked [_potato_].",
+                          "content": "Baked [_potato=(noun)_].",
                           "firstTermIdx": 45,
                           "lastTermIdx": 46,
                           "terminals": [
@@ -4145,9 +4157,9 @@
                                     "id": 0,
                                     "termIdx": 46,
                                     "content": "potato",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "unknown",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -4157,7 +4169,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "potato",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 46,
                                       "nextTermIdx": [
                                         47
@@ -4261,7 +4275,7 @@
                       "sentences": [
                         {
                           "id": 9,
-                          "content": "Pepperoni [_pizza_].",
+                          "content": "Pepperoni=(noun) [_pizza=(noun)_].",
                           "firstTermIdx": 47,
                           "lastTermIdx": 48,
                           "terminals": [
@@ -4269,9 +4283,9 @@
                               "id": 0,
                               "termIdx": 47,
                               "content": "Pepperoni",
-                              "cueList": "",
+                              "cueList": "noun",
                               "cues": {
-                                "partOfSpeech": "unknown",
+                                "partOfSpeech": "noun",
                                 "definition": "",
                                 "image": "",
                                 "alternatives": []
@@ -4281,7 +4295,9 @@
                               "type": 17,
                               "meta": {
                                 "content": "Pepperoni",
-                                "cues": [],
+                                "cues": [
+                                  "noun"
+                                ],
                                 "termIdx": 47,
                                 "nextTermIdx": [
                                   48
@@ -4367,9 +4383,9 @@
                                     "id": 0,
                                     "termIdx": 48,
                                     "content": "pizza",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "unknown",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -4379,7 +4395,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "pizza",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 48,
                                       "nextTermIdx": [
                                         49
@@ -4483,7 +4501,7 @@
                       "sentences": [
                         {
                           "id": 10,
-                          "content": "Roast [_beef_].",
+                          "content": "Roast [_beef=(noun)_].",
                           "firstTermIdx": 49,
                           "lastTermIdx": 50,
                           "terminals": [
@@ -4589,9 +4607,9 @@
                                     "id": 0,
                                     "termIdx": 50,
                                     "content": "beef",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "unknown",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -4601,7 +4619,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "beef",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 50,
                                       "nextTermIdx": [
                                         51
@@ -4705,7 +4725,7 @@
                       "sentences": [
                         {
                           "id": 11,
-                          "content": "Grilled cheese [_sandwich_].",
+                          "content": "Grilled cheese=(noun) [_sandwich=(noun)_].",
                           "firstTermIdx": 51,
                           "lastTermIdx": 53,
                           "terminals": [
@@ -4795,9 +4815,9 @@
                               "id": 0,
                               "termIdx": 52,
                               "content": "cheese",
-                              "cueList": "",
+                              "cueList": "noun",
                               "cues": {
-                                "partOfSpeech": "unknown",
+                                "partOfSpeech": "noun",
                                 "definition": "",
                                 "image": "",
                                 "alternatives": []
@@ -4807,7 +4827,9 @@
                               "type": 17,
                               "meta": {
                                 "content": "cheese",
-                                "cues": [],
+                                "cues": [
+                                  "noun"
+                                ],
                                 "termIdx": 52,
                                 "nextTermIdx": [
                                   53
@@ -4893,9 +4915,9 @@
                                     "id": 0,
                                     "termIdx": 53,
                                     "content": "sandwich",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "unknown",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -4905,7 +4927,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "sandwich",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 53,
                                       "nextTermIdx": [
                                         54
@@ -5009,7 +5033,7 @@
                       "sentences": [
                         {
                           "id": 12,
-                          "content": "Caesar [_salad_].",
+                          "content": "Caesar [_salad=(noun)_].",
                           "firstTermIdx": 54,
                           "lastTermIdx": 55,
                           "terminals": [
@@ -5115,9 +5139,9 @@
                                     "id": 0,
                                     "termIdx": 55,
                                     "content": "salad",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "unknown",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -5127,7 +5151,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "salad",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 55,
                                       "nextTermIdx": [
                                         56
@@ -5231,7 +5257,7 @@
                       "sentences": [
                         {
                           "id": 13,
-                          "content": "Mashed [_potatoes_]",
+                          "content": "Mashed [_potatoes=(noun)_]",
                           "firstTermIdx": 56,
                           "lastTermIdx": 57,
                           "terminals": [
@@ -5337,9 +5363,9 @@
                                     "id": 0,
                                     "termIdx": 57,
                                     "content": "potatoes",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "unknown",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -5349,7 +5375,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "potatoes",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 57,
                                       "nextTermIdx": [
                                         58
@@ -18504,7 +18532,9 @@
     },
     {
       "content": "Spaghetti",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 30,
       "nextTermIdx": [
         31
@@ -18596,7 +18626,9 @@
     },
     {
       "content": "Sausage",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 33,
       "nextTermIdx": [
         34
@@ -18686,7 +18718,9 @@
     },
     {
       "content": "pizza",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 36,
       "nextTermIdx": [
         37
@@ -18746,7 +18780,9 @@
     },
     {
       "content": "steak",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 38,
       "nextTermIdx": [
         39
@@ -18776,7 +18812,9 @@
     },
     {
       "content": "Fish",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 39,
       "nextTermIdx": [
         40
@@ -18926,7 +18964,9 @@
     },
     {
       "content": "roast",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 44,
       "nextTermIdx": [
         45
@@ -18986,7 +19026,9 @@
     },
     {
       "content": "potato",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 46,
       "nextTermIdx": [
         47
@@ -19016,7 +19058,9 @@
     },
     {
       "content": "Pepperoni",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 47,
       "nextTermIdx": [
         48
@@ -19046,7 +19090,9 @@
     },
     {
       "content": "pizza",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 48,
       "nextTermIdx": [
         49
@@ -19106,7 +19152,9 @@
     },
     {
       "content": "beef",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 50,
       "nextTermIdx": [
         51
@@ -19166,7 +19214,9 @@
     },
     {
       "content": "cheese",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 52,
       "nextTermIdx": [
         53
@@ -19196,7 +19246,9 @@
     },
     {
       "content": "sandwich",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 53,
       "nextTermIdx": [
         54
@@ -19256,7 +19308,9 @@
     },
     {
       "content": "salad",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 55,
       "nextTermIdx": [
         56
@@ -19316,7 +19370,9 @@
     },
     {
       "content": "potatoes",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 57,
       "nextTermIdx": [
         58
