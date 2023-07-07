@@ -6,11 +6,11 @@
   "owner": "anonymous",
   "author": "Wen",
   "category": "Sentence Completion (trailing word)",
-  "version": "20230423.1",
+  "version": "20230706.1",
   "pageFormatType": 0,
-  "created": "Sat Jun 24 2023 11:48:23 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Sat Jun 24 2023 11:48:23 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Sat Jun 24 2023 11:48:23 GMT-0700 (Pacific Daylight Time)",
+  "created": "Thu Jul 06 2023 21:52:52 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Thu Jul 06 2023 21:52:52 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Thu Jul 06 2023 21:52:52 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -2951,13 +2951,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 0,
-        "helpPresetLevel": -1,
-        "authorHelpSetting": {
+        "presetLevel": -1,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "insert",
           "promptsLabel": "true",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": false,
           "showPromptTags": true,
@@ -2971,7 +2971,7 @@
         },
         "allowReset": false,
         "promptColumns": 1,
-        "showHelpPresets": false,
+        "showPresets": false,
         "prompts": [
           {
             "id": 0,
@@ -22890,13 +22890,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 1,
-        "helpPresetLevel": -1,
-        "authorHelpSetting": {
+        "presetLevel": -1,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "insert",
           "promptsLabel": "true",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": false,
           "showPromptTags": false,
@@ -22910,7 +22910,7 @@
         },
         "allowReset": false,
         "promptColumns": 1,
-        "showHelpPresets": false,
+        "showPresets": false,
         "prompts": []
       }
     },
@@ -23324,13 +23324,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 2,
-        "helpPresetLevel": -1,
-        "authorHelpSetting": {
+        "presetLevel": -1,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "alphabetical",
           "promptsLabel": "true",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": false,
           "showPromptTags": false,
@@ -23344,7 +23344,7 @@
         },
         "allowReset": false,
         "promptColumns": 1,
-        "showHelpPresets": false,
+        "showPresets": false,
         "prompts": []
       }
     },
@@ -23758,13 +23758,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 3,
-        "helpPresetLevel": -1,
-        "authorHelpSetting": {
+        "presetLevel": -1,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "random",
           "promptsLabel": "true",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": false,
           "showPromptTags": false,
@@ -23778,7 +23778,7 @@
         },
         "allowReset": false,
         "promptColumns": 1,
-        "showHelpPresets": false,
+        "showPresets": false,
         "prompts": []
       }
     },
@@ -24108,13 +24108,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 4,
-        "helpPresetLevel": -1,
-        "authorHelpSetting": {
+        "presetLevel": -1,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "insert",
           "promptsLabel": "true",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": false,
           "showPromptTags": false,
@@ -24128,7 +24128,7 @@
         },
         "allowReset": false,
         "promptColumns": 1,
-        "showHelpPresets": false,
+        "showPresets": false,
         "prompts": []
       }
     },
@@ -32320,14 +32320,14 @@
   "fillinList": [
     {
       "idx": 0,
-      "showHelpPresets": false,
-      "helpPresetLevel": -1,
-      "authorHelpSetting": {
+      "showPresets": false,
+      "presetLevel": -1,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "insert",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": true,
@@ -32339,12 +32339,12 @@
         "showReferenceCount": true,
         "helpfulness": 814
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "insert",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": true,
@@ -32361,257 +32361,257 @@
       "responses": [
         {
           "content": "Denmark",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "France",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Venezuela",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "China",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "England",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Greece",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Spain",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Canada",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Japan",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Argentina",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Iran",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Belgium",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Germany",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Brazil",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Russia",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "India",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Italy",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Egypt",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Ireland",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Cuba",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Philipines",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Vietnam",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Peru",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Austria",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "China",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Sweden",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Norway",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Poland",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "India",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Scotland",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Australia",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Canada",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Canada",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Russia",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Northern",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Ireland",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Germany",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "England",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "South",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Korea",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Finland",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Spain",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Switzerland",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Japan",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "China",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Canada",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Mexico",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Italy",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Israel",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Syria",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Turkey",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         }
       ],
@@ -32620,14 +32620,14 @@
     },
     {
       "idx": 1,
-      "showHelpPresets": false,
-      "helpPresetLevel": -1,
-      "authorHelpSetting": {
+      "showPresets": false,
+      "presetLevel": -1,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "insert",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -32639,12 +32639,12 @@
         "showReferenceCount": true,
         "helpfulness": 314
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "insert",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -32664,14 +32664,14 @@
     },
     {
       "idx": 2,
-      "showHelpPresets": false,
-      "helpPresetLevel": -1,
-      "authorHelpSetting": {
+      "showPresets": false,
+      "presetLevel": -1,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "alphabetical",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -32683,12 +32683,12 @@
         "showReferenceCount": true,
         "helpfulness": 314
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "alphabetical",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -32708,14 +32708,14 @@
     },
     {
       "idx": 3,
-      "showHelpPresets": false,
-      "helpPresetLevel": -1,
-      "authorHelpSetting": {
+      "showPresets": false,
+      "presetLevel": -1,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "random",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -32727,12 +32727,12 @@
         "showReferenceCount": true,
         "helpfulness": 314
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "random",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -32752,14 +32752,14 @@
     },
     {
       "idx": 4,
-      "showHelpPresets": false,
-      "helpPresetLevel": -1,
-      "authorHelpSetting": {
+      "showPresets": false,
+      "presetLevel": -1,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "insert",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -32771,12 +32771,12 @@
         "showReferenceCount": true,
         "helpfulness": 314
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "insert",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,

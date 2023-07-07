@@ -6,11 +6,11 @@
   "owner": "anonymous",
   "author": "Wen",
   "category": "Sentence Completion (trailing word)",
-  "version": "20230423.1",
+  "version": "20230706.1",
   "pageFormatType": 0,
-  "created": "Sat Jun 24 2023 11:48:23 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Sat Jun 24 2023 11:48:23 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Sat Jun 24 2023 11:48:23 GMT-0700 (Pacific Daylight Time)",
+  "created": "Thu Jul 06 2023 21:52:51 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Thu Jul 06 2023 21:52:51 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Thu Jul 06 2023 21:52:51 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -2481,13 +2481,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 0,
-        "helpPresetLevel": 0,
-        "authorHelpSetting": {
+        "presetLevel": 0,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "Responses already filled in",
           "promptsLabel": "Recite the following prompts including the underlined words:",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 7,
           "showResponseTags": true,
           "showPromptTags": true,
@@ -2501,7 +2501,7 @@
         },
         "allowReset": true,
         "promptColumns": 1,
-        "showHelpPresets": true,
+        "showPresets": true,
         "prompts": [
           {
             "id": 0,
@@ -12233,13 +12233,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 1,
-        "helpPresetLevel": 0,
-        "authorHelpSetting": {
+        "presetLevel": 0,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "Responses already filled in",
           "promptsLabel": "Recite the following prompts including the underlined words:",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 7,
           "showResponseTags": true,
           "showPromptTags": true,
@@ -12253,7 +12253,7 @@
         },
         "allowReset": true,
         "promptColumns": 1,
-        "showHelpPresets": true,
+        "showPresets": true,
         "prompts": [
           {
             "id": 0,
@@ -22047,13 +22047,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 2,
-        "helpPresetLevel": 0,
-        "authorHelpSetting": {
+        "presetLevel": 0,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "Responses already filled in",
           "promptsLabel": "Recite the following prompts including the underlined words:",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 7,
           "showResponseTags": true,
           "showPromptTags": true,
@@ -22067,7 +22067,7 @@
         },
         "allowReset": true,
         "promptColumns": 1,
-        "showHelpPresets": true,
+        "showPresets": true,
         "prompts": [
           {
             "id": 0,
@@ -31162,13 +31162,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 3,
-        "helpPresetLevel": 0,
-        "authorHelpSetting": {
+        "presetLevel": 0,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "Responses already filled in",
           "promptsLabel": "Recite the following prompts including the underlined words:",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 7,
           "showResponseTags": true,
           "showPromptTags": true,
@@ -31182,7 +31182,7 @@
         },
         "allowReset": true,
         "promptColumns": 1,
-        "showHelpPresets": true,
+        "showPresets": true,
         "prompts": [
           {
             "id": 0,
@@ -53675,14 +53675,14 @@
   "fillinList": [
     {
       "idx": 0,
-      "showHelpPresets": true,
-      "helpPresetLevel": 0,
-      "authorHelpSetting": {
+      "showPresets": true,
+      "presetLevel": 0,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "Responses already filled in",
         "promptsLabel": "Recite the following prompts including the underlined words:",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 7,
         "showResponseTags": true,
         "showPromptTags": true,
@@ -53694,12 +53694,12 @@
         "showReferenceCount": true,
         "helpfulness": 814
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "Responses already filled in",
         "promptsLabel": "Recite the following prompts including the underlined words:",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 7,
         "showResponseTags": true,
         "showPromptTags": true,
@@ -53716,57 +53716,57 @@
       "responses": [
         {
           "content": "artist",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "waiter",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "cook",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "photographer",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "biologist",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "florist",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "mechanic",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "author",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "mason",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "disc",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "jockey",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         }
       ],
@@ -53775,14 +53775,14 @@
     },
     {
       "idx": 1,
-      "showHelpPresets": true,
-      "helpPresetLevel": 0,
-      "authorHelpSetting": {
+      "showPresets": true,
+      "presetLevel": 0,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "Responses already filled in",
         "promptsLabel": "Recite the following prompts including the underlined words:",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 7,
         "showResponseTags": true,
         "showPromptTags": true,
@@ -53794,12 +53794,12 @@
         "showReferenceCount": true,
         "helpfulness": 814
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "Responses already filled in",
         "promptsLabel": "Recite the following prompts including the underlined words:",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 7,
         "showResponseTags": true,
         "showPromptTags": true,
@@ -53816,52 +53816,52 @@
       "responses": [
         {
           "content": "lawyer",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "veterinarian",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "soldier",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "miner",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "jeweler",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "realtor",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "conductor",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "receptionist",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "candidate",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "professor",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         }
       ],
@@ -53870,14 +53870,14 @@
     },
     {
       "idx": 2,
-      "showHelpPresets": true,
-      "helpPresetLevel": 0,
-      "authorHelpSetting": {
+      "showPresets": true,
+      "presetLevel": 0,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "Responses already filled in",
         "promptsLabel": "Recite the following prompts including the underlined words:",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 7,
         "showResponseTags": true,
         "showPromptTags": true,
@@ -53889,12 +53889,12 @@
         "showReferenceCount": true,
         "helpfulness": 814
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "Responses already filled in",
         "promptsLabel": "Recite the following prompts including the underlined words:",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 7,
         "showResponseTags": true,
         "showPromptTags": true,
@@ -53911,52 +53911,52 @@
       "responses": [
         {
           "content": "geologist",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "pediatrician",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "pharmacist",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "optometrist",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "chauffeur",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "welder",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "journalist",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "architect",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "neurologist",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "astronomer",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         }
       ],
@@ -53965,14 +53965,14 @@
     },
     {
       "idx": 3,
-      "showHelpPresets": true,
-      "helpPresetLevel": 0,
-      "authorHelpSetting": {
+      "showPresets": true,
+      "presetLevel": 0,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "Responses already filled in",
         "promptsLabel": "Recite the following prompts including the underlined words:",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 7,
         "showResponseTags": true,
         "showPromptTags": true,
@@ -53984,12 +53984,12 @@
         "showReferenceCount": true,
         "helpfulness": 814
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "Responses already filled in",
         "promptsLabel": "Recite the following prompts including the underlined words:",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 7,
         "showResponseTags": true,
         "showPromptTags": true,
@@ -54006,47 +54006,47 @@
       "responses": [
         {
           "content": "archaeologist",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "meteorologist",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "trader",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "psychologist",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "banker",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "judge",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "orthodontist",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "dermatologist",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "taxidermist",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         }
       ],

@@ -6,11 +6,11 @@
   "owner": "anonymous",
   "author": "Wen",
   "category": "Sentence Completion (trailing word)",
-  "version": "20230423.1",
+  "version": "20230706.1",
   "pageFormatType": 0,
-  "created": "Sat Jun 24 2023 11:48:23 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Sat Jun 24 2023 11:48:23 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Sat Jun 24 2023 11:48:23 GMT-0700 (Pacific Daylight Time)",
+  "created": "Thu Jul 06 2023 21:52:52 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Thu Jul 06 2023 21:52:52 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Thu Jul 06 2023 21:52:52 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -2869,13 +2869,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 0,
-        "helpPresetLevel": -1,
-        "authorHelpSetting": {
+        "presetLevel": -1,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "insert",
           "promptsLabel": "true",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": false,
           "showPromptTags": true,
@@ -2889,7 +2889,7 @@
         },
         "allowReset": false,
         "promptColumns": 1,
-        "showHelpPresets": false,
+        "showPresets": false,
         "prompts": [
           {
             "id": 0,
@@ -20021,13 +20021,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 1,
-        "helpPresetLevel": -1,
-        "authorHelpSetting": {
+        "presetLevel": -1,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "insert",
           "promptsLabel": "true",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": false,
           "showPromptTags": false,
@@ -20041,7 +20041,7 @@
         },
         "allowReset": false,
         "promptColumns": 1,
-        "showHelpPresets": false,
+        "showPresets": false,
         "prompts": []
       }
     },
@@ -20455,13 +20455,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 2,
-        "helpPresetLevel": -1,
-        "authorHelpSetting": {
+        "presetLevel": -1,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "alphabetical",
           "promptsLabel": "true",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": false,
           "showPromptTags": false,
@@ -20475,7 +20475,7 @@
         },
         "allowReset": false,
         "promptColumns": 1,
-        "showHelpPresets": false,
+        "showPresets": false,
         "prompts": []
       }
     },
@@ -20889,13 +20889,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 3,
-        "helpPresetLevel": -1,
-        "authorHelpSetting": {
+        "presetLevel": -1,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "random",
           "promptsLabel": "true",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": false,
           "showPromptTags": false,
@@ -20909,7 +20909,7 @@
         },
         "allowReset": false,
         "promptColumns": 1,
-        "showHelpPresets": false,
+        "showPresets": false,
         "prompts": []
       }
     },
@@ -21239,13 +21239,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 4,
-        "helpPresetLevel": -1,
-        "authorHelpSetting": {
+        "presetLevel": -1,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "insert",
           "promptsLabel": "true",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": false,
           "showPromptTags": false,
@@ -21259,7 +21259,7 @@
         },
         "allowReset": false,
         "promptColumns": 1,
-        "showHelpPresets": false,
+        "showPresets": false,
         "prompts": []
       }
     },
@@ -28411,14 +28411,14 @@
   "fillinList": [
     {
       "idx": 0,
-      "showHelpPresets": false,
-      "helpPresetLevel": -1,
-      "authorHelpSetting": {
+      "showPresets": false,
+      "presetLevel": -1,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "insert",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": true,
@@ -28430,12 +28430,12 @@
         "showReferenceCount": true,
         "helpfulness": 814
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "insert",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": true,
@@ -28452,262 +28452,262 @@
       "responses": [
         {
           "content": "Oz",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Robin",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Hood",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Wonderland",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Eighty",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Days",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Sundance",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Kid",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Tin",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Roof",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Monte",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Cristo",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Murder",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Ann",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Frank",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Empire",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Roof",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Broadway",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Wind",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Wrath",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Earth",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Notre",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Dame",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Lover",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Arabia",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Orient",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Express",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Bounty",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Lady",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Cuckoo's",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Nest",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Opera",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Miserables",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Greek",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Juliet",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Peace",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Rings",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Mockingbird",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Wild",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Future",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Seven",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Dwarfs",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Beauty",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Professor",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Book",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Pooh",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Beast",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Musketeers",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Giant",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Peach",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "King",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Caribbean",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         }
       ],
@@ -28716,14 +28716,14 @@
     },
     {
       "idx": 1,
-      "showHelpPresets": false,
-      "helpPresetLevel": -1,
-      "authorHelpSetting": {
+      "showPresets": false,
+      "presetLevel": -1,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "insert",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -28735,12 +28735,12 @@
         "showReferenceCount": true,
         "helpfulness": 314
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "insert",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -28760,14 +28760,14 @@
     },
     {
       "idx": 2,
-      "showHelpPresets": false,
-      "helpPresetLevel": -1,
-      "authorHelpSetting": {
+      "showPresets": false,
+      "presetLevel": -1,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "alphabetical",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -28779,12 +28779,12 @@
         "showReferenceCount": true,
         "helpfulness": 314
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "alphabetical",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -28804,14 +28804,14 @@
     },
     {
       "idx": 3,
-      "showHelpPresets": false,
-      "helpPresetLevel": -1,
-      "authorHelpSetting": {
+      "showPresets": false,
+      "presetLevel": -1,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "random",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -28823,12 +28823,12 @@
         "showReferenceCount": true,
         "helpfulness": 314
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "random",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -28848,14 +28848,14 @@
     },
     {
       "idx": 4,
-      "showHelpPresets": false,
-      "helpPresetLevel": -1,
-      "authorHelpSetting": {
+      "showPresets": false,
+      "presetLevel": -1,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "insert",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -28867,12 +28867,12 @@
         "showReferenceCount": true,
         "helpfulness": 314
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "insert",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,

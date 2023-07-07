@@ -6,11 +6,11 @@
   "owner": "Ronlyn",
   "author": "Wen",
   "category": "Verbs with images",
-  "version": "20230423.1",
+  "version": "20230706.1",
   "pageFormatType": 0,
-  "created": "Sat Jun 24 2023 11:48:24 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Sat Jun 24 2023 11:48:24 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Sat Jun 24 2023 11:48:24 GMT-0700 (Pacific Daylight Time)",
+  "created": "Thu Jul 06 2023 21:52:53 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Thu Jul 06 2023 21:52:53 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Thu Jul 06 2023 21:52:53 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -268,13 +268,13 @@
             "type": "fillin",
             "meta": {
               "sectionFillinIdx": 0,
-              "helpPresetLevel": 2,
-              "authorHelpSetting": {
+              "presetLevel": 2,
+              "authorSetting": {
                 "description": "no description",
                 "responsesLabel": "Use the following words:",
                 "promptsLabel": "Recite the following prompts about the images:",
                 "layout": "grid",
-                "sortOrder": "insert",
+                "progressionOrder": "in order",
                 "gridColumns": 6,
                 "showResponseTags": true,
                 "showPromptTags": true,
@@ -288,7 +288,7 @@
               },
               "allowReset": true,
               "promptColumns": 2,
-              "showHelpPresets": true,
+              "showPresets": true,
               "prompts": [
                 {
                   "id": 0,
@@ -2641,13 +2641,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 1,
-        "helpPresetLevel": 4,
-        "authorHelpSetting": {
+        "presetLevel": 4,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "Use the following words:",
           "promptsLabel": "Recite the following prompts about the images:",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": true,
           "showPromptTags": true,
@@ -2661,7 +2661,7 @@
         },
         "allowReset": true,
         "promptColumns": 2,
-        "showHelpPresets": true,
+        "showPresets": true,
         "prompts": [
           {
             "id": 0,
@@ -6492,14 +6492,14 @@
   "fillinList": [
     {
       "idx": 0,
-      "showHelpPresets": true,
-      "helpPresetLevel": 2,
-      "authorHelpSetting": {
+      "showPresets": true,
+      "presetLevel": 2,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "Use the following words:",
         "promptsLabel": "Recite the following prompts about the images:",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": true,
         "showPromptTags": true,
@@ -6511,12 +6511,12 @@
         "showReferenceCount": true,
         "helpfulness": 814
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "Use the following words:",
         "promptsLabel": "Recite the following prompts about the images:",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": true,
         "showPromptTags": true,
@@ -6533,52 +6533,52 @@
       "responses": [
         {
           "content": "baking",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "baking",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "cookies",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "baking",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "cookies",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "oven",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "baking",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "cookies",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "oven",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "pan",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         }
       ],
@@ -6587,14 +6587,14 @@
     },
     {
       "idx": 1,
-      "showHelpPresets": true,
-      "helpPresetLevel": 4,
-      "authorHelpSetting": {
+      "showPresets": true,
+      "presetLevel": 4,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "Use the following words:",
         "promptsLabel": "Recite the following prompts about the images:",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": true,
         "showPromptTags": true,
@@ -6606,12 +6606,12 @@
         "showReferenceCount": true,
         "helpfulness": 814
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "Use the following words:",
         "promptsLabel": "Recite the following prompts about the images:",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": true,
         "showPromptTags": true,
@@ -6628,72 +6628,72 @@
       "responses": [
         {
           "content": "am",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "baking",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "are",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "baking",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "is",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "baking",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "is",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "baking",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "is",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "baking",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "are",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "baking",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "are",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "baking",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         }
       ],

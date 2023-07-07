@@ -6,11 +6,11 @@
   "owner": "anonymous",
   "author": "Wen",
   "category": "Testing",
-  "version": "20230423.1",
+  "version": "20230706.1",
   "pageFormatType": 0,
   "created": "1/1/2023",
-  "modified": "Sat Jun 24 2023 11:48:22 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Sat Jun 24 2023 11:48:22 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Thu Jul 06 2023 21:52:50 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Thu Jul 06 2023 21:52:50 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -769,13 +769,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 0,
-        "helpPresetLevel": -1,
-        "authorHelpSetting": {
+        "presetLevel": -1,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "alphabetical",
           "promptsLabel": "true",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": false,
           "showPromptTags": false,
@@ -789,7 +789,7 @@
         },
         "allowReset": false,
         "promptColumns": 1,
-        "showHelpPresets": false,
+        "showPresets": false,
         "prompts": [
           {
             "id": 0,
@@ -1699,13 +1699,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 1,
-        "helpPresetLevel": -1,
-        "authorHelpSetting": {
+        "presetLevel": -1,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "alphabetical",
           "promptsLabel": "true",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": false,
           "showPromptTags": false,
@@ -1719,7 +1719,7 @@
         },
         "allowReset": false,
         "promptColumns": 1,
-        "showHelpPresets": false,
+        "showPresets": false,
         "prompts": [
           {
             "id": 0,
@@ -4589,13 +4589,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 2,
-        "helpPresetLevel": -1,
-        "authorHelpSetting": {
+        "presetLevel": -1,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "alphabetical",
           "promptsLabel": "true",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": false,
           "showPromptTags": false,
@@ -4609,7 +4609,7 @@
         },
         "allowReset": false,
         "promptColumns": 1,
-        "showHelpPresets": false,
+        "showPresets": false,
         "prompts": [
           {
             "id": 0,
@@ -6359,13 +6359,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 3,
-        "helpPresetLevel": -1,
-        "authorHelpSetting": {
+        "presetLevel": -1,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "alphabetical",
           "promptsLabel": "true",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": false,
           "showPromptTags": false,
@@ -6379,7 +6379,7 @@
         },
         "allowReset": false,
         "promptColumns": 1,
-        "showHelpPresets": false,
+        "showPresets": false,
         "prompts": [
           {
             "id": 0,
@@ -16355,13 +16355,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 4,
-        "helpPresetLevel": -1,
-        "authorHelpSetting": {
+        "presetLevel": -1,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "alphabetical",
           "promptsLabel": "true",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": false,
           "showPromptTags": false,
@@ -16375,7 +16375,7 @@
         },
         "allowReset": false,
         "promptColumns": 1,
-        "showHelpPresets": false,
+        "showPresets": false,
         "prompts": [
           {
             "id": 0,
@@ -24872,14 +24872,14 @@
   "fillinList": [
     {
       "idx": 0,
-      "showHelpPresets": false,
-      "helpPresetLevel": -1,
-      "authorHelpSetting": {
+      "showPresets": false,
+      "presetLevel": -1,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "alphabetical",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -24891,12 +24891,12 @@
         "showReferenceCount": true,
         "helpfulness": 314
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "alphabetical",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -24913,27 +24913,27 @@
       "responses": [
         {
           "content": "2 November 1961",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "2 Nov. 1961",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "2 Nov 1961",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "2",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "2 ",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         }
       ],
@@ -24942,14 +24942,14 @@
     },
     {
       "idx": 1,
-      "showHelpPresets": false,
-      "helpPresetLevel": -1,
-      "authorHelpSetting": {
+      "showPresets": false,
+      "presetLevel": -1,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "alphabetical",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -24961,12 +24961,12 @@
         "showReferenceCount": true,
         "helpfulness": 314
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "alphabetical",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -24983,42 +24983,42 @@
       "responses": [
         {
           "content": "November",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "November ",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Nov",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Nov.",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Nov",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Nov ",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Nov",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Nov ",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         }
       ],
@@ -25027,14 +25027,14 @@
     },
     {
       "idx": 2,
-      "showHelpPresets": false,
-      "helpPresetLevel": -1,
-      "authorHelpSetting": {
+      "showPresets": false,
+      "presetLevel": -1,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "alphabetical",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -25046,12 +25046,12 @@
         "showReferenceCount": true,
         "helpfulness": 314
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "alphabetical",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -25068,32 +25068,32 @@
       "responses": [
         {
           "content": "November",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "November ",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Nov",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Nov.",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Nov",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Nov ",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         }
       ],
@@ -25102,14 +25102,14 @@
     },
     {
       "idx": 3,
-      "showHelpPresets": false,
-      "helpPresetLevel": -1,
-      "authorHelpSetting": {
+      "showPresets": false,
+      "presetLevel": -1,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "alphabetical",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -25121,12 +25121,12 @@
         "showReferenceCount": true,
         "helpfulness": 314
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "alphabetical",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -25143,37 +25143,37 @@
       "responses": [
         {
           "content": "(408) 267-6076",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "could",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "could'",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "should",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "should'",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "would",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "would'",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         }
       ],
@@ -25182,14 +25182,14 @@
     },
     {
       "idx": 4,
-      "showHelpPresets": false,
-      "helpPresetLevel": -1,
-      "authorHelpSetting": {
+      "showPresets": false,
+      "presetLevel": -1,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "alphabetical",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -25201,12 +25201,12 @@
         "showReferenceCount": true,
         "helpfulness": 314
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "alphabetical",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -25223,27 +25223,27 @@
       "responses": [
         {
           "content": "hi",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "bye",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "here",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "there",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "pungkinz",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         }
       ],

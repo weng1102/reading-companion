@@ -6,11 +6,11 @@
   "owner": "anonymous",
   "author": "Wen",
   "category": "Fillins",
-  "version": "20230423.1",
+  "version": "20230706.1",
   "pageFormatType": 0,
-  "created": "Sat Jun 24 2023 11:48:21 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Sat Jun 24 2023 11:48:21 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Sat Jun 24 2023 11:48:21 GMT-0700 (Pacific Daylight Time)",
+  "created": "Thu Jul 06 2023 21:52:48 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Thu Jul 06 2023 21:52:48 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Thu Jul 06 2023 21:52:48 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -174,13 +174,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 0,
-        "helpPresetLevel": -1,
-        "authorHelpSetting": {
+        "presetLevel": -1,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "alphabetical",
           "promptsLabel": "true",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": false,
           "showPromptTags": false,
@@ -194,7 +194,7 @@
         },
         "allowReset": false,
         "promptColumns": 1,
-        "showHelpPresets": false,
+        "showPresets": false,
         "prompts": [
           {
             "id": 0,
@@ -5558,13 +5558,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 1,
-        "helpPresetLevel": -1,
-        "authorHelpSetting": {
+        "presetLevel": -1,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "random",
           "promptsLabel": "true",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": false,
           "showPromptTags": false,
@@ -5578,7 +5578,7 @@
         },
         "allowReset": false,
         "promptColumns": 1,
-        "showHelpPresets": false,
+        "showPresets": false,
         "prompts": [
           {
             "id": 0,
@@ -8844,13 +8844,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 2,
-        "helpPresetLevel": -1,
-        "authorHelpSetting": {
+        "presetLevel": -1,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "alphabetical",
           "promptsLabel": "true",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": false,
           "showPromptTags": false,
@@ -8864,7 +8864,7 @@
         },
         "allowReset": false,
         "promptColumns": 1,
-        "showHelpPresets": false,
+        "showPresets": false,
         "prompts": [
           {
             "id": 0,
@@ -13839,13 +13839,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 3,
-        "helpPresetLevel": -1,
-        "authorHelpSetting": {
+        "presetLevel": -1,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "alphabetical",
           "promptsLabel": "true",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": false,
           "showPromptTags": false,
@@ -13859,7 +13859,7 @@
         },
         "allowReset": false,
         "promptColumns": 1,
-        "showHelpPresets": false,
+        "showPresets": false,
         "prompts": [
           {
             "id": 0,
@@ -25487,14 +25487,14 @@
   "fillinList": [
     {
       "idx": 0,
-      "showHelpPresets": false,
-      "helpPresetLevel": -1,
-      "authorHelpSetting": {
+      "showPresets": false,
+      "presetLevel": -1,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "alphabetical",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -25506,12 +25506,12 @@
         "showReferenceCount": true,
         "helpfulness": 314
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "alphabetical",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -25528,57 +25528,57 @@
       "responses": [
         {
           "content": "coffee",
-          "category": "",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
           "content": "milk",
-          "category": "",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
           "content": "syrup",
-          "category": "",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
           "content": "spoon",
-          "category": "",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
           "content": "whipped",
-          "category": "",
+          "tag": "adjective",
           "referenceCount": 1
         },
         {
           "content": "cream",
-          "category": "",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
           "content": "pills",
-          "category": "",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
           "content": "eggs",
-          "category": "",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
           "content": "fork",
-          "category": "",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
           "content": "strawberries",
-          "category": "",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
           "content": "blueberries",
-          "category": "",
+          "tag": "noun",
           "referenceCount": 1
         }
       ],
@@ -25587,14 +25587,14 @@
     },
     {
       "idx": 1,
-      "showHelpPresets": false,
-      "helpPresetLevel": -1,
-      "authorHelpSetting": {
+      "showPresets": false,
+      "presetLevel": -1,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "random",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -25606,12 +25606,12 @@
         "showReferenceCount": true,
         "helpfulness": 314
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "random",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -25628,27 +25628,27 @@
       "responses": [
         {
           "content": "sandwich",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "soup",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "spoon",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "soda",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "tea",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         }
       ],
@@ -25657,14 +25657,14 @@
     },
     {
       "idx": 2,
-      "showHelpPresets": false,
-      "helpPresetLevel": -1,
-      "authorHelpSetting": {
+      "showPresets": false,
+      "presetLevel": -1,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "alphabetical",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -25676,12 +25676,12 @@
         "showReferenceCount": true,
         "helpfulness": 314
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "alphabetical",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -25698,47 +25698,47 @@
       "responses": [
         {
           "content": "steak",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "fork",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "baked",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "potato",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "chicken",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "pork",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "coleslaw",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "salad",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "tomatoes",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         }
       ],
@@ -25747,14 +25747,14 @@
     },
     {
       "idx": 3,
-      "showHelpPresets": false,
-      "helpPresetLevel": -1,
-      "authorHelpSetting": {
+      "showPresets": false,
+      "presetLevel": -1,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "alphabetical",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -25766,12 +25766,12 @@
         "showReferenceCount": true,
         "helpfulness": 314
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "alphabetical",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -25788,52 +25788,52 @@
       "responses": [
         {
           "content": "sink",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "dishwasher",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "stove",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "oven",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "refrigerator",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "microwave",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "oven",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "squares",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "bread",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "muffins",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         }
       ],

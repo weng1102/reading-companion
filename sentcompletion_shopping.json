@@ -6,11 +6,11 @@
   "owner": "anonymous",
   "author": "Wen",
   "category": "Sentence Completion (trailing word)",
-  "version": "20230423.1",
+  "version": "20230706.1",
   "pageFormatType": 0,
-  "created": "Sat Jun 24 2023 11:48:23 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Sat Jun 24 2023 11:48:23 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Sat Jun 24 2023 11:48:23 GMT-0700 (Pacific Daylight Time)",
+  "created": "Thu Jul 06 2023 21:52:52 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Thu Jul 06 2023 21:52:52 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Thu Jul 06 2023 21:52:52 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -2869,13 +2869,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 0,
-        "helpPresetLevel": -1,
-        "authorHelpSetting": {
+        "presetLevel": -1,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "insert",
           "promptsLabel": "true",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": false,
           "showPromptTags": true,
@@ -2889,7 +2889,7 @@
         },
         "allowReset": false,
         "promptColumns": 1,
-        "showHelpPresets": false,
+        "showPresets": false,
         "prompts": [
           {
             "id": 0,
@@ -20128,13 +20128,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 1,
-        "helpPresetLevel": -1,
-        "authorHelpSetting": {
+        "presetLevel": -1,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "insert",
           "promptsLabel": "true",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": false,
           "showPromptTags": false,
@@ -20148,7 +20148,7 @@
         },
         "allowReset": false,
         "promptColumns": 1,
-        "showHelpPresets": false,
+        "showPresets": false,
         "prompts": []
       }
     },
@@ -20562,13 +20562,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 2,
-        "helpPresetLevel": -1,
-        "authorHelpSetting": {
+        "presetLevel": -1,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "alphabetical",
           "promptsLabel": "true",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": false,
           "showPromptTags": false,
@@ -20582,7 +20582,7 @@
         },
         "allowReset": false,
         "promptColumns": 1,
-        "showHelpPresets": false,
+        "showPresets": false,
         "prompts": []
       }
     },
@@ -20996,13 +20996,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 3,
-        "helpPresetLevel": -1,
-        "authorHelpSetting": {
+        "presetLevel": -1,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "random",
           "promptsLabel": "true",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": false,
           "showPromptTags": false,
@@ -21016,7 +21016,7 @@
         },
         "allowReset": false,
         "promptColumns": 1,
-        "showHelpPresets": false,
+        "showPresets": false,
         "prompts": []
       }
     },
@@ -21346,13 +21346,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 4,
-        "helpPresetLevel": -1,
-        "authorHelpSetting": {
+        "presetLevel": -1,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "insert",
           "promptsLabel": "true",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": false,
           "showPromptTags": false,
@@ -21366,7 +21366,7 @@
         },
         "allowReset": false,
         "promptColumns": 1,
-        "showHelpPresets": false,
+        "showPresets": false,
         "prompts": []
       }
     },
@@ -28758,14 +28758,14 @@
   "fillinList": [
     {
       "idx": 0,
-      "showHelpPresets": false,
-      "helpPresetLevel": -1,
-      "authorHelpSetting": {
+      "showPresets": false,
+      "presetLevel": -1,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "insert",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": true,
@@ -28777,12 +28777,12 @@
         "showReferenceCount": true,
         "helpfulness": 814
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "insert",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": true,
@@ -28799,147 +28799,147 @@
       "responses": [
         {
           "content": "mall",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "sale",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "store",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "name",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "gasoline",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "lot",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "card",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "department",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "return",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "one",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "door",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "line",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "size",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "charge",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "vegetables",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "goods",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "room",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "shopping",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "out",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "aisle",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "section",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "bakery",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Starbucks",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Costco",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "back",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Tree",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Michael's",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Gap",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Nike",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         }
       ],
@@ -28948,14 +28948,14 @@
     },
     {
       "idx": 1,
-      "showHelpPresets": false,
-      "helpPresetLevel": -1,
-      "authorHelpSetting": {
+      "showPresets": false,
+      "presetLevel": -1,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "insert",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -28967,12 +28967,12 @@
         "showReferenceCount": true,
         "helpfulness": 314
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "insert",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -28992,14 +28992,14 @@
     },
     {
       "idx": 2,
-      "showHelpPresets": false,
-      "helpPresetLevel": -1,
-      "authorHelpSetting": {
+      "showPresets": false,
+      "presetLevel": -1,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "alphabetical",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -29011,12 +29011,12 @@
         "showReferenceCount": true,
         "helpfulness": 314
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "alphabetical",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -29036,14 +29036,14 @@
     },
     {
       "idx": 3,
-      "showHelpPresets": false,
-      "helpPresetLevel": -1,
-      "authorHelpSetting": {
+      "showPresets": false,
+      "presetLevel": -1,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "random",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -29055,12 +29055,12 @@
         "showReferenceCount": true,
         "helpfulness": 314
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "random",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -29080,14 +29080,14 @@
     },
     {
       "idx": 4,
-      "showHelpPresets": false,
-      "helpPresetLevel": -1,
-      "authorHelpSetting": {
+      "showPresets": false,
+      "presetLevel": -1,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "insert",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -29099,12 +29099,12 @@
         "showReferenceCount": true,
         "helpfulness": 314
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "insert",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,

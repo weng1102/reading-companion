@@ -6,11 +6,11 @@
   "owner": "Ronlyn",
   "author": "Wen",
   "category": "Testing",
-  "version": "20230423.1",
+  "version": "20230706.1",
   "pageFormatType": 0,
   "created": "6/26/2022",
-  "modified": "Sat Jun 24 2023 11:54:20 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Sat Jun 24 2023 11:54:20 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Thu Jul 06 2023 21:52:48 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Thu Jul 06 2023 21:52:48 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -86,13 +86,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 0,
-        "helpPresetLevel": 3,
-        "authorHelpSetting": {
+        "presetLevel": 3,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "Responses already filled in",
           "promptsLabel": "Recite the following prompts including the underlined words:",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": true,
           "showPromptTags": true,
@@ -106,7 +106,7 @@
         },
         "allowReset": true,
         "promptColumns": 2,
-        "showHelpPresets": true,
+        "showPresets": true,
         "prompts": [
           {
             "id": 0,
@@ -1402,14 +1402,14 @@
   "fillinList": [
     {
       "idx": 0,
-      "showHelpPresets": true,
-      "helpPresetLevel": 3,
-      "authorHelpSetting": {
+      "showPresets": true,
+      "presetLevel": 3,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "Responses already filled in",
         "promptsLabel": "Recite the following prompts including the underlined words:",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": true,
         "showPromptTags": true,
@@ -1421,12 +1421,12 @@
         "showReferenceCount": true,
         "helpfulness": 814
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "Responses already filled in",
         "promptsLabel": "Recite the following prompts including the underlined words:",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": true,
         "showPromptTags": true,

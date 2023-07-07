@@ -6,11 +6,11 @@
   "owner": "anonymous",
   "author": "Wen",
   "category": "Sentence Completion (trailing word)",
-  "version": "20230423.1",
+  "version": "20230706.1",
   "pageFormatType": 0,
-  "created": "Sat Jun 24 2023 11:48:23 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Sat Jun 24 2023 11:48:23 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Sat Jun 24 2023 11:48:23 GMT-0700 (Pacific Daylight Time)",
+  "created": "Thu Jul 06 2023 21:52:52 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Thu Jul 06 2023 21:52:52 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Thu Jul 06 2023 21:52:52 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -2481,13 +2481,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 0,
-        "helpPresetLevel": 4,
-        "authorHelpSetting": {
+        "presetLevel": 4,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "Responses already filled in",
           "promptsLabel": "Recite the following prompts including the underlined words:",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": true,
           "showPromptTags": true,
@@ -2501,7 +2501,7 @@
         },
         "allowReset": true,
         "promptColumns": 2,
-        "showHelpPresets": false,
+        "showPresets": false,
         "prompts": [
           {
             "id": 0,
@@ -12144,14 +12144,14 @@
   "fillinList": [
     {
       "idx": 0,
-      "showHelpPresets": false,
-      "helpPresetLevel": 4,
-      "authorHelpSetting": {
+      "showPresets": false,
+      "presetLevel": 4,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "Responses already filled in",
         "promptsLabel": "Recite the following prompts including the underlined words:",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": true,
         "showPromptTags": true,
@@ -12163,12 +12163,12 @@
         "showReferenceCount": true,
         "helpfulness": 814
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "Responses already filled in",
         "promptsLabel": "Recite the following prompts including the underlined words:",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": true,
         "showPromptTags": true,
@@ -12185,97 +12185,97 @@
       "responses": [
         {
           "content": "lawn",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "hedges",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "seeds",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "seedlings",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "leaves",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "tree",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "wood",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "roses",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "trash",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "car",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "plants",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "grass",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "lawn",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "driveway",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "weeds",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "tree",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "pool",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "plants",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "gutters",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         }
       ],

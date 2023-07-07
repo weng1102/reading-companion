@@ -6,11 +6,11 @@
   "owner": "anonymous",
   "author": "Wen",
   "category": "Sentence Completion (trailing word)",
-  "version": "20230423.1",
+  "version": "20230706.1",
   "pageFormatType": 0,
-  "created": "Sat Jun 24 2023 11:48:23 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Sat Jun 24 2023 11:48:23 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Sat Jun 24 2023 11:48:23 GMT-0700 (Pacific Daylight Time)",
+  "created": "Thu Jul 06 2023 21:52:51 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Thu Jul 06 2023 21:52:51 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Thu Jul 06 2023 21:52:51 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -2645,13 +2645,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 0,
-        "helpPresetLevel": 4,
-        "authorHelpSetting": {
+        "presetLevel": 4,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "Responses already filled in",
           "promptsLabel": "Recite the following prompts including the underlined words:",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": true,
           "showPromptTags": true,
@@ -2665,7 +2665,7 @@
         },
         "allowReset": true,
         "promptColumns": 2,
-        "showHelpPresets": true,
+        "showPresets": true,
         "prompts": [
           {
             "id": 0,
@@ -24049,14 +24049,14 @@
   "fillinList": [
     {
       "idx": 0,
-      "showHelpPresets": true,
-      "helpPresetLevel": 4,
-      "authorHelpSetting": {
+      "showPresets": true,
+      "presetLevel": 4,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "Responses already filled in",
         "promptsLabel": "Recite the following prompts including the underlined words:",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": true,
         "showPromptTags": true,
@@ -24068,12 +24068,12 @@
         "showReferenceCount": true,
         "helpfulness": 814
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "Responses already filled in",
         "promptsLabel": "Recite the following prompts including the underlined words:",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": true,
         "showPromptTags": true,
@@ -24090,127 +24090,127 @@
       "responses": [
         {
           "content": "father",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "brother",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "children",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "baby",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "mother",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "son",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "church",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "aunt",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "grandfather",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "dog",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "child",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "girls",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "friend",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "date",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "room",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "boys",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "ring",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "marriage",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "fiancee",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "shower",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "anniversary",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "potluck",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "birthday",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "party",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "campfire",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         }
       ],

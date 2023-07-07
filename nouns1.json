@@ -6,11 +6,11 @@
   "owner": "anonymous",
   "author": "Wen",
   "category": "Fillins",
-  "version": "20230423.1",
+  "version": "20230706.1",
   "pageFormatType": 0,
-  "created": "Sat Jun 24 2023 11:48:22 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Sat Jun 24 2023 11:48:22 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Sat Jun 24 2023 11:48:22 GMT-0700 (Pacific Daylight Time)",
+  "created": "Thu Jul 06 2023 21:52:50 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Thu Jul 06 2023 21:52:50 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Thu Jul 06 2023 21:52:50 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -426,13 +426,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 0,
-        "helpPresetLevel": 4,
-        "authorHelpSetting": {
+        "presetLevel": 4,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "Responses already filled in",
           "promptsLabel": "In the kitchen:",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": true,
           "showPromptTags": true,
@@ -446,7 +446,7 @@
         },
         "allowReset": true,
         "promptColumns": 2,
-        "showHelpPresets": true,
+        "showPresets": true,
         "prompts": [
           {
             "id": 0,
@@ -5378,13 +5378,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 1,
-        "helpPresetLevel": 4,
-        "authorHelpSetting": {
+        "presetLevel": 4,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "Responses already filled in",
           "promptsLabel": "To go outside:",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": true,
           "showPromptTags": true,
@@ -5398,7 +5398,7 @@
         },
         "allowReset": true,
         "promptColumns": 2,
-        "showHelpPresets": true,
+        "showPresets": true,
         "prompts": [
           {
             "id": 9,
@@ -6541,13 +6541,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 2,
-        "helpPresetLevel": 4,
-        "authorHelpSetting": {
+        "presetLevel": 4,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "Use the following responses in the prompts below",
           "promptsLabel": "",
           "layout": "grid",
-          "sortOrder": "alphabetical",
+          "progressionOrder": "alphabetical",
           "gridColumns": 6,
           "showResponseTags": true,
           "showPromptTags": true,
@@ -6561,7 +6561,7 @@
         },
         "allowReset": true,
         "promptColumns": 2,
-        "showHelpPresets": true,
+        "showPresets": true,
         "prompts": [
           {
             "id": 11,
@@ -15815,13 +15815,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 3,
-        "helpPresetLevel": 4,
-        "authorHelpSetting": {
+        "presetLevel": 4,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "Use the following responses in the prompts below",
           "promptsLabel": "",
           "layout": "grid",
-          "sortOrder": "alphabetical",
+          "progressionOrder": "alphabetical",
           "gridColumns": 6,
           "showResponseTags": true,
           "showPromptTags": true,
@@ -15835,7 +15835,7 @@
         },
         "allowReset": true,
         "promptColumns": 2,
-        "showHelpPresets": true,
+        "showPresets": true,
         "prompts": [
           {
             "id": 22,
@@ -18088,13 +18088,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 4,
-        "helpPresetLevel": 4,
-        "authorHelpSetting": {
+        "presetLevel": 4,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "Use the following responses in the prompts below",
           "promptsLabel": "",
           "layout": "grid",
-          "sortOrder": "alphabetical",
+          "progressionOrder": "alphabetical",
           "gridColumns": 6,
           "showResponseTags": true,
           "showPromptTags": true,
@@ -18108,7 +18108,7 @@
         },
         "allowReset": true,
         "promptColumns": 2,
-        "showHelpPresets": true,
+        "showPresets": true,
         "prompts": [
           {
             "id": 28,
@@ -34193,14 +34193,14 @@
   "fillinList": [
     {
       "idx": 0,
-      "showHelpPresets": true,
-      "helpPresetLevel": 4,
-      "authorHelpSetting": {
+      "showPresets": true,
+      "presetLevel": 4,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "Responses already filled in",
         "promptsLabel": "In the kitchen:",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": true,
         "showPromptTags": true,
@@ -34212,12 +34212,12 @@
         "showReferenceCount": true,
         "helpfulness": 814
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "Responses already filled in",
         "promptsLabel": "In the kitchen:",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": true,
         "showPromptTags": true,
@@ -34234,52 +34234,52 @@
       "responses": [
         {
           "content": "sink",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "dishwasher",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "stove",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "oven",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "refrigerator",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "microwave",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "oven",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "squares",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "bread",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "muffins",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         }
       ],
@@ -34288,14 +34288,14 @@
     },
     {
       "idx": 1,
-      "showHelpPresets": true,
-      "helpPresetLevel": 4,
-      "authorHelpSetting": {
+      "showPresets": true,
+      "presetLevel": 4,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "Responses already filled in",
         "promptsLabel": "To go outside:",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": true,
         "showPromptTags": true,
@@ -34307,12 +34307,12 @@
         "showReferenceCount": true,
         "helpfulness": 814
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "Responses already filled in",
         "promptsLabel": "To go outside:",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": true,
         "showPromptTags": true,
@@ -34329,12 +34329,12 @@
       "responses": [
         {
           "content": "door",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "car",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         }
       ],
@@ -34343,14 +34343,14 @@
     },
     {
       "idx": 2,
-      "showHelpPresets": true,
-      "helpPresetLevel": 4,
-      "authorHelpSetting": {
+      "showPresets": true,
+      "presetLevel": 4,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "Use the following responses in the prompts below",
         "promptsLabel": "",
         "layout": "grid",
-        "sortOrder": "alphabetical",
+        "progressionOrder": "alphabetical",
         "gridColumns": 6,
         "showResponseTags": true,
         "showPromptTags": true,
@@ -34362,12 +34362,12 @@
         "showReferenceCount": true,
         "helpfulness": 714
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "Use the following responses in the prompts below",
         "promptsLabel": "",
         "layout": "grid",
-        "sortOrder": "alphabetical",
+        "progressionOrder": "alphabetical",
         "gridColumns": 6,
         "showResponseTags": true,
         "showPromptTags": true,
@@ -34384,57 +34384,57 @@
       "responses": [
         {
           "content": "door",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "games",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "State",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Warriors",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "iPhone",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "groceries",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "home",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "pianos",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "art",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "languages",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "visit",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         }
       ],
@@ -34443,14 +34443,14 @@
     },
     {
       "idx": 3,
-      "showHelpPresets": true,
-      "helpPresetLevel": 4,
-      "authorHelpSetting": {
+      "showPresets": true,
+      "presetLevel": 4,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "Use the following responses in the prompts below",
         "promptsLabel": "",
         "layout": "grid",
-        "sortOrder": "alphabetical",
+        "progressionOrder": "alphabetical",
         "gridColumns": 6,
         "showResponseTags": true,
         "showPromptTags": true,
@@ -34462,12 +34462,12 @@
         "showReferenceCount": true,
         "helpfulness": 714
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "Use the following responses in the prompts below",
         "promptsLabel": "",
         "layout": "grid",
-        "sortOrder": "alphabetical",
+        "progressionOrder": "alphabetical",
         "gridColumns": 6,
         "showResponseTags": true,
         "showPromptTags": true,
@@ -34484,32 +34484,32 @@
       "responses": [
         {
           "content": "I",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "We",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "They",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "He",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "She",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "You",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         }
       ],
@@ -34518,14 +34518,14 @@
     },
     {
       "idx": 4,
-      "showHelpPresets": true,
-      "helpPresetLevel": 4,
-      "authorHelpSetting": {
+      "showPresets": true,
+      "presetLevel": 4,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "Use the following responses in the prompts below",
         "promptsLabel": "",
         "layout": "grid",
-        "sortOrder": "alphabetical",
+        "progressionOrder": "alphabetical",
         "gridColumns": 6,
         "showResponseTags": true,
         "showPromptTags": true,
@@ -34537,12 +34537,12 @@
         "showReferenceCount": true,
         "helpfulness": 714
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "Use the following responses in the prompts below",
         "promptsLabel": "",
         "layout": "grid",
-        "sortOrder": "alphabetical",
+        "progressionOrder": "alphabetical",
         "gridColumns": 6,
         "showResponseTags": true,
         "showPromptTags": true,
@@ -34559,32 +34559,32 @@
       "responses": [
         {
           "content": "I",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "You",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "They",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "We",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "He",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "She",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         }
       ],

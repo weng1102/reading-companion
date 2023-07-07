@@ -6,11 +6,11 @@
   "owner": "anonymous",
   "author": "Wen",
   "category": "Sentence Completion",
-  "version": "20230423.1",
+  "version": "20230706.1",
   "pageFormatType": 0,
-  "created": "Sat Jun 24 2023 11:48:22 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Sat Jun 24 2023 11:48:23 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Sat Jun 24 2023 11:48:23 GMT-0700 (Pacific Daylight Time)",
+  "created": "Thu Jul 06 2023 21:52:50 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Thu Jul 06 2023 21:52:50 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Thu Jul 06 2023 21:52:50 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -2791,13 +2791,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 0,
-        "helpPresetLevel": -1,
-        "authorHelpSetting": {
+        "presetLevel": -1,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "insert",
           "promptsLabel": "true",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": false,
           "showPromptTags": true,
@@ -2811,7 +2811,7 @@
         },
         "allowReset": false,
         "promptColumns": 1,
-        "showHelpPresets": false,
+        "showPresets": false,
         "prompts": [
           {
             "id": 0,
@@ -13263,13 +13263,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 1,
-        "helpPresetLevel": -1,
-        "authorHelpSetting": {
+        "presetLevel": -1,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "insert",
           "promptsLabel": "true",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": false,
           "showPromptTags": false,
@@ -13283,7 +13283,7 @@
         },
         "allowReset": false,
         "promptColumns": 1,
-        "showHelpPresets": false,
+        "showPresets": false,
         "prompts": [
           {
             "id": 0,
@@ -23817,13 +23817,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 2,
-        "helpPresetLevel": -1,
-        "authorHelpSetting": {
+        "presetLevel": -1,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "alphabetical",
           "promptsLabel": "true",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": false,
           "showPromptTags": false,
@@ -23837,7 +23837,7 @@
         },
         "allowReset": false,
         "promptColumns": 1,
-        "showHelpPresets": false,
+        "showPresets": false,
         "prompts": [
           {
             "id": 0,
@@ -34289,13 +34289,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 3,
-        "helpPresetLevel": -1,
-        "authorHelpSetting": {
+        "presetLevel": -1,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "random",
           "promptsLabel": "true",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": false,
           "showPromptTags": false,
@@ -34309,7 +34309,7 @@
         },
         "allowReset": false,
         "promptColumns": 1,
-        "showHelpPresets": false,
+        "showPresets": false,
         "prompts": [
           {
             "id": 0,
@@ -44843,13 +44843,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 4,
-        "helpPresetLevel": -1,
-        "authorHelpSetting": {
+        "presetLevel": -1,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "insert",
           "promptsLabel": "true",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": false,
           "showPromptTags": false,
@@ -44863,7 +44863,7 @@
         },
         "allowReset": false,
         "promptColumns": 1,
-        "showHelpPresets": false,
+        "showPresets": false,
         "prompts": [
           {
             "id": 0,
@@ -73773,14 +73773,14 @@
   "fillinList": [
     {
       "idx": 0,
-      "showHelpPresets": false,
-      "helpPresetLevel": -1,
-      "authorHelpSetting": {
+      "showPresets": false,
+      "presetLevel": -1,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "insert",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": true,
@@ -73792,12 +73792,12 @@
         "showReferenceCount": true,
         "helpfulness": 814
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "insert",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": true,
@@ -73814,117 +73814,117 @@
       "responses": [
         {
           "content": "morning",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "acquaintance",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "do",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "friend",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "down",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "home",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "yours",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "much",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "mine",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "pardon",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "fine",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "introduced",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "name",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "sorry",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Sunday",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "dinner",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "number",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "together",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "goodbye",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "later",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "luck",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "day",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "safely",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         }
       ],
@@ -73933,14 +73933,14 @@
     },
     {
       "idx": 1,
-      "showHelpPresets": false,
-      "helpPresetLevel": -1,
-      "authorHelpSetting": {
+      "showPresets": false,
+      "presetLevel": -1,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "insert",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -73952,12 +73952,12 @@
         "showReferenceCount": true,
         "helpfulness": 314
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "insert",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -73974,117 +73974,117 @@
       "responses": [
         {
           "content": "morning",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "acquaintance",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "do",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "friend",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "down",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "home",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "yours",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "much",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "mine",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "pardon",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "fine",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "introduced",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "name",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "sorry",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Sunday",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "dinner",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "number",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "together",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "goodbye",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "later",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "luck",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "day",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "safely",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         }
       ],
@@ -74093,14 +74093,14 @@
     },
     {
       "idx": 2,
-      "showHelpPresets": false,
-      "helpPresetLevel": -1,
-      "authorHelpSetting": {
+      "showPresets": false,
+      "presetLevel": -1,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "alphabetical",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -74112,12 +74112,12 @@
         "showReferenceCount": true,
         "helpfulness": 314
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "alphabetical",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -74134,117 +74134,117 @@
       "responses": [
         {
           "content": "morning",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "acquaintance",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "do",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "friend",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "down",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "home",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "yours",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "much",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "mine",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "pardon",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "fine",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "introduced",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "name",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "sorry",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Sunday",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "dinner",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "number",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "together",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "goodbye",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "later",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "luck",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "day",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "safely",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         }
       ],
@@ -74253,14 +74253,14 @@
     },
     {
       "idx": 3,
-      "showHelpPresets": false,
-      "helpPresetLevel": -1,
-      "authorHelpSetting": {
+      "showPresets": false,
+      "presetLevel": -1,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "random",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -74272,12 +74272,12 @@
         "showReferenceCount": true,
         "helpfulness": 314
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "random",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -74294,117 +74294,117 @@
       "responses": [
         {
           "content": "morning",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "acquaintance",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "do",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "friend",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "down",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "home",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "yours",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "much",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "mine",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "pardon",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "fine",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "introduced",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "name",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "sorry",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Sunday",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "dinner",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "number",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "together",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "goodbye",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "later",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "luck",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "day",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "safely",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         }
       ],
@@ -74413,14 +74413,14 @@
     },
     {
       "idx": 4,
-      "showHelpPresets": false,
-      "helpPresetLevel": -1,
-      "authorHelpSetting": {
+      "showPresets": false,
+      "presetLevel": -1,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "insert",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -74432,12 +74432,12 @@
         "showReferenceCount": true,
         "helpfulness": 314
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "insert",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -74454,117 +74454,117 @@
       "responses": [
         {
           "content": "morning",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "acquaintance",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "do",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "friend",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "down",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "home",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "yours",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "much",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "mine",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "pardon",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "fine",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "introduced",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "name",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "sorry",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "Sunday",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "dinner",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "number",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "together",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "goodbye",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "later",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "luck",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "day",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "safely",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         }
       ],

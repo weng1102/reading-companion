@@ -6,11 +6,11 @@
   "owner": "Ronlyn",
   "author": "Wen",
   "category": "Verbs with images",
-  "version": "20230423.1",
+  "version": "20230706.1",
   "pageFormatType": 0,
-  "created": "Sat Jun 24 2023 11:48:24 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Sat Jun 24 2023 11:48:24 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Sat Jun 24 2023 11:48:24 GMT-0700 (Pacific Daylight Time)",
+  "created": "Thu Jul 06 2023 21:52:53 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Thu Jul 06 2023 21:52:53 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Thu Jul 06 2023 21:52:53 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -268,13 +268,13 @@
             "type": "fillin",
             "meta": {
               "sectionFillinIdx": 0,
-              "helpPresetLevel": -1,
-              "authorHelpSetting": {
+              "presetLevel": -1,
+              "authorSetting": {
                 "description": "no description",
                 "responsesLabel": "none",
                 "promptsLabel": "true",
                 "layout": "grid",
-                "sortOrder": "insert",
+                "progressionOrder": "in order",
                 "gridColumns": 6,
                 "showResponseTags": false,
                 "showPromptTags": false,
@@ -288,7 +288,7 @@
               },
               "allowReset": false,
               "promptColumns": 1,
-              "showHelpPresets": false,
+              "showPresets": false,
               "prompts": [
                 {
                   "id": 0,
@@ -2653,13 +2653,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 1,
-        "helpPresetLevel": -1,
-        "authorHelpSetting": {
+        "presetLevel": -1,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "none",
           "promptsLabel": "true",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": false,
           "showPromptTags": false,
@@ -2673,7 +2673,7 @@
         },
         "allowReset": false,
         "promptColumns": 1,
-        "showHelpPresets": false,
+        "showPresets": false,
         "prompts": [
           {
             "id": 0,
@@ -6092,14 +6092,14 @@
   "fillinList": [
     {
       "idx": 0,
-      "showHelpPresets": false,
-      "helpPresetLevel": -1,
-      "authorHelpSetting": {
+      "showPresets": false,
+      "presetLevel": -1,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "none",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -6111,12 +6111,12 @@
         "showReferenceCount": true,
         "helpfulness": 304
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "none",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -6133,52 +6133,52 @@
       "responses": [
         {
           "content": "baking",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "baking",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "cookies",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "baking",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "cookies",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "oven",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "baking",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "cookies",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "oven",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "pan",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         }
       ],
@@ -6187,14 +6187,14 @@
     },
     {
       "idx": 1,
-      "showHelpPresets": false,
-      "helpPresetLevel": -1,
-      "authorHelpSetting": {
+      "showPresets": false,
+      "presetLevel": -1,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "none",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -6206,12 +6206,12 @@
         "showReferenceCount": true,
         "helpfulness": 304
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "none",
         "promptsLabel": "true",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": false,
         "showPromptTags": false,
@@ -6228,62 +6228,62 @@
       "responses": [
         {
           "content": "am",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "baking",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "are",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "baking",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "is",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "baking",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "is",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "baking",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "are",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "baking",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "are",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         },
         {
           "content": "baking",
-          "category": "",
+          "tag": "unknown",
           "referenceCount": 1
         }
       ],
