@@ -6,11 +6,11 @@
   "owner": "anonymous",
   "author": "Wen",
   "category": "Sentence Completion (trailing word)",
-  "version": "20230423.1",
+  "version": "20230706.1",
   "pageFormatType": 0,
-  "created": "Sat Jul 01 2023 08:51:02 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Sat Jul 01 2023 08:51:02 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Sat Jul 01 2023 08:51:02 GMT-0700 (Pacific Daylight Time)",
+  "created": "Thu Jul 06 2023 21:45:56 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Thu Jul 06 2023 21:45:56 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Thu Jul 06 2023 21:45:56 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -2469,13 +2469,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 0,
-        "helpPresetLevel": 3,
-        "authorHelpSetting": {
+        "presetLevel": 3,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "Responses already filled in",
           "promptsLabel": "Recite the following prompts including the underlined words:",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 4,
           "showResponseTags": true,
           "showPromptTags": true,
@@ -2489,7 +2489,7 @@
         },
         "allowReset": true,
         "promptColumns": 2,
-        "showHelpPresets": true,
+        "showPresets": true,
         "prompts": [
           {
             "id": 0,
@@ -5590,13 +5590,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 1,
-        "helpPresetLevel": 3,
-        "authorHelpSetting": {
+        "presetLevel": -1,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "Responses already filled in",
           "promptsLabel": "Recite the following prompts including the underlined words:",
           "layout": "csv",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": true,
           "showPromptTags": true,
@@ -5610,7 +5610,7 @@
         },
         "allowReset": true,
         "promptColumns": 2,
-        "showHelpPresets": true,
+        "showPresets": true,
         "prompts": [
           {
             "id": 0,
@@ -9598,13 +9598,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 2,
-        "helpPresetLevel": 3,
-        "authorHelpSetting": {
+        "presetLevel": 3,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "Responses already filled in",
           "promptsLabel": "Recite the following prompts including the underlined words:",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": true,
           "showPromptTags": true,
@@ -9618,7 +9618,7 @@
         },
         "allowReset": true,
         "promptColumns": 2,
-        "showHelpPresets": true,
+        "showPresets": true,
         "prompts": [
           {
             "id": 0,
@@ -12848,13 +12848,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 3,
-        "helpPresetLevel": 3,
-        "authorHelpSetting": {
+        "presetLevel": 3,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "Responses already filled in",
           "promptsLabel": "Recite the following prompts including the underlined words:",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": true,
           "showPromptTags": true,
@@ -12868,7 +12868,7 @@
         },
         "allowReset": true,
         "promptColumns": 2,
-        "showHelpPresets": true,
+        "showPresets": true,
         "prompts": [
           {
             "id": 0,
@@ -16552,13 +16552,13 @@
       "type": "fillin",
       "meta": {
         "sectionFillinIdx": 4,
-        "helpPresetLevel": 3,
-        "authorHelpSetting": {
+        "presetLevel": 3,
+        "authorSetting": {
           "description": "no description",
           "responsesLabel": "Responses already filled in",
           "promptsLabel": "Recite the following prompts including the underlined words:",
           "layout": "grid",
-          "sortOrder": "insert",
+          "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": true,
           "showPromptTags": true,
@@ -16572,7 +16572,7 @@
         },
         "allowReset": true,
         "promptColumns": 2,
-        "showHelpPresets": true,
+        "showPresets": true,
         "prompts": [
           {
             "id": 45,
@@ -23491,14 +23491,14 @@
   "fillinList": [
     {
       "idx": 0,
-      "showHelpPresets": true,
-      "helpPresetLevel": 3,
-      "authorHelpSetting": {
+      "showPresets": true,
+      "presetLevel": 3,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "Responses already filled in",
         "promptsLabel": "Recite the following prompts including the underlined words:",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 4,
         "showResponseTags": true,
         "showPromptTags": true,
@@ -23510,12 +23510,12 @@
         "showReferenceCount": true,
         "helpfulness": 814
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "Responses already filled in",
         "promptsLabel": "Recite the following prompts including the underlined words:",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 4,
         "showResponseTags": true,
         "showPromptTags": true,
@@ -23587,19 +23587,18 @@
         }
       ],
       "loaded": false,
-      "showTags": true,
       "modified": false
     },
     {
       "idx": 1,
-      "showHelpPresets": true,
-      "helpPresetLevel": 3,
-      "authorHelpSetting": {
+      "showPresets": true,
+      "presetLevel": -1,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "Responses already filled in",
         "promptsLabel": "Recite the following prompts including the underlined words:",
         "layout": "csv",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": true,
         "showPromptTags": true,
@@ -23611,12 +23610,12 @@
         "showReferenceCount": true,
         "helpfulness": 812
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "Responses already filled in",
         "promptsLabel": "Recite the following prompts including the underlined words:",
         "layout": "csv",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": true,
         "showPromptTags": true,
@@ -23693,19 +23692,18 @@
         }
       ],
       "loaded": false,
-      "showTags": true,
       "modified": false
     },
     {
       "idx": 2,
-      "showHelpPresets": true,
-      "helpPresetLevel": 3,
-      "authorHelpSetting": {
+      "showPresets": true,
+      "presetLevel": 3,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "Responses already filled in",
         "promptsLabel": "Recite the following prompts including the underlined words:",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": true,
         "showPromptTags": true,
@@ -23717,12 +23715,12 @@
         "showReferenceCount": true,
         "helpfulness": 814
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "Responses already filled in",
         "promptsLabel": "Recite the following prompts including the underlined words:",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": true,
         "showPromptTags": true,
@@ -23794,19 +23792,18 @@
         }
       ],
       "loaded": false,
-      "showTags": true,
       "modified": false
     },
     {
       "idx": 3,
-      "showHelpPresets": true,
-      "helpPresetLevel": 3,
-      "authorHelpSetting": {
+      "showPresets": true,
+      "presetLevel": 3,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "Responses already filled in",
         "promptsLabel": "Recite the following prompts including the underlined words:",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": true,
         "showPromptTags": true,
@@ -23818,12 +23815,12 @@
         "showReferenceCount": true,
         "helpfulness": 814
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "Responses already filled in",
         "promptsLabel": "Recite the following prompts including the underlined words:",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": true,
         "showPromptTags": true,
@@ -23895,19 +23892,18 @@
         }
       ],
       "loaded": false,
-      "showTags": true,
       "modified": false
     },
     {
       "idx": 4,
-      "showHelpPresets": true,
-      "helpPresetLevel": 3,
-      "authorHelpSetting": {
+      "showPresets": true,
+      "presetLevel": 3,
+      "authorSetting": {
         "description": "no description",
         "responsesLabel": "Responses already filled in",
         "promptsLabel": "Recite the following prompts including the underlined words:",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": true,
         "showPromptTags": true,
@@ -23919,12 +23915,12 @@
         "showReferenceCount": true,
         "helpfulness": 814
       },
-      "currentHelpSetting": {
+      "currentSetting": {
         "description": "no description",
         "responsesLabel": "Responses already filled in",
         "promptsLabel": "Recite the following prompts including the underlined words:",
         "layout": "grid",
-        "sortOrder": "insert",
+        "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": true,
         "showPromptTags": true,
@@ -23940,7 +23936,6 @@
       "promptColumns": 2,
       "responses": [],
       "loaded": false,
-      "showTags": true,
       "modified": false
     }
   ]
