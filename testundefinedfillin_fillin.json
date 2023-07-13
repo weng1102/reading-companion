@@ -8,9 +8,9 @@
   "category": "Fillins",
   "version": "20230706.1",
   "pageFormatType": 0,
-  "created": "Thu Jul 06 2023 21:52:53 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Thu Jul 06 2023 21:52:53 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Thu Jul 06 2023 21:52:53 GMT-0700 (Pacific Daylight Time)",
+  "created": "Thu Jul 13 2023 08:32:00 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Thu Jul 13 2023 08:32:00 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Thu Jul 13 2023 08:32:00 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -180,6 +180,7 @@
           "responsesLabel": "Responses already filled in",
           "promptsLabel": "Recite the following prompts including the underlined words:",
           "layout": "grid",
+          "showProgression": true,
           "progressionOrder": "in order",
           "gridColumns": 6,
           "showResponseTags": true,
@@ -878,6 +879,7 @@
         "responsesLabel": "Responses already filled in",
         "promptsLabel": "Recite the following prompts including the underlined words:",
         "layout": "grid",
+        "showProgression": true,
         "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": true,
@@ -895,6 +897,7 @@
         "responsesLabel": "Responses already filled in",
         "promptsLabel": "Recite the following prompts including the underlined words:",
         "layout": "grid",
+        "showProgression": true,
         "progressionOrder": "in order",
         "gridColumns": 6,
         "showResponseTags": true,
@@ -909,6 +912,10 @@
       },
       "allowReset": true,
       "promptColumns": 2,
+      "alternatives": [],
+      "tags": [
+        "noun"
+      ],
       "responses": [
         {
           "content": "ice",
