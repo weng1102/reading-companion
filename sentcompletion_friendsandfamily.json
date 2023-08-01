@@ -8,9 +8,9 @@
   "category": "Sentence Completion (trailing word)",
   "version": "20230706.1",
   "pageFormatType": 0,
-  "created": "Sat Jul 29 2023 08:13:27 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Sat Jul 29 2023 08:13:27 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Sat Jul 29 2023 08:13:27 GMT-0700 (Pacific Daylight Time)",
+  "created": "Mon Jul 31 2023 20:55:28 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Mon Jul 31 2023 20:55:28 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Mon Jul 31 2023 20:55:28 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -30,7 +30,7 @@
       "id": 0,
       "name": "",
       "description": "",
-      "firstTermIdx": 0,
+      "firstTermIdx": -9999,
       "lastTermIdx": -9999,
       "items": [],
       "type": "heading",
@@ -2468,7 +2468,7 @@
       "id": 0,
       "name": "",
       "description": "",
-      "firstTermIdx": 29,
+      "firstTermIdx": -9999,
       "lastTermIdx": -9999,
       "items": [],
       "type": "heading",
@@ -2756,7 +2756,7 @@
                       "sentences": [
                         {
                           "id": 3,
-                          "content": "He has a mother and a [_father_].",
+                          "content": "He has a mother and a [_father=(noun)_].",
                           "firstTermIdx": 32,
                           "lastTermIdx": 38,
                           "terminals": [
@@ -3284,9 +3284,9 @@
                                     "id": 0,
                                     "termIdx": 38,
                                     "content": "father",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -3296,7 +3296,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "father",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 38,
                                       "nextTermIdx": [
                                         39
@@ -3402,7 +3404,7 @@
                       "sentences": [
                         {
                           "id": 4,
-                          "content": "She has two sisters and one [_brother_].",
+                          "content": "She has two sisters and one [_brother=(noun)_].",
                           "firstTermIdx": 39,
                           "lastTermIdx": 45,
                           "terminals": [
@@ -3930,9 +3932,9 @@
                                     "id": 0,
                                     "termIdx": 45,
                                     "content": "brother",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -3942,7 +3944,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "brother",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 45,
                                       "nextTermIdx": [
                                         46
@@ -4048,7 +4052,7 @@
                       "sentences": [
                         {
                           "id": 5,
-                          "content": "Their family has two adults and three [_children_].",
+                          "content": "Their family has two adults and three [_children=(noun)_].",
                           "firstTermIdx": 46,
                           "lastTermIdx": 53,
                           "terminals": [
@@ -4660,9 +4664,9 @@
                                     "id": 0,
                                     "termIdx": 53,
                                     "content": "children",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -4672,7 +4676,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "children",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 53,
                                       "nextTermIdx": [
                                         54
@@ -4778,7 +4784,7 @@
                       "sentences": [
                         {
                           "id": 6,
-                          "content": "They have a newborn [_baby_].",
+                          "content": "They have a newborn [_baby=(noun)_].",
                           "firstTermIdx": 54,
                           "lastTermIdx": 58,
                           "terminals": [
@@ -5138,9 +5144,9 @@
                                     "id": 0,
                                     "termIdx": 58,
                                     "content": "baby",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -5150,7 +5156,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "baby",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 58,
                                       "nextTermIdx": [
                                         59
@@ -5256,7 +5264,7 @@
                       "sentences": [
                         {
                           "id": 7,
-                          "content": "She has a father and a [_mother_].",
+                          "content": "She has a father and a [_mother=(noun)_].",
                           "firstTermIdx": 59,
                           "lastTermIdx": 65,
                           "terminals": [
@@ -5784,9 +5792,9 @@
                                     "id": 0,
                                     "termIdx": 65,
                                     "content": "mother",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -5796,7 +5804,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "mother",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 65,
                                       "nextTermIdx": [
                                         66
@@ -5902,7 +5912,7 @@
                       "sentences": [
                         {
                           "id": 8,
-                          "content": "He has a daughter and a [_son_].",
+                          "content": "He has a daughter and a [_son=(noun)_].",
                           "firstTermIdx": 66,
                           "lastTermIdx": 72,
                           "terminals": [
@@ -6430,9 +6440,9 @@
                                     "id": 0,
                                     "termIdx": 72,
                                     "content": "son",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -6442,7 +6452,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "son",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 72,
                                       "nextTermIdx": [
                                         73
@@ -6548,7 +6560,7 @@
                       "sentences": [
                         {
                           "id": 9,
-                          "content": "On Sunday they go to [_church_].",
+                          "content": "On Sunday they go to [_church=(noun)_].",
                           "firstTermIdx": 73,
                           "lastTermIdx": 78,
                           "terminals": [
@@ -6992,9 +7004,9 @@
                                     "id": 0,
                                     "termIdx": 78,
                                     "content": "church",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -7004,7 +7016,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "church",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 78,
                                       "nextTermIdx": [
                                         79
@@ -7110,7 +7124,7 @@
                       "sentences": [
                         {
                           "id": 10,
-                          "content": "My uncle is driving my [_aunt_].",
+                          "content": "My uncle is driving my [_aunt=(noun)_].",
                           "firstTermIdx": 79,
                           "lastTermIdx": 84,
                           "terminals": [
@@ -7554,9 +7568,9 @@
                                     "id": 0,
                                     "termIdx": 84,
                                     "content": "aunt",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -7566,7 +7580,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "aunt",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 84,
                                       "nextTermIdx": [
                                         85
@@ -7672,7 +7688,7 @@
                       "sentences": [
                         {
                           "id": 11,
-                          "content": "My grandmother is married to my [_grandfather_].",
+                          "content": "My grandmother is married to my [_grandfather=(noun)_].",
                           "firstTermIdx": 85,
                           "lastTermIdx": 91,
                           "terminals": [
@@ -8200,9 +8216,9 @@
                                     "id": 0,
                                     "termIdx": 91,
                                     "content": "grandfather",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -8212,7 +8228,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "grandfather",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 91,
                                       "nextTermIdx": [
                                         92
@@ -8318,7 +8336,7 @@
                       "sentences": [
                         {
                           "id": 12,
-                          "content": "Do you have a pet cat or [_dog_]?",
+                          "content": "Do you have a pet cat or [_dog=(noun)_]?",
                           "firstTermIdx": 92,
                           "lastTermIdx": 99,
                           "terminals": [
@@ -8930,9 +8948,9 @@
                                     "id": 0,
                                     "termIdx": 99,
                                     "content": "dog",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -8942,7 +8960,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "dog",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 99,
                                       "nextTermIdx": [
                                         100
@@ -9048,7 +9068,7 @@
                       "sentences": [
                         {
                           "id": 13,
-                          "content": "The woman is pregnant with her third [_child_].",
+                          "content": "The woman is pregnant with her third [_child=(noun)_].",
                           "firstTermIdx": 100,
                           "lastTermIdx": 107,
                           "terminals": [
@@ -9660,9 +9680,9 @@
                                     "id": 0,
                                     "termIdx": 107,
                                     "content": "child",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -9672,7 +9692,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "child",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 107,
                                       "nextTermIdx": [
                                         108
@@ -9778,7 +9800,7 @@
                       "sentences": [
                         {
                           "id": 14,
-                          "content": "He played with other boys and [_girls_].",
+                          "content": "He played with other boys and [_girls=(noun)_].",
                           "firstTermIdx": 108,
                           "lastTermIdx": 114,
                           "terminals": [
@@ -10306,9 +10328,9 @@
                                     "id": 0,
                                     "termIdx": 114,
                                     "content": "girls",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -10318,7 +10340,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "girls",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 114,
                                       "nextTermIdx": [
                                         115
@@ -10424,7 +10448,7 @@
                       "sentences": [
                         {
                           "id": 15,
-                          "content": "Aruna is my best [_friend_].",
+                          "content": "Aruna is my best [_friend=(noun)_].",
                           "firstTermIdx": 115,
                           "lastTermIdx": 119,
                           "terminals": [
@@ -10784,9 +10808,9 @@
                                     "id": 0,
                                     "termIdx": 119,
                                     "content": "friend",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -10796,7 +10820,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "friend",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 119,
                                       "nextTermIdx": [
                                         120
@@ -10902,7 +10928,7 @@
                       "sentences": [
                         {
                           "id": 16,
-                          "content": "He asked her out on a [_date_].",
+                          "content": "He asked her out on a [_date=(noun)_].",
                           "firstTermIdx": 120,
                           "lastTermIdx": 126,
                           "terminals": [
@@ -11430,9 +11456,9 @@
                                     "id": 0,
                                     "termIdx": 126,
                                     "content": "date",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -11442,7 +11468,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "date",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 126,
                                       "nextTermIdx": [
                                         127
@@ -11548,7 +11576,7 @@
                       "sentences": [
                         {
                           "id": 17,
-                          "content": "You can sleep in the guest [_room_].",
+                          "content": "You can sleep in the guest [_room=(noun)_].",
                           "firstTermIdx": 127,
                           "lastTermIdx": 133,
                           "terminals": [
@@ -12076,9 +12104,9 @@
                                     "id": 0,
                                     "termIdx": 133,
                                     "content": "room",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -12088,7 +12116,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "room",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 133,
                                       "nextTermIdx": [
                                         134
@@ -12194,7 +12224,7 @@
                       "sentences": [
                         {
                           "id": 18,
-                          "content": "She plays with other girls and [_boys_].",
+                          "content": "She plays with other girls and [_boys=(noun)_].",
                           "firstTermIdx": 134,
                           "lastTermIdx": 140,
                           "terminals": [
@@ -12722,9 +12752,9 @@
                                     "id": 0,
                                     "termIdx": 140,
                                     "content": "boys",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -12734,7 +12764,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "boys",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 140,
                                       "nextTermIdx": [
                                         141
@@ -12840,7 +12872,7 @@
                       "sentences": [
                         {
                           "id": 19,
-                          "content": "He bought her an engagement [_ring_].",
+                          "content": "He bought her an engagement [_ring=(noun)_].",
                           "firstTermIdx": 141,
                           "lastTermIdx": 146,
                           "terminals": [
@@ -13284,9 +13316,9 @@
                                     "id": 0,
                                     "termIdx": 146,
                                     "content": "ring",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -13296,7 +13328,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "ring",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 146,
                                       "nextTermIdx": [
                                         147
@@ -13402,7 +13436,7 @@
                       "sentences": [
                         {
                           "id": 20,
-                          "content": "The engaged couple announced their [_marriage_].",
+                          "content": "The engaged couple announced their [_marriage=(noun)_].",
                           "firstTermIdx": 147,
                           "lastTermIdx": 152,
                           "terminals": [
@@ -13846,9 +13880,9 @@
                                     "id": 0,
                                     "termIdx": 152,
                                     "content": "marriage",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -13858,7 +13892,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "marriage",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 152,
                                       "nextTermIdx": [
                                         153
@@ -13964,7 +14000,7 @@
                       "sentences": [
                         {
                           "id": 21,
-                          "content": "A future spouse is called a [_fiancee_].",
+                          "content": "A future spouse is called a [_fiancee=(noun)_].",
                           "firstTermIdx": 153,
                           "lastTermIdx": 159,
                           "terminals": [
@@ -14492,9 +14528,9 @@
                                     "id": 0,
                                     "termIdx": 159,
                                     "content": "fiancee",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -14504,7 +14540,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "fiancee",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 159,
                                       "nextTermIdx": [
                                         160
@@ -14610,7 +14648,7 @@
                       "sentences": [
                         {
                           "id": 22,
-                          "content": "The bridesmaids threw her a bridal [_shower_].",
+                          "content": "The bridesmaids threw her a bridal [_shower=(noun)_].",
                           "firstTermIdx": 160,
                           "lastTermIdx": 166,
                           "terminals": [
@@ -15138,9 +15176,9 @@
                                     "id": 0,
                                     "termIdx": 166,
                                     "content": "shower",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -15150,7 +15188,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "shower",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 166,
                                       "nextTermIdx": [
                                         167
@@ -15256,7 +15296,7 @@
                       "sentences": [
                         {
                           "id": 23,
-                          "content": "They celebrated their 30th [_anniversary_].",
+                          "content": "They celebrated their 30th [_anniversary=(noun)_].",
                           "firstTermIdx": 167,
                           "lastTermIdx": 172,
                           "terminals": [
@@ -15660,9 +15700,9 @@
                                     "id": 0,
                                     "termIdx": 172,
                                     "content": "anniversary",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -15672,7 +15712,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "anniversary",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 172,
                                       "nextTermIdx": [
                                         173
@@ -15778,7 +15820,7 @@
                       "sentences": [
                         {
                           "id": 24,
-                          "content": "Bring your favorite dish to the [_potluck_].",
+                          "content": "Bring your favorite dish to the [_potluck=(noun)_].",
                           "firstTermIdx": 173,
                           "lastTermIdx": 179,
                           "terminals": [
@@ -16306,9 +16348,9 @@
                                     "id": 0,
                                     "termIdx": 179,
                                     "content": "potluck",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -16318,7 +16360,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "potluck",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 179,
                                       "nextTermIdx": [
                                         180
@@ -16424,7 +16468,7 @@
                       "sentences": [
                         {
                           "id": 25,
-                          "content": "Once a year we celebrate my [_birthday_].",
+                          "content": "Once a year we celebrate my [_birthday=(noun)_].",
                           "firstTermIdx": 180,
                           "lastTermIdx": 186,
                           "terminals": [
@@ -16952,9 +16996,9 @@
                                     "id": 0,
                                     "termIdx": 186,
                                     "content": "birthday",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -16964,7 +17008,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "birthday",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 186,
                                       "nextTermIdx": [
                                         187
@@ -17070,7 +17116,7 @@
                       "sentences": [
                         {
                           "id": 26,
-                          "content": "He is the life of the [_party_].",
+                          "content": "He is the life of the [_party=(noun)_].",
                           "firstTermIdx": 187,
                           "lastTermIdx": 193,
                           "terminals": [
@@ -17598,9 +17644,9 @@
                                     "id": 0,
                                     "termIdx": 193,
                                     "content": "party",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -17610,7 +17656,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "party",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 193,
                                       "nextTermIdx": [
                                         194
@@ -17716,7 +17764,7 @@
                       "sentences": [
                         {
                           "id": 27,
-                          "content": "Let's sing around the [_campfire_].",
+                          "content": "Let's sing around the [_campfire=(noun)_].",
                           "firstTermIdx": 194,
                           "lastTermIdx": 198,
                           "terminals": [
@@ -18076,9 +18124,9 @@
                                     "id": 0,
                                     "termIdx": 198,
                                     "content": "campfire",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -18088,7 +18136,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "campfire",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 198,
                                       "nextTermIdx": [],
                                       "prevTermIdx": [
@@ -18197,7 +18247,7 @@
       "altpronunciation": "",
       "altrecognition": "",
       "recitable": true,
-      "heading": false,
+      "heading": true,
       "audible": true,
       "linkable": false,
       "visible": true,
@@ -18228,7 +18278,7 @@
       "altpronunciation": "",
       "altrecognition": "",
       "recitable": true,
-      "heading": false,
+      "heading": true,
       "audible": true,
       "linkable": false,
       "visible": true,
@@ -18259,7 +18309,7 @@
       "altpronunciation": "",
       "altrecognition": "",
       "recitable": true,
-      "heading": false,
+      "heading": true,
       "audible": true,
       "linkable": false,
       "visible": true,
@@ -19096,7 +19146,7 @@
       "altpronunciation": "",
       "altrecognition": "",
       "recitable": true,
-      "heading": false,
+      "heading": true,
       "audible": true,
       "linkable": false,
       "visible": true,
@@ -19127,7 +19177,7 @@
       "altpronunciation": "",
       "altrecognition": "",
       "recitable": true,
-      "heading": false,
+      "heading": true,
       "audible": true,
       "linkable": false,
       "visible": true,
@@ -19158,7 +19208,7 @@
       "altpronunciation": "",
       "altrecognition": "",
       "recitable": true,
-      "heading": false,
+      "heading": true,
       "audible": true,
       "linkable": false,
       "visible": true,
@@ -19364,7 +19414,9 @@
     },
     {
       "content": "father",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 38,
       "nextTermIdx": [
         39
@@ -19581,7 +19633,9 @@
     },
     {
       "content": "brother",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 45,
       "nextTermIdx": [
         46
@@ -19829,7 +19883,9 @@
     },
     {
       "content": "children",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 53,
       "nextTermIdx": [
         54
@@ -19984,7 +20040,9 @@
     },
     {
       "content": "baby",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 58,
       "nextTermIdx": [
         59
@@ -20201,7 +20259,9 @@
     },
     {
       "content": "mother",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 65,
       "nextTermIdx": [
         66
@@ -20418,7 +20478,9 @@
     },
     {
       "content": "son",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 72,
       "nextTermIdx": [
         73
@@ -20604,7 +20666,9 @@
     },
     {
       "content": "church",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 78,
       "nextTermIdx": [
         79
@@ -20790,7 +20854,9 @@
     },
     {
       "content": "aunt",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 84,
       "nextTermIdx": [
         85
@@ -21007,7 +21073,9 @@
     },
     {
       "content": "grandfather",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 91,
       "nextTermIdx": [
         92
@@ -21255,7 +21323,9 @@
     },
     {
       "content": "dog",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 99,
       "nextTermIdx": [
         100
@@ -21503,7 +21573,9 @@
     },
     {
       "content": "child",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 107,
       "nextTermIdx": [
         108
@@ -21720,7 +21792,9 @@
     },
     {
       "content": "girls",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 114,
       "nextTermIdx": [
         115
@@ -21875,7 +21949,9 @@
     },
     {
       "content": "friend",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 119,
       "nextTermIdx": [
         120
@@ -22092,7 +22168,9 @@
     },
     {
       "content": "date",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 126,
       "nextTermIdx": [
         127
@@ -22309,7 +22387,9 @@
     },
     {
       "content": "room",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 133,
       "nextTermIdx": [
         134
@@ -22526,7 +22606,9 @@
     },
     {
       "content": "boys",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 140,
       "nextTermIdx": [
         141
@@ -22712,7 +22794,9 @@
     },
     {
       "content": "ring",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 146,
       "nextTermIdx": [
         147
@@ -22898,7 +22982,9 @@
     },
     {
       "content": "marriage",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 152,
       "nextTermIdx": [
         153
@@ -23115,7 +23201,9 @@
     },
     {
       "content": "fiancee",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 159,
       "nextTermIdx": [
         160
@@ -23332,7 +23420,9 @@
     },
     {
       "content": "shower",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 166,
       "nextTermIdx": [
         167
@@ -23518,7 +23608,9 @@
     },
     {
       "content": "anniversary",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 172,
       "nextTermIdx": [
         173
@@ -23735,7 +23827,9 @@
     },
     {
       "content": "potluck",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 179,
       "nextTermIdx": [
         180
@@ -23952,7 +24046,9 @@
     },
     {
       "content": "birthday",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 186,
       "nextTermIdx": [
         187
@@ -24169,7 +24265,9 @@
     },
     {
       "content": "party",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 193,
       "nextTermIdx": [
         194
@@ -24324,7 +24422,9 @@
     },
     {
       "content": "campfire",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 198,
       "nextTermIdx": [],
       "prevTermIdx": [
@@ -24356,13 +24456,15 @@
     {
       "headingLevel": 1,
       "title": "Completing sentences progressively",
-      "termIdx": 0,
+      "firstTermIdx": 0,
+      "lastTermIdx": 2,
       "terminalCountPriorToHeading": -9999
     },
     {
       "headingLevel": 2,
       "title": "Friends and family",
-      "termIdx": 29,
+      "firstTermIdx": 29,
+      "lastTermIdx": 31,
       "terminalCountPriorToHeading": -9999
     }
   ],
@@ -24686,132 +24788,132 @@
       "promptColumns": 2,
       "alternatives": [],
       "tags": [
-        "untagged"
+        "noun"
       ],
       "responses": [
         {
           "content": "father",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
           "content": "brother",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
           "content": "children",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
           "content": "baby",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
           "content": "mother",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
           "content": "son",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
           "content": "church",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
           "content": "aunt",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
           "content": "grandfather",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
           "content": "dog",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
           "content": "child",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
           "content": "girls",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
           "content": "friend",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
           "content": "date",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
           "content": "room",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
           "content": "boys",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
           "content": "ring",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
           "content": "marriage",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
           "content": "fiancee",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
           "content": "shower",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
           "content": "anniversary",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
           "content": "potluck",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
           "content": "birthday",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
           "content": "party",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
           "content": "campfire",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         }
       ],
