@@ -8,9 +8,9 @@
   "category": "Sentence Completion (trailing word)",
   "version": "20230706.1",
   "pageFormatType": 0,
-  "created": "Wed Aug 02 2023 15:53:30 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Wed Aug 02 2023 15:53:30 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Wed Aug 02 2023 15:53:30 GMT-0700 (Pacific Daylight Time)",
+  "created": "Wed Aug 02 2023 15:55:57 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Wed Aug 02 2023 15:55:57 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Wed Aug 02 2023 15:55:57 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -5566,7 +5566,7 @@
                       "sentences": [
                         {
                           "id": 14,
-                          "content": "I [_like_] baked [_potatoes_].",
+                          "content": "I like baked [_potatoes_].",
                           "firstTermIdx": 58,
                           "lastTermIdx": 61,
                           "terminals": [
@@ -5656,7 +5656,7 @@
                             },
                             {
                               "id": 0,
-                              "termIdx": -9999,
+                              "termIdx": 59,
                               "content": "like",
                               "cueList": "",
                               "cues": {
@@ -5667,55 +5667,35 @@
                               },
                               "firstTermIdx": 59,
                               "lastTermIdx": 59,
-                              "type": 4,
+                              "type": 17,
                               "meta": {
-                                "terminals": [
-                                  {
-                                    "id": 0,
-                                    "termIdx": 59,
-                                    "content": "like",
-                                    "cueList": "",
-                                    "cues": {
-                                      "partOfSpeech": "untagged",
-                                      "definition": "",
-                                      "image": "",
-                                      "alternatives": []
-                                    },
-                                    "firstTermIdx": 59,
-                                    "lastTermIdx": 59,
-                                    "type": 17,
-                                    "meta": {
-                                      "content": "like",
-                                      "cues": [],
-                                      "termIdx": 59,
-                                      "nextTermIdx": [
-                                        60
-                                      ],
-                                      "prevTermIdx": [
-                                        58
-                                      ],
-                                      "altpronunciation": "",
-                                      "altrecognition": "",
-                                      "recitable": true,
-                                      "heading": false,
-                                      "audible": true,
-                                      "linkable": false,
-                                      "visible": true,
-                                      "visited": false,
-                                      "numberAsNumerals": false,
-                                      "linkIdx": -9999,
-                                      "hintsIdx": -9999,
-                                      "fillin": {
-                                        "sectionIdx": 0,
-                                        "responseIdx": 11
-                                      },
-                                      "bold": false,
-                                      "italics": false,
-                                      "markupTag": false
-                                    }
-                                  }
+                                "content": "like",
+                                "cues": [],
+                                "termIdx": 59,
+                                "nextTermIdx": [
+                                  60
                                 ],
-                                "sectionFillinIdx": 0
+                                "prevTermIdx": [
+                                  58
+                                ],
+                                "altpronunciation": "",
+                                "altrecognition": "",
+                                "recitable": true,
+                                "heading": false,
+                                "audible": true,
+                                "linkable": false,
+                                "visible": true,
+                                "visited": false,
+                                "numberAsNumerals": false,
+                                "linkIdx": -9999,
+                                "hintsIdx": -9999,
+                                "fillin": {
+                                  "sectionIdx": -9999,
+                                  "responseIdx": -9999
+                                },
+                                "bold": false,
+                                "italics": false,
+                                "markupTag": false
                               }
                             },
                             {
@@ -5895,7 +5875,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 0,
-                                        "responseIdx": 12
+                                        "responseIdx": 11
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -20473,8 +20453,8 @@
       "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
-        "sectionIdx": 0,
-        "responseIdx": 11
+        "sectionIdx": -9999,
+        "responseIdx": -9999
       },
       "bold": false,
       "italics": false,
@@ -20536,7 +20516,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 12
+        "responseIdx": 11
       },
       "bold": false,
       "italics": false,
@@ -25020,11 +25000,6 @@
         },
         {
           "content": "potatoes",
-          "tag": "untagged",
-          "referenceCount": 1
-        },
-        {
-          "content": "like",
           "tag": "untagged",
           "referenceCount": 1
         },
