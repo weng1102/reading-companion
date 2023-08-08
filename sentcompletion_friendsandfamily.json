@@ -8,9 +8,9 @@
   "category": "Sentence Completion (trailing word)",
   "version": "20230706.1",
   "pageFormatType": 0,
-  "created": "Fri Aug 04 2023 13:40:42 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Fri Aug 04 2023 13:40:42 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Fri Aug 04 2023 13:40:42 GMT-0700 (Pacific Daylight Time)",
+  "created": "Tue Aug 08 2023 15:49:13 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Tue Aug 08 2023 15:49:13 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Tue Aug 08 2023 15:49:13 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -2702,7 +2702,7 @@
       "name": "",
       "description": "",
       "firstTermIdx": -9999,
-      "lastTermIdx": 198,
+      "lastTermIdx": 84,
       "items": [],
       "type": "fillin",
       "meta": {
@@ -7668,7 +7668,58 @@
                   "startNumber": 0,
                   "listType": 1
                 }
-              },
+              }
+            ],
+            "meta": {
+              "depth": 1,
+              "startNumber": 0,
+              "listType": 6
+            },
+            "type": "ordered_list"
+          }
+        ]
+      }
+    },
+    {
+      "id": 0,
+      "name": "",
+      "description": "",
+      "firstTermIdx": -9999,
+      "lastTermIdx": 140,
+      "items": [],
+      "type": "fillin",
+      "meta": {
+        "sectionFillinIdx": 1,
+        "presetLevel": 4,
+        "authorSetting": {
+          "description": "no description",
+          "responsesLabel": "Responses already filled in",
+          "promptsLabel": "Recite the following prompts including the underlined words:",
+          "layout": "grid",
+          "showProgression": true,
+          "progressionOrder": "in order",
+          "gridColumns": 6,
+          "showResponseTags": true,
+          "showPromptTags": true,
+          "groupByTags": true,
+          "showResponsesInPrompts": false,
+          "responsesLayout": "above",
+          "showAlternatives": false,
+          "unique": true,
+          "showReferenceCount": true,
+          "helpfulness": 814
+        },
+        "allowReset": true,
+        "promptColumns": 2,
+        "showPresets": true,
+        "prompts": [
+          {
+            "id": 0,
+            "name": "",
+            "description": "",
+            "firstTermIdx": -9999,
+            "lastTermIdx": -9999,
+            "items": [
               {
                 "id": 0,
                 "name": "",
@@ -8250,8 +8301,8 @@
                                       "linkIdx": -9999,
                                       "hintsIdx": -9999,
                                       "fillin": {
-                                        "sectionIdx": 0,
-                                        "responseIdx": 8
+                                        "sectionIdx": 1,
+                                        "responseIdx": 0
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -8259,7 +8310,7 @@
                                     }
                                   }
                                 ],
-                                "sectionFillinIdx": 0
+                                "sectionFillinIdx": 1
                               }
                             },
                             {
@@ -8982,8 +9033,8 @@
                                       "linkIdx": -9999,
                                       "hintsIdx": -9999,
                                       "fillin": {
-                                        "sectionIdx": 0,
-                                        "responseIdx": 9
+                                        "sectionIdx": 1,
+                                        "responseIdx": 1
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -8991,7 +9042,7 @@
                                     }
                                   }
                                 ],
-                                "sectionFillinIdx": 0
+                                "sectionFillinIdx": 1
                               }
                             },
                             {
@@ -9714,8 +9765,8 @@
                                       "linkIdx": -9999,
                                       "hintsIdx": -9999,
                                       "fillin": {
-                                        "sectionIdx": 0,
-                                        "responseIdx": 10
+                                        "sectionIdx": 1,
+                                        "responseIdx": 2
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -9723,7 +9774,7 @@
                                     }
                                   }
                                 ],
-                                "sectionFillinIdx": 0
+                                "sectionFillinIdx": 1
                               }
                             },
                             {
@@ -10362,8 +10413,8 @@
                                       "linkIdx": -9999,
                                       "hintsIdx": -9999,
                                       "fillin": {
-                                        "sectionIdx": 0,
-                                        "responseIdx": 11
+                                        "sectionIdx": 1,
+                                        "responseIdx": 3
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -10371,7 +10422,7 @@
                                     }
                                   }
                                 ],
-                                "sectionFillinIdx": 0
+                                "sectionFillinIdx": 1
                               }
                             },
                             {
@@ -10842,8 +10893,8 @@
                                       "linkIdx": -9999,
                                       "hintsIdx": -9999,
                                       "fillin": {
-                                        "sectionIdx": 0,
-                                        "responseIdx": 12
+                                        "sectionIdx": 1,
+                                        "responseIdx": 4
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -10851,7 +10902,7 @@
                                     }
                                   }
                                 ],
-                                "sectionFillinIdx": 0
+                                "sectionFillinIdx": 1
                               }
                             },
                             {
@@ -11490,8 +11541,8 @@
                                       "linkIdx": -9999,
                                       "hintsIdx": -9999,
                                       "fillin": {
-                                        "sectionIdx": 0,
-                                        "responseIdx": 13
+                                        "sectionIdx": 1,
+                                        "responseIdx": 5
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -11499,7 +11550,7 @@
                                     }
                                   }
                                 ],
-                                "sectionFillinIdx": 0
+                                "sectionFillinIdx": 1
                               }
                             },
                             {
@@ -12138,8 +12189,8 @@
                                       "linkIdx": -9999,
                                       "hintsIdx": -9999,
                                       "fillin": {
-                                        "sectionIdx": 0,
-                                        "responseIdx": 14
+                                        "sectionIdx": 1,
+                                        "responseIdx": 6
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -12147,7 +12198,7 @@
                                     }
                                   }
                                 ],
-                                "sectionFillinIdx": 0
+                                "sectionFillinIdx": 1
                               }
                             },
                             {
@@ -12786,8 +12837,8 @@
                                       "linkIdx": -9999,
                                       "hintsIdx": -9999,
                                       "fillin": {
-                                        "sectionIdx": 0,
-                                        "responseIdx": 15
+                                        "sectionIdx": 1,
+                                        "responseIdx": 7
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -12795,7 +12846,7 @@
                                     }
                                   }
                                 ],
-                                "sectionFillinIdx": 0
+                                "sectionFillinIdx": 1
                               }
                             },
                             {
@@ -12852,7 +12903,58 @@
                   "startNumber": 0,
                   "listType": 1
                 }
-              },
+              }
+            ],
+            "meta": {
+              "depth": 1,
+              "startNumber": 0,
+              "listType": 6
+            },
+            "type": "ordered_list"
+          }
+        ]
+      }
+    },
+    {
+      "id": 0,
+      "name": "",
+      "description": "",
+      "firstTermIdx": -9999,
+      "lastTermIdx": 198,
+      "items": [],
+      "type": "fillin",
+      "meta": {
+        "sectionFillinIdx": 2,
+        "presetLevel": 4,
+        "authorSetting": {
+          "description": "no description",
+          "responsesLabel": "Responses already filled in",
+          "promptsLabel": "Recite the following prompts including the underlined words:",
+          "layout": "grid",
+          "showProgression": true,
+          "progressionOrder": "in order",
+          "gridColumns": 6,
+          "showResponseTags": true,
+          "showPromptTags": true,
+          "groupByTags": true,
+          "showResponsesInPrompts": false,
+          "responsesLayout": "above",
+          "showAlternatives": false,
+          "unique": true,
+          "showReferenceCount": true,
+          "helpfulness": 814
+        },
+        "allowReset": true,
+        "promptColumns": 2,
+        "showPresets": true,
+        "prompts": [
+          {
+            "id": 0,
+            "name": "",
+            "description": "",
+            "firstTermIdx": -9999,
+            "lastTermIdx": -9999,
+            "items": [
               {
                 "id": 0,
                 "name": "",
@@ -13350,8 +13452,8 @@
                                       "linkIdx": -9999,
                                       "hintsIdx": -9999,
                                       "fillin": {
-                                        "sectionIdx": 0,
-                                        "responseIdx": 16
+                                        "sectionIdx": 2,
+                                        "responseIdx": 0
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -13359,7 +13461,7 @@
                                     }
                                   }
                                 ],
-                                "sectionFillinIdx": 0
+                                "sectionFillinIdx": 2
                               }
                             },
                             {
@@ -13914,8 +14016,8 @@
                                       "linkIdx": -9999,
                                       "hintsIdx": -9999,
                                       "fillin": {
-                                        "sectionIdx": 0,
-                                        "responseIdx": 17
+                                        "sectionIdx": 2,
+                                        "responseIdx": 1
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -13923,7 +14025,7 @@
                                     }
                                   }
                                 ],
-                                "sectionFillinIdx": 0
+                                "sectionFillinIdx": 2
                               }
                             },
                             {
@@ -14562,8 +14664,8 @@
                                       "linkIdx": -9999,
                                       "hintsIdx": -9999,
                                       "fillin": {
-                                        "sectionIdx": 0,
-                                        "responseIdx": 18
+                                        "sectionIdx": 2,
+                                        "responseIdx": 2
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -14571,7 +14673,7 @@
                                     }
                                   }
                                 ],
-                                "sectionFillinIdx": 0
+                                "sectionFillinIdx": 2
                               }
                             },
                             {
@@ -15210,8 +15312,8 @@
                                       "linkIdx": -9999,
                                       "hintsIdx": -9999,
                                       "fillin": {
-                                        "sectionIdx": 0,
-                                        "responseIdx": 19
+                                        "sectionIdx": 2,
+                                        "responseIdx": 3
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -15219,7 +15321,7 @@
                                     }
                                   }
                                 ],
-                                "sectionFillinIdx": 0
+                                "sectionFillinIdx": 2
                               }
                             },
                             {
@@ -15734,8 +15836,8 @@
                                       "linkIdx": -9999,
                                       "hintsIdx": -9999,
                                       "fillin": {
-                                        "sectionIdx": 0,
-                                        "responseIdx": 20
+                                        "sectionIdx": 2,
+                                        "responseIdx": 4
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -15743,7 +15845,7 @@
                                     }
                                   }
                                 ],
-                                "sectionFillinIdx": 0
+                                "sectionFillinIdx": 2
                               }
                             },
                             {
@@ -16382,8 +16484,8 @@
                                       "linkIdx": -9999,
                                       "hintsIdx": -9999,
                                       "fillin": {
-                                        "sectionIdx": 0,
-                                        "responseIdx": 21
+                                        "sectionIdx": 2,
+                                        "responseIdx": 5
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -16391,7 +16493,7 @@
                                     }
                                   }
                                 ],
-                                "sectionFillinIdx": 0
+                                "sectionFillinIdx": 2
                               }
                             },
                             {
@@ -17030,8 +17132,8 @@
                                       "linkIdx": -9999,
                                       "hintsIdx": -9999,
                                       "fillin": {
-                                        "sectionIdx": 0,
-                                        "responseIdx": 22
+                                        "sectionIdx": 2,
+                                        "responseIdx": 6
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -17039,7 +17141,7 @@
                                     }
                                   }
                                 ],
-                                "sectionFillinIdx": 0
+                                "sectionFillinIdx": 2
                               }
                             },
                             {
@@ -17678,8 +17780,8 @@
                                       "linkIdx": -9999,
                                       "hintsIdx": -9999,
                                       "fillin": {
-                                        "sectionIdx": 0,
-                                        "responseIdx": 23
+                                        "sectionIdx": 2,
+                                        "responseIdx": 7
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -17687,7 +17789,7 @@
                                     }
                                   }
                                 ],
-                                "sectionFillinIdx": 0
+                                "sectionFillinIdx": 2
                               }
                             },
                             {
@@ -18156,8 +18258,8 @@
                                       "linkIdx": -9999,
                                       "hintsIdx": -9999,
                                       "fillin": {
-                                        "sectionIdx": 0,
-                                        "responseIdx": 24
+                                        "sectionIdx": 2,
+                                        "responseIdx": 8
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -18165,7 +18267,7 @@
                                     }
                                   }
                                 ],
-                                "sectionFillinIdx": 0
+                                "sectionFillinIdx": 2
                               }
                             },
                             {
@@ -21095,8 +21197,8 @@
       "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
-        "sectionIdx": 0,
-        "responseIdx": 8
+        "sectionIdx": 1,
+        "responseIdx": 0
       },
       "bold": false,
       "italics": false,
@@ -21345,8 +21447,8 @@
       "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
-        "sectionIdx": 0,
-        "responseIdx": 9
+        "sectionIdx": 1,
+        "responseIdx": 1
       },
       "bold": false,
       "italics": false,
@@ -21595,8 +21697,8 @@
       "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
-        "sectionIdx": 0,
-        "responseIdx": 10
+        "sectionIdx": 1,
+        "responseIdx": 2
       },
       "bold": false,
       "italics": false,
@@ -21814,8 +21916,8 @@
       "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
-        "sectionIdx": 0,
-        "responseIdx": 11
+        "sectionIdx": 1,
+        "responseIdx": 3
       },
       "bold": false,
       "italics": false,
@@ -21971,8 +22073,8 @@
       "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
-        "sectionIdx": 0,
-        "responseIdx": 12
+        "sectionIdx": 1,
+        "responseIdx": 4
       },
       "bold": false,
       "italics": false,
@@ -22190,8 +22292,8 @@
       "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
-        "sectionIdx": 0,
-        "responseIdx": 13
+        "sectionIdx": 1,
+        "responseIdx": 5
       },
       "bold": false,
       "italics": false,
@@ -22409,8 +22511,8 @@
       "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
-        "sectionIdx": 0,
-        "responseIdx": 14
+        "sectionIdx": 1,
+        "responseIdx": 6
       },
       "bold": false,
       "italics": false,
@@ -22628,8 +22730,8 @@
       "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
-        "sectionIdx": 0,
-        "responseIdx": 15
+        "sectionIdx": 1,
+        "responseIdx": 7
       },
       "bold": false,
       "italics": false,
@@ -22816,8 +22918,8 @@
       "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
-        "sectionIdx": 0,
-        "responseIdx": 16
+        "sectionIdx": 2,
+        "responseIdx": 0
       },
       "bold": false,
       "italics": false,
@@ -23004,8 +23106,8 @@
       "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
-        "sectionIdx": 0,
-        "responseIdx": 17
+        "sectionIdx": 2,
+        "responseIdx": 1
       },
       "bold": false,
       "italics": false,
@@ -23223,8 +23325,8 @@
       "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
-        "sectionIdx": 0,
-        "responseIdx": 18
+        "sectionIdx": 2,
+        "responseIdx": 2
       },
       "bold": false,
       "italics": false,
@@ -23442,8 +23544,8 @@
       "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
-        "sectionIdx": 0,
-        "responseIdx": 19
+        "sectionIdx": 2,
+        "responseIdx": 3
       },
       "bold": false,
       "italics": false,
@@ -23630,8 +23732,8 @@
       "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
-        "sectionIdx": 0,
-        "responseIdx": 20
+        "sectionIdx": 2,
+        "responseIdx": 4
       },
       "bold": false,
       "italics": false,
@@ -23849,8 +23951,8 @@
       "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
-        "sectionIdx": 0,
-        "responseIdx": 21
+        "sectionIdx": 2,
+        "responseIdx": 5
       },
       "bold": false,
       "italics": false,
@@ -24068,8 +24170,8 @@
       "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
-        "sectionIdx": 0,
-        "responseIdx": 22
+        "sectionIdx": 2,
+        "responseIdx": 6
       },
       "bold": false,
       "italics": false,
@@ -24287,8 +24389,8 @@
       "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
-        "sectionIdx": 0,
-        "responseIdx": 23
+        "sectionIdx": 2,
+        "responseIdx": 7
       },
       "bold": false,
       "italics": false,
@@ -24442,8 +24544,8 @@
       "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
-        "sectionIdx": 0,
-        "responseIdx": 24
+        "sectionIdx": 2,
+        "responseIdx": 8
       },
       "bold": false,
       "italics": false,
@@ -24830,7 +24932,58 @@
           "content": "aunt",
           "tag": "noun",
           "referenceCount": 1
-        },
+        }
+      ],
+      "loaded": false,
+      "modified": false
+    },
+    {
+      "idx": 1,
+      "showPresets": true,
+      "presetLevel": 4,
+      "authorSetting": {
+        "description": "no description",
+        "responsesLabel": "Responses already filled in",
+        "promptsLabel": "Recite the following prompts including the underlined words:",
+        "layout": "grid",
+        "showProgression": true,
+        "progressionOrder": "in order",
+        "gridColumns": 6,
+        "showResponseTags": true,
+        "showPromptTags": true,
+        "groupByTags": true,
+        "showResponsesInPrompts": false,
+        "responsesLayout": "above",
+        "showAlternatives": false,
+        "unique": true,
+        "showReferenceCount": true,
+        "helpfulness": 814
+      },
+      "currentSetting": {
+        "description": "no description",
+        "responsesLabel": "Responses already filled in",
+        "promptsLabel": "Recite the following prompts including the underlined words:",
+        "layout": "grid",
+        "showProgression": true,
+        "progressionOrder": "in order",
+        "gridColumns": 6,
+        "showResponseTags": true,
+        "showPromptTags": true,
+        "groupByTags": true,
+        "showResponsesInPrompts": false,
+        "responsesLayout": "above",
+        "showAlternatives": false,
+        "unique": true,
+        "showReferenceCount": true,
+        "helpfulness": 814
+      },
+      "allowReset": true,
+      "promptColumns": 2,
+      "alternatives": [],
+      "tags": [
+        "noun"
+      ],
+      "responses": [
         {
           "content": "grandfather",
           "tag": "noun",
@@ -24870,7 +25023,58 @@
           "content": "boys",
           "tag": "noun",
           "referenceCount": 1
-        },
+        }
+      ],
+      "loaded": false,
+      "modified": false
+    },
+    {
+      "idx": 2,
+      "showPresets": true,
+      "presetLevel": 4,
+      "authorSetting": {
+        "description": "no description",
+        "responsesLabel": "Responses already filled in",
+        "promptsLabel": "Recite the following prompts including the underlined words:",
+        "layout": "grid",
+        "showProgression": true,
+        "progressionOrder": "in order",
+        "gridColumns": 6,
+        "showResponseTags": true,
+        "showPromptTags": true,
+        "groupByTags": true,
+        "showResponsesInPrompts": false,
+        "responsesLayout": "above",
+        "showAlternatives": false,
+        "unique": true,
+        "showReferenceCount": true,
+        "helpfulness": 814
+      },
+      "currentSetting": {
+        "description": "no description",
+        "responsesLabel": "Responses already filled in",
+        "promptsLabel": "Recite the following prompts including the underlined words:",
+        "layout": "grid",
+        "showProgression": true,
+        "progressionOrder": "in order",
+        "gridColumns": 6,
+        "showResponseTags": true,
+        "showPromptTags": true,
+        "groupByTags": true,
+        "showResponsesInPrompts": false,
+        "responsesLayout": "above",
+        "showAlternatives": false,
+        "unique": true,
+        "showReferenceCount": true,
+        "helpfulness": 814
+      },
+      "allowReset": true,
+      "promptColumns": 2,
+      "alternatives": [],
+      "tags": [
+        "noun"
+      ],
+      "responses": [
         {
           "content": "ring",
           "tag": "noun",
