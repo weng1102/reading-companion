@@ -8,9 +8,9 @@
   "category": "Sentence Completion (trailing word)",
   "version": "20230706.1",
   "pageFormatType": 0,
-  "created": "Tue Aug 08 2023 16:09:53 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Tue Aug 08 2023 16:09:53 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Tue Aug 08 2023 16:09:53 GMT-0700 (Pacific Daylight Time)",
+  "created": "Thu Aug 10 2023 09:03:04 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Thu Aug 10 2023 09:03:04 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Thu Aug 10 2023 09:03:04 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -2588,7 +2588,7 @@
                       "sentences": [
                         {
                           "id": 3,
-                          "content": "[_Peel=(verb)_] the yellow [_banana_].",
+                          "content": "[_Peel=(verb)_] the yellow [_banana=(noun)_].",
                           "firstTermIdx": 30,
                           "lastTermIdx": 33,
                           "terminals": [
@@ -2886,9 +2886,9 @@
                                     "id": 0,
                                     "termIdx": 33,
                                     "content": "banana",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -2898,7 +2898,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "banana",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 33,
                                       "nextTermIdx": [
                                         34
@@ -3004,7 +3006,7 @@
                       "sentences": [
                         {
                           "id": 4,
-                          "content": "[_Fry=(verb)_] a sirloin [_steak_].",
+                          "content": "[_Fry=(verb)_] a sirloin [_steak=(noun)_].",
                           "firstTermIdx": 34,
                           "lastTermIdx": 37,
                           "terminals": [
@@ -3302,9 +3304,9 @@
                                     "id": 0,
                                     "termIdx": 37,
                                     "content": "steak",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -3314,7 +3316,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "steak",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 37,
                                       "nextTermIdx": [
                                         38
@@ -3420,7 +3424,7 @@
                       "sentences": [
                         {
                           "id": 5,
-                          "content": "[_Scrub=(verb)_] the casserole [_dish_].",
+                          "content": "[_Scrub=(verb)_] the casserole [_dish=(noun)_].",
                           "firstTermIdx": 38,
                           "lastTermIdx": 41,
                           "terminals": [
@@ -3718,9 +3722,9 @@
                                     "id": 0,
                                     "termIdx": 41,
                                     "content": "dish",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -3730,7 +3734,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "dish",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 41,
                                       "nextTermIdx": [
                                         42
@@ -3836,7 +3842,7 @@
                       "sentences": [
                         {
                           "id": 6,
-                          "content": "[_Clean=(verb)_] the [_dishes_].",
+                          "content": "[_Clean=(verb)_] the [_dishes=(noun)_].",
                           "firstTermIdx": 42,
                           "lastTermIdx": 44,
                           "terminals": [
@@ -4050,9 +4056,9 @@
                                     "id": 0,
                                     "termIdx": 44,
                                     "content": "dishes",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -4062,7 +4068,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "dishes",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 44,
                                       "nextTermIdx": [
                                         45
@@ -4168,7 +4176,7 @@
                       "sentences": [
                         {
                           "id": 7,
-                          "content": "[_Wipe=(verb)_] the kitchen [_counters_].",
+                          "content": "[_Wipe=(verb)_] the kitchen [_counters=(noun)_].",
                           "firstTermIdx": 45,
                           "lastTermIdx": 48,
                           "terminals": [
@@ -4466,9 +4474,9 @@
                                     "id": 0,
                                     "termIdx": 48,
                                     "content": "counters",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -4478,7 +4486,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "counters",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 48,
                                       "nextTermIdx": [
                                         49
@@ -4584,7 +4594,7 @@
                       "sentences": [
                         {
                           "id": 8,
-                          "content": "[_Dispose=(verb)_] of the [_garbage_].",
+                          "content": "[_Dispose=(verb)_] of the [_garbage=(noun)_].",
                           "firstTermIdx": 49,
                           "lastTermIdx": 52,
                           "terminals": [
@@ -4882,9 +4892,9 @@
                                     "id": 0,
                                     "termIdx": 52,
                                     "content": "garbage",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -4894,7 +4904,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "garbage",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 52,
                                       "nextTermIdx": [
                                         53
@@ -5000,7 +5012,7 @@
                       "sentences": [
                         {
                           "id": 9,
-                          "content": "[_Boil=(verb)_] water for [_tea_].",
+                          "content": "[_Boil=(verb)_] water for [_tea=(noun)_].",
                           "firstTermIdx": 53,
                           "lastTermIdx": 56,
                           "terminals": [
@@ -5298,9 +5310,9 @@
                                     "id": 0,
                                     "termIdx": 56,
                                     "content": "tea",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -5310,7 +5322,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "tea",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 56,
                                       "nextTermIdx": [
                                         57
@@ -5467,7 +5481,7 @@
                       "sentences": [
                         {
                           "id": 10,
-                          "content": "[_Brew=(verb)_] hot [_coffee_]",
+                          "content": "[_Brew=(verb)_] hot [_coffee=(noun)_]",
                           "firstTermIdx": 57,
                           "lastTermIdx": 59,
                           "terminals": [
@@ -5681,9 +5695,9 @@
                                     "id": 0,
                                     "termIdx": 59,
                                     "content": "coffee",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -5693,7 +5707,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "coffee",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 59,
                                       "nextTermIdx": [
                                         60
@@ -5759,7 +5775,7 @@
                       "sentences": [
                         {
                           "id": 11,
-                          "content": "[_Set=(verb)_] the [_table_].",
+                          "content": "[_Set=(verb)_] the [_table=(noun)_].",
                           "firstTermIdx": 60,
                           "lastTermIdx": 62,
                           "terminals": [
@@ -5973,9 +5989,9 @@
                                     "id": 0,
                                     "termIdx": 62,
                                     "content": "table",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -5985,7 +6001,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "table",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 62,
                                       "nextTermIdx": [
                                         63
@@ -6091,7 +6109,7 @@
                       "sentences": [
                         {
                           "id": 12,
-                          "content": "[_Eat=(verb)_] your morning meal at [_breakfast_].",
+                          "content": "[_Eat=(verb)_] your morning meal at [_breakfast=(noun)_].",
                           "firstTermIdx": 63,
                           "lastTermIdx": 68,
                           "terminals": [
@@ -6557,9 +6575,9 @@
                                     "id": 0,
                                     "termIdx": 68,
                                     "content": "breakfast",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -6569,7 +6587,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "breakfast",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 68,
                                       "nextTermIdx": [
                                         69
@@ -6675,7 +6695,7 @@
                       "sentences": [
                         {
                           "id": 13,
-                          "content": "[_Eat=(verb)_] your midday meal at [_lunch_].",
+                          "content": "[_Eat=(verb)_] your midday meal at [_lunch=(noun)_].",
                           "firstTermIdx": 69,
                           "lastTermIdx": 74,
                           "terminals": [
@@ -7141,9 +7161,9 @@
                                     "id": 0,
                                     "termIdx": 74,
                                     "content": "lunch",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -7153,7 +7173,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "lunch",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 74,
                                       "nextTermIdx": [
                                         75
@@ -7259,7 +7281,7 @@
                       "sentences": [
                         {
                           "id": 14,
-                          "content": "[_Eat=(verb)_] your evening meal at [_dinner_].",
+                          "content": "[_Eat=(verb)_] your evening meal at [_dinner=(noun)_].",
                           "firstTermIdx": 75,
                           "lastTermIdx": 80,
                           "terminals": [
@@ -7725,9 +7747,9 @@
                                     "id": 0,
                                     "termIdx": 80,
                                     "content": "dinner",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -7737,7 +7759,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "dinner",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 80,
                                       "nextTermIdx": [
                                         81
@@ -7843,7 +7867,7 @@
                       "sentences": [
                         {
                           "id": 15,
-                          "content": "[_Mop=(verb)_] the kitchen [_floors_].",
+                          "content": "[_Mop=(verb)_] the kitchen [_floors=(noun)_].",
                           "firstTermIdx": 81,
                           "lastTermIdx": 84,
                           "terminals": [
@@ -8141,9 +8165,9 @@
                                     "id": 0,
                                     "termIdx": 84,
                                     "content": "floors",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -8153,7 +8177,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "floors",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 84,
                                       "nextTermIdx": [
                                         85
@@ -8259,7 +8285,7 @@
                       "sentences": [
                         {
                           "id": 16,
-                          "content": "[_Cook=(verb)_] on the [_stove_].",
+                          "content": "[_Cook=(verb)_] on the [_stove=(noun)_].",
                           "firstTermIdx": 85,
                           "lastTermIdx": 88,
                           "terminals": [
@@ -8557,9 +8583,9 @@
                                     "id": 0,
                                     "termIdx": 88,
                                     "content": "stove",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -8569,7 +8595,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "stove",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 88,
                                       "nextTermIdx": [
                                         89
@@ -8675,7 +8703,7 @@
                       "sentences": [
                         {
                           "id": 17,
-                          "content": "[_Bake=(verb)_] in the [_oven_].",
+                          "content": "[_Bake=(verb)_] in the [_oven=(noun)_].",
                           "firstTermIdx": 89,
                           "lastTermIdx": 92,
                           "terminals": [
@@ -8973,9 +9001,9 @@
                                     "id": 0,
                                     "termIdx": 92,
                                     "content": "oven",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -8985,7 +9013,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "oven",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 92,
                                       "nextTermIdx": [
                                         93
@@ -9142,7 +9172,7 @@
                       "sentences": [
                         {
                           "id": 18,
-                          "content": "[_Wash=(verb)_] dishes automatically in the [_dishwasher_].",
+                          "content": "[_Wash=(verb)_] dishes automatically in the [_dishwasher=(noun)_].",
                           "firstTermIdx": 93,
                           "lastTermIdx": 98,
                           "terminals": [
@@ -9608,9 +9638,9 @@
                                     "id": 0,
                                     "termIdx": 98,
                                     "content": "dishwasher",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -9620,7 +9650,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "dishwasher",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 98,
                                       "nextTermIdx": [
                                         99
@@ -9726,7 +9758,7 @@
                       "sentences": [
                         {
                           "id": 19,
-                          "content": "[_Wash=(verb)_] dishes manually in the [_sink_].",
+                          "content": "[_Wash=(verb)_] dishes manually in the [_sink=(noun)_].",
                           "firstTermIdx": 99,
                           "lastTermIdx": 104,
                           "terminals": [
@@ -10192,9 +10224,9 @@
                                     "id": 0,
                                     "termIdx": 104,
                                     "content": "sink",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -10204,7 +10236,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "sink",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 104,
                                       "nextTermIdx": [
                                         105
@@ -10310,7 +10344,7 @@
                       "sentences": [
                         {
                           "id": 20,
-                          "content": "[_Keep=(verb)_] food cold in the [_refrigerator_].",
+                          "content": "[_Keep=(verb)_] food cold in the [_refrigerator=(noun)_].",
                           "firstTermIdx": 105,
                           "lastTermIdx": 110,
                           "terminals": [
@@ -10776,9 +10810,9 @@
                                     "id": 0,
                                     "termIdx": 110,
                                     "content": "refrigerator",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -10788,7 +10822,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "refrigerator",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 110,
                                       "nextTermIdx": [
                                         111
@@ -10894,7 +10930,7 @@
                       "sentences": [
                         {
                           "id": 21,
-                          "content": "[_Keep=(verb)_] food frozen in the [_freezer_].",
+                          "content": "[_Keep=(verb)_] food frozen in the [_freezer=(noun)_].",
                           "firstTermIdx": 111,
                           "lastTermIdx": 116,
                           "terminals": [
@@ -11360,9 +11396,9 @@
                                     "id": 0,
                                     "termIdx": 116,
                                     "content": "freezer",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -11372,7 +11408,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "freezer",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 116,
                                       "nextTermIdx": [
                                         117
@@ -11478,7 +11516,7 @@
                       "sentences": [
                         {
                           "id": 22,
-                          "content": "[_Sit=(verb)_] down at the [_table_].",
+                          "content": "[_Sit=(verb)_] down at the [_table=(noun)_].",
                           "firstTermIdx": 117,
                           "lastTermIdx": 121,
                           "terminals": [
@@ -11860,9 +11898,9 @@
                                     "id": 0,
                                     "termIdx": 121,
                                     "content": "table",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -11872,7 +11910,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "table",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 121,
                                       "nextTermIdx": [
                                         122
@@ -11978,7 +12018,7 @@
                       "sentences": [
                         {
                           "id": 23,
-                          "content": "[_Clear=(verb)_] the dish [_strainer_].",
+                          "content": "[_Clear=(verb)_] the dish [_strainer=(noun)_].",
                           "firstTermIdx": 122,
                           "lastTermIdx": 125,
                           "terminals": [
@@ -12276,9 +12316,9 @@
                                     "id": 0,
                                     "termIdx": 125,
                                     "content": "strainer",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -12288,7 +12328,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "strainer",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 125,
                                       "nextTermIdx": [
                                         126
@@ -12394,7 +12436,7 @@
                       "sentences": [
                         {
                           "id": 24,
-                          "content": "[_Bake=(verb)_] a [_cake_].",
+                          "content": "[_Bake=(verb)_] a [_cake=(noun)_].",
                           "firstTermIdx": 126,
                           "lastTermIdx": 128,
                           "terminals": [
@@ -12608,9 +12650,9 @@
                                     "id": 0,
                                     "termIdx": 128,
                                     "content": "cake",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -12620,7 +12662,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "cake",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 128,
                                       "nextTermIdx": [
                                         129
@@ -12726,7 +12770,7 @@
                       "sentences": [
                         {
                           "id": 25,
-                          "content": "[_Bake=(verb)_] a cake from [_scratch_].",
+                          "content": "[_Bake=(verb)_] a cake from [_scratch=(noun)_].",
                           "firstTermIdx": 129,
                           "lastTermIdx": 133,
                           "terminals": [
@@ -13108,9 +13152,9 @@
                                     "id": 0,
                                     "termIdx": 133,
                                     "content": "scratch",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -13120,7 +13164,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "scratch",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 133,
                                       "nextTermIdx": [
                                         134
@@ -13277,7 +13323,7 @@
                       "sentences": [
                         {
                           "id": 26,
-                          "content": "[_Toss=(verb)_] the [_salad_].",
+                          "content": "[_Toss=(verb)_] the [_salad=(noun)_].",
                           "firstTermIdx": 134,
                           "lastTermIdx": 136,
                           "terminals": [
@@ -13491,9 +13537,9 @@
                                     "id": 0,
                                     "termIdx": 136,
                                     "content": "salad",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -13503,7 +13549,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "salad",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 136,
                                       "nextTermIdx": [
                                         137
@@ -13609,7 +13657,7 @@
                       "sentences": [
                         {
                           "id": 27,
-                          "content": "On a birthday cake, we light=(verb)_] [_candles_].",
+                          "content": "On a birthday cake, we light=(verb)_] [_candles=(noun)_].",
                           "firstTermIdx": 137,
                           "lastTermIdx": 143,
                           "terminals": [
@@ -14219,9 +14267,9 @@
                                     "id": 0,
                                     "termIdx": 143,
                                     "content": "candles",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -14231,7 +14279,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "candles",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 143,
                                       "nextTermIdx": [
                                         144
@@ -14337,7 +14387,7 @@
                       "sentences": [
                         {
                           "id": 28,
-                          "content": "[_Stir=(verb)_] the [_pot_].",
+                          "content": "[_Stir=(verb)_] the [_pot=(noun)_].",
                           "firstTermIdx": 144,
                           "lastTermIdx": 146,
                           "terminals": [
@@ -14551,9 +14601,9 @@
                                     "id": 0,
                                     "termIdx": 146,
                                     "content": "pot",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -14563,7 +14613,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "pot",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 146,
                                       "nextTermIdx": [
                                         147
@@ -14669,7 +14721,7 @@
                       "sentences": [
                         {
                           "id": 29,
-                          "content": "[_Eat=(verb)_] your soup with a [_spoon_].",
+                          "content": "[_Eat=(verb)_] your soup with a [_spoon=(noun)_].",
                           "firstTermIdx": 147,
                           "lastTermIdx": 152,
                           "terminals": [
@@ -15135,9 +15187,9 @@
                                     "id": 0,
                                     "termIdx": 152,
                                     "content": "spoon",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -15147,7 +15199,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "spoon",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 152,
                                       "nextTermIdx": [
                                         153
@@ -15253,7 +15307,7 @@
                       "sentences": [
                         {
                           "id": 30,
-                          "content": "[_Cut=(verb)_] steak with a [_knife_].",
+                          "content": "[_Cut=(verb)_] steak with a [_knife=(noun)_].",
                           "firstTermIdx": 153,
                           "lastTermIdx": 157,
                           "terminals": [
@@ -15635,9 +15689,9 @@
                                     "id": 0,
                                     "termIdx": 157,
                                     "content": "knife",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -15647,7 +15701,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "knife",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 157,
                                       "nextTermIdx": [],
                                       "prevTermIdx": [
@@ -16782,7 +16838,9 @@
     },
     {
       "content": "banana",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 33,
       "nextTermIdx": [
         34
@@ -16908,7 +16966,9 @@
     },
     {
       "content": "steak",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 37,
       "nextTermIdx": [
         38
@@ -17034,7 +17094,9 @@
     },
     {
       "content": "dish",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 41,
       "nextTermIdx": [
         42
@@ -17129,7 +17191,9 @@
     },
     {
       "content": "dishes",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 44,
       "nextTermIdx": [
         45
@@ -17255,7 +17319,9 @@
     },
     {
       "content": "counters",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 48,
       "nextTermIdx": [
         49
@@ -17381,7 +17447,9 @@
     },
     {
       "content": "garbage",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 52,
       "nextTermIdx": [
         53
@@ -17507,7 +17575,9 @@
     },
     {
       "content": "tea",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 56,
       "nextTermIdx": [
         57
@@ -17602,7 +17672,9 @@
     },
     {
       "content": "coffee",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 59,
       "nextTermIdx": [
         60
@@ -17697,7 +17769,9 @@
     },
     {
       "content": "table",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 62,
       "nextTermIdx": [
         63
@@ -17885,7 +17959,9 @@
     },
     {
       "content": "breakfast",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 68,
       "nextTermIdx": [
         69
@@ -18073,7 +18149,9 @@
     },
     {
       "content": "lunch",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 74,
       "nextTermIdx": [
         75
@@ -18261,7 +18339,9 @@
     },
     {
       "content": "dinner",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 80,
       "nextTermIdx": [
         81
@@ -18387,7 +18467,9 @@
     },
     {
       "content": "floors",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 84,
       "nextTermIdx": [
         85
@@ -18513,7 +18595,9 @@
     },
     {
       "content": "stove",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 88,
       "nextTermIdx": [
         89
@@ -18639,7 +18723,9 @@
     },
     {
       "content": "oven",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 92,
       "nextTermIdx": [
         93
@@ -18827,7 +18913,9 @@
     },
     {
       "content": "dishwasher",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 98,
       "nextTermIdx": [
         99
@@ -19015,7 +19103,9 @@
     },
     {
       "content": "sink",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 104,
       "nextTermIdx": [
         105
@@ -19203,7 +19293,9 @@
     },
     {
       "content": "refrigerator",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 110,
       "nextTermIdx": [
         111
@@ -19391,7 +19483,9 @@
     },
     {
       "content": "freezer",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 116,
       "nextTermIdx": [
         117
@@ -19548,7 +19642,9 @@
     },
     {
       "content": "table",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 121,
       "nextTermIdx": [
         122
@@ -19674,7 +19770,9 @@
     },
     {
       "content": "strainer",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 125,
       "nextTermIdx": [
         126
@@ -19769,7 +19867,9 @@
     },
     {
       "content": "cake",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 128,
       "nextTermIdx": [
         129
@@ -19926,7 +20026,9 @@
     },
     {
       "content": "scratch",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 133,
       "nextTermIdx": [
         134
@@ -20021,7 +20123,9 @@
     },
     {
       "content": "salad",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 136,
       "nextTermIdx": [
         137
@@ -20240,7 +20344,9 @@
     },
     {
       "content": "candles",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 143,
       "nextTermIdx": [
         144
@@ -20335,7 +20441,9 @@
     },
     {
       "content": "pot",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 146,
       "nextTermIdx": [
         147
@@ -20523,7 +20631,9 @@
     },
     {
       "content": "spoon",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 152,
       "nextTermIdx": [
         153
@@ -20680,7 +20790,9 @@
     },
     {
       "content": "knife",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 157,
       "nextTermIdx": [],
       "prevTermIdx": [
@@ -21074,8 +21186,8 @@
       "promptColumns": 1,
       "alternatives": [],
       "tags": [
-        "verb",
-        "untagged"
+        "noun",
+        "verb"
       ],
       "responses": [
         {
@@ -21085,7 +21197,7 @@
         },
         {
           "content": "banana",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
@@ -21095,7 +21207,7 @@
         },
         {
           "content": "steak",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
@@ -21105,7 +21217,7 @@
         },
         {
           "content": "dish",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
@@ -21115,7 +21227,7 @@
         },
         {
           "content": "dishes",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
@@ -21125,7 +21237,7 @@
         },
         {
           "content": "counters",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
@@ -21135,7 +21247,7 @@
         },
         {
           "content": "garbage",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
@@ -21145,7 +21257,7 @@
         },
         {
           "content": "tea",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         }
       ],
@@ -21196,8 +21308,8 @@
       "promptColumns": 1,
       "alternatives": [],
       "tags": [
-        "verb",
-        "untagged"
+        "noun",
+        "verb"
       ],
       "responses": [
         {
@@ -21207,7 +21319,7 @@
         },
         {
           "content": "coffee",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
@@ -21217,7 +21329,7 @@
         },
         {
           "content": "table",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
@@ -21227,7 +21339,7 @@
         },
         {
           "content": "breakfast",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
@@ -21237,7 +21349,7 @@
         },
         {
           "content": "lunch",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
@@ -21247,7 +21359,7 @@
         },
         {
           "content": "dinner",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
@@ -21257,7 +21369,7 @@
         },
         {
           "content": "floors",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
@@ -21267,7 +21379,7 @@
         },
         {
           "content": "stove",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
@@ -21277,7 +21389,7 @@
         },
         {
           "content": "oven",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         }
       ],
@@ -21328,8 +21440,8 @@
       "promptColumns": 1,
       "alternatives": [],
       "tags": [
-        "verb",
-        "untagged"
+        "noun",
+        "verb"
       ],
       "responses": [
         {
@@ -21339,7 +21451,7 @@
         },
         {
           "content": "dishwasher",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
@@ -21349,7 +21461,7 @@
         },
         {
           "content": "sink",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
@@ -21359,7 +21471,7 @@
         },
         {
           "content": "refrigerator",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
@@ -21369,7 +21481,7 @@
         },
         {
           "content": "freezer",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
@@ -21379,7 +21491,7 @@
         },
         {
           "content": "table",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
@@ -21389,7 +21501,7 @@
         },
         {
           "content": "strainer",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
@@ -21399,7 +21511,7 @@
         },
         {
           "content": "cake",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
@@ -21409,7 +21521,7 @@
         },
         {
           "content": "scratch",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         }
       ],
@@ -21460,8 +21572,8 @@
       "promptColumns": 1,
       "alternatives": [],
       "tags": [
-        "verb",
-        "untagged"
+        "noun",
+        "verb"
       ],
       "responses": [
         {
@@ -21471,12 +21583,12 @@
         },
         {
           "content": "salad",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
           "content": "candles",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
@@ -21486,7 +21598,7 @@
         },
         {
           "content": "pot",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
@@ -21496,7 +21608,7 @@
         },
         {
           "content": "spoon",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
@@ -21506,7 +21618,7 @@
         },
         {
           "content": "knife",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         }
       ],
