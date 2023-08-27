@@ -8,9 +8,9 @@
   "category": "Sentence Completion (trailing word)",
   "version": "20230706.1",
   "pageFormatType": 0,
-  "created": "Sun Aug 27 2023 12:27:07 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Sun Aug 27 2023 12:27:07 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Sun Aug 27 2023 12:27:07 GMT-0700 (Pacific Daylight Time)",
+  "created": "Sun Aug 27 2023 16:53:50 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Sun Aug 27 2023 16:53:50 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Sun Aug 27 2023 16:53:50 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -13657,7 +13657,7 @@
                       "sentences": [
                         {
                           "id": 27,
-                          "content": "On a birthday cake, we light=(verb)_] [_candles=(noun)_].",
+                          "content": "On a birthday cake, we [_light=(verb)_] [_candles=(noun)_].",
                           "firstTermIdx": 137,
                           "lastTermIdx": 143,
                           "terminals": [
@@ -14123,54 +14123,8 @@
                             },
                             {
                               "id": 0,
-                              "termIdx": 142,
-                              "content": "light",
-                              "cueList": "verb",
-                              "cues": {
-                                "partOfSpeech": "verb",
-                                "definition": "",
-                                "image": "",
-                                "alternatives": []
-                              },
-                              "firstTermIdx": 142,
-                              "lastTermIdx": 142,
-                              "type": 17,
-                              "meta": {
-                                "content": "light",
-                                "cues": [
-                                  "verb"
-                                ],
-                                "termIdx": 142,
-                                "nextTermIdx": [
-                                  143
-                                ],
-                                "prevTermIdx": [
-                                  141
-                                ],
-                                "altpronunciation": "",
-                                "altrecognition": "",
-                                "recitable": true,
-                                "heading": false,
-                                "audible": true,
-                                "linkable": false,
-                                "visible": true,
-                                "visited": false,
-                                "numberAsNumerals": false,
-                                "linkIdx": -9999,
-                                "hintsIdx": -9999,
-                                "fillin": {
-                                  "sectionIdx": -9999,
-                                  "responseIdx": -9999
-                                },
-                                "bold": false,
-                                "italics": false,
-                                "markupTag": false
-                              }
-                            },
-                            {
-                              "id": 0,
                               "termIdx": -9999,
-                              "content": "_",
+                              "content": "light",
                               "cueList": "",
                               "cues": {
                                 "partOfSpeech": "untagged",
@@ -14178,39 +14132,65 @@
                                 "image": "",
                                 "alternatives": []
                               },
-                              "firstTermIdx": -9999,
-                              "lastTermIdx": -9999,
-                              "type": 11,
+                              "firstTermIdx": 142,
+                              "lastTermIdx": 142,
+                              "type": 4,
                               "meta": {
-                                "content": "_",
-                                "cues": [],
-                                "termIdx": -9999,
-                                "nextTermIdx": [],
-                                "prevTermIdx": [],
-                                "altpronunciation": "",
-                                "altrecognition": "",
-                                "recitable": false,
-                                "heading": false,
-                                "audible": true,
-                                "linkable": false,
-                                "visible": true,
-                                "visited": false,
-                                "numberAsNumerals": false,
-                                "linkIdx": -9999,
-                                "hintsIdx": -9999,
-                                "fillin": {
-                                  "sectionIdx": -9999,
-                                  "responseIdx": -9999
-                                },
-                                "bold": false,
-                                "italics": false,
-                                "markupTag": false
+                                "terminals": [
+                                  {
+                                    "id": 0,
+                                    "termIdx": 142,
+                                    "content": "light",
+                                    "cueList": "verb",
+                                    "cues": {
+                                      "partOfSpeech": "verb",
+                                      "definition": "",
+                                      "image": "",
+                                      "alternatives": []
+                                    },
+                                    "firstTermIdx": 142,
+                                    "lastTermIdx": 142,
+                                    "type": 17,
+                                    "meta": {
+                                      "content": "light",
+                                      "cues": [
+                                        "verb"
+                                      ],
+                                      "termIdx": 142,
+                                      "nextTermIdx": [
+                                        143
+                                      ],
+                                      "prevTermIdx": [
+                                        141
+                                      ],
+                                      "altpronunciation": "",
+                                      "altrecognition": "",
+                                      "recitable": true,
+                                      "heading": false,
+                                      "audible": true,
+                                      "linkable": false,
+                                      "visible": true,
+                                      "visited": false,
+                                      "numberAsNumerals": false,
+                                      "linkIdx": -9999,
+                                      "hintsIdx": -9999,
+                                      "fillin": {
+                                        "sectionIdx": 3,
+                                        "responseIdx": 2
+                                      },
+                                      "bold": false,
+                                      "italics": false,
+                                      "markupTag": false
+                                    }
+                                  }
+                                ],
+                                "sectionFillinIdx": 3
                               }
                             },
                             {
                               "id": 0,
                               "termIdx": -9999,
-                              "content": "] ",
+                              "content": " ",
                               "cueList": "",
                               "cues": {
                                 "partOfSpeech": "untagged",
@@ -14222,7 +14202,7 @@
                               "lastTermIdx": -9999,
                               "type": 16,
                               "meta": {
-                                "content": "] ",
+                                "content": " ",
                                 "cues": [],
                                 "termIdx": -9999,
                                 "nextTermIdx": [],
@@ -14302,7 +14282,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 3,
-                                        "responseIdx": 2
+                                        "responseIdx": 3
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -14446,7 +14426,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 3,
-                                        "responseIdx": 3
+                                        "responseIdx": 4
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -14636,7 +14616,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 3,
-                                        "responseIdx": 4
+                                        "responseIdx": 5
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -14780,7 +14760,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 3,
-                                        "responseIdx": 5
+                                        "responseIdx": 6
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -15222,7 +15202,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 3,
-                                        "responseIdx": 6
+                                        "responseIdx": 7
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -15366,7 +15346,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 3,
-                                        "responseIdx": 7
+                                        "responseIdx": 8
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -15722,7 +15702,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 3,
-                                        "responseIdx": 8
+                                        "responseIdx": 9
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -20333,8 +20313,8 @@
       "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
-        "sectionIdx": -9999,
-        "responseIdx": -9999
+        "sectionIdx": 3,
+        "responseIdx": 2
       },
       "bold": false,
       "italics": false,
@@ -20367,7 +20347,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 3,
-        "responseIdx": 2
+        "responseIdx": 3
       },
       "bold": false,
       "italics": false,
@@ -20400,7 +20380,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 3,
-        "responseIdx": 3
+        "responseIdx": 4
       },
       "bold": false,
       "italics": false,
@@ -20464,7 +20444,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 3,
-        "responseIdx": 4
+        "responseIdx": 5
       },
       "bold": false,
       "italics": false,
@@ -20497,7 +20477,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 3,
-        "responseIdx": 5
+        "responseIdx": 6
       },
       "bold": false,
       "italics": false,
@@ -20654,7 +20634,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 3,
-        "responseIdx": 6
+        "responseIdx": 7
       },
       "bold": false,
       "italics": false,
@@ -20687,7 +20667,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 3,
-        "responseIdx": 7
+        "responseIdx": 8
       },
       "bold": false,
       "italics": false,
@@ -20811,7 +20791,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 3,
-        "responseIdx": 8
+        "responseIdx": 9
       },
       "bold": false,
       "italics": false,
@@ -21584,6 +21564,11 @@
         {
           "content": "salad",
           "tag": "noun",
+          "referenceCount": 1
+        },
+        {
+          "content": "light",
+          "tag": "verb",
           "referenceCount": 1
         },
         {
