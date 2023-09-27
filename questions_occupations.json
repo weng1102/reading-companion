@@ -8,9 +8,9 @@
   "category": "Questions and Answers",
   "version": "20230706.1",
   "pageFormatType": 0,
-  "created": "Wed Sep 27 2023 09:50:10 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Wed Sep 27 2023 09:50:10 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Wed Sep 27 2023 09:50:10 GMT-0700 (Pacific Daylight Time)",
+  "created": "Wed Sep 27 2023 15:03:43 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Wed Sep 27 2023 15:03:44 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Wed Sep 27 2023 15:03:44 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -1790,7 +1790,7 @@
                         },
                         {
                           "id": 5,
-                          "content": "An [_artist=(noun)_] [_creates=(verb)_] artwork.",
+                          "content": "An [_artist=(noun)_] creates=(verb) artwork.",
                           "firstTermIdx": 20,
                           "lastTermIdx": 23,
                           "terminals": [
@@ -1986,68 +1986,48 @@
                             },
                             {
                               "id": 0,
-                              "termIdx": -9999,
+                              "termIdx": 22,
                               "content": "creates",
-                              "cueList": "",
+                              "cueList": "verb",
                               "cues": {
-                                "partOfSpeech": "untagged",
+                                "partOfSpeech": "verb",
                                 "definition": "",
                                 "image": "",
                                 "alternatives": []
                               },
                               "firstTermIdx": 22,
                               "lastTermIdx": 22,
-                              "type": 4,
+                              "type": 17,
                               "meta": {
-                                "terminals": [
-                                  {
-                                    "id": 0,
-                                    "termIdx": 22,
-                                    "content": "creates",
-                                    "cueList": "verb",
-                                    "cues": {
-                                      "partOfSpeech": "verb",
-                                      "definition": "",
-                                      "image": "",
-                                      "alternatives": []
-                                    },
-                                    "firstTermIdx": 22,
-                                    "lastTermIdx": 22,
-                                    "type": 17,
-                                    "meta": {
-                                      "content": "creates",
-                                      "cues": [
-                                        "verb"
-                                      ],
-                                      "termIdx": 22,
-                                      "nextTermIdx": [
-                                        23
-                                      ],
-                                      "prevTermIdx": [
-                                        21
-                                      ],
-                                      "altpronunciation": "",
-                                      "altrecognition": "",
-                                      "recitable": true,
-                                      "heading": false,
-                                      "audible": true,
-                                      "linkable": false,
-                                      "visible": true,
-                                      "visited": false,
-                                      "numberAsNumerals": false,
-                                      "linkIdx": -9999,
-                                      "hintsIdx": -9999,
-                                      "fillin": {
-                                        "sectionIdx": 0,
-                                        "responseIdx": 1
-                                      },
-                                      "bold": false,
-                                      "italics": false,
-                                      "markupTag": false
-                                    }
-                                  }
+                                "content": "creates",
+                                "cues": [
+                                  "verb"
                                 ],
-                                "sectionFillinIdx": 0
+                                "termIdx": 22,
+                                "nextTermIdx": [
+                                  23
+                                ],
+                                "prevTermIdx": [
+                                  21
+                                ],
+                                "altpronunciation": "",
+                                "altrecognition": "",
+                                "recitable": true,
+                                "heading": false,
+                                "audible": true,
+                                "linkable": false,
+                                "visible": true,
+                                "visited": false,
+                                "numberAsNumerals": false,
+                                "linkIdx": -9999,
+                                "hintsIdx": -9999,
+                                "fillin": {
+                                  "sectionIdx": -9999,
+                                  "responseIdx": -9999
+                                },
+                                "bold": false,
+                                "italics": false,
+                                "markupTag": false
                               }
                             },
                             {
@@ -2992,7 +2972,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 0,
-                                        "responseIdx": 2
+                                        "responseIdx": 1
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -3182,7 +3162,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 0,
-                                        "responseIdx": 3
+                                        "responseIdx": 2
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -3372,7 +3352,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 0,
-                                        "responseIdx": 4
+                                        "responseIdx": 3
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -4409,7 +4389,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 0,
-                                        "responseIdx": 5
+                                        "responseIdx": 4
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -4599,7 +4579,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 0,
-                                        "responseIdx": 6
+                                        "responseIdx": 5
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -4827,7 +4807,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 0,
-                                        "responseIdx": 7
+                                        "responseIdx": 6
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -4933,7 +4913,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 0,
-                                        "responseIdx": 8
+                                        "responseIdx": 7
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -5039,7 +5019,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 0,
-                                        "responseIdx": 9
+                                        "responseIdx": 8
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -5229,7 +5209,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 0,
-                                        "responseIdx": 10
+                                        "responseIdx": 9
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -5419,7 +5399,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 0,
-                                        "responseIdx": 11
+                                        "responseIdx": 10
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -5525,7 +5505,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 0,
-                                        "responseIdx": 12
+                                        "responseIdx": 11
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -5715,7 +5695,7 @@
                                       "hintsIdx": -9999,
                                       "fillin": {
                                         "sectionIdx": 0,
-                                        "responseIdx": 13
+                                        "responseIdx": 12
                                       },
                                       "bold": false,
                                       "italics": false,
@@ -47428,8 +47408,8 @@
       "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
-        "sectionIdx": 0,
-        "responseIdx": 1
+        "sectionIdx": -9999,
+        "responseIdx": -9999
       },
       "bold": false,
       "italics": false,
@@ -47745,7 +47725,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 2
+        "responseIdx": 1
       },
       "bold": false,
       "italics": false,
@@ -47809,7 +47789,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 3
+        "responseIdx": 2
       },
       "bold": false,
       "italics": false,
@@ -47873,7 +47853,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 4
+        "responseIdx": 3
       },
       "bold": false,
       "italics": false,
@@ -48220,7 +48200,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 5
+        "responseIdx": 4
       },
       "bold": false,
       "italics": false,
@@ -48284,7 +48264,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 6
+        "responseIdx": 5
       },
       "bold": false,
       "italics": false,
@@ -48348,7 +48328,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 7
+        "responseIdx": 6
       },
       "bold": false,
       "italics": false,
@@ -48381,7 +48361,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 8
+        "responseIdx": 7
       },
       "bold": false,
       "italics": false,
@@ -48414,7 +48394,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 9
+        "responseIdx": 8
       },
       "bold": false,
       "italics": false,
@@ -48478,7 +48458,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 10
+        "responseIdx": 9
       },
       "bold": false,
       "italics": false,
@@ -48542,7 +48522,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 11
+        "responseIdx": 10
       },
       "bold": false,
       "italics": false,
@@ -48575,7 +48555,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 12
+        "responseIdx": 11
       },
       "bold": false,
       "italics": false,
@@ -48639,7 +48619,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 13
+        "responseIdx": 12
       },
       "bold": false,
       "italics": false,
@@ -62936,11 +62916,6 @@
         {
           "content": "artist",
           "tag": "noun",
-          "referenceCount": 1
-        },
-        {
-          "content": "creates",
-          "tag": "verb",
           "referenceCount": 1
         },
         {
