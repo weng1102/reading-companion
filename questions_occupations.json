@@ -8,9 +8,9 @@
   "category": "Questions and Answers",
   "version": "20230706.1",
   "pageFormatType": 0,
-  "created": "Fri Sep 29 2023 10:19:19 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Fri Sep 29 2023 10:19:19 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Fri Sep 29 2023 10:19:19 GMT-0700 (Pacific Daylight Time)",
+  "created": "Fri Sep 29 2023 10:38:15 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Fri Sep 29 2023 10:38:15 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Fri Sep 29 2023 10:38:15 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -16758,7 +16758,7 @@
                         },
                         {
                           "id": 32,
-                          "content": "A [_photographer_] takes=(verb) photos=(noun).",
+                          "content": "A [_photographer=(noun)_] takes=(verb) photos=(noun).",
                           "firstTermIdx": 173,
                           "lastTermIdx": 176,
                           "terminals": [
@@ -16866,9 +16866,9 @@
                                     "id": 0,
                                     "termIdx": 174,
                                     "content": "photographer",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -16878,7 +16878,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "photographer",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 174,
                                       "nextTermIdx": [
                                         175
@@ -19995,7 +19997,7 @@
                         },
                         {
                           "id": 38,
-                          "content": "A photographer=(noun) takes=(verb) photos=(noun) [_in=(preposition)_] a [_studio_].",
+                          "content": "A photographer=(noun) takes=(verb) photos=(noun) [_in=(preposition)_] a [_studio=(noun)_].",
                           "firstTermIdx": 207,
                           "lastTermIdx": 213,
                           "terminals": [
@@ -20551,9 +20553,9 @@
                                     "id": 0,
                                     "termIdx": 213,
                                     "content": "studio",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -20563,7 +20565,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "studio",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 213,
                                       "nextTermIdx": [
                                         214
@@ -25112,7 +25116,7 @@
                         },
                         {
                           "id": 48,
-                          "content": "A biologist=(noun) studies=(verb) in a [_lab_].",
+                          "content": "A biologist=(noun) studies=(verb) in a [_lab=(noun)_].",
                           "firstTermIdx": 258,
                           "lastTermIdx": 263,
                           "terminals": [
@@ -25560,9 +25564,9 @@
                                     "id": 0,
                                     "termIdx": 263,
                                     "content": "lab",
-                                    "cueList": "",
+                                    "cueList": "noun",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "noun",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -25572,7 +25576,9 @@
                                     "type": 17,
                                     "meta": {
                                       "content": "lab",
-                                      "cues": [],
+                                      "cues": [
+                                        "noun"
+                                      ],
                                       "termIdx": 263,
                                       "nextTermIdx": [
                                         264
@@ -71552,7 +71558,9 @@
     },
     {
       "content": "photographer",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 174,
       "nextTermIdx": [
         175
@@ -72789,7 +72797,9 @@
     },
     {
       "content": "studio",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 213,
       "nextTermIdx": [
         214
@@ -74383,7 +74393,9 @@
     },
     {
       "content": "lab",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 263,
       "nextTermIdx": [
         264
@@ -89195,8 +89207,7 @@
       "tags": [
         "noun",
         "verb",
-        "preposition",
-        "untagged"
+        "preposition"
       ],
       "responses": [
         {
@@ -89206,7 +89217,7 @@
         },
         {
           "content": "photographer",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
@@ -89236,7 +89247,7 @@
         },
         {
           "content": "studio",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
@@ -89325,8 +89336,7 @@
         "noun",
         "verb",
         "adjective",
-        "preposition",
-        "untagged"
+        "preposition"
       ],
       "responses": [
         {
@@ -89356,7 +89366,7 @@
         },
         {
           "content": "lab",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
