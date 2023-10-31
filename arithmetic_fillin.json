@@ -8,9 +8,9 @@
   "category": "Arithmetic",
   "version": "20230706.1",
   "pageFormatType": 0,
-  "created": "Mon Oct 30 2023 20:52:22 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Mon Oct 30 2023 20:52:22 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Mon Oct 30 2023 20:52:22 GMT-0700 (Pacific Daylight Time)",
+  "created": "Tue Oct 31 2023 10:09:10 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Tue Oct 31 2023 10:09:10 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Tue Oct 31 2023 10:09:10 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -1191,7 +1191,7 @@
                       "sentences": [
                         {
                           "id": 2,
-                          "content": "Prime numbers are only divisble by themselve and [_one_].",
+                          "content": "Prime numbers are only divisble by themselves and [_one_].",
                           "firstTermIdx": 12,
                           "lastTermIdx": 20,
                           "terminals": [
@@ -1702,7 +1702,7 @@
                             {
                               "id": 0,
                               "termIdx": 18,
-                              "content": "themselve",
+                              "content": "themselves",
                               "cueList": "",
                               "cues": {
                                 "partOfSpeech": "untagged",
@@ -1714,7 +1714,7 @@
                               "lastTermIdx": 18,
                               "type": 17,
                               "meta": {
-                                "content": "themselve",
+                                "content": "themselves",
                                 "cues": [],
                                 "termIdx": 18,
                                 "nextTermIdx": [
@@ -2005,7 +2005,7 @@
                       "sentences": [
                         {
                           "id": 3,
-                          "content": "The single digit prime numbers are [_2_], [_3_], [_5_], and [_7_].",
+                          "content": "The single-digit prime numbers are [_2=(numeral)_], [_3=(numeral)_], [_5=(numeral)_], and [_7=(numeral)_].",
                           "firstTermIdx": 21,
                           "lastTermIdx": 31,
                           "terminals": [
@@ -2140,7 +2140,7 @@
                             {
                               "id": 0,
                               "termIdx": -9999,
-                              "content": " ",
+                              "content": "-",
                               "cueList": "",
                               "cues": {
                                 "partOfSpeech": "untagged",
@@ -2150,9 +2150,9 @@
                               },
                               "firstTermIdx": -9999,
                               "lastTermIdx": -9999,
-                              "type": 16,
+                              "type": 11,
                               "meta": {
-                                "content": " ",
+                                "content": "-",
                                 "cues": [],
                                 "termIdx": -9999,
                                 "nextTermIdx": [],
@@ -2533,9 +2533,9 @@
                                     "id": 0,
                                     "termIdx": 27,
                                     "content": "2",
-                                    "cueList": "",
+                                    "cueList": "numeral",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "numeral",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -2677,9 +2677,9 @@
                                     "id": 0,
                                     "termIdx": 28,
                                     "content": "3",
-                                    "cueList": "",
+                                    "cueList": "numeral",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "numeral",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -2821,9 +2821,9 @@
                                     "id": 0,
                                     "termIdx": 29,
                                     "content": "5",
-                                    "cueList": "",
+                                    "cueList": "numeral",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "numeral",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -3049,9 +3049,9 @@
                                     "id": 0,
                                     "termIdx": 31,
                                     "content": "7",
-                                    "cueList": "",
+                                    "cueList": "numeral",
                                     "cues": {
-                                      "partOfSpeech": "untagged",
+                                      "partOfSpeech": "numeral",
                                       "definition": "",
                                       "image": "",
                                       "alternatives": []
@@ -3167,7 +3167,7 @@
                       "sentences": [
                         {
                           "id": 4,
-                          "content": "Even numbers are divisble by [_2_].",
+                          "content": "Even numbers are divisible by [_2_].",
                           "firstTermIdx": 32,
                           "lastTermIdx": 37,
                           "terminals": [
@@ -3426,7 +3426,7 @@
                             {
                               "id": 0,
                               "termIdx": 35,
-                              "content": "divisble",
+                              "content": "divisible",
                               "cueList": "",
                               "cues": {
                                 "partOfSpeech": "untagged",
@@ -3438,7 +3438,7 @@
                               "lastTermIdx": 35,
                               "type": 17,
                               "meta": {
-                                "content": "divisble",
+                                "content": "divisible",
                                 "cues": [],
                                 "termIdx": 35,
                                 "nextTermIdx": [
@@ -7527,7 +7527,7 @@
       "sectionIdx": 1
     },
     {
-      "content": "themselve",
+      "content": "themselves",
       "cues": [],
       "termIdx": 18,
       "nextTermIdx": [
@@ -8054,7 +8054,7 @@
       "sectionIdx": 3
     },
     {
-      "content": "divisble",
+      "content": "divisible",
       "cues": [],
       "termIdx": 35,
       "nextTermIdx": [
@@ -9396,6 +9396,7 @@
       "promptColumns": 2,
       "alternatives": [],
       "tags": [
+        "numeral",
         "untagged"
       ],
       "responses": [
@@ -9416,22 +9417,22 @@
         },
         {
           "content": "2",
-          "tag": "untagged",
+          "tag": "numeral",
           "referenceCount": 1
         },
         {
           "content": "3",
-          "tag": "untagged",
+          "tag": "numeral",
           "referenceCount": 1
         },
         {
           "content": "5",
-          "tag": "untagged",
+          "tag": "numeral",
           "referenceCount": 1
         },
         {
           "content": "7",
-          "tag": "untagged",
+          "tag": "numeral",
           "referenceCount": 1
         },
         {
