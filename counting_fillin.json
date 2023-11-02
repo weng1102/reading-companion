@@ -8,9 +8,9 @@
   "category": "Arithmetic",
   "version": "20230706.1",
   "pageFormatType": 0,
-  "created": "Wed Nov 01 2023 20:16:05 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Wed Nov 01 2023 20:16:05 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Wed Nov 01 2023 20:16:05 GMT-0700 (Pacific Daylight Time)",
+  "created": "Thu Nov 02 2023 07:04:48 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Thu Nov 02 2023 07:04:49 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Thu Nov 02 2023 07:04:49 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -184,7 +184,7 @@
       "meta": {
         "title": "Counting vegetable",
         "orientation": "left",
-        "percent": "20%",
+        "percent": "25%",
         "separator": "",
         "images": [
           {
@@ -2910,7 +2910,7 @@
                             "sentences": [
                               {
                                 "id": 8,
-                                "content": "I count [_one_] watermelone.",
+                                "content": "I count [_one=(numberal)_] watermelon.",
                                 "firstTermIdx": 29,
                                 "lastTermIdx": 32,
                                 "terminals": [
@@ -3102,9 +3102,9 @@
                                           "id": 0,
                                           "termIdx": 31,
                                           "content": "one",
-                                          "cueList": "",
+                                          "cueList": "numberal",
                                           "cues": {
-                                            "partOfSpeech": "untagged",
+                                            "partOfSpeech": "noun",
                                             "definition": "",
                                             "image": "",
                                             "alternatives": []
@@ -3114,7 +3114,9 @@
                                           "type": 17,
                                           "meta": {
                                             "content": "one",
-                                            "cues": [],
+                                            "cues": [
+                                              "numberal"
+                                            ],
                                             "termIdx": 31,
                                             "nextTermIdx": [
                                               32
@@ -3189,7 +3191,7 @@
                                   {
                                     "id": 0,
                                     "termIdx": 32,
-                                    "content": "watermelone",
+                                    "content": "watermelon",
                                     "cueList": "",
                                     "cues": {
                                       "partOfSpeech": "untagged",
@@ -3201,7 +3203,7 @@
                                     "lastTermIdx": 32,
                                     "type": 17,
                                     "meta": {
-                                      "content": "watermelone",
+                                      "content": "watermelon",
                                       "cues": [],
                                       "termIdx": 32,
                                       "nextTermIdx": [
@@ -3713,7 +3715,7 @@
       "meta": {
         "title": "Counting objects",
         "orientation": "left",
-        "percent": "20%",
+        "percent": "25%",
         "separator": "",
         "images": [
           {
@@ -8684,7 +8686,9 @@
     },
     {
       "content": "one",
-      "cues": [],
+      "cues": [
+        "numberal"
+      ],
       "termIdx": 31,
       "nextTermIdx": [
         32
@@ -8714,7 +8718,7 @@
       "sectionIdx": 6
     },
     {
-      "content": "watermelone",
+      "content": "watermelon",
       "cues": [],
       "termIdx": 32,
       "nextTermIdx": [
@@ -10369,8 +10373,8 @@
       "promptColumns": 2,
       "alternatives": [],
       "tags": [
-        "numeral",
-        "untagged"
+        "noun",
+        "numeral"
       ],
       "responses": [
         {
@@ -10405,7 +10409,7 @@
         },
         {
           "content": "one",
-          "tag": "untagged",
+          "tag": "noun",
           "referenceCount": 1
         },
         {
