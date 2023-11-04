@@ -8,9 +8,9 @@
   "category": "Sentence Completion (trailing word)",
   "version": "20230706.1",
   "pageFormatType": 0,
-  "created": "Fri Sep 08 2023 19:54:02 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Fri Sep 08 2023 19:54:02 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Fri Sep 08 2023 19:54:02 GMT-0700 (Pacific Daylight Time)",
+  "created": "Sat Nov 04 2023 08:48:26 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Sat Nov 04 2023 08:48:26 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Sat Nov 04 2023 08:48:26 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -454,7 +454,7 @@
                 },
                 "firstTermIdx": 5,
                 "lastTermIdx": 5,
-                "type": 17,
+                "type": 12,
                 "meta": {
                   "content": "exercises",
                   "cues": [],
@@ -2956,6 +2956,7 @@
           "helpfulness": 814
         },
         "allowReset": false,
+        "maxPromptsPerSection": 0,
         "promptColumns": 1,
         "showPresets": false,
         "prompts": [
@@ -14656,7 +14657,7 @@
                                     },
                                     "firstTermIdx": 147,
                                     "lastTermIdx": 147,
-                                    "type": 17,
+                                    "type": 12,
                                     "meta": {
                                       "content": "expensive",
                                       "cues": [],
@@ -14750,12 +14751,19 @@
             "meta": {
               "depth": 1,
               "startNumber": 0,
-              "listType": 6
+              "listType": 6,
+              "subsectionOrdinal": 1
             },
             "type": "ordered_list"
           }
-        ]
-      }
+        ],
+        "subsectionOrdinal": -1,
+        "subsectionInterval": 0,
+        "subsectionLabel": ""
+      },
+      "subsectionOrdinal": 0,
+      "subsectionInterval": 0,
+      "subsectionLabel": ""
     },
     {
       "id": 0,
@@ -15112,10 +15120,17 @@
           "helpfulness": 314
         },
         "allowReset": false,
+        "maxPromptsPerSection": 0,
         "promptColumns": 1,
         "showPresets": false,
-        "prompts": []
-      }
+        "prompts": [],
+        "subsectionOrdinal": -1,
+        "subsectionInterval": 0,
+        "subsectionLabel": ""
+      },
+      "subsectionOrdinal": 0,
+      "subsectionInterval": 0,
+      "subsectionLabel": ""
     },
     {
       "id": 0,
@@ -15556,10 +15571,17 @@
           "helpfulness": 314
         },
         "allowReset": false,
+        "maxPromptsPerSection": 0,
         "promptColumns": 1,
         "showPresets": false,
-        "prompts": []
-      }
+        "prompts": [],
+        "subsectionOrdinal": -1,
+        "subsectionInterval": 0,
+        "subsectionLabel": ""
+      },
+      "subsectionOrdinal": 0,
+      "subsectionInterval": 0,
+      "subsectionLabel": ""
     },
     {
       "id": 0,
@@ -16000,10 +16022,17 @@
           "helpfulness": 314
         },
         "allowReset": false,
+        "maxPromptsPerSection": 0,
         "promptColumns": 1,
         "showPresets": false,
-        "prompts": []
-      }
+        "prompts": [],
+        "subsectionOrdinal": -1,
+        "subsectionInterval": 0,
+        "subsectionLabel": ""
+      },
+      "subsectionOrdinal": 0,
+      "subsectionInterval": 0,
+      "subsectionLabel": ""
     },
     {
       "id": 0,
@@ -16358,10 +16387,17 @@
           "helpfulness": 314
         },
         "allowReset": false,
+        "maxPromptsPerSection": 0,
         "promptColumns": 1,
         "showPresets": false,
-        "prompts": []
-      }
+        "prompts": [],
+        "subsectionOrdinal": -1,
+        "subsectionInterval": 0,
+        "subsectionLabel": ""
+      },
+      "subsectionOrdinal": 0,
+      "subsectionInterval": 0,
+      "subsectionLabel": ""
     },
     {
       "id": 0,
@@ -16696,7 +16732,7 @@
         9
       ],
       "altpronunciation": "",
-      "altrecognition": "",
+      "altrecognition": "inn",
       "recitable": true,
       "heading": false,
       "audible": true,
@@ -16944,7 +16980,7 @@
         17
       ],
       "altpronunciation": "",
-      "altrecognition": "",
+      "altrecognition": "inn",
       "recitable": true,
       "heading": false,
       "audible": true,
@@ -17130,7 +17166,7 @@
         23
       ],
       "altpronunciation": "",
-      "altrecognition": "",
+      "altrecognition": "know",
       "recitable": true,
       "heading": false,
       "audible": true,
@@ -17409,7 +17445,7 @@
         32
       ],
       "altpronunciation": "",
-      "altrecognition": "",
+      "altrecognition": "inn",
       "recitable": true,
       "heading": true,
       "audible": true,
@@ -17781,7 +17817,7 @@
         44
       ],
       "altpronunciation": "",
-      "altrecognition": "",
+      "altrecognition": "rite|write",
       "recitable": true,
       "heading": false,
       "audible": true,
@@ -18060,7 +18096,7 @@
         53
       ],
       "altpronunciation": "",
-      "altrecognition": "",
+      "altrecognition": "rite|write",
       "recitable": true,
       "heading": false,
       "audible": true,
@@ -19734,7 +19770,7 @@
         107
       ],
       "altpronunciation": "",
-      "altrecognition": "",
+      "altrecognition": "leased",
       "recitable": true,
       "heading": false,
       "audible": true,
@@ -21005,7 +21041,7 @@
         148
       ],
       "altpronunciation": "",
-      "altrecognition": "",
+      "altrecognition": "inn",
       "recitable": true,
       "heading": true,
       "audible": true,
@@ -21098,7 +21134,7 @@
         151
       ],
       "altpronunciation": "",
-      "altrecognition": "",
+      "altrecognition": "inn",
       "recitable": true,
       "heading": true,
       "audible": true,
@@ -21222,7 +21258,7 @@
         155
       ],
       "altpronunciation": "",
-      "altrecognition": "",
+      "altrecognition": "inn",
       "recitable": true,
       "heading": true,
       "audible": true,

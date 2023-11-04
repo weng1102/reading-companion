@@ -8,9 +8,9 @@
   "category": "Testing",
   "version": "20230706.1",
   "pageFormatType": 0,
-  "created": "Fri Sep 08 2023 19:54:00 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Fri Sep 08 2023 19:54:00 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Fri Sep 08 2023 19:54:00 GMT-0700 (Pacific Daylight Time)",
+  "created": "Sat Nov 04 2023 08:48:22 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Sat Nov 04 2023 08:48:22 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Sat Nov 04 2023 08:48:22 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -44,6 +44,7 @@
           "helpfulness": 304
         },
         "allowReset": false,
+        "maxPromptsPerSection": 0,
         "promptColumns": 1,
         "showPresets": false,
         "prompts": [
@@ -603,7 +604,8 @@
                   "lastPunctuation": "."
                 }
               ],
-              "style": ""
+              "style": "",
+              "subsectionOrdinal": 1
             }
           },
           {
@@ -1234,7 +1236,8 @@
                   "lastPunctuation": "."
                 }
               ],
-              "style": ""
+              "style": "",
+              "subsectionOrdinal": 2
             }
           },
           {
@@ -1699,7 +1702,8 @@
                   "lastPunctuation": "."
                 }
               ],
-              "style": ""
+              "style": "",
+              "subsectionOrdinal": 3
             }
           },
           {
@@ -2357,7 +2361,8 @@
                   "lastPunctuation": "."
                 }
               ],
-              "style": ""
+              "style": "",
+              "subsectionOrdinal": 4
             }
           },
           {
@@ -2647,17 +2652,10 @@
                       },
                       "firstTermIdx": 28,
                       "lastTermIdx": 28,
-                      "type": 17,
+                      "type": 12,
                       "meta": {
                         "content": "fox",
-                        "cues": [
-                          "nou",
-                          " four-legged predator",
-                          "pic.jpg",
-                          "bear",
-                          "horse",
-                          "dog"
-                        ],
+                        "cues": [],
                         "termIdx": 28,
                         "nextTermIdx": [
                           29
@@ -2815,7 +2813,8 @@
                   "lastPunctuation": "."
                 }
               ],
-              "style": ""
+              "style": "",
+              "subsectionOrdinal": 5
             }
           },
           {
@@ -3922,11 +3921,18 @@
                   "lastPunctuation": "."
                 }
               ],
-              "style": ""
+              "style": "",
+              "subsectionOrdinal": 6
             }
           }
-        ]
-      }
+        ],
+        "subsectionOrdinal": -1,
+        "subsectionInterval": 0,
+        "subsectionLabel": ""
+      },
+      "subsectionOrdinal": 0,
+      "subsectionInterval": 0,
+      "subsectionLabel": ""
     },
     {
       "id": 0,
@@ -4830,14 +4836,7 @@
     },
     {
       "content": "fox",
-      "cues": [
-        "nou",
-        " four-legged predator",
-        "pic.jpg",
-        "bear",
-        "horse",
-        "dog"
-      ],
+      "cues": [],
       "termIdx": 28,
       "nextTermIdx": [
         29

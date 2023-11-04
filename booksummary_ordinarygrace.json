@@ -8,9 +8,9 @@
   "category": "Book Summaries",
   "version": "20230706.1",
   "pageFormatType": 0,
-  "created": "Fri Oct 06 2023 20:23:16 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Fri Oct 06 2023 20:23:16 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Fri Oct 06 2023 20:23:16 GMT-0700 (Pacific Daylight Time)",
+  "created": "Sat Nov 04 2023 08:48:19 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Sat Nov 04 2023 08:48:19 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Sat Nov 04 2023 08:48:19 GMT-0700 (Pacific Daylight Time)",
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -129,7 +129,9 @@
                 "content": "Grace",
                 "cues": [],
                 "termIdx": 1,
-                "nextTermIdx": [],
+                "nextTermIdx": [
+                  2
+                ],
                 "prevTermIdx": [
                   0
                 ],
@@ -161,14 +163,161 @@
     },
     {
       "id": 0,
-      "name": "TBD",
+      "name": "",
       "description": "",
       "firstTermIdx": -9999,
       "lastTermIdx": -9999,
       "items": [],
-      "type": "tbd",
+      "type": "heading",
       "meta": {
-        "context": ""
+        "heading": {
+          "id": 1,
+          "content": "Chapter 1",
+          "firstTermIdx": 2,
+          "lastTermIdx": 3,
+          "terminals": [
+            {
+              "id": 0,
+              "termIdx": 2,
+              "content": "Chapter",
+              "cueList": "",
+              "cues": {
+                "partOfSpeech": "untagged",
+                "definition": "",
+                "image": "",
+                "alternatives": []
+              },
+              "firstTermIdx": 2,
+              "lastTermIdx": 2,
+              "type": 17,
+              "meta": {
+                "content": "Chapter",
+                "cues": [],
+                "termIdx": 2,
+                "nextTermIdx": [
+                  3
+                ],
+                "prevTermIdx": [
+                  1
+                ],
+                "altpronunciation": "",
+                "altrecognition": "",
+                "recitable": true,
+                "heading": false,
+                "audible": true,
+                "linkable": false,
+                "visible": true,
+                "visited": false,
+                "numberAsNumerals": false,
+                "linkIdx": -9999,
+                "hintsIdx": -9999,
+                "fillin": {
+                  "sectionIdx": -9999,
+                  "responseIdx": -9999
+                },
+                "bold": false,
+                "italics": false,
+                "markupTag": false
+              }
+            },
+            {
+              "id": 0,
+              "termIdx": -9999,
+              "content": " ",
+              "cueList": "",
+              "cues": {
+                "partOfSpeech": "untagged",
+                "definition": "",
+                "image": "",
+                "alternatives": []
+              },
+              "firstTermIdx": -9999,
+              "lastTermIdx": -9999,
+              "type": 16,
+              "meta": {
+                "content": " ",
+                "cues": [],
+                "termIdx": -9999,
+                "nextTermIdx": [],
+                "prevTermIdx": [],
+                "altpronunciation": "",
+                "altrecognition": "",
+                "recitable": false,
+                "heading": false,
+                "audible": true,
+                "linkable": false,
+                "visible": true,
+                "visited": false,
+                "numberAsNumerals": false,
+                "linkIdx": -9999,
+                "hintsIdx": -9999,
+                "fillin": {
+                  "sectionIdx": -9999,
+                  "responseIdx": -9999
+                },
+                "bold": false,
+                "italics": false,
+                "markupTag": false
+              }
+            },
+            {
+              "id": 0,
+              "termIdx": 3,
+              "content": "1",
+              "cueList": "",
+              "cues": {
+                "partOfSpeech": "untagged",
+                "definition": "",
+                "image": "",
+                "alternatives": []
+              },
+              "firstTermIdx": 3,
+              "lastTermIdx": 3,
+              "type": 17,
+              "meta": {
+                "content": "1",
+                "cues": [],
+                "termIdx": 3,
+                "nextTermIdx": [],
+                "prevTermIdx": [
+                  2
+                ],
+                "altpronunciation": "",
+                "altrecognition": "1",
+                "recitable": true,
+                "heading": false,
+                "audible": true,
+                "linkable": false,
+                "visible": true,
+                "visited": false,
+                "numberAsNumerals": false,
+                "linkIdx": -9999,
+                "hintsIdx": -9999,
+                "fillin": {
+                  "sectionIdx": -9999,
+                  "responseIdx": -9999
+                },
+                "bold": false,
+                "italics": false,
+                "markupTag": false
+              }
+            }
+          ],
+          "lastPunctuation": ""
+        },
+        "level": 2
+      }
+    },
+    {
+      "id": 0,
+      "name": "",
+      "description": "",
+      "firstTermIdx": -9999,
+      "lastTermIdx": -9999,
+      "items": [],
+      "type": "empty",
+      "meta": {
+        "count": 1
       }
     }
   ],
@@ -206,7 +355,9 @@
       "content": "Grace",
       "cues": [],
       "termIdx": 1,
-      "nextTermIdx": [],
+      "nextTermIdx": [
+        2
+      ],
       "prevTermIdx": [
         0
       ],
@@ -230,6 +381,66 @@
       "markupTag": false,
       "sentenceIdx": 0,
       "sectionIdx": 0
+    },
+    {
+      "content": "Chapter",
+      "cues": [],
+      "termIdx": 2,
+      "nextTermIdx": [
+        3
+      ],
+      "prevTermIdx": [
+        1
+      ],
+      "altpronunciation": "",
+      "altrecognition": "",
+      "recitable": true,
+      "heading": true,
+      "audible": true,
+      "linkable": false,
+      "visible": true,
+      "visited": false,
+      "numberAsNumerals": false,
+      "linkIdx": -9999,
+      "hintsIdx": -9999,
+      "fillin": {
+        "sectionIdx": -9999,
+        "responseIdx": -9999
+      },
+      "bold": false,
+      "italics": false,
+      "markupTag": false,
+      "sentenceIdx": 1,
+      "sectionIdx": 0
+    },
+    {
+      "content": "1",
+      "cues": [],
+      "termIdx": 3,
+      "nextTermIdx": [],
+      "prevTermIdx": [
+        2
+      ],
+      "altpronunciation": "",
+      "altrecognition": "^(one|won)$",
+      "recitable": true,
+      "heading": true,
+      "audible": true,
+      "linkable": false,
+      "visible": true,
+      "visited": false,
+      "numberAsNumerals": false,
+      "linkIdx": -9999,
+      "hintsIdx": -9999,
+      "fillin": {
+        "sectionIdx": -9999,
+        "responseIdx": -9999
+      },
+      "bold": false,
+      "italics": false,
+      "markupTag": false,
+      "sentenceIdx": 1,
+      "sectionIdx": 0
     }
   ],
   "headingList": [
@@ -239,6 +450,13 @@
       "firstTermIdx": 0,
       "lastTermIdx": 1,
       "terminalCountPriorToHeading": -9999
+    },
+    {
+      "headingLevel": 2,
+      "title": "Chapter 1",
+      "firstTermIdx": 2,
+      "lastTermIdx": 3,
+      "terminalCountPriorToHeading": -9999
     }
   ],
   "sectionList": [],
@@ -246,6 +464,11 @@
     {
       "firstTermIdx": 0,
       "lastTermIdx": 1,
+      "lastPunctuation": ""
+    },
+    {
+      "firstTermIdx": 2,
+      "lastTermIdx": 3,
       "lastPunctuation": ""
     }
   ],
