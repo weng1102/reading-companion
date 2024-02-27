@@ -8,9 +8,9 @@
   "category": "Fillins",
   "version": "20231102.1",
   "pageFormatType": 0,
-  "created": "Mon Feb 26 2024 19:24:36 GMT-0800 (Pacific Standard Time)",
-  "modified": "Mon Feb 26 2024 19:24:36 GMT-0800 (Pacific Standard Time)",
-  "transformed": "Mon Feb 26 2024 19:24:36 GMT-0800 (Pacific Standard Time)",
+  "created": "Mon Feb 26 2024 19:42:24 GMT-0800 (Pacific Standard Time)",
+  "modified": "Mon Feb 26 2024 19:42:24 GMT-0800 (Pacific Standard Time)",
+  "transformed": "Mon Feb 26 2024 19:42:24 GMT-0800 (Pacific Standard Time)",
   "showTags": false,
   "columnCount": 0,
   "firstTermIdx": -9999,
@@ -48013,14 +48013,14 @@
                       "sentences": [
                         {
                           "id": 94,
-                          "content": "The postman delivers [_us=(noun)_] mail.",
+                          "content": "Santa Claus brings [_us=(noun)_] presents.",
                           "firstTermIdx": 505,
                           "lastTermIdx": 509,
                           "terminals": [
                             {
                               "id": 0,
                               "termIdx": 505,
-                              "content": "The",
+                              "content": "Santa",
                               "cueList": "",
                               "cues": {
                                 "partOfSpeech": "untagged",
@@ -48032,7 +48032,7 @@
                               "lastTermIdx": 505,
                               "type": 17,
                               "meta": {
-                                "content": "The",
+                                "content": "Santa",
                                 "cues": [],
                                 "termIdx": 505,
                                 "nextTermIdx": [
@@ -48104,7 +48104,7 @@
                             {
                               "id": 0,
                               "termIdx": 506,
-                              "content": "postman",
+                              "content": "Claus",
                               "cueList": "",
                               "cues": {
                                 "partOfSpeech": "untagged",
@@ -48116,7 +48116,7 @@
                               "lastTermIdx": 506,
                               "type": 17,
                               "meta": {
-                                "content": "postman",
+                                "content": "Claus",
                                 "cues": [],
                                 "termIdx": 506,
                                 "nextTermIdx": [
@@ -48188,7 +48188,7 @@
                             {
                               "id": 0,
                               "termIdx": 507,
-                              "content": "delivers",
+                              "content": "brings",
                               "cueList": "",
                               "cues": {
                                 "partOfSpeech": "untagged",
@@ -48200,7 +48200,7 @@
                               "lastTermIdx": 507,
                               "type": 17,
                               "meta": {
-                                "content": "delivers",
+                                "content": "brings",
                                 "cues": [],
                                 "termIdx": 507,
                                 "nextTermIdx": [
@@ -48378,7 +48378,7 @@
                             {
                               "id": 0,
                               "termIdx": 509,
-                              "content": "mail",
+                              "content": "presents",
                               "cueList": "",
                               "cues": {
                                 "partOfSpeech": "untagged",
@@ -48390,7 +48390,7 @@
                               "lastTermIdx": 509,
                               "type": 17,
                               "meta": {
-                                "content": "mail",
+                                "content": "presents",
                                 "cues": [],
                                 "termIdx": 509,
                                 "nextTermIdx": [
@@ -52968,7 +52968,7 @@
         },
         "allowReset": true,
         "maxPromptsPerSection": 0,
-        "promptColumns": 1,
+        "promptColumns": 2,
         "showPresets": true,
         "prompts": [
           {
@@ -98389,7 +98389,7 @@
       "sectionIdx": 80
     },
     {
-      "content": "The",
+      "content": "Santa",
       "cues": [],
       "termIdx": 505,
       "nextTermIdx": [
@@ -98420,7 +98420,7 @@
       "sectionIdx": 81
     },
     {
-      "content": "postman",
+      "content": "Claus",
       "cues": [],
       "termIdx": 506,
       "nextTermIdx": [
@@ -98451,7 +98451,7 @@
       "sectionIdx": 81
     },
     {
-      "content": "delivers",
+      "content": "brings",
       "cues": [],
       "termIdx": 507,
       "nextTermIdx": [
@@ -98515,7 +98515,7 @@
       "sectionIdx": 81
     },
     {
-      "content": "mail",
+      "content": "presents",
       "cues": [],
       "termIdx": 509,
       "nextTermIdx": [
@@ -98525,7 +98525,7 @@
         508
       ],
       "altpronunciation": "",
-      "altrecognition": "",
+      "altrecognition": "presence",
       "recitable": true,
       "heading": false,
       "audible": true,
@@ -112331,7 +112331,7 @@
         "helpfulness": 814
       },
       "allowReset": true,
-      "promptColumns": 1,
+      "promptColumns": 2,
       "alternatives": [],
       "tags": [
         "noun"
