@@ -6,11 +6,12 @@
   "owner": "anonymous",
   "author": "Wen",
   "category": "grammar",
+  "headingNumbering": "",
   "version": "20231102.1",
   "pageFormatType": 0,
-  "created": "Fri Feb 09 2024 22:06:37 GMT-0800 (Pacific Standard Time)",
-  "modified": "Fri Feb 09 2024 22:06:37 GMT-0800 (Pacific Standard Time)",
-  "transformed": "Fri Feb 09 2024 22:06:37 GMT-0800 (Pacific Standard Time)",
+  "created": "Wed Mar 13 2024 18:10:48 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Wed Mar 13 2024 18:10:48 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Wed Mar 13 2024 18:10:48 GMT-0700 (Pacific Daylight Time)",
   "showTags": true,
   "columnCount": 0,
   "firstTermIdx": -9999,
@@ -14220,7 +14221,7 @@
               },
               "firstTermIdx": 138,
               "lastTermIdx": 138,
-              "type": 12,
+              "type": 17,
               "meta": {
                 "content": "Exist",
                 "cues": [],
@@ -14392,10 +14393,12 @@
                         },
                         "firstTermIdx": 140,
                         "lastTermIdx": 140,
-                        "type": 12,
+                        "type": 17,
                         "meta": {
                           "content": "exist",
-                          "cues": [],
+                          "cues": [
+                            "verb"
+                          ],
                           "termIdx": 140,
                           "nextTermIdx": [
                             141
@@ -14604,10 +14607,12 @@
                         },
                         "firstTermIdx": 142,
                         "lastTermIdx": 142,
-                        "type": 12,
+                        "type": 17,
                         "meta": {
                           "content": "exists",
-                          "cues": [],
+                          "cues": [
+                            "verb"
+                          ],
                           "termIdx": 142,
                           "nextTermIdx": [
                             143
@@ -14816,10 +14821,12 @@
                         },
                         "firstTermIdx": 144,
                         "lastTermIdx": 144,
-                        "type": 12,
+                        "type": 17,
                         "meta": {
                           "content": "exists",
-                          "cues": [],
+                          "cues": [
+                            "verb"
+                          ],
                           "termIdx": 144,
                           "nextTermIdx": [
                             145
@@ -15028,10 +15035,12 @@
                         },
                         "firstTermIdx": 146,
                         "lastTermIdx": 146,
-                        "type": 12,
+                        "type": 17,
                         "meta": {
                           "content": "exists",
-                          "cues": [],
+                          "cues": [
+                            "verb"
+                          ],
                           "termIdx": 146,
                           "nextTermIdx": [
                             147
@@ -15240,10 +15249,12 @@
                         },
                         "firstTermIdx": 148,
                         "lastTermIdx": 148,
-                        "type": 12,
+                        "type": 17,
                         "meta": {
                           "content": "exist",
-                          "cues": [],
+                          "cues": [
+                            "verb"
+                          ],
                           "termIdx": 148,
                           "nextTermIdx": [
                             149
@@ -15452,10 +15463,12 @@
                         },
                         "firstTermIdx": 150,
                         "lastTermIdx": 150,
-                        "type": 12,
+                        "type": 17,
                         "meta": {
                           "content": "exist",
-                          "cues": [],
+                          "cues": [
+                            "verb"
+                          ],
                           "termIdx": 150,
                           "nextTermIdx": [
                             151
@@ -15664,10 +15677,12 @@
                         },
                         "firstTermIdx": 152,
                         "lastTermIdx": 152,
-                        "type": 12,
+                        "type": 17,
                         "meta": {
                           "content": "exist",
-                          "cues": [],
+                          "cues": [
+                            "verb"
+                          ],
                           "termIdx": 152,
                           "nextTermIdx": [
                             153
@@ -35911,57 +35926,17 @@
                 "sentences": [
                   {
                     "id": 176,
-                    "content": "(subject) move=(verb).",
+                    "content": "They=(subject) move=(verb).",
                     "firstTermIdx": 344,
                     "lastTermIdx": 345,
                     "terminals": [
                       {
                         "id": 0,
-                        "termIdx": -9999,
-                        "content": "(",
-                        "cueList": "",
-                        "cues": {
-                          "partOfSpeech": "untagged",
-                          "definition": "",
-                          "image": "",
-                          "alternatives": []
-                        },
-                        "firstTermIdx": -9999,
-                        "lastTermIdx": -9999,
-                        "type": 11,
-                        "meta": {
-                          "content": "(",
-                          "cues": [],
-                          "termIdx": -9999,
-                          "nextTermIdx": [],
-                          "prevTermIdx": [],
-                          "altpronunciation": "",
-                          "altrecognition": "",
-                          "recitable": false,
-                          "heading": false,
-                          "audible": true,
-                          "linkable": false,
-                          "visible": true,
-                          "visited": false,
-                          "numberAsNumerals": false,
-                          "linkIdx": -9999,
-                          "hintsIdx": -9999,
-                          "fillin": {
-                            "sectionIdx": -9999,
-                            "responseIdx": -9999
-                          },
-                          "bold": false,
-                          "italics": false,
-                          "markupTag": false
-                        }
-                      },
-                      {
-                        "id": 0,
                         "termIdx": 344,
-                        "content": "subject",
-                        "cueList": "",
+                        "content": "They",
+                        "cueList": "subject",
                         "cues": {
-                          "partOfSpeech": "untagged",
+                          "partOfSpeech": "subject",
                           "definition": "",
                           "image": "",
                           "alternatives": []
@@ -35970,8 +35945,10 @@
                         "lastTermIdx": 344,
                         "type": 17,
                         "meta": {
-                          "content": "subject",
-                          "cues": [],
+                          "content": "They",
+                          "cues": [
+                            "subject"
+                          ],
                           "termIdx": 344,
                           "nextTermIdx": [
                             345
@@ -35982,46 +35959,6 @@
                           "altpronunciation": "",
                           "altrecognition": "",
                           "recitable": true,
-                          "heading": false,
-                          "audible": true,
-                          "linkable": false,
-                          "visible": true,
-                          "visited": false,
-                          "numberAsNumerals": false,
-                          "linkIdx": -9999,
-                          "hintsIdx": -9999,
-                          "fillin": {
-                            "sectionIdx": -9999,
-                            "responseIdx": -9999
-                          },
-                          "bold": false,
-                          "italics": false,
-                          "markupTag": false
-                        }
-                      },
-                      {
-                        "id": 0,
-                        "termIdx": -9999,
-                        "content": ")",
-                        "cueList": "",
-                        "cues": {
-                          "partOfSpeech": "untagged",
-                          "definition": "",
-                          "image": "",
-                          "alternatives": []
-                        },
-                        "firstTermIdx": -9999,
-                        "lastTermIdx": -9999,
-                        "type": 11,
-                        "meta": {
-                          "content": ")",
-                          "cues": [],
-                          "termIdx": -9999,
-                          "nextTermIdx": [],
-                          "prevTermIdx": [],
-                          "altpronunciation": "",
-                          "altrecognition": "",
-                          "recitable": false,
                           "heading": false,
                           "audible": true,
                           "linkable": false,
@@ -69458,7 +69395,9 @@
     },
     {
       "content": "exist",
-      "cues": [],
+      "cues": [
+        "verb"
+      ],
       "termIdx": 140,
       "nextTermIdx": [
         141
@@ -69522,7 +69461,9 @@
     },
     {
       "content": "exists",
-      "cues": [],
+      "cues": [
+        "verb"
+      ],
       "termIdx": 142,
       "nextTermIdx": [
         143
@@ -69586,7 +69527,9 @@
     },
     {
       "content": "exists",
-      "cues": [],
+      "cues": [
+        "verb"
+      ],
       "termIdx": 144,
       "nextTermIdx": [
         145
@@ -69650,7 +69593,9 @@
     },
     {
       "content": "exists",
-      "cues": [],
+      "cues": [
+        "verb"
+      ],
       "termIdx": 146,
       "nextTermIdx": [
         147
@@ -69714,7 +69659,9 @@
     },
     {
       "content": "exist",
-      "cues": [],
+      "cues": [
+        "verb"
+      ],
       "termIdx": 148,
       "nextTermIdx": [
         149
@@ -69778,7 +69725,9 @@
     },
     {
       "content": "exist",
-      "cues": [],
+      "cues": [
+        "verb"
+      ],
       "termIdx": 150,
       "nextTermIdx": [
         151
@@ -69842,7 +69791,9 @@
     },
     {
       "content": "exist",
-      "cues": [],
+      "cues": [
+        "verb"
+      ],
       "termIdx": 152,
       "nextTermIdx": [
         153
@@ -76149,8 +76100,10 @@
       "sectionIdx": 152
     },
     {
-      "content": "subject",
-      "cues": [],
+      "content": "They",
+      "cues": [
+        "subject"
+      ],
       "termIdx": 344,
       "nextTermIdx": [
         345
@@ -77407,7 +77360,7 @@
         381
       ],
       "altpronunciation": "",
-      "altrecognition": "",
+      "altrecognition": "praise",
       "recitable": true,
       "heading": false,
       "audible": true,
@@ -77473,7 +77426,7 @@
         383
       ],
       "altpronunciation": "",
-      "altrecognition": "",
+      "altrecognition": "praise",
       "recitable": true,
       "heading": false,
       "audible": true,
@@ -77539,7 +77492,7 @@
         385
       ],
       "altpronunciation": "",
-      "altrecognition": "",
+      "altrecognition": "praise",
       "recitable": true,
       "heading": false,
       "audible": true,
