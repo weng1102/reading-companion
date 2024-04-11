@@ -6,11 +6,14 @@
   "owner": "Ronlyn",
   "author": "Wen",
   "category": "Image Section",
+  "headingNumbering": "",
   "version": "20231102.1",
   "pageFormatType": 0,
   "created": "4/16/2023",
-  "modified": "Sun Feb 04 2024 17:05:00 GMT-0800 (Pacific Standard Time)",
-  "transformed": "Sun Feb 04 2024 17:05:00 GMT-0800 (Pacific Standard Time)",
+  "modified": "Thu Apr 11 2024 14:07:20 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Thu Apr 11 2024 14:07:20 GMT-0700 (Pacific Daylight Time)",
+  "showTags": false,
+  "columnCount": 0,
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -20,12 +23,15 @@
       "description": "",
       "firstTermIdx": 0,
       "lastTermIdx": 15,
+      "showTags": false,
+      "columnCount": 0,
       "items": [],
       "type": "image_entry",
       "meta": {
         "title": "painting",
         "orientation": "above",
         "percent": "10%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -57,7 +63,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           },
@@ -79,7 +85,7 @@
               "src": "audible.jpg",
               "label": "audible",
               "width": 30,
-              "height": 30,
+              "height": 0,
               "attributes": "",
               "destination": {
                 "page": "",
@@ -90,7 +96,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           },
@@ -123,7 +129,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           },
@@ -145,7 +151,7 @@
               "src": "button_categorize_show.png",
               "label": "icon",
               "width": 40,
-              "height": 40,
+              "height": 0,
               "attributes": "",
               "destination": {
                 "page": "",
@@ -156,7 +162,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -168,6 +174,22 @@
             "description": "",
             "firstTermIdx": -9999,
             "lastTermIdx": -9999,
+            "showTags": false,
+            "columnCount": 0,
+            "items": [],
+            "type": "empty",
+            "meta": {
+              "count": 1
+            }
+          },
+          {
+            "id": 0,
+            "name": "",
+            "description": "",
+            "firstTermIdx": -9999,
+            "lastTermIdx": -9999,
+            "showTags": false,
+            "columnCount": 0,
             "items": [
               {
                 "id": 0,
@@ -175,6 +197,8 @@
                 "description": "",
                 "firstTermIdx": -9999,
                 "lastTermIdx": -9999,
+                "showTags": false,
+                "columnCount": 0,
                 "items": [
                   {
                     "id": 0,
@@ -182,13 +206,15 @@
                     "description": "",
                     "firstTermIdx": 0,
                     "lastTermIdx": 6,
+                    "showTags": false,
+                    "columnCount": 0,
                     "items": [],
                     "type": "paragraph",
                     "meta": {
                       "sentences": [
                         {
                           "id": 1,
-                          "content": "I enjoy painting in watercolors and acrylics. ",
+                          "content": "I enjoy painting in watercolors and acrylics.",
                           "firstTermIdx": 0,
                           "lastTermIdx": 6,
                           "terminals": [
@@ -777,68 +803,19 @@
                                 "italics": false,
                                 "markupTag": false
                               }
-                            },
-                            {
-                              "id": 0,
-                              "termIdx": -9999,
-                              "content": " ",
-                              "cueList": "",
-                              "cues": {
-                                "partOfSpeech": "untagged",
-                                "definition": "",
-                                "image": "",
-                                "alternatives": []
-                              },
-                              "firstTermIdx": -9999,
-                              "lastTermIdx": -9999,
-                              "type": 16,
-                              "meta": {
-                                "content": " ",
-                                "cues": [],
-                                "termIdx": -9999,
-                                "nextTermIdx": [],
-                                "prevTermIdx": [],
-                                "altpronunciation": "",
-                                "altrecognition": "",
-                                "recitable": false,
-                                "heading": false,
-                                "audible": true,
-                                "linkable": false,
-                                "visible": true,
-                                "visited": false,
-                                "numberAsNumerals": false,
-                                "linkIdx": -9999,
-                                "hintsIdx": -9999,
-                                "fillin": {
-                                  "sectionIdx": -9999,
-                                  "responseIdx": -9999
-                                },
-                                "bold": false,
-                                "italics": false,
-                                "markupTag": false
-                              }
                             }
                           ],
                           "lastPunctuation": "."
-                        },
-                        {
-                          "id": 2,
-                          "content": "",
-                          "firstTermIdx": 7,
-                          "lastTermIdx": 6,
-                          "terminals": [],
-                          "lastPunctuation": ""
                         }
                       ],
-                      "style": ""
+                      "style": "",
+                      "class": "no-wrap"
                     }
                   }
                 ],
                 "type": "listitem",
                 "meta": {
-                  "depth": 0,
-                  "startNumber": 0,
-                  "listType": 0
+                  "depth": 0
                 }
               },
               {
@@ -847,6 +824,8 @@
                 "description": "",
                 "firstTermIdx": -9999,
                 "lastTermIdx": -9999,
+                "showTags": false,
+                "columnCount": 0,
                 "items": [
                   {
                     "id": 1,
@@ -854,12 +833,14 @@
                     "description": "",
                     "firstTermIdx": 7,
                     "lastTermIdx": 15,
+                    "showTags": false,
+                    "columnCount": 0,
                     "items": [],
                     "type": "paragraph",
                     "meta": {
                       "sentences": [
                         {
-                          "id": 3,
+                          "id": 2,
                           "content": "I am focused on painting plants, flowers and landscapes.",
                           "firstTermIdx": 7,
                           "lastTermIdx": 15,
@@ -1662,26 +1643,39 @@
                           "lastPunctuation": "."
                         }
                       ],
-                      "style": ""
+                      "style": "",
+                      "class": "no-wrap"
                     }
                   }
                 ],
                 "type": "listitem",
                 "meta": {
-                  "depth": 0,
-                  "startNumber": 0,
-                  "listType": 0
+                  "depth": 0
                 }
               }
             ],
+            "type": "unordered_list",
             "meta": {
+              "items": [],
               "depth": 1,
-              "startNumber": 0,
-              "listType": 6
-            },
-            "type": "unordered_list"
+              "marker": 0
+            }
           }
         ]
+      }
+    },
+    {
+      "id": 0,
+      "name": "",
+      "description": "",
+      "firstTermIdx": -9999,
+      "lastTermIdx": -9999,
+      "showTags": false,
+      "columnCount": 0,
+      "items": [],
+      "type": "empty",
+      "meta": {
+        "count": 1
       }
     }
   ],
@@ -1929,7 +1923,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 3,
+      "sentenceIdx": 2,
       "sectionIdx": 1
     },
     {
@@ -1960,7 +1954,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 3,
+      "sentenceIdx": 2,
       "sectionIdx": 1
     },
     {
@@ -1991,7 +1985,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 3,
+      "sentenceIdx": 2,
       "sectionIdx": 1
     },
     {
@@ -2022,7 +2016,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 3,
+      "sentenceIdx": 2,
       "sectionIdx": 1
     },
     {
@@ -2053,7 +2047,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 3,
+      "sentenceIdx": 2,
       "sectionIdx": 1
     },
     {
@@ -2084,7 +2078,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 3,
+      "sentenceIdx": 2,
       "sectionIdx": 1
     },
     {
@@ -2115,7 +2109,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 3,
+      "sentenceIdx": 2,
       "sectionIdx": 1
     },
     {
@@ -2146,7 +2140,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 3,
+      "sentenceIdx": 2,
       "sectionIdx": 1
     },
     {
@@ -2175,7 +2169,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 3,
+      "sentenceIdx": 2,
       "sectionIdx": 1
     }
   ],
@@ -2202,11 +2196,6 @@
       "firstTermIdx": 0,
       "lastTermIdx": 6,
       "lastPunctuation": "."
-    },
-    {
-      "firstTermIdx": 7,
-      "lastTermIdx": 6,
-      "lastPunctuation": ""
     },
     {
       "firstTermIdx": 7,
