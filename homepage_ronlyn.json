@@ -10,8 +10,8 @@
   "version": "20231102.1",
   "pageFormatType": 0,
   "created": "11/9/2022",
-  "modified": "Thu Apr 11 2024 14:39:23 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Thu Apr 11 2024 14:39:23 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Thu Apr 11 2024 14:42:09 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Thu Apr 11 2024 14:42:09 GMT-0700 (Pacific Daylight Time)",
   "showTags": false,
   "columnCount": 0,
   "firstTermIdx": -9999,
@@ -33662,7 +33662,7 @@
                       "sentences": [
                         {
                           "id": 84,
-                          "content": "This book club is reading Shadow Divers and is hosted by Voices of Hope for Aphasia for Spring 2024. ",
+                          "content": "This book club is reading [Shadow Divers](booksummary_shadowdivers,page) and is hosted by Voices of Hope for Aphasia for Spring 2024. ",
                           "firstTermIdx": 376,
                           "lastTermIdx": 394,
                           "terminals": [
@@ -34088,8 +34088,8 @@
                             },
                             {
                               "id": 0,
-                              "termIdx": 381,
-                              "content": "Shadow",
+                              "termIdx": -9999,
+                              "content": "Shadow Divers",
                               "cueList": "",
                               "cues": {
                                 "partOfSpeech": "untagged",
@@ -34098,120 +34098,150 @@
                                 "alternatives": []
                               },
                               "firstTermIdx": 381,
-                              "lastTermIdx": 381,
-                              "type": 17,
-                              "meta": {
-                                "content": "Shadow",
-                                "cues": [],
-                                "termIdx": 381,
-                                "nextTermIdx": [
-                                  382
-                                ],
-                                "prevTermIdx": [
-                                  380
-                                ],
-                                "altpronunciation": "",
-                                "altrecognition": "",
-                                "recitable": true,
-                                "heading": false,
-                                "audible": true,
-                                "linkable": false,
-                                "visible": true,
-                                "visited": false,
-                                "numberAsNumerals": false,
-                                "linkIdx": -9999,
-                                "hintsIdx": -9999,
-                                "fillin": {
-                                  "sectionIdx": -9999,
-                                  "responseIdx": -9999
-                                },
-                                "bold": false,
-                                "italics": false,
-                                "markupTag": false
-                              }
-                            },
-                            {
-                              "id": 0,
-                              "termIdx": -9999,
-                              "content": " ",
-                              "cueList": "",
-                              "cues": {
-                                "partOfSpeech": "untagged",
-                                "definition": "",
-                                "image": "",
-                                "alternatives": []
-                              },
-                              "firstTermIdx": -9999,
-                              "lastTermIdx": -9999,
-                              "type": 16,
-                              "meta": {
-                                "content": " ",
-                                "cues": [],
-                                "termIdx": -9999,
-                                "nextTermIdx": [],
-                                "prevTermIdx": [],
-                                "altpronunciation": "",
-                                "altrecognition": "",
-                                "recitable": false,
-                                "heading": false,
-                                "audible": true,
-                                "linkable": false,
-                                "visible": true,
-                                "visited": false,
-                                "numberAsNumerals": false,
-                                "linkIdx": -9999,
-                                "hintsIdx": -9999,
-                                "fillin": {
-                                  "sectionIdx": -9999,
-                                  "responseIdx": -9999
-                                },
-                                "bold": false,
-                                "italics": false,
-                                "markupTag": false
-                              }
-                            },
-                            {
-                              "id": 0,
-                              "termIdx": 382,
-                              "content": "Divers",
-                              "cueList": "",
-                              "cues": {
-                                "partOfSpeech": "untagged",
-                                "definition": "",
-                                "image": "",
-                                "alternatives": []
-                              },
-                              "firstTermIdx": 382,
                               "lastTermIdx": 382,
-                              "type": 17,
+                              "type": 6,
                               "meta": {
-                                "content": "Divers",
-                                "cues": [],
-                                "termIdx": 382,
-                                "nextTermIdx": [
-                                  383
+                                "label": [
+                                  {
+                                    "id": 0,
+                                    "termIdx": 381,
+                                    "content": "Shadow",
+                                    "cueList": "",
+                                    "cues": {
+                                      "partOfSpeech": "untagged",
+                                      "definition": "",
+                                      "image": "",
+                                      "alternatives": []
+                                    },
+                                    "firstTermIdx": 381,
+                                    "lastTermIdx": 381,
+                                    "type": 17,
+                                    "meta": {
+                                      "content": "Shadow",
+                                      "cues": [],
+                                      "termIdx": 381,
+                                      "nextTermIdx": [
+                                        382
+                                      ],
+                                      "prevTermIdx": [
+                                        380
+                                      ],
+                                      "altpronunciation": "",
+                                      "altrecognition": "",
+                                      "recitable": true,
+                                      "heading": false,
+                                      "audible": true,
+                                      "linkable": false,
+                                      "visible": true,
+                                      "visited": false,
+                                      "numberAsNumerals": false,
+                                      "linkIdx": -9999,
+                                      "hintsIdx": -9999,
+                                      "fillin": {
+                                        "sectionIdx": -9999,
+                                        "responseIdx": -9999
+                                      },
+                                      "bold": false,
+                                      "italics": false,
+                                      "markupTag": false
+                                    }
+                                  },
+                                  {
+                                    "id": 0,
+                                    "termIdx": -9999,
+                                    "content": " ",
+                                    "cueList": "",
+                                    "cues": {
+                                      "partOfSpeech": "untagged",
+                                      "definition": "",
+                                      "image": "",
+                                      "alternatives": []
+                                    },
+                                    "firstTermIdx": -9999,
+                                    "lastTermIdx": -9999,
+                                    "type": 16,
+                                    "meta": {
+                                      "content": " ",
+                                      "cues": [],
+                                      "termIdx": -9999,
+                                      "nextTermIdx": [],
+                                      "prevTermIdx": [],
+                                      "altpronunciation": "",
+                                      "altrecognition": "",
+                                      "recitable": false,
+                                      "heading": false,
+                                      "audible": true,
+                                      "linkable": false,
+                                      "visible": true,
+                                      "visited": false,
+                                      "numberAsNumerals": false,
+                                      "linkIdx": -9999,
+                                      "hintsIdx": -9999,
+                                      "fillin": {
+                                        "sectionIdx": -9999,
+                                        "responseIdx": -9999
+                                      },
+                                      "bold": false,
+                                      "italics": false,
+                                      "markupTag": false
+                                    }
+                                  },
+                                  {
+                                    "id": 0,
+                                    "termIdx": 382,
+                                    "content": "Divers",
+                                    "cueList": "",
+                                    "cues": {
+                                      "partOfSpeech": "untagged",
+                                      "definition": "",
+                                      "image": "",
+                                      "alternatives": []
+                                    },
+                                    "firstTermIdx": 382,
+                                    "lastTermIdx": 382,
+                                    "type": 17,
+                                    "meta": {
+                                      "content": "Divers",
+                                      "cues": [],
+                                      "termIdx": 382,
+                                      "nextTermIdx": [
+                                        383
+                                      ],
+                                      "prevTermIdx": [
+                                        381
+                                      ],
+                                      "altpronunciation": "",
+                                      "altrecognition": "",
+                                      "recitable": true,
+                                      "heading": false,
+                                      "audible": true,
+                                      "linkable": false,
+                                      "visible": true,
+                                      "visited": false,
+                                      "numberAsNumerals": false,
+                                      "linkIdx": -9999,
+                                      "hintsIdx": -9999,
+                                      "fillin": {
+                                        "sectionIdx": -9999,
+                                        "responseIdx": -9999
+                                      },
+                                      "bold": false,
+                                      "italics": false,
+                                      "markupTag": false
+                                    }
+                                  }
                                 ],
-                                "prevTermIdx": [
-                                  381
-                                ],
-                                "altpronunciation": "",
-                                "altrecognition": "",
-                                "recitable": true,
-                                "heading": false,
-                                "audible": true,
-                                "linkable": false,
-                                "visible": true,
-                                "visited": false,
-                                "numberAsNumerals": false,
-                                "linkIdx": -9999,
-                                "hintsIdx": -9999,
-                                "fillin": {
+                                "destination": {
+                                  "page": "booksummary_shadowdivers",
+                                  "directory": "",
+                                  "linkIdxType": "page",
+                                  "headingIdx": -9999,
                                   "sectionIdx": -9999,
-                                  "responseIdx": -9999
+                                  "terminalIdx": -9999
                                 },
-                                "bold": false,
-                                "italics": false,
-                                "markupTag": false
+                                "className": "",
+                                "style": "",
+                                "linkIdx": 24
                               }
                             },
                             {
@@ -35381,7 +35411,7 @@
                 "sectionIdx": -9999,
                 "terminalIdx": -9999
               },
-              "linkIdx": 24,
+              "linkIdx": 25,
               "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
@@ -37007,7 +37037,7 @@
                 "sectionIdx": -9999,
                 "terminalIdx": -9999
               },
-              "linkIdx": 25,
+              "linkIdx": 26,
               "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
@@ -38633,7 +38663,7 @@
                 "sectionIdx": -9999,
                 "terminalIdx": -9999
               },
-              "linkIdx": 26,
+              "linkIdx": 27,
               "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
@@ -40327,7 +40357,7 @@
                 "sectionIdx": -9999,
                 "terminalIdx": -9999
               },
-              "linkIdx": 27,
+              "linkIdx": 28,
               "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
@@ -40361,7 +40391,7 @@
                 "sectionIdx": -9999,
                 "terminalIdx": -9999
               },
-              "linkIdx": 28,
+              "linkIdx": 29,
               "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
@@ -40395,7 +40425,7 @@
                 "sectionIdx": -9999,
                 "terminalIdx": -9999
               },
-              "linkIdx": 29,
+              "linkIdx": 30,
               "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
@@ -40429,7 +40459,7 @@
                 "sectionIdx": -9999,
                 "terminalIdx": -9999
               },
-              "linkIdx": 30,
+              "linkIdx": 31,
               "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
@@ -40457,40 +40487,6 @@
               "attributes": "",
               "destination": {
                 "page": "booksummary_catchmeifyoucan",
-                "directory": "",
-                "linkIdxType": "page",
-                "headingIdx": -9999,
-                "sectionIdx": -9999,
-                "terminalIdx": -9999
-              },
-              "linkIdx": 31,
-              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
-              "style": ""
-            }
-          },
-          {
-            "id": 0,
-            "termIdx": -9999,
-            "content": "A Man Called Ove",
-            "cueList": "",
-            "cues": {
-              "partOfSpeech": "untagged",
-              "definition": "",
-              "image": "",
-              "alternatives": []
-            },
-            "firstTermIdx": -9999,
-            "lastTermIdx": -9999,
-            "type": 5,
-            "meta": {
-              "src": "mancalledove1.jpg",
-              "overlay": "",
-              "label": "A Man Called Ove",
-              "width": 0,
-              "height": 0,
-              "attributes": "",
-              "destination": {
-                "page": "booksummary_mancalledove1",
                 "directory": "",
                 "linkIdxType": "page",
                 "headingIdx": -9999,
@@ -40539,6 +40535,40 @@
           {
             "id": 0,
             "termIdx": -9999,
+            "content": "A Man Called Ove",
+            "cueList": "",
+            "cues": {
+              "partOfSpeech": "untagged",
+              "definition": "",
+              "image": "",
+              "alternatives": []
+            },
+            "firstTermIdx": -9999,
+            "lastTermIdx": -9999,
+            "type": 5,
+            "meta": {
+              "src": "mancalledove1.jpg",
+              "overlay": "",
+              "label": "A Man Called Ove",
+              "width": 0,
+              "height": 0,
+              "attributes": "",
+              "destination": {
+                "page": "booksummary_mancalledove1",
+                "directory": "",
+                "linkIdxType": "page",
+                "headingIdx": -9999,
+                "sectionIdx": -9999,
+                "terminalIdx": -9999
+              },
+              "linkIdx": 34,
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
+              "style": ""
+            }
+          },
+          {
+            "id": 0,
+            "termIdx": -9999,
             "content": "Mystery Guest",
             "cueList": "",
             "cues": {
@@ -40565,7 +40595,7 @@
                 "sectionIdx": -9999,
                 "terminalIdx": -9999
               },
-              "linkIdx": 34,
+              "linkIdx": 35,
               "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
@@ -45113,7 +45143,7 @@
                 "sectionIdx": -9999,
                 "terminalIdx": -9999
               },
-              "linkIdx": 35,
+              "linkIdx": 36,
               "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
@@ -47583,7 +47613,7 @@
                                 },
                                 "className": "",
                                 "style": "",
-                                "linkIdx": 36
+                                "linkIdx": 37
                               }
                             }
                           ],
@@ -47866,7 +47896,7 @@
                                 },
                                 "className": "",
                                 "style": "",
-                                "linkIdx": 37
+                                "linkIdx": 38
                               }
                             }
                           ],
@@ -48149,7 +48179,7 @@
                                 },
                                 "className": "",
                                 "style": "",
-                                "linkIdx": 38
+                                "linkIdx": 39
                               }
                             }
                           ],
@@ -48432,7 +48462,7 @@
                                 },
                                 "className": "",
                                 "style": "",
-                                "linkIdx": 39
+                                "linkIdx": 40
                               }
                             }
                           ],
@@ -48715,7 +48745,7 @@
                                 },
                                 "className": "",
                                 "style": "",
-                                "linkIdx": 40
+                                "linkIdx": 41
                               }
                             }
                           ],
@@ -48998,7 +49028,7 @@
                                 },
                                 "className": "",
                                 "style": "",
-                                "linkIdx": 41
+                                "linkIdx": 42
                               }
                             }
                           ],
@@ -49281,7 +49311,7 @@
                                 },
                                 "className": "",
                                 "style": "",
-                                "linkIdx": 42
+                                "linkIdx": 43
                               }
                             }
                           ],
@@ -49564,7 +49594,7 @@
                                 },
                                 "className": "",
                                 "style": "",
-                                "linkIdx": 43
+                                "linkIdx": 44
                               }
                             }
                           ],
@@ -49935,7 +49965,7 @@
                           },
                           "className": "",
                           "style": "",
-                          "linkIdx": 44
+                          "linkIdx": 45
                         }
                       },
                       {
@@ -50090,7 +50120,7 @@
                           },
                           "className": "",
                           "style": "",
-                          "linkIdx": 45
+                          "linkIdx": 46
                         }
                       }
                     ],
@@ -50289,7 +50319,7 @@
                           },
                           "className": "",
                           "style": "",
-                          "linkIdx": 46
+                          "linkIdx": 47
                         }
                       }
                     ],
@@ -52195,7 +52225,7 @@
                           },
                           "className": "",
                           "style": "",
-                          "linkIdx": 47
+                          "linkIdx": 48
                         }
                       }
                     ],
@@ -52394,7 +52424,7 @@
                           },
                           "className": "",
                           "style": "",
-                          "linkIdx": 48
+                          "linkIdx": 49
                         }
                       }
                     ],
@@ -52593,7 +52623,7 @@
                           },
                           "className": "",
                           "style": "",
-                          "linkIdx": 49
+                          "linkIdx": 50
                         }
                       }
                     ],
@@ -52792,7 +52822,7 @@
                           },
                           "className": "",
                           "style": "",
-                          "linkIdx": 50
+                          "linkIdx": 51
                         }
                       }
                     ],
@@ -52991,7 +53021,7 @@
                           },
                           "className": "",
                           "style": "",
-                          "linkIdx": 51
+                          "linkIdx": 52
                         }
                       }
                     ],
@@ -53190,7 +53220,7 @@
                           },
                           "className": "",
                           "style": "",
-                          "linkIdx": 52
+                          "linkIdx": 53
                         }
                       }
                     ],
@@ -53389,7 +53419,7 @@
                           },
                           "className": "",
                           "style": "",
-                          "linkIdx": 53
+                          "linkIdx": 54
                         }
                       }
                     ],
@@ -53588,7 +53618,7 @@
                           },
                           "className": "",
                           "style": "",
-                          "linkIdx": 54
+                          "linkIdx": 55
                         }
                       }
                     ],
@@ -53787,7 +53817,7 @@
                           },
                           "className": "",
                           "style": "",
-                          "linkIdx": 55
+                          "linkIdx": 56
                         }
                       }
                     ],
@@ -54487,7 +54517,7 @@
                   },
                   "className": "",
                   "style": "",
-                  "linkIdx": 56
+                  "linkIdx": 57
                 }
               }
             ],
@@ -54773,7 +54803,7 @@
                           },
                           "className": "",
                           "style": "",
-                          "linkIdx": 57
+                          "linkIdx": 58
                         }
                       }
                     ],
@@ -54888,7 +54918,7 @@
                           },
                           "className": "",
                           "style": "",
-                          "linkIdx": 58
+                          "linkIdx": 59
                         }
                       }
                     ],
@@ -55003,7 +55033,7 @@
                           },
                           "className": "",
                           "style": "",
-                          "linkIdx": 59
+                          "linkIdx": 60
                         }
                       }
                     ],
@@ -55118,7 +55148,7 @@
                           },
                           "className": "",
                           "style": "",
-                          "linkIdx": 60
+                          "linkIdx": 61
                         }
                       }
                     ],
@@ -55320,7 +55350,7 @@
                                   },
                                   "className": "",
                                   "style": "",
-                                  "linkIdx": 61
+                                  "linkIdx": 62
                                 }
                               }
                             ],
@@ -55435,7 +55465,7 @@
                                   },
                                   "className": "",
                                   "style": "",
-                                  "linkIdx": 62
+                                  "linkIdx": 63
                                 }
                               }
                             ],
@@ -55634,7 +55664,7 @@
                                   },
                                   "className": "",
                                   "style": "",
-                                  "linkIdx": 63
+                                  "linkIdx": 64
                                 }
                               }
                             ],
@@ -55833,7 +55863,7 @@
                                   },
                                   "className": "",
                                   "style": "",
-                                  "linkIdx": 64
+                                  "linkIdx": 65
                                 }
                               }
                             ],
@@ -56030,7 +56060,7 @@
                                   },
                                   "className": "",
                                   "style": "",
-                                  "linkIdx": 65
+                                  "linkIdx": 66
                                 }
                               }
                             ],
@@ -67899,7 +67929,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": -9999,
+      "linkIdx": 24,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -67930,7 +67960,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": -9999,
+      "linkIdx": 24,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -72487,7 +72517,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 36,
+      "linkIdx": 37,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -72518,7 +72548,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 36,
+      "linkIdx": 37,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -72549,7 +72579,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 37,
+      "linkIdx": 38,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -72580,7 +72610,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 37,
+      "linkIdx": 38,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -72611,7 +72641,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 37,
+      "linkIdx": 38,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -72642,7 +72672,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 38,
+      "linkIdx": 39,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -72673,7 +72703,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 38,
+      "linkIdx": 39,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -72704,7 +72734,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 38,
+      "linkIdx": 39,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -72735,7 +72765,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 39,
+      "linkIdx": 40,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -72766,7 +72796,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 39,
+      "linkIdx": 40,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -72797,7 +72827,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 39,
+      "linkIdx": 40,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -72828,7 +72858,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 40,
+      "linkIdx": 41,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -72859,7 +72889,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 40,
+      "linkIdx": 41,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -72890,7 +72920,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 40,
+      "linkIdx": 41,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -72921,7 +72951,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 41,
+      "linkIdx": 42,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -72952,7 +72982,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 41,
+      "linkIdx": 42,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -72983,7 +73013,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 41,
+      "linkIdx": 42,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -73014,7 +73044,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 42,
+      "linkIdx": 43,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -73045,7 +73075,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 42,
+      "linkIdx": 43,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -73076,7 +73106,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 42,
+      "linkIdx": 43,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -73107,7 +73137,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 43,
+      "linkIdx": 44,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -73138,7 +73168,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 43,
+      "linkIdx": 44,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -73169,7 +73199,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 43,
+      "linkIdx": 44,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -73262,7 +73292,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 44,
+      "linkIdx": 45,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -73293,7 +73323,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 44,
+      "linkIdx": 45,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -73324,7 +73354,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 45,
+      "linkIdx": 46,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -73355,7 +73385,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 46,
+      "linkIdx": 47,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -73386,7 +73416,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 46,
+      "linkIdx": 47,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -74037,7 +74067,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 47,
+      "linkIdx": 48,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -74068,7 +74098,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 47,
+      "linkIdx": 48,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -74099,7 +74129,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 48,
+      "linkIdx": 49,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -74130,7 +74160,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 48,
+      "linkIdx": 49,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -74161,7 +74191,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 49,
+      "linkIdx": 50,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -74192,7 +74222,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 49,
+      "linkIdx": 50,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -74223,7 +74253,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 50,
+      "linkIdx": 51,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -74254,7 +74284,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 50,
+      "linkIdx": 51,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -74285,7 +74315,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 51,
+      "linkIdx": 52,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -74316,7 +74346,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 51,
+      "linkIdx": 52,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -74347,7 +74377,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 52,
+      "linkIdx": 53,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -74378,7 +74408,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 52,
+      "linkIdx": 53,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -74409,7 +74439,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 53,
+      "linkIdx": 54,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -74440,7 +74470,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 53,
+      "linkIdx": 54,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -74471,7 +74501,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 54,
+      "linkIdx": 55,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -74502,7 +74532,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 54,
+      "linkIdx": 55,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -74533,7 +74563,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 55,
+      "linkIdx": 56,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -74564,7 +74594,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 55,
+      "linkIdx": 56,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -74719,7 +74749,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 56,
+      "linkIdx": 57,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -74750,7 +74780,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 56,
+      "linkIdx": 57,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -74781,7 +74811,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 56,
+      "linkIdx": 57,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -74812,7 +74842,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 56,
+      "linkIdx": 57,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -74843,7 +74873,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 57,
+      "linkIdx": 58,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -74874,7 +74904,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 57,
+      "linkIdx": 58,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -74905,7 +74935,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 57,
+      "linkIdx": 58,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -74936,7 +74966,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 58,
+      "linkIdx": 59,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -74967,7 +74997,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 59,
+      "linkIdx": 60,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -74998,7 +75028,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 60,
+      "linkIdx": 61,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -75029,7 +75059,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 61,
+      "linkIdx": 62,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -75060,7 +75090,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 61,
+      "linkIdx": 62,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -75091,7 +75121,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 62,
+      "linkIdx": 63,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -75122,7 +75152,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 63,
+      "linkIdx": 64,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -75153,7 +75183,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 63,
+      "linkIdx": 64,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -75184,7 +75214,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 64,
+      "linkIdx": 65,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -75215,7 +75245,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 64,
+      "linkIdx": 65,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -75246,7 +75276,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 65,
+      "linkIdx": 66,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -75275,7 +75305,7 @@
       "visible": true,
       "visited": false,
       "numberAsNumerals": false,
-      "linkIdx": 65,
+      "linkIdx": 66,
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": -9999,
@@ -76997,6 +77027,18 @@
       "destination": {
         "page": "booksummary_shadowdivers",
         "directory": "dist\\",
+        "linkIdxType": "page",
+        "headingIdx": -9999,
+        "sectionIdx": -9999,
+        "terminalIdx": -9999
+      },
+      "valid": true
+    },
+    {
+      "label": "Shadow Divers",
+      "destination": {
+        "page": "booksummary_shadowdivers",
+        "directory": "",
         "linkIdxType": "page",
         "headingIdx": -9999,
         "sectionIdx": -9999,
