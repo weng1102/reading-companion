@@ -6,11 +6,14 @@
   "owner": "Ronlyn",
   "author": "Wen",
   "category": "Markdowns",
-  "version": "20231102.1",
+  "headingNumbering": "",
+  "version": "20240416.1",
   "pageFormatType": 0,
-  "created": "Sun Feb 04 2024 17:05:01 GMT-0800 (Pacific Standard Time)",
-  "modified": "Sun Feb 04 2024 17:05:01 GMT-0800 (Pacific Standard Time)",
-  "transformed": "Sun Feb 04 2024 17:05:01 GMT-0800 (Pacific Standard Time)",
+  "created": "Tue Apr 16 2024 11:49:57 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Tue Apr 16 2024 11:49:57 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Tue Apr 16 2024 11:49:57 GMT-0700 (Pacific Daylight Time)",
+  "showTags": false,
+  "columnCount": 0,
   "firstTermIdx": -9999,
   "lastTermIdx": -9999,
   "sections": [
@@ -20,6 +23,8 @@
       "description": "",
       "firstTermIdx": -9999,
       "lastTermIdx": -9999,
+      "showTags": false,
+      "columnCount": 0,
       "items": [],
       "type": "empty",
       "meta": {
@@ -32,6 +37,8 @@
       "description": "",
       "firstTermIdx": -9999,
       "lastTermIdx": -9999,
+      "showTags": false,
+      "columnCount": 0,
       "items": [],
       "type": "heading",
       "meta": {
@@ -170,7 +177,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 1
+        "level": 1,
+        "tag": ""
       }
     },
     {
@@ -179,6 +187,8 @@
       "description": "",
       "firstTermIdx": -9999,
       "lastTermIdx": -9999,
+      "showTags": false,
+      "columnCount": 0,
       "items": [],
       "type": "empty",
       "meta": {
@@ -191,13 +201,15 @@
       "description": "",
       "firstTermIdx": 2,
       "lastTermIdx": 7,
+      "showTags": false,
+      "columnCount": 0,
       "items": [],
       "type": "paragraph",
       "meta": {
         "sentences": [
           {
             "id": 1,
-            "content": "The <passthru>text within passthru</passthru> markup tags.",
+            "content": "The <label>text within passthru</label> markup tags.",
             "firstTermIdx": 2,
             "lastTermIdx": 7,
             "terminals": [
@@ -288,7 +300,7 @@
               {
                 "id": 0,
                 "termIdx": -9999,
-                "content": "<passthru>",
+                "content": "<label>",
                 "cueList": "",
                 "cues": {
                   "partOfSpeech": "untagged",
@@ -313,7 +325,7 @@
                 },
                 "firstTermIdx": 3,
                 "lastTermIdx": 3,
-                "type": 12,
+                "type": 17,
                 "meta": {
                   "content": "text",
                   "cues": [],
@@ -515,7 +527,7 @@
               {
                 "id": 0,
                 "termIdx": -9999,
-                "content": "</passthru>",
+                "content": "</label>",
                 "cueList": "",
                 "cues": {
                   "partOfSpeech": "untagged",
@@ -737,7 +749,8 @@
             "lastPunctuation": "."
           }
         ],
-        "style": ""
+        "style": "",
+        "class": "p"
       }
     },
     {
@@ -746,6 +759,8 @@
       "description": "",
       "firstTermIdx": -9999,
       "lastTermIdx": -9999,
+      "showTags": false,
+      "columnCount": 0,
       "items": [],
       "type": "empty",
       "meta": {

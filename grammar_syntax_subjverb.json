@@ -6,11 +6,12 @@
   "owner": "Ronlyn",
   "author": "Wen",
   "category": "grammar",
-  "version": "20231102.1",
+  "headingNumbering": "",
+  "version": "20240416.1",
   "pageFormatType": 0,
-  "created": "Sat Feb 10 2024 11:29:09 GMT-0800 (Pacific Standard Time)",
-  "modified": "Sat Feb 10 2024 11:29:09 GMT-0800 (Pacific Standard Time)",
-  "transformed": "Sat Feb 10 2024 11:29:09 GMT-0800 (Pacific Standard Time)",
+  "created": "Tue Apr 16 2024 11:49:52 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Tue Apr 16 2024 11:49:52 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Tue Apr 16 2024 11:49:52 GMT-0700 (Pacific Daylight Time)",
   "showTags": true,
   "columnCount": 0,
   "firstTermIdx": -9999,
@@ -246,7 +247,8 @@
           ],
           "lastPunctuation": "-"
         },
-        "level": 1
+        "level": 1,
+        "tag": ""
       }
     },
     {
@@ -313,7 +315,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -330,6 +333,7 @@
         "title": "Baking",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -348,6 +352,7 @@
             "type": 5,
             "meta": {
               "src": "verb-bake.jpg",
+              "overlay": "",
               "label": "Baking",
               "width": 0,
               "height": 0,
@@ -361,7 +366,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -655,15 +660,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -1015,25 +1019,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -1111,7 +1115,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -1128,6 +1133,7 @@
         "title": "Bouncing",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -1146,6 +1152,7 @@
             "type": 5,
             "meta": {
               "src": "verb-bounce.jpg",
+              "overlay": "",
               "label": "Bouncing",
               "width": 0,
               "height": 0,
@@ -1159,7 +1166,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -1537,15 +1544,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -1981,25 +1987,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -2077,7 +2083,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -2094,6 +2101,7 @@
         "title": "Brushing",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -2112,6 +2120,7 @@
             "type": 5,
             "meta": {
               "src": "verb-brush.jpg",
+              "overlay": "",
               "label": "Brushing",
               "width": 0,
               "height": 0,
@@ -2125,7 +2134,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -2503,15 +2512,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -2947,25 +2955,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -3043,7 +3051,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -3060,6 +3069,7 @@
         "title": "Building",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -3078,6 +3088,7 @@
             "type": 5,
             "meta": {
               "src": "verb-build.jpg",
+              "overlay": "",
               "label": "Building",
               "width": 0,
               "height": 0,
@@ -3091,7 +3102,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -3469,15 +3480,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -3913,25 +3923,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -4009,7 +4019,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -4026,6 +4037,7 @@
         "title": "Carrying",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -4044,6 +4056,7 @@
             "type": 5,
             "meta": {
               "src": "verb-carry.jpg",
+              "overlay": "",
               "label": "Carrying",
               "width": 0,
               "height": 0,
@@ -4057,7 +4070,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -4435,15 +4448,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -4879,25 +4891,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -4975,7 +4987,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -4992,6 +5005,7 @@
         "title": "Climbing",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -5010,6 +5024,7 @@
             "type": 5,
             "meta": {
               "src": "verb-climb.jpg",
+              "overlay": "",
               "label": "Climbing",
               "width": 0,
               "height": 0,
@@ -5023,7 +5038,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -5401,15 +5416,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -5845,25 +5859,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -5941,7 +5955,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -5958,6 +5973,7 @@
         "title": "Cooking",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -5976,6 +5992,7 @@
             "type": 5,
             "meta": {
               "src": "verb-cook.jpg",
+              "overlay": "",
               "label": "Cooking",
               "width": 0,
               "height": 0,
@@ -5989,7 +6006,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -6367,15 +6384,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -6811,25 +6827,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -6907,7 +6923,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -6924,6 +6941,7 @@
         "title": "Crawling",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -6942,6 +6960,7 @@
             "type": 5,
             "meta": {
               "src": "verb-crawl.jpg",
+              "overlay": "",
               "label": "Crawling",
               "width": 0,
               "height": 0,
@@ -6955,7 +6974,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -7333,15 +7352,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -7777,25 +7795,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -7873,7 +7891,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -7890,6 +7909,7 @@
         "title": "Crying",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -7908,6 +7928,7 @@
             "type": 5,
             "meta": {
               "src": "verb-cry1.jpg",
+              "overlay": "",
               "label": "Crying",
               "width": 0,
               "height": 0,
@@ -7921,7 +7942,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -8299,15 +8320,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -8743,25 +8763,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -8839,7 +8859,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -8856,6 +8877,7 @@
         "title": "Cutting",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -8874,6 +8896,7 @@
             "type": 5,
             "meta": {
               "src": "verb-cut.jpg",
+              "overlay": "",
               "label": "Cutting",
               "width": 0,
               "height": 0,
@@ -8887,7 +8910,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -9181,15 +9204,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -9541,25 +9563,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -9637,7 +9659,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -9654,6 +9677,7 @@
         "title": "Dancing",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -9672,6 +9696,7 @@
             "type": 5,
             "meta": {
               "src": "verb-dance.jpg",
+              "overlay": "",
               "label": "Dancing",
               "width": 0,
               "height": 0,
@@ -9685,7 +9710,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -10063,15 +10088,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -10507,25 +10531,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -10603,7 +10627,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -10620,6 +10645,7 @@
         "title": "Digging",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -10638,6 +10664,7 @@
             "type": 5,
             "meta": {
               "src": "verb-dig.jpg",
+              "overlay": "",
               "label": "Digging",
               "width": 0,
               "height": 0,
@@ -10651,7 +10678,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -11029,15 +11056,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -11473,25 +11499,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -11569,7 +11595,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -11586,6 +11613,7 @@
         "title": "Digging",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -11604,6 +11632,7 @@
             "type": 5,
             "meta": {
               "src": "verb-dig1.jpg",
+              "overlay": "",
               "label": "Digging",
               "width": 0,
               "height": 0,
@@ -11617,7 +11646,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -11911,15 +11940,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -12271,25 +12299,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -12367,7 +12395,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -12384,6 +12413,7 @@
         "title": "Drawing",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -12402,6 +12432,7 @@
             "type": 5,
             "meta": {
               "src": "verb-draw.jpg",
+              "overlay": "",
               "label": "Drawing",
               "width": 0,
               "height": 0,
@@ -12415,7 +12446,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -12793,15 +12824,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -13237,25 +13267,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -13333,7 +13363,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -13350,6 +13381,7 @@
         "title": "Drawing",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -13368,6 +13400,7 @@
             "type": 5,
             "meta": {
               "src": "verb-draw1.jpg",
+              "overlay": "",
               "label": "Drawing",
               "width": 0,
               "height": 0,
@@ -13381,7 +13414,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -13759,15 +13792,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -14203,25 +14235,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -14299,7 +14331,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -14316,6 +14349,7 @@
         "title": "Drinking",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -14334,6 +14368,7 @@
             "type": 5,
             "meta": {
               "src": "verb-drink.jpg",
+              "overlay": "",
               "label": "Drinking",
               "width": 0,
               "height": 0,
@@ -14347,7 +14382,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -14809,15 +14844,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -15253,25 +15287,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -15349,7 +15383,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -15366,6 +15401,7 @@
         "title": "Driving",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -15384,6 +15420,7 @@
             "type": 5,
             "meta": {
               "src": "verb-drive.jpg",
+              "overlay": "",
               "label": "Driving",
               "width": 0,
               "height": 0,
@@ -15397,7 +15434,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -15775,15 +15812,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -16219,25 +16255,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -16315,7 +16351,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -16332,6 +16369,7 @@
         "title": "Driving",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -16350,6 +16388,7 @@
             "type": 5,
             "meta": {
               "src": "verb-drive1.jpg",
+              "overlay": "",
               "label": "Driving",
               "width": 0,
               "height": 0,
@@ -16363,7 +16402,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -16741,15 +16780,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -17185,25 +17223,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -17281,7 +17319,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -17298,6 +17337,7 @@
         "title": "Drying",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -17316,6 +17356,7 @@
             "type": 5,
             "meta": {
               "src": "verb-dry.jpg",
+              "overlay": "",
               "label": "Drying",
               "width": 0,
               "height": 0,
@@ -17329,7 +17370,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -17707,15 +17748,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -18151,25 +18191,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -18247,7 +18287,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -18264,6 +18305,7 @@
         "title": "Eating",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -18282,6 +18324,7 @@
             "type": 5,
             "meta": {
               "src": "verb-eat.jpg",
+              "overlay": "",
               "label": "Eating",
               "width": 0,
               "height": 0,
@@ -18295,7 +18338,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -18673,15 +18716,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -19117,25 +19159,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -19213,7 +19255,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -19230,6 +19273,7 @@
         "title": "Eating",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -19248,6 +19292,7 @@
             "type": 5,
             "meta": {
               "src": "verb-eat1.jpg",
+              "overlay": "",
               "label": "Eating",
               "width": 0,
               "height": 0,
@@ -19261,7 +19306,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -19639,15 +19684,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -20083,25 +20127,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -20179,7 +20223,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -20196,6 +20241,7 @@
         "title": "Going",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -20214,6 +20260,7 @@
             "type": 5,
             "meta": {
               "src": "verb-go.jpg",
+              "overlay": "",
               "label": "Going",
               "width": 0,
               "height": 0,
@@ -20227,7 +20274,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -20605,15 +20652,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -21049,25 +21095,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -21145,7 +21191,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -21162,6 +21209,7 @@
         "title": "Hugging",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -21180,6 +21228,7 @@
             "type": 5,
             "meta": {
               "src": "verb-hug.jpg",
+              "overlay": "",
               "label": "Hugging",
               "width": 0,
               "height": 0,
@@ -21193,7 +21242,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -21571,15 +21620,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -22015,25 +22063,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -22111,7 +22159,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -22128,6 +22177,7 @@
         "title": "Jumping",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -22146,6 +22196,7 @@
             "type": 5,
             "meta": {
               "src": "verb-jump.jpg",
+              "overlay": "",
               "label": "Jumping",
               "width": 0,
               "height": 0,
@@ -22159,7 +22210,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -22537,15 +22588,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -22981,25 +23031,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -23077,7 +23127,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -23094,6 +23145,7 @@
         "title": "Kicking",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -23112,6 +23164,7 @@
             "type": 5,
             "meta": {
               "src": "verb-kick.jpg",
+              "overlay": "",
               "label": "Kicking",
               "width": 0,
               "height": 0,
@@ -23125,7 +23178,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -23503,15 +23556,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -23947,25 +23999,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -24043,7 +24095,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -24060,6 +24113,7 @@
         "title": "Kissing",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -24078,6 +24132,7 @@
             "type": 5,
             "meta": {
               "src": "verb-kiss.jpg",
+              "overlay": "",
               "label": "Kissing",
               "width": 0,
               "height": 0,
@@ -24091,7 +24146,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -24469,15 +24524,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -24913,25 +24967,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -25009,7 +25063,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -25026,6 +25081,7 @@
         "title": "Laughing",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -25044,6 +25100,7 @@
             "type": 5,
             "meta": {
               "src": "verb-laugh.jpg",
+              "overlay": "",
               "label": "Laughing",
               "width": 0,
               "height": 0,
@@ -25057,7 +25114,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -25435,15 +25492,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -25879,25 +25935,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -25975,7 +26031,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -25992,6 +26049,7 @@
         "title": "Mowing",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -26010,6 +26068,7 @@
             "type": 5,
             "meta": {
               "src": "verb-mow.jpg",
+              "overlay": "",
               "label": "Mowing",
               "width": 0,
               "height": 0,
@@ -26023,7 +26082,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -26401,15 +26460,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -26845,25 +26903,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -26941,7 +26999,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -26958,6 +27017,7 @@
         "title": "Painting",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -26976,6 +27036,7 @@
             "type": 5,
             "meta": {
               "src": "verb-paint.jpg",
+              "overlay": "",
               "label": "Painting",
               "width": 0,
               "height": 0,
@@ -26989,7 +27050,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -27367,15 +27428,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -27811,25 +27871,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -27856,14 +27916,14 @@
       "meta": {
         "heading": {
           "id": 117,
-          "content": "Peddle",
+          "content": "Pedal",
           "firstTermIdx": 230,
           "lastTermIdx": 230,
           "terminals": [
             {
               "id": 0,
               "termIdx": 230,
-              "content": "Peddle",
+              "content": "Pedal",
               "cueList": "",
               "cues": {
                 "partOfSpeech": "untagged",
@@ -27875,7 +27935,7 @@
               "lastTermIdx": 230,
               "type": 17,
               "meta": {
-                "content": "Peddle",
+                "content": "Pedal",
                 "cues": [],
                 "termIdx": 230,
                 "nextTermIdx": [
@@ -27907,7 +27967,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -27924,6 +27985,7 @@
         "title": "Peddling",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -27942,6 +28004,7 @@
             "type": 5,
             "meta": {
               "src": "verb-peddle.jpg",
+              "overlay": "",
               "label": "Peddling",
               "width": 0,
               "height": 0,
@@ -27955,7 +28018,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -28029,7 +28092,7 @@
                             "sentences": [
                               {
                                 "id": 119,
-                                "content": "The [_man=(subject)_] [_peddles=(verb)_].",
+                                "content": "The [_man=(subject)_] [_pedals=(verb)_].",
                                 "firstTermIdx": 231,
                                 "lastTermIdx": 233,
                                 "terminals": [
@@ -28226,7 +28289,7 @@
                                   {
                                     "id": 0,
                                     "termIdx": -9999,
-                                    "content": "peddles",
+                                    "content": "pedals",
                                     "cueList": "",
                                     "cues": {
                                       "partOfSpeech": "untagged",
@@ -28242,7 +28305,7 @@
                                         {
                                           "id": 0,
                                           "termIdx": 233,
-                                          "content": "peddles",
+                                          "content": "pedals",
                                           "cueList": "verb",
                                           "cues": {
                                             "partOfSpeech": "verb",
@@ -28254,7 +28317,7 @@
                                           "lastTermIdx": 233,
                                           "type": 17,
                                           "meta": {
-                                            "content": "peddles",
+                                            "content": "pedals",
                                             "cues": [
                                               "verb"
                                             ],
@@ -28333,15 +28396,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -28367,7 +28429,7 @@
                             "sentences": [
                               {
                                 "id": 120,
-                                "content": "The [_man=(subject)_] [_is=(helping verb)_] [_peddling=(verb)_].",
+                                "content": "The [_man=(subject)_] [_is=(helping verb)_] [_pedaling=(verb)_].",
                                 "firstTermIdx": 234,
                                 "lastTermIdx": 237,
                                 "terminals": [
@@ -28670,7 +28732,7 @@
                                   {
                                     "id": 0,
                                     "termIdx": -9999,
-                                    "content": "peddling",
+                                    "content": "pedaling",
                                     "cueList": "",
                                     "cues": {
                                       "partOfSpeech": "untagged",
@@ -28686,7 +28748,7 @@
                                         {
                                           "id": 0,
                                           "termIdx": 237,
-                                          "content": "peddling",
+                                          "content": "pedaling",
                                           "cueList": "verb",
                                           "cues": {
                                             "partOfSpeech": "verb",
@@ -28698,7 +28760,7 @@
                                           "lastTermIdx": 237,
                                           "type": 17,
                                           "meta": {
-                                            "content": "peddling",
+                                            "content": "pedaling",
                                             "cues": [
                                               "verb"
                                             ],
@@ -28777,25 +28839,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -28873,7 +28935,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -28890,6 +28953,7 @@
         "title": "Playing",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -28908,6 +28972,7 @@
             "type": 5,
             "meta": {
               "src": "verb-play.jpg",
+              "overlay": "",
               "label": "Playing",
               "width": 0,
               "height": 0,
@@ -28921,7 +28986,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -29299,15 +29364,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -29743,25 +29807,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -29839,7 +29903,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -29856,6 +29921,7 @@
         "title": "Pushing",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -29874,6 +29940,7 @@
             "type": 5,
             "meta": {
               "src": "verb-push.jpg",
+              "overlay": "",
               "label": "Pushing",
               "width": 0,
               "height": 0,
@@ -29887,7 +29954,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -30243,15 +30310,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -30665,25 +30731,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -30761,7 +30827,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -30778,6 +30845,7 @@
         "title": "Reading",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -30796,6 +30864,7 @@
             "type": 5,
             "meta": {
               "src": "verb-read.jpg",
+              "overlay": "",
               "label": "Reading",
               "width": 0,
               "height": 0,
@@ -30809,7 +30878,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -31187,15 +31256,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -31631,25 +31699,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -31727,7 +31795,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -31744,6 +31813,7 @@
         "title": "Riding",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -31762,6 +31832,7 @@
             "type": 5,
             "meta": {
               "src": "verb-ride.jpg",
+              "overlay": "",
               "label": "Riding",
               "width": 0,
               "height": 0,
@@ -31775,7 +31846,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -32153,15 +32224,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -32597,25 +32667,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -32693,7 +32763,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -32710,6 +32781,7 @@
         "title": "Running",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -32728,6 +32800,7 @@
             "type": 5,
             "meta": {
               "src": "verb-run.jpg",
+              "overlay": "",
               "label": "Running",
               "width": 0,
               "height": 0,
@@ -32741,7 +32814,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -33119,15 +33192,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -33563,25 +33635,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -33659,7 +33731,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -33676,6 +33749,7 @@
         "title": "Seeing",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -33694,6 +33768,7 @@
             "type": 5,
             "meta": {
               "src": "verb-see.jpg",
+              "overlay": "",
               "label": "Seeing",
               "width": 0,
               "height": 0,
@@ -33707,7 +33782,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -34085,15 +34160,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -34529,25 +34603,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -34625,7 +34699,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -34642,6 +34717,7 @@
         "title": "Singing",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -34660,6 +34736,7 @@
             "type": 5,
             "meta": {
               "src": "verb-sing.jpg",
+              "overlay": "",
               "label": "Singing",
               "width": 0,
               "height": 0,
@@ -34673,7 +34750,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -35051,15 +35128,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -35495,25 +35571,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -35591,7 +35667,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -35608,6 +35685,7 @@
         "title": "Sitting",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -35626,6 +35704,7 @@
             "type": 5,
             "meta": {
               "src": "verb-sit.jpg",
+              "overlay": "",
               "label": "Sitting",
               "width": 0,
               "height": 0,
@@ -35639,7 +35718,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -36017,15 +36096,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -36461,25 +36539,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -36495,16 +36573,25 @@
     },
     {
       "id": 0,
-      "name": "TBD",
+      "name": "",
       "description": "",
       "firstTermIdx": -9999,
       "lastTermIdx": -9999,
       "showTags": false,
       "columnCount": 0,
       "items": [],
-      "type": "tbd",
+      "type": "heading",
       "meta": {
-        "context": ""
+        "heading": {
+          "id": 153,
+          "content": "",
+          "firstTermIdx": 302,
+          "lastTermIdx": 301,
+          "terminals": [],
+          "lastPunctuation": ""
+        },
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -36521,6 +36608,7 @@
         "title": "Sitting",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -36539,6 +36627,7 @@
             "type": 5,
             "meta": {
               "src": "verb-sit1.jpg",
+              "overlay": "",
               "label": "Sitting",
               "width": 0,
               "height": 0,
@@ -36552,7 +36641,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -36625,7 +36714,7 @@
                           "meta": {
                             "sentences": [
                               {
-                                "id": 154,
+                                "id": 155,
                                 "content": "The [_man=(subject)_] [_sits=(verb)_].",
                                 "firstTermIdx": 302,
                                 "lastTermIdx": 304,
@@ -36930,15 +37019,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -36963,7 +37051,7 @@
                           "meta": {
                             "sentences": [
                               {
-                                "id": 155,
+                                "id": 156,
                                 "content": "The [_man=(subject)_] [_is=(helping verb)_] [_sitting=(verb)_].",
                                 "firstTermIdx": 305,
                                 "lastTermIdx": 308,
@@ -37374,25 +37462,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -37418,7 +37506,7 @@
       "type": "heading",
       "meta": {
         "heading": {
-          "id": 156,
+          "id": 157,
           "content": "Skip",
           "firstTermIdx": 309,
           "lastTermIdx": 309,
@@ -37470,7 +37558,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -37487,6 +37576,7 @@
         "title": "Skipping",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -37505,6 +37595,7 @@
             "type": 5,
             "meta": {
               "src": "verb-skip.jpg",
+              "overlay": "",
               "label": "Skipping",
               "width": 0,
               "height": 0,
@@ -37518,7 +37609,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -37591,7 +37682,7 @@
                           "meta": {
                             "sentences": [
                               {
-                                "id": 158,
+                                "id": 159,
                                 "content": "The [_girl=(subject)_] [_skips=(verb)_].",
                                 "firstTermIdx": 310,
                                 "lastTermIdx": 312,
@@ -37896,15 +37987,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -37929,7 +38019,7 @@
                           "meta": {
                             "sentences": [
                               {
-                                "id": 159,
+                                "id": 160,
                                 "content": "The [_girl=(subject)_] [_is=(helping verb)_] [_skipping=(verb)_].",
                                 "firstTermIdx": 313,
                                 "lastTermIdx": 316,
@@ -38340,25 +38430,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -38384,7 +38474,7 @@
       "type": "heading",
       "meta": {
         "heading": {
-          "id": 160,
+          "id": 161,
           "content": "Sleep",
           "firstTermIdx": 317,
           "lastTermIdx": 317,
@@ -38436,7 +38526,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -38453,6 +38544,7 @@
         "title": "Sleeping",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -38471,6 +38563,7 @@
             "type": 5,
             "meta": {
               "src": "verb-sleep.jpg",
+              "overlay": "",
               "label": "Sleeping",
               "width": 0,
               "height": 0,
@@ -38484,7 +38577,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -38557,7 +38650,7 @@
                           "meta": {
                             "sentences": [
                               {
-                                "id": 162,
+                                "id": 163,
                                 "content": "The [_boy=(subject)_] [_sleeps=(verb)_].",
                                 "firstTermIdx": 318,
                                 "lastTermIdx": 320,
@@ -38862,15 +38955,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -38895,7 +38987,7 @@
                           "meta": {
                             "sentences": [
                               {
-                                "id": 163,
+                                "id": 164,
                                 "content": "The [_boy=(subject)_] [_is=(helping verb)_] [_sleeping=(verb)_].",
                                 "firstTermIdx": 321,
                                 "lastTermIdx": 324,
@@ -39306,25 +39398,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -39350,7 +39442,7 @@
       "type": "heading",
       "meta": {
         "heading": {
-          "id": 164,
+          "id": 165,
           "content": "Slide",
           "firstTermIdx": 325,
           "lastTermIdx": 325,
@@ -39402,7 +39494,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -39419,6 +39512,7 @@
         "title": "Sliding",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -39437,6 +39531,7 @@
             "type": 5,
             "meta": {
               "src": "verb-slide.jpg",
+              "overlay": "",
               "label": "Sliding",
               "width": 0,
               "height": 0,
@@ -39450,7 +39545,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -39523,7 +39618,7 @@
                           "meta": {
                             "sentences": [
                               {
-                                "id": 166,
+                                "id": 167,
                                 "content": "The [_girl=(subject)_] [_slides=(verb)_].",
                                 "firstTermIdx": 326,
                                 "lastTermIdx": 328,
@@ -39828,15 +39923,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -39861,7 +39955,7 @@
                           "meta": {
                             "sentences": [
                               {
-                                "id": 167,
+                                "id": 168,
                                 "content": "The [_girl=(subject)_] [_is=(helping verb)_] [_sliding=(verb)_].",
                                 "firstTermIdx": 329,
                                 "lastTermIdx": 332,
@@ -40272,25 +40366,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -40316,7 +40410,7 @@
       "type": "heading",
       "meta": {
         "heading": {
-          "id": 168,
+          "id": 169,
           "content": "Sneeze",
           "firstTermIdx": 333,
           "lastTermIdx": 333,
@@ -40368,7 +40462,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -40385,6 +40480,7 @@
         "title": "Sneezing",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -40403,6 +40499,7 @@
             "type": 5,
             "meta": {
               "src": "verb-sneeze.jpg",
+              "overlay": "",
               "label": "Sneezing",
               "width": 0,
               "height": 0,
@@ -40416,7 +40513,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -40489,7 +40586,7 @@
                           "meta": {
                             "sentences": [
                               {
-                                "id": 170,
+                                "id": 171,
                                 "content": "The [_woman=(subject)_] [_sneezes=(verb)_].",
                                 "firstTermIdx": 334,
                                 "lastTermIdx": 336,
@@ -40794,15 +40891,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -40827,7 +40923,7 @@
                           "meta": {
                             "sentences": [
                               {
-                                "id": 171,
+                                "id": 172,
                                 "content": "The [_woman=(subject)_] [_is=(helping verb)_] [_sneezing=(verb)_].",
                                 "firstTermIdx": 337,
                                 "lastTermIdx": 340,
@@ -41238,25 +41334,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -41282,7 +41378,7 @@
       "type": "heading",
       "meta": {
         "heading": {
-          "id": 172,
+          "id": 173,
           "content": "Stop",
           "firstTermIdx": 341,
           "lastTermIdx": 341,
@@ -41334,7 +41430,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -41351,6 +41448,7 @@
         "title": "Stopping",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -41369,6 +41467,7 @@
             "type": 5,
             "meta": {
               "src": "verb-stop.jpg",
+              "overlay": "",
               "label": "Stopping",
               "width": 0,
               "height": 0,
@@ -41382,7 +41481,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -41455,7 +41554,7 @@
                           "meta": {
                             "sentences": [
                               {
-                                "id": 174,
+                                "id": 175,
                                 "content": "The [_car=(subject)_] [_stops=(verb)_].",
                                 "firstTermIdx": 342,
                                 "lastTermIdx": 344,
@@ -41760,15 +41859,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -41793,7 +41891,7 @@
                           "meta": {
                             "sentences": [
                               {
-                                "id": 175,
+                                "id": 176,
                                 "content": "The [_car=(subject)_] [_is=(helping verb)_] [_stopping=(verb)_].",
                                 "firstTermIdx": 345,
                                 "lastTermIdx": 348,
@@ -42204,25 +42302,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -42248,7 +42346,7 @@
       "type": "heading",
       "meta": {
         "heading": {
-          "id": 176,
+          "id": 177,
           "content": "Sweep",
           "firstTermIdx": 349,
           "lastTermIdx": 349,
@@ -42300,7 +42398,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -42317,6 +42416,7 @@
         "title": "Sweeping",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -42335,6 +42435,7 @@
             "type": 5,
             "meta": {
               "src": "verb-sweep.jpg",
+              "overlay": "",
               "label": "Sweeping",
               "width": 0,
               "height": 0,
@@ -42348,7 +42449,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -42421,7 +42522,7 @@
                           "meta": {
                             "sentences": [
                               {
-                                "id": 178,
+                                "id": 179,
                                 "content": "The [_woman=(subject)_] [_sweeps=(verb)_].",
                                 "firstTermIdx": 350,
                                 "lastTermIdx": 352,
@@ -42726,15 +42827,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -42759,7 +42859,7 @@
                           "meta": {
                             "sentences": [
                               {
-                                "id": 179,
+                                "id": 180,
                                 "content": "The [_woman=(subject)_] [_is=(helping verb)_] [_sweeping=(verb)_].",
                                 "firstTermIdx": 353,
                                 "lastTermIdx": 356,
@@ -43170,25 +43270,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -43214,7 +43314,7 @@
       "type": "heading",
       "meta": {
         "heading": {
-          "id": 180,
+          "id": 181,
           "content": "Swim",
           "firstTermIdx": 357,
           "lastTermIdx": 357,
@@ -43266,7 +43366,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -43283,6 +43384,7 @@
         "title": "Swimming",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -43301,6 +43403,7 @@
             "type": 5,
             "meta": {
               "src": "verb-swim.jpg",
+              "overlay": "",
               "label": "Swimming",
               "width": 0,
               "height": 0,
@@ -43314,7 +43417,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -43387,7 +43490,7 @@
                           "meta": {
                             "sentences": [
                               {
-                                "id": 182,
+                                "id": 183,
                                 "content": "The [_woman=(subject)_] [_swims=(verb)_].",
                                 "firstTermIdx": 358,
                                 "lastTermIdx": 360,
@@ -43692,15 +43795,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -43725,7 +43827,7 @@
                           "meta": {
                             "sentences": [
                               {
-                                "id": 183,
+                                "id": 184,
                                 "content": "The [_woman=(subject)_] [_is=(helping verb)_] [_swimming=(verb)_].",
                                 "firstTermIdx": 361,
                                 "lastTermIdx": 364,
@@ -44136,25 +44238,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -44180,7 +44282,7 @@
       "type": "heading",
       "meta": {
         "heading": {
-          "id": 184,
+          "id": 185,
           "content": "Swing",
           "firstTermIdx": 365,
           "lastTermIdx": 365,
@@ -44232,7 +44334,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -44249,6 +44352,7 @@
         "title": "Swinging",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -44267,6 +44371,7 @@
             "type": 5,
             "meta": {
               "src": "verb-swing.jpg",
+              "overlay": "",
               "label": "Swinging",
               "width": 0,
               "height": 0,
@@ -44280,7 +44385,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -44353,7 +44458,7 @@
                           "meta": {
                             "sentences": [
                               {
-                                "id": 186,
+                                "id": 187,
                                 "content": "The [_girl=(subject)_] [_swings=(verb)_].",
                                 "firstTermIdx": 366,
                                 "lastTermIdx": 368,
@@ -44658,15 +44763,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -44691,7 +44795,7 @@
                           "meta": {
                             "sentences": [
                               {
-                                "id": 187,
+                                "id": 188,
                                 "content": "The [_girl=(subject)_] [_is=(helping verb)_] [_swinging=(verb)_].",
                                 "firstTermIdx": 369,
                                 "lastTermIdx": 372,
@@ -45102,25 +45206,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -45146,7 +45250,7 @@
       "type": "heading",
       "meta": {
         "heading": {
-          "id": 188,
+          "id": 189,
           "content": "Talk",
           "firstTermIdx": 373,
           "lastTermIdx": 373,
@@ -45198,7 +45302,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -45215,6 +45320,7 @@
         "title": "Talking",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -45233,6 +45339,7 @@
             "type": 5,
             "meta": {
               "src": "verb-talk.jpg",
+              "overlay": "",
               "label": "Talking",
               "width": 0,
               "height": 0,
@@ -45246,7 +45353,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -45319,7 +45426,7 @@
                           "meta": {
                             "sentences": [
                               {
-                                "id": 190,
+                                "id": 191,
                                 "content": "The [_woman=(subject)_] [_talks=(verb)_].",
                                 "firstTermIdx": 374,
                                 "lastTermIdx": 376,
@@ -45624,15 +45731,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -45657,7 +45763,7 @@
                           "meta": {
                             "sentences": [
                               {
-                                "id": 191,
+                                "id": 192,
                                 "content": "The [_woman=(subject)_] [_is=(helping verb)_] [_talking=(verb)_].",
                                 "firstTermIdx": 377,
                                 "lastTermIdx": 380,
@@ -46068,25 +46174,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -46112,7 +46218,7 @@
       "type": "heading",
       "meta": {
         "heading": {
-          "id": 192,
+          "id": 193,
           "content": "Throw",
           "firstTermIdx": 381,
           "lastTermIdx": 381,
@@ -46164,7 +46270,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -46181,6 +46288,7 @@
         "title": "Throwing",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -46199,6 +46307,7 @@
             "type": 5,
             "meta": {
               "src": "verb-throw.jpg",
+              "overlay": "",
               "label": "Throwing",
               "width": 0,
               "height": 0,
@@ -46212,7 +46321,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -46285,7 +46394,7 @@
                           "meta": {
                             "sentences": [
                               {
-                                "id": 194,
+                                "id": 195,
                                 "content": "The [_man=(subject)_] [_throws=(verb)_].",
                                 "firstTermIdx": 382,
                                 "lastTermIdx": 384,
@@ -46590,15 +46699,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -46623,7 +46731,7 @@
                           "meta": {
                             "sentences": [
                               {
-                                "id": 195,
+                                "id": 196,
                                 "content": "The [_man=(subject)_] [_is=(helping verb)_] [_throwing=(verb)_].",
                                 "firstTermIdx": 385,
                                 "lastTermIdx": 388,
@@ -47034,25 +47142,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -47078,7 +47186,7 @@
       "type": "heading",
       "meta": {
         "heading": {
-          "id": 196,
+          "id": 197,
           "content": "Walk",
           "firstTermIdx": 389,
           "lastTermIdx": 389,
@@ -47130,7 +47238,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -47147,6 +47256,7 @@
         "title": "Walking",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -47165,6 +47275,7 @@
             "type": 5,
             "meta": {
               "src": "verb-walk.jpg",
+              "overlay": "",
               "label": "Walking",
               "width": 0,
               "height": 0,
@@ -47178,7 +47289,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -47251,7 +47362,7 @@
                           "meta": {
                             "sentences": [
                               {
-                                "id": 198,
+                                "id": 199,
                                 "content": "The [_baby=(subject)_] [_walks=(verb)_].",
                                 "firstTermIdx": 390,
                                 "lastTermIdx": 392,
@@ -47556,15 +47667,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -47589,7 +47699,7 @@
                           "meta": {
                             "sentences": [
                               {
-                                "id": 199,
+                                "id": 200,
                                 "content": "The [_baby=(subject)_] [_is=(helping verb)_] [_walking=(verb)_].",
                                 "firstTermIdx": 393,
                                 "lastTermIdx": 396,
@@ -48000,25 +48110,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -48044,7 +48154,7 @@
       "type": "heading",
       "meta": {
         "heading": {
-          "id": 200,
+          "id": 201,
           "content": "Want",
           "firstTermIdx": 397,
           "lastTermIdx": 397,
@@ -48096,7 +48206,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -48113,6 +48224,7 @@
         "title": "Wanting",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -48131,6 +48243,7 @@
             "type": 5,
             "meta": {
               "src": "verb-want.jpg",
+              "overlay": "",
               "label": "Wanting",
               "width": 0,
               "height": 0,
@@ -48144,7 +48257,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -48217,7 +48330,7 @@
                           "meta": {
                             "sentences": [
                               {
-                                "id": 202,
+                                "id": 203,
                                 "content": "The [_man=(subject)_] [_wants=(verb)_].",
                                 "firstTermIdx": 398,
                                 "lastTermIdx": 400,
@@ -48522,15 +48635,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -48555,7 +48667,7 @@
                           "meta": {
                             "sentences": [
                               {
-                                "id": 203,
+                                "id": 204,
                                 "content": "The [_man=(subject)_] [_is=(helping verb)_] [_wanting=(verb)_].",
                                 "firstTermIdx": 401,
                                 "lastTermIdx": 404,
@@ -48966,25 +49078,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -49010,7 +49122,7 @@
       "type": "heading",
       "meta": {
         "heading": {
-          "id": 204,
+          "id": 205,
           "content": "Wave",
           "firstTermIdx": 405,
           "lastTermIdx": 405,
@@ -49062,7 +49174,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -49079,6 +49192,7 @@
         "title": "Waving",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -49097,6 +49211,7 @@
             "type": 5,
             "meta": {
               "src": "verb-wave.jpg",
+              "overlay": "",
               "label": "Waving",
               "width": 0,
               "height": 0,
@@ -49110,7 +49225,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -49183,7 +49298,7 @@
                           "meta": {
                             "sentences": [
                               {
-                                "id": 206,
+                                "id": 207,
                                 "content": "The toddler [_waves=(verb)_].",
                                 "firstTermIdx": 406,
                                 "lastTermIdx": 408,
@@ -49466,15 +49581,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -49499,7 +49613,7 @@
                           "meta": {
                             "sentences": [
                               {
-                                "id": 207,
+                                "id": 208,
                                 "content": "The toddler [_is=(helping verb)_] [_waving=(verb)_].",
                                 "firstTermIdx": 409,
                                 "lastTermIdx": 412,
@@ -49888,25 +50002,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -49932,7 +50046,7 @@
       "type": "heading",
       "meta": {
         "heading": {
-          "id": 208,
+          "id": 209,
           "content": "Whisper",
           "firstTermIdx": 413,
           "lastTermIdx": 413,
@@ -49984,7 +50098,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -50001,6 +50116,7 @@
         "title": "Whispering",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -50019,6 +50135,7 @@
             "type": 5,
             "meta": {
               "src": "verb-whisper.jpg",
+              "overlay": "",
               "label": "Whispering",
               "width": 0,
               "height": 0,
@@ -50032,7 +50149,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -50105,7 +50222,7 @@
                           "meta": {
                             "sentences": [
                               {
-                                "id": 210,
+                                "id": 211,
                                 "content": "The [_girl=(subject)_] [_whispers=(verb)_].",
                                 "firstTermIdx": 414,
                                 "lastTermIdx": 416,
@@ -50410,15 +50527,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -50443,7 +50559,7 @@
                           "meta": {
                             "sentences": [
                               {
-                                "id": 211,
+                                "id": 212,
                                 "content": "The [_girl=(subject)_] [_is=(helping verb)_] [_whispering=(verb)_].",
                                 "firstTermIdx": 417,
                                 "lastTermIdx": 420,
@@ -50854,25 +50970,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -50898,7 +51014,7 @@
       "type": "heading",
       "meta": {
         "heading": {
-          "id": 212,
+          "id": 213,
           "content": "Yawn",
           "firstTermIdx": 421,
           "lastTermIdx": 421,
@@ -50950,7 +51066,8 @@
           ],
           "lastPunctuation": ""
         },
-        "level": 2
+        "level": 2,
+        "tag": ""
       }
     },
     {
@@ -50967,6 +51084,7 @@
         "title": "Yawning",
         "orientation": "left",
         "percent": "25%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -50985,6 +51103,7 @@
             "type": 5,
             "meta": {
               "src": "verb-yawn.jpg",
+              "overlay": "",
               "label": "Yawning",
               "width": 0,
               "height": 0,
@@ -50998,7 +51117,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -51071,7 +51190,7 @@
                           "meta": {
                             "sentences": [
                               {
-                                "id": 214,
+                                "id": 215,
                                 "content": "The [_man=(subject)_] [_yawns=(verb)_].",
                                 "firstTermIdx": 422,
                                 "lastTermIdx": 424,
@@ -51376,15 +51495,14 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     },
                     {
@@ -51409,7 +51527,7 @@
                           "meta": {
                             "sentences": [
                               {
-                                "id": 215,
+                                "id": 216,
                                 "content": "The [_man=(subject)_] [_is=(helping verb)_] [_yawning=(verb)_].",
                                 "firstTermIdx": 425,
                                 "lastTermIdx": 428,
@@ -51818,25 +51936,25 @@
                                 "lastPunctuation": "."
                               }
                             ],
-                            "style": ""
+                            "style": "",
+                            "class": "no-wrap"
                           }
                         }
                       ],
                       "type": "listitem",
                       "meta": {
-                        "depth": 0,
-                        "startNumber": 0,
-                        "listType": 1
+                        "depth": 0
                       }
                     }
                   ],
+                  "type": "ordered_list",
                   "meta": {
+                    "items": [],
                     "depth": 1,
                     "startNumber": 0,
-                    "listType": 6,
+                    "orderedListType": "list",
                     "subsectionOrdinal": 1
-                  },
-                  "type": "ordered_list"
+                  }
                 }
               ],
               "subsectionOrdinal": -1,
@@ -59271,7 +59389,7 @@
       "sectionIdx": 57
     },
     {
-      "content": "Peddle",
+      "content": "Pedal",
       "cues": [],
       "termIdx": 230,
       "nextTermIdx": [
@@ -59281,7 +59399,7 @@
         229
       ],
       "altpronunciation": "",
-      "altrecognition": "",
+      "altrecognition": "peddle",
       "recitable": true,
       "heading": true,
       "audible": true,
@@ -59366,7 +59484,7 @@
       "sectionIdx": 58
     },
     {
-      "content": "peddles",
+      "content": "pedals",
       "cues": [
         "verb"
       ],
@@ -59378,7 +59496,7 @@
         232
       ],
       "altpronunciation": "",
-      "altrecognition": "",
+      "altrecognition": "peddles",
       "recitable": true,
       "heading": false,
       "audible": true,
@@ -59496,7 +59614,7 @@
       "sectionIdx": 59
     },
     {
-      "content": "peddling",
+      "content": "pedaling",
       "cues": [
         "verb"
       ],
@@ -61616,7 +61734,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 154,
+      "sentenceIdx": 155,
       "sectionIdx": 76
     },
     {
@@ -61649,7 +61767,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 154,
+      "sentenceIdx": 155,
       "sectionIdx": 76
     },
     {
@@ -61682,7 +61800,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 154,
+      "sentenceIdx": 155,
       "sectionIdx": 76
     },
     {
@@ -61713,7 +61831,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 155,
+      "sentenceIdx": 156,
       "sectionIdx": 77
     },
     {
@@ -61746,7 +61864,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 155,
+      "sentenceIdx": 156,
       "sectionIdx": 77
     },
     {
@@ -61779,7 +61897,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 155,
+      "sentenceIdx": 156,
       "sectionIdx": 77
     },
     {
@@ -61812,7 +61930,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 155,
+      "sentenceIdx": 156,
       "sectionIdx": 77
     },
     {
@@ -61843,7 +61961,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 156,
+      "sentenceIdx": 157,
       "sectionIdx": 0
     },
     {
@@ -61874,7 +61992,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 158,
+      "sentenceIdx": 159,
       "sectionIdx": 78
     },
     {
@@ -61907,7 +62025,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 158,
+      "sentenceIdx": 159,
       "sectionIdx": 78
     },
     {
@@ -61940,7 +62058,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 158,
+      "sentenceIdx": 159,
       "sectionIdx": 78
     },
     {
@@ -61971,7 +62089,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 159,
+      "sentenceIdx": 160,
       "sectionIdx": 79
     },
     {
@@ -62004,7 +62122,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 159,
+      "sentenceIdx": 160,
       "sectionIdx": 79
     },
     {
@@ -62037,7 +62155,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 159,
+      "sentenceIdx": 160,
       "sectionIdx": 79
     },
     {
@@ -62070,7 +62188,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 159,
+      "sentenceIdx": 160,
       "sectionIdx": 79
     },
     {
@@ -62101,7 +62219,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 160,
+      "sentenceIdx": 161,
       "sectionIdx": 0
     },
     {
@@ -62132,7 +62250,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 162,
+      "sentenceIdx": 163,
       "sectionIdx": 80
     },
     {
@@ -62165,7 +62283,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 162,
+      "sentenceIdx": 163,
       "sectionIdx": 80
     },
     {
@@ -62198,7 +62316,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 162,
+      "sentenceIdx": 163,
       "sectionIdx": 80
     },
     {
@@ -62229,7 +62347,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 163,
+      "sentenceIdx": 164,
       "sectionIdx": 81
     },
     {
@@ -62262,7 +62380,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 163,
+      "sentenceIdx": 164,
       "sectionIdx": 81
     },
     {
@@ -62295,7 +62413,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 163,
+      "sentenceIdx": 164,
       "sectionIdx": 81
     },
     {
@@ -62328,7 +62446,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 163,
+      "sentenceIdx": 164,
       "sectionIdx": 81
     },
     {
@@ -62359,7 +62477,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 164,
+      "sentenceIdx": 165,
       "sectionIdx": 0
     },
     {
@@ -62390,7 +62508,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 166,
+      "sentenceIdx": 167,
       "sectionIdx": 82
     },
     {
@@ -62423,7 +62541,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 166,
+      "sentenceIdx": 167,
       "sectionIdx": 82
     },
     {
@@ -62456,7 +62574,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 166,
+      "sentenceIdx": 167,
       "sectionIdx": 82
     },
     {
@@ -62487,7 +62605,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 167,
+      "sentenceIdx": 168,
       "sectionIdx": 83
     },
     {
@@ -62520,7 +62638,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 167,
+      "sentenceIdx": 168,
       "sectionIdx": 83
     },
     {
@@ -62553,7 +62671,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 167,
+      "sentenceIdx": 168,
       "sectionIdx": 83
     },
     {
@@ -62586,7 +62704,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 167,
+      "sentenceIdx": 168,
       "sectionIdx": 83
     },
     {
@@ -62617,7 +62735,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 168,
+      "sentenceIdx": 169,
       "sectionIdx": 0
     },
     {
@@ -62648,7 +62766,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 170,
+      "sentenceIdx": 171,
       "sectionIdx": 84
     },
     {
@@ -62681,7 +62799,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 170,
+      "sentenceIdx": 171,
       "sectionIdx": 84
     },
     {
@@ -62714,7 +62832,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 170,
+      "sentenceIdx": 171,
       "sectionIdx": 84
     },
     {
@@ -62745,7 +62863,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 171,
+      "sentenceIdx": 172,
       "sectionIdx": 85
     },
     {
@@ -62778,7 +62896,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 171,
+      "sentenceIdx": 172,
       "sectionIdx": 85
     },
     {
@@ -62811,7 +62929,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 171,
+      "sentenceIdx": 172,
       "sectionIdx": 85
     },
     {
@@ -62844,7 +62962,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 171,
+      "sentenceIdx": 172,
       "sectionIdx": 85
     },
     {
@@ -62875,7 +62993,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 172,
+      "sentenceIdx": 173,
       "sectionIdx": 0
     },
     {
@@ -62906,7 +63024,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 174,
+      "sentenceIdx": 175,
       "sectionIdx": 86
     },
     {
@@ -62939,7 +63057,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 174,
+      "sentenceIdx": 175,
       "sectionIdx": 86
     },
     {
@@ -62972,7 +63090,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 174,
+      "sentenceIdx": 175,
       "sectionIdx": 86
     },
     {
@@ -63003,7 +63121,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 175,
+      "sentenceIdx": 176,
       "sectionIdx": 87
     },
     {
@@ -63036,7 +63154,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 175,
+      "sentenceIdx": 176,
       "sectionIdx": 87
     },
     {
@@ -63069,7 +63187,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 175,
+      "sentenceIdx": 176,
       "sectionIdx": 87
     },
     {
@@ -63102,7 +63220,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 175,
+      "sentenceIdx": 176,
       "sectionIdx": 87
     },
     {
@@ -63133,7 +63251,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 176,
+      "sentenceIdx": 177,
       "sectionIdx": 0
     },
     {
@@ -63164,7 +63282,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 178,
+      "sentenceIdx": 179,
       "sectionIdx": 88
     },
     {
@@ -63197,7 +63315,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 178,
+      "sentenceIdx": 179,
       "sectionIdx": 88
     },
     {
@@ -63230,7 +63348,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 178,
+      "sentenceIdx": 179,
       "sectionIdx": 88
     },
     {
@@ -63261,7 +63379,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 179,
+      "sentenceIdx": 180,
       "sectionIdx": 89
     },
     {
@@ -63294,7 +63412,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 179,
+      "sentenceIdx": 180,
       "sectionIdx": 89
     },
     {
@@ -63327,7 +63445,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 179,
+      "sentenceIdx": 180,
       "sectionIdx": 89
     },
     {
@@ -63360,7 +63478,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 179,
+      "sentenceIdx": 180,
       "sectionIdx": 89
     },
     {
@@ -63391,7 +63509,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 180,
+      "sentenceIdx": 181,
       "sectionIdx": 0
     },
     {
@@ -63422,7 +63540,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 182,
+      "sentenceIdx": 183,
       "sectionIdx": 90
     },
     {
@@ -63455,7 +63573,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 182,
+      "sentenceIdx": 183,
       "sectionIdx": 90
     },
     {
@@ -63488,7 +63606,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 182,
+      "sentenceIdx": 183,
       "sectionIdx": 90
     },
     {
@@ -63519,7 +63637,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 183,
+      "sentenceIdx": 184,
       "sectionIdx": 91
     },
     {
@@ -63552,7 +63670,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 183,
+      "sentenceIdx": 184,
       "sectionIdx": 91
     },
     {
@@ -63585,7 +63703,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 183,
+      "sentenceIdx": 184,
       "sectionIdx": 91
     },
     {
@@ -63618,7 +63736,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 183,
+      "sentenceIdx": 184,
       "sectionIdx": 91
     },
     {
@@ -63649,7 +63767,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 184,
+      "sentenceIdx": 185,
       "sectionIdx": 0
     },
     {
@@ -63680,7 +63798,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 186,
+      "sentenceIdx": 187,
       "sectionIdx": 92
     },
     {
@@ -63713,7 +63831,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 186,
+      "sentenceIdx": 187,
       "sectionIdx": 92
     },
     {
@@ -63746,7 +63864,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 186,
+      "sentenceIdx": 187,
       "sectionIdx": 92
     },
     {
@@ -63777,7 +63895,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 187,
+      "sentenceIdx": 188,
       "sectionIdx": 93
     },
     {
@@ -63810,7 +63928,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 187,
+      "sentenceIdx": 188,
       "sectionIdx": 93
     },
     {
@@ -63843,7 +63961,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 187,
+      "sentenceIdx": 188,
       "sectionIdx": 93
     },
     {
@@ -63876,7 +63994,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 187,
+      "sentenceIdx": 188,
       "sectionIdx": 93
     },
     {
@@ -63907,7 +64025,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 188,
+      "sentenceIdx": 189,
       "sectionIdx": 0
     },
     {
@@ -63938,7 +64056,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 190,
+      "sentenceIdx": 191,
       "sectionIdx": 94
     },
     {
@@ -63971,7 +64089,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 190,
+      "sentenceIdx": 191,
       "sectionIdx": 94
     },
     {
@@ -64004,7 +64122,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 190,
+      "sentenceIdx": 191,
       "sectionIdx": 94
     },
     {
@@ -64035,7 +64153,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 191,
+      "sentenceIdx": 192,
       "sectionIdx": 95
     },
     {
@@ -64068,7 +64186,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 191,
+      "sentenceIdx": 192,
       "sectionIdx": 95
     },
     {
@@ -64101,7 +64219,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 191,
+      "sentenceIdx": 192,
       "sectionIdx": 95
     },
     {
@@ -64134,7 +64252,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 191,
+      "sentenceIdx": 192,
       "sectionIdx": 95
     },
     {
@@ -64165,7 +64283,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 192,
+      "sentenceIdx": 193,
       "sectionIdx": 0
     },
     {
@@ -64196,7 +64314,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 194,
+      "sentenceIdx": 195,
       "sectionIdx": 96
     },
     {
@@ -64229,7 +64347,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 194,
+      "sentenceIdx": 195,
       "sectionIdx": 96
     },
     {
@@ -64262,7 +64380,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 194,
+      "sentenceIdx": 195,
       "sectionIdx": 96
     },
     {
@@ -64293,7 +64411,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 195,
+      "sentenceIdx": 196,
       "sectionIdx": 97
     },
     {
@@ -64326,7 +64444,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 195,
+      "sentenceIdx": 196,
       "sectionIdx": 97
     },
     {
@@ -64359,7 +64477,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 195,
+      "sentenceIdx": 196,
       "sectionIdx": 97
     },
     {
@@ -64392,7 +64510,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 195,
+      "sentenceIdx": 196,
       "sectionIdx": 97
     },
     {
@@ -64423,7 +64541,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 196,
+      "sentenceIdx": 197,
       "sectionIdx": 0
     },
     {
@@ -64454,7 +64572,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 198,
+      "sentenceIdx": 199,
       "sectionIdx": 98
     },
     {
@@ -64487,7 +64605,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 198,
+      "sentenceIdx": 199,
       "sectionIdx": 98
     },
     {
@@ -64520,7 +64638,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 198,
+      "sentenceIdx": 199,
       "sectionIdx": 98
     },
     {
@@ -64551,7 +64669,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 199,
+      "sentenceIdx": 200,
       "sectionIdx": 99
     },
     {
@@ -64584,7 +64702,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 199,
+      "sentenceIdx": 200,
       "sectionIdx": 99
     },
     {
@@ -64617,7 +64735,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 199,
+      "sentenceIdx": 200,
       "sectionIdx": 99
     },
     {
@@ -64650,7 +64768,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 199,
+      "sentenceIdx": 200,
       "sectionIdx": 99
     },
     {
@@ -64681,7 +64799,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 200,
+      "sentenceIdx": 201,
       "sectionIdx": 0
     },
     {
@@ -64712,7 +64830,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 202,
+      "sentenceIdx": 203,
       "sectionIdx": 100
     },
     {
@@ -64745,7 +64863,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 202,
+      "sentenceIdx": 203,
       "sectionIdx": 100
     },
     {
@@ -64778,7 +64896,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 202,
+      "sentenceIdx": 203,
       "sectionIdx": 100
     },
     {
@@ -64809,7 +64927,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 203,
+      "sentenceIdx": 204,
       "sectionIdx": 101
     },
     {
@@ -64842,7 +64960,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 203,
+      "sentenceIdx": 204,
       "sectionIdx": 101
     },
     {
@@ -64875,7 +64993,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 203,
+      "sentenceIdx": 204,
       "sectionIdx": 101
     },
     {
@@ -64908,7 +65026,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 203,
+      "sentenceIdx": 204,
       "sectionIdx": 101
     },
     {
@@ -64939,7 +65057,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 204,
+      "sentenceIdx": 205,
       "sectionIdx": 0
     },
     {
@@ -64970,7 +65088,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 206,
+      "sentenceIdx": 207,
       "sectionIdx": 102
     },
     {
@@ -65001,7 +65119,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 206,
+      "sentenceIdx": 207,
       "sectionIdx": 102
     },
     {
@@ -65034,7 +65152,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 206,
+      "sentenceIdx": 207,
       "sectionIdx": 102
     },
     {
@@ -65065,7 +65183,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 207,
+      "sentenceIdx": 208,
       "sectionIdx": 103
     },
     {
@@ -65096,7 +65214,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 207,
+      "sentenceIdx": 208,
       "sectionIdx": 103
     },
     {
@@ -65129,7 +65247,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 207,
+      "sentenceIdx": 208,
       "sectionIdx": 103
     },
     {
@@ -65162,7 +65280,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 207,
+      "sentenceIdx": 208,
       "sectionIdx": 103
     },
     {
@@ -65193,7 +65311,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 208,
+      "sentenceIdx": 209,
       "sectionIdx": 0
     },
     {
@@ -65224,7 +65342,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 210,
+      "sentenceIdx": 211,
       "sectionIdx": 104
     },
     {
@@ -65257,7 +65375,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 210,
+      "sentenceIdx": 211,
       "sectionIdx": 104
     },
     {
@@ -65290,7 +65408,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 210,
+      "sentenceIdx": 211,
       "sectionIdx": 104
     },
     {
@@ -65321,7 +65439,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 211,
+      "sentenceIdx": 212,
       "sectionIdx": 105
     },
     {
@@ -65354,7 +65472,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 211,
+      "sentenceIdx": 212,
       "sectionIdx": 105
     },
     {
@@ -65387,7 +65505,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 211,
+      "sentenceIdx": 212,
       "sectionIdx": 105
     },
     {
@@ -65420,7 +65538,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 211,
+      "sentenceIdx": 212,
       "sectionIdx": 105
     },
     {
@@ -65451,7 +65569,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 212,
+      "sentenceIdx": 213,
       "sectionIdx": 0
     },
     {
@@ -65482,7 +65600,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 214,
+      "sentenceIdx": 215,
       "sectionIdx": 106
     },
     {
@@ -65515,7 +65633,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 214,
+      "sentenceIdx": 215,
       "sectionIdx": 106
     },
     {
@@ -65548,7 +65666,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 214,
+      "sentenceIdx": 215,
       "sectionIdx": 106
     },
     {
@@ -65579,7 +65697,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 215,
+      "sentenceIdx": 216,
       "sectionIdx": 107
     },
     {
@@ -65612,7 +65730,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 215,
+      "sentenceIdx": 216,
       "sectionIdx": 107
     },
     {
@@ -65645,7 +65763,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 215,
+      "sentenceIdx": 216,
       "sectionIdx": 107
     },
     {
@@ -65676,7 +65794,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 215,
+      "sentenceIdx": 216,
       "sectionIdx": 107
     }
   ],
@@ -65893,7 +66011,7 @@
     },
     {
       "headingLevel": 2,
-      "title": "Peddle",
+      "title": "Pedal",
       "firstTermIdx": 230,
       "lastTermIdx": 237,
       "terminalCountPriorToHeading": -9999
@@ -65951,6 +66069,13 @@
       "headingLevel": 2,
       "title": "Sit",
       "firstTermIdx": 294,
+      "lastTermIdx": 301,
+      "terminalCountPriorToHeading": -9999
+    },
+    {
+      "headingLevel": 2,
+      "title": "",
+      "firstTermIdx": 302,
       "lastTermIdx": 308,
       "terminalCountPriorToHeading": -9999
     },
@@ -67367,6 +67492,11 @@
       "firstTermIdx": 298,
       "lastTermIdx": 301,
       "lastPunctuation": "."
+    },
+    {
+      "firstTermIdx": 302,
+      "lastTermIdx": 301,
+      "lastPunctuation": ""
     },
     {
       "firstTermIdx": 302,
@@ -70149,7 +70279,7 @@
           "referenceCount": 1
         },
         {
-          "content": "peddles",
+          "content": "pedals",
           "tag": "verb",
           "alternatives": [],
           "referenceCount": 1
@@ -70167,7 +70297,7 @@
           "referenceCount": 1
         },
         {
-          "content": "peddling",
+          "content": "pedaling",
           "tag": "verb",
           "alternatives": [],
           "referenceCount": 1
