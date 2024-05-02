@@ -9,9 +9,9 @@
   "headingNumbering": "",
   "version": "20240416.1",
   "pageFormatType": 0,
-  "created": "Thu May 02 2024 08:57:34 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Thu May 02 2024 08:57:35 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Thu May 02 2024 08:57:35 GMT-0700 (Pacific Daylight Time)",
+  "created": "Thu May 02 2024 09:45:52 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Thu May 02 2024 09:45:52 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Thu May 02 2024 09:45:52 GMT-0700 (Pacific Daylight Time)",
   "showTags": false,
   "columnCount": 0,
   "firstTermIdx": -9999,
@@ -39530,7 +39530,7 @@
                                     "sentences": [
                                       {
                                         "id": 108,
-                                        "content": "The [_man=(noun)_] is [_wearing=(verb)_] a [_yellow=(adjective)_] [_shirt=(noun)_] and blue=(adjective) [_jeans=(noun)_]. ",
+                                        "content": "The [_man=(noun)_] is [_wearing=(verb)_] a [_yellow=(adjective)_] [_shirt=(noun)_] and [_blue=(adjective)_] [_jeans=(noun)_]. ",
                                         "firstTermIdx": 415,
                                         "lastTermIdx": 424,
                                         "terminals": [
@@ -40296,48 +40296,68 @@
                                           },
                                           {
                                             "id": 0,
-                                            "termIdx": 423,
+                                            "termIdx": -9999,
                                             "content": "blue",
-                                            "cueList": "adjective",
+                                            "cueList": "",
                                             "cues": {
-                                              "partOfSpeech": "adjective",
+                                              "partOfSpeech": "untagged",
                                               "definition": "",
                                               "image": "",
                                               "alternatives": []
                                             },
                                             "firstTermIdx": 423,
                                             "lastTermIdx": 423,
-                                            "type": 17,
+                                            "type": 4,
                                             "meta": {
-                                              "content": "blue",
-                                              "cues": [
-                                                "adjective"
+                                              "terminals": [
+                                                {
+                                                  "id": 0,
+                                                  "termIdx": 423,
+                                                  "content": "blue",
+                                                  "cueList": "adjective",
+                                                  "cues": {
+                                                    "partOfSpeech": "adjective",
+                                                    "definition": "",
+                                                    "image": "",
+                                                    "alternatives": []
+                                                  },
+                                                  "firstTermIdx": 423,
+                                                  "lastTermIdx": 423,
+                                                  "type": 17,
+                                                  "meta": {
+                                                    "content": "blue",
+                                                    "cues": [
+                                                      "adjective"
+                                                    ],
+                                                    "termIdx": 423,
+                                                    "nextTermIdx": [
+                                                      424
+                                                    ],
+                                                    "prevTermIdx": [
+                                                      422
+                                                    ],
+                                                    "altpronunciation": "",
+                                                    "altrecognition": "",
+                                                    "recitable": true,
+                                                    "heading": false,
+                                                    "audible": true,
+                                                    "linkable": false,
+                                                    "visible": true,
+                                                    "visited": false,
+                                                    "numberAsNumerals": false,
+                                                    "linkIdx": -9999,
+                                                    "hintsIdx": -9999,
+                                                    "fillin": {
+                                                      "sectionIdx": 0,
+                                                      "responseIdx": 4
+                                                    },
+                                                    "bold": false,
+                                                    "italics": false,
+                                                    "markupTag": false
+                                                  }
+                                                }
                                               ],
-                                              "termIdx": 423,
-                                              "nextTermIdx": [
-                                                424
-                                              ],
-                                              "prevTermIdx": [
-                                                422
-                                              ],
-                                              "altpronunciation": "",
-                                              "altrecognition": "",
-                                              "recitable": true,
-                                              "heading": false,
-                                              "audible": true,
-                                              "linkable": false,
-                                              "visible": true,
-                                              "visited": false,
-                                              "numberAsNumerals": false,
-                                              "linkIdx": -9999,
-                                              "hintsIdx": -9999,
-                                              "fillin": {
-                                                "sectionIdx": -9999,
-                                                "responseIdx": -9999
-                                              },
-                                              "bold": false,
-                                              "italics": false,
-                                              "markupTag": false
+                                              "sectionFillinIdx": 0
                                             }
                                           },
                                           {
@@ -40435,7 +40455,7 @@
                                                     "hintsIdx": -9999,
                                                     "fillin": {
                                                       "sectionIdx": 0,
-                                                      "responseIdx": 4
+                                                      "responseIdx": 5
                                                     },
                                                     "bold": false,
                                                     "italics": false,
@@ -40571,7 +40591,7 @@
                                     "sentences": [
                                       {
                                         "id": 110,
-                                        "content": "[_He=(pronun)_] is [_stepping=(verb)_] onto=(proposition) the [_sidewalk=(noun)_] from=(proposition) the [_street=(noun)_].",
+                                        "content": "[_He=(pronun)_] is [_stepping=(verb)_] onto=(proposition) the [_sidewalk=(noun)_] [_from=(proposition)_] the [_street=(noun)_].",
                                         "firstTermIdx": 425,
                                         "lastTermIdx": 433,
                                         "terminals": [
@@ -40630,7 +40650,7 @@
                                                     "hintsIdx": -9999,
                                                     "fillin": {
                                                       "sectionIdx": 0,
-                                                      "responseIdx": 5
+                                                      "responseIdx": 6
                                                     },
                                                     "bold": false,
                                                     "italics": false,
@@ -40820,7 +40840,7 @@
                                                     "hintsIdx": -9999,
                                                     "fillin": {
                                                       "sectionIdx": 0,
-                                                      "responseIdx": 6
+                                                      "responseIdx": 7
                                                     },
                                                     "bold": false,
                                                     "italics": false,
@@ -41096,7 +41116,7 @@
                                                     "hintsIdx": -9999,
                                                     "fillin": {
                                                       "sectionIdx": 0,
-                                                      "responseIdx": 7
+                                                      "responseIdx": 8
                                                     },
                                                     "bold": false,
                                                     "italics": false,
@@ -41149,48 +41169,68 @@
                                           },
                                           {
                                             "id": 0,
-                                            "termIdx": 431,
+                                            "termIdx": -9999,
                                             "content": "from",
-                                            "cueList": "proposition",
+                                            "cueList": "",
                                             "cues": {
-                                              "partOfSpeech": "pronoun",
+                                              "partOfSpeech": "untagged",
                                               "definition": "",
                                               "image": "",
                                               "alternatives": []
                                             },
                                             "firstTermIdx": 431,
                                             "lastTermIdx": 431,
-                                            "type": 17,
+                                            "type": 4,
                                             "meta": {
-                                              "content": "from",
-                                              "cues": [
-                                                "proposition"
+                                              "terminals": [
+                                                {
+                                                  "id": 0,
+                                                  "termIdx": 431,
+                                                  "content": "from",
+                                                  "cueList": "proposition",
+                                                  "cues": {
+                                                    "partOfSpeech": "pronoun",
+                                                    "definition": "",
+                                                    "image": "",
+                                                    "alternatives": []
+                                                  },
+                                                  "firstTermIdx": 431,
+                                                  "lastTermIdx": 431,
+                                                  "type": 17,
+                                                  "meta": {
+                                                    "content": "from",
+                                                    "cues": [
+                                                      "proposition"
+                                                    ],
+                                                    "termIdx": 431,
+                                                    "nextTermIdx": [
+                                                      432
+                                                    ],
+                                                    "prevTermIdx": [
+                                                      430
+                                                    ],
+                                                    "altpronunciation": "",
+                                                    "altrecognition": "",
+                                                    "recitable": true,
+                                                    "heading": false,
+                                                    "audible": true,
+                                                    "linkable": false,
+                                                    "visible": true,
+                                                    "visited": false,
+                                                    "numberAsNumerals": false,
+                                                    "linkIdx": -9999,
+                                                    "hintsIdx": -9999,
+                                                    "fillin": {
+                                                      "sectionIdx": 0,
+                                                      "responseIdx": 9
+                                                    },
+                                                    "bold": false,
+                                                    "italics": false,
+                                                    "markupTag": false
+                                                  }
+                                                }
                                               ],
-                                              "termIdx": 431,
-                                              "nextTermIdx": [
-                                                432
-                                              ],
-                                              "prevTermIdx": [
-                                                430
-                                              ],
-                                              "altpronunciation": "",
-                                              "altrecognition": "",
-                                              "recitable": true,
-                                              "heading": false,
-                                              "audible": true,
-                                              "linkable": false,
-                                              "visible": true,
-                                              "visited": false,
-                                              "numberAsNumerals": false,
-                                              "linkIdx": -9999,
-                                              "hintsIdx": -9999,
-                                              "fillin": {
-                                                "sectionIdx": -9999,
-                                                "responseIdx": -9999
-                                              },
-                                              "bold": false,
-                                              "italics": false,
-                                              "markupTag": false
+                                              "sectionFillinIdx": 0
                                             }
                                           },
                                           {
@@ -41372,7 +41412,7 @@
                                                     "hintsIdx": -9999,
                                                     "fillin": {
                                                       "sectionIdx": 0,
-                                                      "responseIdx": 8
+                                                      "responseIdx": 10
                                                     },
                                                     "bold": false,
                                                     "italics": false,
@@ -70542,8 +70582,8 @@
       "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
-        "sectionIdx": -9999,
-        "responseIdx": -9999
+        "sectionIdx": 0,
+        "responseIdx": 4
       },
       "bold": false,
       "italics": false,
@@ -70576,7 +70616,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 4
+        "responseIdx": 5
       },
       "bold": false,
       "italics": false,
@@ -70609,7 +70649,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 5
+        "responseIdx": 6
       },
       "bold": false,
       "italics": false,
@@ -70673,7 +70713,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 6
+        "responseIdx": 7
       },
       "bold": false,
       "italics": false,
@@ -70770,7 +70810,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 7
+        "responseIdx": 8
       },
       "bold": false,
       "italics": false,
@@ -70802,8 +70842,8 @@
       "linkIdx": -9999,
       "hintsIdx": -9999,
       "fillin": {
-        "sectionIdx": -9999,
-        "responseIdx": -9999
+        "sectionIdx": 0,
+        "responseIdx": 9
       },
       "bold": false,
       "italics": false,
@@ -70867,7 +70907,7 @@
       "hintsIdx": -9999,
       "fillin": {
         "sectionIdx": 0,
-        "responseIdx": 8
+        "responseIdx": 10
       },
       "bold": false,
       "italics": false,
@@ -77229,6 +77269,12 @@
           "referenceCount": 1
         },
         {
+          "content": "blue",
+          "tag": "adjective",
+          "alternatives": [],
+          "referenceCount": 1
+        },
+        {
           "content": "jeans",
           "tag": "noun",
           "alternatives": [],
@@ -77249,6 +77295,12 @@
         {
           "content": "sidewalk",
           "tag": "noun",
+          "alternatives": [],
+          "referenceCount": 1
+        },
+        {
+          "content": "from",
+          "tag": "pronoun",
           "alternatives": [],
           "referenceCount": 1
         },
