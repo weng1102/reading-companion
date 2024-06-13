@@ -10,8 +10,8 @@
   "version": "20240611.1",
   "pageFormatType": 0,
   "created": "5/31/2024",
-  "modified": "Tue Jun 11 2024 11:32:08 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Tue Jun 11 2024 11:32:08 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Thu Jun 13 2024 10:47:48 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Thu Jun 13 2024 10:47:48 GMT-0700 (Pacific Daylight Time)",
   "showTags": false,
   "columnCount": 0,
   "firstTermIdx": -9999,
@@ -31,7 +31,7 @@
         "sentences": [
           {
             "id": 0,
-            "content": "Click this button [recite-button: words5-cursorAtBeginning-startListening, word5 label, hints, 5,css attributes/] to do action [recite-button: words, words label, hint 2, .5, css attributes/].",
+            "content": "Click this button [recite-button: words5-cursorAtBeginning-startListening, word5label, hints, 5,css attributes/] to do action [recite-button: words, words label, hint 2, .5, css attributes/].",
             "firstTermIdx": 0,
             "lastTermIdx": 5,
             "terminals": [
@@ -301,7 +301,7 @@
                 "type": 1,
                 "meta": {
                   "buttonIdx": 0,
-                  "label": " word5 label",
+                  "label": " word5label",
                   "image": "button_speak_sentence_partial_inclusive_advance.png",
                   "attributes": ""
                 }
@@ -601,7 +601,7 @@
         "sentences": [
           {
             "id": 1,
-            "content": "Click this button [recite-button: wordsABC-cursorAtEnd-startListening, wordABC label, hint5, ,css attributes/] to do action [recite-button: sentence2, sentence2 label, reciteMode hint, 4, css attributes/].",
+            "content": "Click this button [recite-button: wordsABC-cursorAtEnd-startListening, wordABC, hint5, ,css attributes/] to do action [recite-button: sentence2, sentence2 label, reciteMode hint, 4, css attributes/].",
             "firstTermIdx": 6,
             "lastTermIdx": 11,
             "terminals": [
@@ -873,7 +873,7 @@
                 "type": 1,
                 "meta": {
                   "buttonIdx": 2,
-                  "label": " wordABC label",
+                  "label": " wordABC",
                   "image": "button_speak.png",
                   "attributes": ""
                 }
@@ -1155,20 +1155,6 @@
         ],
         "style": "",
         "class": "p"
-      }
-    },
-    {
-      "id": 0,
-      "name": "IMAGEENTRY_END",
-      "description": "",
-      "firstTermIdx": -9999,
-      "lastTermIdx": -9999,
-      "showTags": false,
-      "columnCount": 0,
-      "items": [],
-      "type": "tbd",
-      "meta": {
-        "context": ""
       }
     }
   ],
@@ -1576,7 +1562,7 @@
       "cursorAction": "cursorAtBeginning",
       "listeningAction": "startListening",
       "span": 5,
-      "label": " word5 label",
+      "label": " word5label",
       "hint": " hints",
       "rate": 5,
       "toBeRecited": ""
@@ -1598,7 +1584,7 @@
       "cursorAction": "cursorAtEnd",
       "listeningAction": "startListening",
       "span": 1,
-      "label": " wordABC label",
+      "label": " wordABC",
       "hint": " hint5",
       "rate": 0,
       "toBeRecited": ""
