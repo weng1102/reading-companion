@@ -10,8 +10,8 @@
   "version": "20240611.1",
   "pageFormatType": 0,
   "created": "4/16/2023",
-  "modified": "Tue Jun 11 2024 11:32:12 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Tue Jun 11 2024 11:32:12 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Mon Jun 24 2024 22:00:03 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Mon Jun 24 2024 22:00:03 GMT-0700 (Pacific Daylight Time)",
   "showTags": false,
   "columnCount": 0,
   "firstTermIdx": -9999,
@@ -64,7 +64,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image-above imageentry-image-rounded-box imageentry-image-box-shadow ",
+              "className": "imageentry-image",
               "style": ""
             }
           },
@@ -84,10 +84,10 @@
             "type": 6,
             "meta": {
               "src": "audible.jpg",
-              "overlay": "30",
+              "overlay": "",
               "label": "audible",
               "width": 30,
-              "height": 0,
+              "height": 30,
               "attributes": "",
               "destination": {
                 "page": "",
@@ -98,7 +98,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image-above imageentry-image-rounded-box imageentry-image-box-shadow ",
+              "className": "imageentry-image",
               "style": ""
             }
           },
@@ -132,7 +132,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image-above imageentry-image-rounded-box imageentry-image-box-shadow ",
+              "className": "imageentry-image",
               "style": ""
             }
           },
@@ -152,10 +152,10 @@
             "type": 6,
             "meta": {
               "src": "button_categorize_show.png",
-              "overlay": "40",
+              "overlay": "",
               "label": "icon",
               "width": 40,
-              "height": 0,
+              "height": 40,
               "attributes": "",
               "destination": {
                 "page": "",
@@ -166,26 +166,12 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image-above imageentry-image-rounded-box imageentry-image-box-shadow ",
+              "className": "imageentry-image",
               "style": ""
             }
           }
         ],
         "captions": [
-          {
-            "id": 0,
-            "name": "",
-            "description": "",
-            "firstTermIdx": -9999,
-            "lastTermIdx": -9999,
-            "showTags": false,
-            "columnCount": 0,
-            "items": [],
-            "type": "empty",
-            "meta": {
-              "count": 1
-            }
-          },
           {
             "id": 0,
             "name": "",
@@ -218,7 +204,7 @@
                       "sentences": [
                         {
                           "id": 1,
-                          "content": "I enjoy painting in watercolors and acrylics.",
+                          "content": "I enjoy painting in watercolors and acrylics. ",
                           "firstTermIdx": 0,
                           "lastTermIdx": 6,
                           "terminals": [
@@ -807,9 +793,57 @@
                                 "italics": false,
                                 "markupTag": false
                               }
+                            },
+                            {
+                              "id": 0,
+                              "termIdx": -9999,
+                              "content": " ",
+                              "cueList": "",
+                              "cues": {
+                                "partOfSpeech": "untagged",
+                                "definition": "",
+                                "image": "",
+                                "alternatives": []
+                              },
+                              "firstTermIdx": -9999,
+                              "lastTermIdx": -9999,
+                              "type": 17,
+                              "meta": {
+                                "content": " ",
+                                "cues": [],
+                                "termIdx": -9999,
+                                "nextTermIdx": [],
+                                "prevTermIdx": [],
+                                "altpronunciation": "",
+                                "altrecognition": "",
+                                "recitable": false,
+                                "heading": false,
+                                "audible": true,
+                                "linkable": false,
+                                "visible": true,
+                                "visited": false,
+                                "numberAsNumerals": false,
+                                "linkIdx": -9999,
+                                "hintsIdx": -9999,
+                                "fillin": {
+                                  "sectionIdx": -9999,
+                                  "responseIdx": -9999
+                                },
+                                "bold": false,
+                                "italics": false,
+                                "markupTag": false
+                              }
                             }
                           ],
                           "lastPunctuation": "."
+                        },
+                        {
+                          "id": 2,
+                          "content": "",
+                          "firstTermIdx": 7,
+                          "lastTermIdx": 6,
+                          "terminals": [],
+                          "lastPunctuation": ""
                         }
                       ],
                       "style": "",
@@ -844,7 +878,7 @@
                     "meta": {
                       "sentences": [
                         {
-                          "id": 2,
+                          "id": 3,
                           "content": "I am focused on painting plants, flowers and landscapes.",
                           "firstTermIdx": 7,
                           "lastTermIdx": 15,
@@ -1667,20 +1701,6 @@
           }
         ]
       }
-    },
-    {
-      "id": 0,
-      "name": "",
-      "description": "",
-      "firstTermIdx": -9999,
-      "lastTermIdx": -9999,
-      "showTags": false,
-      "columnCount": 0,
-      "items": [],
-      "type": "empty",
-      "meta": {
-        "count": 1
-      }
     }
   ],
   "terminalList": [
@@ -1927,7 +1947,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 2,
+      "sentenceIdx": 3,
       "sectionIdx": 1
     },
     {
@@ -1958,7 +1978,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 2,
+      "sentenceIdx": 3,
       "sectionIdx": 1
     },
     {
@@ -1989,7 +2009,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 2,
+      "sentenceIdx": 3,
       "sectionIdx": 1
     },
     {
@@ -2020,7 +2040,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 2,
+      "sentenceIdx": 3,
       "sectionIdx": 1
     },
     {
@@ -2051,7 +2071,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 2,
+      "sentenceIdx": 3,
       "sectionIdx": 1
     },
     {
@@ -2082,7 +2102,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 2,
+      "sentenceIdx": 3,
       "sectionIdx": 1
     },
     {
@@ -2113,7 +2133,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 2,
+      "sentenceIdx": 3,
       "sectionIdx": 1
     },
     {
@@ -2144,7 +2164,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 2,
+      "sentenceIdx": 3,
       "sectionIdx": 1
     },
     {
@@ -2173,7 +2193,7 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 2,
+      "sentenceIdx": 3,
       "sectionIdx": 1
     }
   ],
@@ -2200,6 +2220,11 @@
       "firstTermIdx": 0,
       "lastTermIdx": 6,
       "lastPunctuation": "."
+    },
+    {
+      "firstTermIdx": 7,
+      "lastTermIdx": 6,
+      "lastPunctuation": ""
     },
     {
       "firstTermIdx": 7,
