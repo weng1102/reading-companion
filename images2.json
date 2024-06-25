@@ -9,9 +9,9 @@
   "headingNumbering": "",
   "version": "20240611.1",
   "pageFormatType": 0,
-  "created": "Mon Jun 24 2024 22:24:53 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Mon Jun 24 2024 22:24:53 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Mon Jun 24 2024 22:24:53 GMT-0700 (Pacific Daylight Time)",
+  "created": "Tue Jun 25 2024 09:19:46 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Tue Jun 25 2024 09:19:46 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Tue Jun 25 2024 09:19:46 GMT-0700 (Pacific Daylight Time)",
   "showTags": false,
   "columnCount": 0,
   "firstTermIdx": -9999,
@@ -638,7 +638,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image-above imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           },
@@ -672,7 +672,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image-above imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -1006,7 +1006,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image-above imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           },
@@ -1040,7 +1040,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image-above imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -1990,7 +1990,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image-above imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           },
@@ -2024,7 +2024,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image-above imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -3134,15 +3134,15 @@
               "height": 0,
               "attributes": "",
               "destination": {
-                "page": "",
+                "page": "booksummary_twonightsinlisbon",
                 "directory": "",
                 "linkIdxType": "page",
                 "headingIdx": -9999,
                 "sectionIdx": -9999,
                 "terminalIdx": -9999
               },
-              "linkIdx": -9999,
-              "className": "imageentry-image",
+              "linkIdx": 0,
+              "className": "imageentry-image-above imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           },
@@ -3168,15 +3168,15 @@
               "height": 0,
               "attributes": "",
               "destination": {
-                "page": "",
+                "page": "booksummary_shoedog",
                 "directory": "",
                 "linkIdxType": "page",
                 "headingIdx": -9999,
                 "sectionIdx": -9999,
                 "terminalIdx": -9999
               },
-              "linkIdx": -9999,
-              "className": "imageentry-image",
+              "linkIdx": 1,
+              "className": "imageentry-image-above imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -4454,15 +4454,15 @@
               "height": 0,
               "attributes": "",
               "destination": {
-                "page": "",
+                "page": "booksummary_twonightsinlisbon",
                 "directory": "",
                 "linkIdxType": "page",
                 "headingIdx": -9999,
                 "sectionIdx": -9999,
                 "terminalIdx": -9999
               },
-              "linkIdx": -9999,
-              "className": "imageentry-image",
+              "linkIdx": 2,
+              "className": "imageentry-image-above imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           },
@@ -4488,15 +4488,15 @@
               "height": 0,
               "attributes": "",
               "destination": {
-                "page": "",
+                "page": "booksummary_shoedog",
                 "directory": "",
                 "linkIdxType": "page",
                 "headingIdx": -9999,
                 "sectionIdx": -9999,
                 "terminalIdx": -9999
               },
-              "linkIdx": -9999,
-              "className": "imageentry-image",
+              "linkIdx": 3,
+              "className": "imageentry-image-above imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -5596,9 +5596,9 @@
             "type": 6,
             "meta": {
               "src": "scene_hairsalon.jpg",
-              "overlay": "",
+              "overlay": "scene_hairsalon_overlayA.png",
               "label": "hair salon scenarios",
-              "width": null,
+              "width": 0,
               "height": 0,
               "attributes": "",
               "destination": {
@@ -5610,7 +5610,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": -9999,
-              "className": "imageentry-image",
+              "className": "imageentry-image-left imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -9554,7 +9554,56 @@
       "lastPunctuation": ""
     }
   ],
-  "linkList": [],
+  "linkList": [
+    {
+      "label": "Two Nights In Lisbon",
+      "destination": {
+        "page": "booksummary_twonightsinlisbon",
+        "directory": "dist\\",
+        "linkIdxType": "page",
+        "headingIdx": -9999,
+        "sectionIdx": -9999,
+        "terminalIdx": -9999
+      },
+      "valid": false
+    },
+    {
+      "label": "Shoe Dog",
+      "destination": {
+        "page": "booksummary_shoedog",
+        "directory": "dist\\",
+        "linkIdxType": "page",
+        "headingIdx": -9999,
+        "sectionIdx": -9999,
+        "terminalIdx": -9999
+      },
+      "valid": false
+    },
+    {
+      "label": "Two Nights In Lisbon",
+      "destination": {
+        "page": "booksummary_twonightsinlisbon",
+        "directory": "dist\\",
+        "linkIdxType": "page",
+        "headingIdx": -9999,
+        "sectionIdx": -9999,
+        "terminalIdx": -9999
+      },
+      "valid": false
+    },
+    {
+      "label": "Shoe Dog",
+      "destination": {
+        "page": "booksummary_shoedog",
+        "directory": "dist\\",
+        "linkIdxType": "page",
+        "headingIdx": -9999,
+        "sectionIdx": -9999,
+        "terminalIdx": -9999
+      },
+      "valid": false
+    }
+  ],
   "fillinList": [],
   "reciteButtons": []
 }
