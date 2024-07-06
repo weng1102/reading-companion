@@ -10,8 +10,8 @@
   "version": "20240627.1",
   "pageFormatType": 0,
   "created": "5/31/2024",
-  "modified": "Fri Jul 05 2024 09:14:46 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Fri Jul 05 2024 09:14:46 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Fri Jul 05 2024 17:36:11 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Fri Jul 05 2024 17:36:11 GMT-0700 (Pacific Daylight Time)",
   "showTags": false,
   "columnCount": 0,
   "firstTermIdx": -9999,
@@ -1305,7 +1305,7 @@
           },
           {
             "id": 3,
-            "content": "[button: recite-sentence2, sentence2 label, reciteMode hint, 4, css attributes/] the quick brown fox jumped over the lazy dog.",
+            "content": "[button: recite-hint, sentence2 label, reciteMode hint, 4, css attributes/] the quick brown fox jumped over the lazy dog.",
             "firstTermIdx": 13,
             "lastTermIdx": 21,
             "terminals": [
@@ -2849,14 +2849,14 @@
     {
       "termIdx": 12,
       "action": "recite",
-      "scope": "sentence",
+      "scope": "hint",
       "cursorAction": "cursorUnchanged",
       "listeningAction": "notListening",
-      "span": 2,
+      "span": 1,
       "label": "sentence2 label",
       "hint": "reciteMode hint",
       "rate": 4,
-      "toBeRecited": " the quick brown fox jumped over the lazy dog."
+      "toBeRecited": ""
     }
   ]
 }
