@@ -10,8 +10,8 @@
   "version": "20240719.1",
   "pageFormatType": 0,
   "created": "5/31/2024",
-  "modified": "Fri Jul 19 2024 07:40:47 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Fri Jul 19 2024 07:40:47 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Fri Jul 19 2024 09:31:48 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Fri Jul 19 2024 09:31:48 GMT-0700 (Pacific Daylight Time)",
   "showTags": false,
   "columnCount": 0,
   "firstTermIdx": -9999,
@@ -31,7 +31,7 @@
         "sentences": [
           {
             "id": 0,
-            "content": "Click on this button [button: recite-word2-cursorAtBeginning-startListening, word5label, hints, 5,css attributes/] to do action. ",
+            "content": "Click on this button [button: recite-words2-cursorAtBeginning-startListening, word5label, hints, 5,css attributes/] to do action. ",
             "firstTermIdx": 0,
             "lastTermIdx": 6,
             "terminals": [
@@ -686,7 +686,7 @@
           },
           {
             "id": 1,
-            "content": "[button: recite-word, words label, hint 2, .5, css attributes/]",
+            "content": "[button: recite-words, words label, hint 2, .5, css attributes/]",
             "firstTermIdx": 7,
             "lastTermIdx": 6,
             "terminals": [
@@ -732,7 +732,7 @@
         "sentences": [
           {
             "id": 2,
-            "content": "Click this button [button: recite-word3-cursorAtEnd-startListening, wordABC, hint5, ,css attributes/] to do action. ",
+            "content": "Click this button [button: recite-words3-cursorAtEnd-startListening, wordABC, hint5, ,css attributes/] to do action. ",
             "firstTermIdx": 7,
             "lastTermIdx": 12,
             "terminals": [
@@ -2324,7 +2324,7 @@
           },
           {
             "id": 5,
-            "content": "Are you fine?",
+            "content": "Are you fine? ",
             "firstTermIdx": 24,
             "lastTermIdx": 26,
             "terminals": [
@@ -2577,9 +2577,78 @@
                   "italics": false,
                   "markupTag": false
                 }
+              },
+              {
+                "id": 0,
+                "termIdx": -9999,
+                "content": " ",
+                "cueList": "",
+                "cues": {
+                  "partOfSpeech": "untagged",
+                  "definition": "",
+                  "image": "",
+                  "alternatives": []
+                },
+                "firstTermIdx": -9999,
+                "lastTermIdx": -9999,
+                "type": 17,
+                "meta": {
+                  "content": " ",
+                  "cues": [],
+                  "termIdx": -9999,
+                  "nextTermIdx": [],
+                  "prevTermIdx": [],
+                  "altpronunciation": "",
+                  "altrecognition": "",
+                  "recitable": false,
+                  "heading": false,
+                  "audible": true,
+                  "linkable": false,
+                  "visible": true,
+                  "visited": false,
+                  "numberAsNumerals": false,
+                  "linkIdx": -9999,
+                  "hintsIdx": -9999,
+                  "fillin": {
+                    "sectionIdx": -9999,
+                    "responseIdx": -9999
+                  },
+                  "bold": false,
+                  "italics": false,
+                  "markupTag": false
+                }
               }
             ],
             "lastPunctuation": "?"
+          },
+          {
+            "id": 6,
+            "content": "[button: recite-label, hint , reciteMode hint, 4, css attributes/] ",
+            "firstTermIdx": 27,
+            "lastTermIdx": 26,
+            "terminals": [
+              {
+                "id": 0,
+                "termIdx": -9999,
+                "content": "",
+                "cueList": "",
+                "cues": {
+                  "partOfSpeech": "untagged",
+                  "definition": "",
+                  "image": "",
+                  "alternatives": []
+                },
+                "firstTermIdx": -9999,
+                "lastTermIdx": -9999,
+                "type": 1,
+                "meta": {
+                  "buttonIdx": 4,
+                  "label": "hint",
+                  "attributes": ""
+                }
+              }
+            ],
+            "lastPunctuation": ""
           }
         ],
         "style": "",
@@ -3470,6 +3539,11 @@
       "firstTermIdx": 24,
       "lastTermIdx": 26,
       "lastPunctuation": "?"
+    },
+    {
+      "firstTermIdx": 27,
+      "lastTermIdx": 26,
+      "lastPunctuation": ""
     }
   ],
   "linkList": [],
@@ -3478,21 +3552,21 @@
     {
       "termIdx": 3,
       "action": "recite",
-      "scope": "sentence",
+      "scope": "words",
       "position": "followingButton",
       "placement": "cursorUnchanged",
       "listening": "notListening",
-      "span": 1,
+      "span": 2,
       "label": "word5label",
       "hint": "hints",
       "rate": 5,
       "voiceIndex": 0,
-      "toBeRecited": " Click on this button to do action."
+      "toBeRecited": " to do"
     },
     {
       "termIdx": 6,
       "action": "recite",
-      "scope": "sentence",
+      "scope": "words",
       "position": "followingButton",
       "placement": "cursorUnchanged",
       "listening": "notListening",
@@ -3501,21 +3575,21 @@
       "hint": "hint 2",
       "rate": 0.5,
       "voiceIndex": 0,
-      "toBeRecited": " Click this button to do action."
+      "toBeRecited": " Click"
     },
     {
       "termIdx": 9,
       "action": "recite",
-      "scope": "sentence",
+      "scope": "words",
       "position": "followingButton",
       "placement": "cursorUnchanged",
       "listening": "notListening",
-      "span": 1,
+      "span": 3,
       "label": "wordABC",
       "hint": "hint5",
       "rate": 0,
       "voiceIndex": 0,
-      "toBeRecited": " Click this button to do action."
+      "toBeRecited": " to do action."
     },
     {
       "termIdx": 12,
@@ -3530,6 +3604,20 @@
       "rate": 4,
       "voiceIndex": 0,
       "toBeRecited": " The quick brown fox jumped over the lazy dog."
+    },
+    {
+      "termIdx": 26,
+      "action": "recite",
+      "scope": "label",
+      "position": "followingButton",
+      "placement": "cursorUnchanged",
+      "listening": "notListening",
+      "span": 1,
+      "label": "hint",
+      "hint": "reciteMode hint",
+      "rate": 4,
+      "voiceIndex": 0,
+      "toBeRecited": ""
     }
   ]
 }
