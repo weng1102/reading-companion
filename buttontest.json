@@ -10,8 +10,8 @@
   "version": "20240719.1",
   "pageFormatType": 0,
   "created": "5/31/2024",
-  "modified": "Fri Jul 19 2024 16:53:05 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Fri Jul 19 2024 16:53:05 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Sat Jul 20 2024 10:02:16 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Sat Jul 20 2024 10:02:16 GMT-0700 (Pacific Daylight Time)",
   "showTags": false,
   "columnCount": 0,
   "firstTermIdx": -9999,
@@ -31,7 +31,7 @@
         "sentences": [
           {
             "id": 0,
-            "content": "Click on this button [button: recite-words2-cursorAtBeginning-startListening, word5label, hints, 5,css attributes/] to do action. ",
+            "content": "Click on this button [button: recite-words2-cursorAtBeginning-startListening, words2, 5,css attributes/] to do action. ",
             "firstTermIdx": 0,
             "lastTermIdx": 6,
             "terminals": [
@@ -385,7 +385,7 @@
                 "type": 1,
                 "meta": {
                   "buttonIdx": 0,
-                  "label": "word5label",
+                  "label": "words2",
                   "attributes": ""
                 }
               },
@@ -686,7 +686,7 @@
           },
           {
             "id": 1,
-            "content": "[button: recite-words, words label, hint 2, .5, css attributes/]",
+            "content": "[button: recite-words, words1, hint 2, .5, css attributes/]",
             "firstTermIdx": 7,
             "lastTermIdx": 6,
             "terminals": [
@@ -706,7 +706,7 @@
                 "type": 1,
                 "meta": {
                   "buttonIdx": 1,
-                  "label": "words label",
+                  "label": "words1",
                   "attributes": ""
                 }
               }
@@ -732,7 +732,7 @@
         "sentences": [
           {
             "id": 2,
-            "content": "Click this button [button: recite-words3-cursorAtEnd-startListening, wordABC, hint5, ,css attributes/] to do action. ",
+            "content": "Click this button [button: recite-words3-cursorAtEnd-startListening, words3, three words, ,css attributes/] to do action. ",
             "firstTermIdx": 7,
             "lastTermIdx": 12,
             "terminals": [
@@ -1004,7 +1004,7 @@
                 "type": 1,
                 "meta": {
                   "buttonIdx": 2,
-                  "label": "wordABC",
+                  "label": "words3",
                   "attributes": ""
                 }
               },
@@ -1305,7 +1305,7 @@
           },
           {
             "id": 3,
-            "content": "[button: recite-hint, hint , reciteMode hint, 4, css attributes/] The quick brown fox jumped over the lazy dog.",
+            "content": "[button: recite-hint, hint , just a hint, 4, css attributes/] The quick brown fox jumped over the lazy dog.",
             "firstTermIdx": 13,
             "lastTermIdx": 21,
             "terminals": [
@@ -2625,7 +2625,7 @@
           },
           {
             "id": 6,
-            "content": "[button: recite-label, hint , reciteMode hint, 4, css attributes/] ",
+            "content": "[button: recite-label, hint , label labeled as a hint, 4, css attributes/] ",
             "firstTermIdx": 27,
             "lastTermIdx": 26,
             "terminals": [
@@ -2671,7 +2671,7 @@
         "sentences": [
           {
             "id": 7,
-            "content": "I am [button: recite-term, term , , 4, css attributes/]",
+            "content": "I am [button: recite-term, term , words without icon, 4, css attributes/]",
             "firstTermIdx": 27,
             "lastTermIdx": 28,
             "terminals": [
@@ -3843,9 +3843,9 @@
       "placement": "cursorUnchanged",
       "listening": "notListening",
       "span": 2,
-      "label": "word5label",
-      "hint": "hints",
-      "rate": 5,
+      "label": "words2",
+      "hint": "5",
+      "rate": 1,
       "voiceIndex": 0,
       "toBeRecited": " to do"
     },
@@ -3857,7 +3857,7 @@
       "placement": "cursorUnchanged",
       "listening": "notListening",
       "span": 1,
-      "label": "words label",
+      "label": "words1",
       "hint": "hint 2",
       "rate": 0.5,
       "voiceIndex": 0,
@@ -3871,8 +3871,8 @@
       "placement": "cursorUnchanged",
       "listening": "notListening",
       "span": 3,
-      "label": "wordABC",
-      "hint": "hint5",
+      "label": "words3",
+      "hint": "three words",
       "rate": 0,
       "voiceIndex": 0,
       "toBeRecited": " to do action."
@@ -3886,10 +3886,10 @@
       "listening": "notListening",
       "span": 1,
       "label": "hint",
-      "hint": "reciteMode hint",
+      "hint": "just a hint",
       "rate": 4,
       "voiceIndex": 0,
-      "toBeRecited": "reciteMode hint"
+      "toBeRecited": "just a hint"
     },
     {
       "termIdx": 26,
@@ -3900,7 +3900,7 @@
       "listening": "notListening",
       "span": 1,
       "label": "hint",
-      "hint": "reciteMode hint",
+      "hint": "label labeled as a hint",
       "rate": 4,
       "voiceIndex": 0,
       "toBeRecited": "hint"
@@ -3914,7 +3914,7 @@
       "listening": "notListening",
       "span": 1,
       "label": "term",
-      "hint": "",
+      "hint": "words without icon",
       "rate": 4,
       "voiceIndex": 0,
       "toBeRecited": "term"
