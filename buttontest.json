@@ -10,8 +10,8 @@
   "version": "20240719.1",
   "pageFormatType": 0,
   "created": "5/31/2024",
-  "modified": "Mon Jul 22 2024 14:01:41 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Mon Jul 22 2024 14:01:41 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Mon Jul 22 2024 14:38:35 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Mon Jul 22 2024 14:38:35 GMT-0700 (Pacific Daylight Time)",
   "showTags": false,
   "columnCount": 0,
   "firstTermIdx": -9999,
@@ -8034,14 +8034,14 @@
                         "sentences": [
                           {
                             "id": 28,
-                            "content": "True/false [button: recite-sentence, a , words without icon, 4, css attributes/]",
+                            "content": "Fill in [button: recite-sentence, b, words without icon, 4, css attributes/]",
                             "firstTermIdx": 83,
                             "lastTermIdx": 84,
                             "terminals": [
                               {
                                 "id": 0,
                                 "termIdx": 83,
-                                "content": "True",
+                                "content": "Fill",
                                 "cueList": "",
                                 "cues": {
                                   "partOfSpeech": "untagged",
@@ -8053,7 +8053,7 @@
                                 "lastTermIdx": 83,
                                 "type": 18,
                                 "meta": {
-                                  "content": "True",
+                                  "content": "Fill",
                                   "cues": [],
                                   "termIdx": 83,
                                   "nextTermIdx": [
@@ -8085,7 +8085,7 @@
                               {
                                 "id": 0,
                                 "termIdx": -9999,
-                                "content": "/",
+                                "content": " ",
                                 "cueList": "",
                                 "cues": {
                                   "partOfSpeech": "untagged",
@@ -8095,9 +8095,9 @@
                                 },
                                 "firstTermIdx": -9999,
                                 "lastTermIdx": -9999,
-                                "type": 12,
+                                "type": 17,
                                 "meta": {
-                                  "content": "/",
+                                  "content": " ",
                                   "cues": [],
                                   "termIdx": -9999,
                                   "nextTermIdx": [],
@@ -8125,7 +8125,7 @@
                               {
                                 "id": 0,
                                 "termIdx": 84,
-                                "content": "false",
+                                "content": "in",
                                 "cueList": "",
                                 "cues": {
                                   "partOfSpeech": "untagged",
@@ -8137,7 +8137,7 @@
                                 "lastTermIdx": 84,
                                 "type": 18,
                                 "meta": {
-                                  "content": "false",
+                                  "content": "in",
                                   "cues": [],
                                   "termIdx": 84,
                                   "nextTermIdx": [
@@ -8222,12 +8222,12 @@
                                 "type": 1,
                                 "meta": {
                                   "buttonIdx": 17,
-                                  "label": "a",
+                                  "label": "b",
                                   "attributes": ""
                                 }
                               }
                             ],
-                            "lastPunctuation": "/"
+                            "lastPunctuation": ""
                           }
                         ],
                         "style": "",
@@ -8254,7 +8254,7 @@
                       "name": "",
                       "description": "",
                       "firstTermIdx": 85,
-                      "lastTermIdx": 86,
+                      "lastTermIdx": 87,
                       "showTags": false,
                       "columnCount": 0,
                       "items": [],
@@ -8263,14 +8263,14 @@
                         "sentences": [
                           {
                             "id": 29,
-                            "content": "Fill in [button: recite-sentence, b , words without icon, 4, css attributes/]",
+                            "content": "True or false [button: recite-sentence, a, words without icon, 4, css attributes/]",
                             "firstTermIdx": 85,
-                            "lastTermIdx": 86,
+                            "lastTermIdx": 87,
                             "terminals": [
                               {
                                 "id": 0,
                                 "termIdx": 85,
-                                "content": "Fill",
+                                "content": "True",
                                 "cueList": "",
                                 "cues": {
                                   "partOfSpeech": "untagged",
@@ -8282,7 +8282,7 @@
                                 "lastTermIdx": 85,
                                 "type": 18,
                                 "meta": {
-                                  "content": "Fill",
+                                  "content": "True",
                                   "cues": [],
                                   "termIdx": 85,
                                   "nextTermIdx": [
@@ -8354,7 +8354,7 @@
                               {
                                 "id": 0,
                                 "termIdx": 86,
-                                "content": "in",
+                                "content": "or",
                                 "cueList": "",
                                 "cues": {
                                   "partOfSpeech": "untagged",
@@ -8366,7 +8366,7 @@
                                 "lastTermIdx": 86,
                                 "type": 18,
                                 "meta": {
-                                  "content": "in",
+                                  "content": "or",
                                   "cues": [],
                                   "termIdx": 86,
                                   "nextTermIdx": [
@@ -8374,6 +8374,90 @@
                                   ],
                                   "prevTermIdx": [
                                     85
+                                  ],
+                                  "altpronunciation": "",
+                                  "altrecognition": "",
+                                  "recitable": true,
+                                  "heading": false,
+                                  "audible": true,
+                                  "linkable": false,
+                                  "visible": true,
+                                  "visited": false,
+                                  "numberAsNumerals": false,
+                                  "linkIdx": -9999,
+                                  "hintsIdx": -9999,
+                                  "fillin": {
+                                    "sectionIdx": -9999,
+                                    "responseIdx": -9999
+                                  },
+                                  "bold": false,
+                                  "italics": false,
+                                  "markupTag": false
+                                }
+                              },
+                              {
+                                "id": 0,
+                                "termIdx": -9999,
+                                "content": " ",
+                                "cueList": "",
+                                "cues": {
+                                  "partOfSpeech": "untagged",
+                                  "definition": "",
+                                  "image": "",
+                                  "alternatives": []
+                                },
+                                "firstTermIdx": -9999,
+                                "lastTermIdx": -9999,
+                                "type": 17,
+                                "meta": {
+                                  "content": " ",
+                                  "cues": [],
+                                  "termIdx": -9999,
+                                  "nextTermIdx": [],
+                                  "prevTermIdx": [],
+                                  "altpronunciation": "",
+                                  "altrecognition": "",
+                                  "recitable": false,
+                                  "heading": false,
+                                  "audible": true,
+                                  "linkable": false,
+                                  "visible": true,
+                                  "visited": false,
+                                  "numberAsNumerals": false,
+                                  "linkIdx": -9999,
+                                  "hintsIdx": -9999,
+                                  "fillin": {
+                                    "sectionIdx": -9999,
+                                    "responseIdx": -9999
+                                  },
+                                  "bold": false,
+                                  "italics": false,
+                                  "markupTag": false
+                                }
+                              },
+                              {
+                                "id": 0,
+                                "termIdx": 87,
+                                "content": "false",
+                                "cueList": "",
+                                "cues": {
+                                  "partOfSpeech": "untagged",
+                                  "definition": "",
+                                  "image": "",
+                                  "alternatives": []
+                                },
+                                "firstTermIdx": 87,
+                                "lastTermIdx": 87,
+                                "type": 18,
+                                "meta": {
+                                  "content": "false",
+                                  "cues": [],
+                                  "termIdx": 87,
+                                  "nextTermIdx": [
+                                    88
+                                  ],
+                                  "prevTermIdx": [
+                                    86
                                   ],
                                   "altpronunciation": "",
                                   "altrecognition": "",
@@ -8451,7 +8535,7 @@
                                 "type": 1,
                                 "meta": {
                                   "buttonIdx": 18,
-                                  "label": "b",
+                                  "label": "a",
                                   "attributes": ""
                                 }
                               }
@@ -8482,8 +8566,8 @@
                       "id": 18,
                       "name": "",
                       "description": "",
-                      "firstTermIdx": 87,
-                      "lastTermIdx": 88,
+                      "firstTermIdx": 88,
+                      "lastTermIdx": 89,
                       "showTags": false,
                       "columnCount": 0,
                       "items": [],
@@ -8493,12 +8577,12 @@
                           {
                             "id": 30,
                             "content": "Multiple choice [button: recite-sentence, c, words without icon, 4, css attributes/]",
-                            "firstTermIdx": 87,
-                            "lastTermIdx": 88,
+                            "firstTermIdx": 88,
+                            "lastTermIdx": 89,
                             "terminals": [
                               {
                                 "id": 0,
-                                "termIdx": 87,
+                                "termIdx": 88,
                                 "content": "Multiple",
                                 "cueList": "",
                                 "cues": {
@@ -8507,18 +8591,18 @@
                                   "image": "",
                                   "alternatives": []
                                 },
-                                "firstTermIdx": 87,
-                                "lastTermIdx": 87,
+                                "firstTermIdx": 88,
+                                "lastTermIdx": 88,
                                 "type": 18,
                                 "meta": {
                                   "content": "Multiple",
                                   "cues": [],
-                                  "termIdx": 87,
+                                  "termIdx": 88,
                                   "nextTermIdx": [
-                                    88
+                                    89
                                   ],
                                   "prevTermIdx": [
-                                    86
+                                    87
                                   ],
                                   "altpronunciation": "",
                                   "altrecognition": "",
@@ -8582,7 +8666,7 @@
                               },
                               {
                                 "id": 0,
-                                "termIdx": 88,
+                                "termIdx": 89,
                                 "content": "choice",
                                 "cueList": "",
                                 "cues": {
@@ -8591,16 +8675,18 @@
                                   "image": "",
                                   "alternatives": []
                                 },
-                                "firstTermIdx": 88,
-                                "lastTermIdx": 88,
+                                "firstTermIdx": 89,
+                                "lastTermIdx": 89,
                                 "type": 18,
                                 "meta": {
                                   "content": "choice",
                                   "cues": [],
-                                  "termIdx": 88,
-                                  "nextTermIdx": [],
+                                  "termIdx": 89,
+                                  "nextTermIdx": [
+                                    90
+                                  ],
                                   "prevTermIdx": [
-                                    87
+                                    88
                                   ],
                                   "altpronunciation": "",
                                   "altrecognition": "",
@@ -8721,17 +8807,71 @@
       }
     },
     {
-      "id": 0,
+      "id": 19,
       "name": "",
       "description": "",
-      "firstTermIdx": -9999,
-      "lastTermIdx": -9999,
+      "firstTermIdx": 90,
+      "lastTermIdx": 90,
       "showTags": false,
       "columnCount": 0,
       "items": [],
-      "type": "empty",
+      "type": "paragraph",
       "meta": {
-        "count": 1
+        "sentences": [
+          {
+            "id": 31,
+            "content": "abc",
+            "firstTermIdx": 90,
+            "lastTermIdx": 90,
+            "terminals": [
+              {
+                "id": 0,
+                "termIdx": 90,
+                "content": "abc",
+                "cueList": "",
+                "cues": {
+                  "partOfSpeech": "untagged",
+                  "definition": "",
+                  "image": "",
+                  "alternatives": []
+                },
+                "firstTermIdx": 90,
+                "lastTermIdx": 90,
+                "type": 18,
+                "meta": {
+                  "content": "abc",
+                  "cues": [],
+                  "termIdx": 90,
+                  "nextTermIdx": [],
+                  "prevTermIdx": [
+                    89
+                  ],
+                  "altpronunciation": "",
+                  "altrecognition": "",
+                  "recitable": true,
+                  "heading": false,
+                  "audible": true,
+                  "linkable": false,
+                  "visible": true,
+                  "visited": false,
+                  "numberAsNumerals": false,
+                  "linkIdx": -9999,
+                  "hintsIdx": -9999,
+                  "fillin": {
+                    "sectionIdx": -9999,
+                    "responseIdx": -9999
+                  },
+                  "bold": false,
+                  "italics": false,
+                  "markupTag": false
+                }
+              }
+            ],
+            "lastPunctuation": ""
+          }
+        ],
+        "style": "",
+        "class": "p"
       }
     }
   ],
@@ -11308,7 +11448,7 @@
       "sectionIdx": 15
     },
     {
-      "content": "True",
+      "content": "Fill",
       "cues": [],
       "termIdx": 83,
       "nextTermIdx": [
@@ -11339,7 +11479,7 @@
       "sectionIdx": 16
     },
     {
-      "content": "false",
+      "content": "in",
       "cues": [],
       "termIdx": 84,
       "nextTermIdx": [
@@ -11349,7 +11489,7 @@
         83
       ],
       "altpronunciation": "",
-      "altrecognition": "",
+      "altrecognition": "inn",
       "recitable": true,
       "heading": false,
       "audible": true,
@@ -11370,7 +11510,7 @@
       "sectionIdx": 16
     },
     {
-      "content": "Fill",
+      "content": "True",
       "cues": [],
       "termIdx": 85,
       "nextTermIdx": [
@@ -11401,7 +11541,7 @@
       "sectionIdx": 17
     },
     {
-      "content": "in",
+      "content": "or",
       "cues": [],
       "termIdx": 86,
       "nextTermIdx": [
@@ -11411,7 +11551,7 @@
         85
       ],
       "altpronunciation": "",
-      "altrecognition": "inn",
+      "altrecognition": "",
       "recitable": true,
       "heading": false,
       "audible": true,
@@ -11432,7 +11572,7 @@
       "sectionIdx": 17
     },
     {
-      "content": "Multiple",
+      "content": "false",
       "cues": [],
       "termIdx": 87,
       "nextTermIdx": [
@@ -11459,14 +11599,16 @@
       "bold": false,
       "italics": false,
       "markupTag": false,
-      "sentenceIdx": 30,
-      "sectionIdx": 18
+      "sentenceIdx": 29,
+      "sectionIdx": 17
     },
     {
-      "content": "choice",
+      "content": "Multiple",
       "cues": [],
       "termIdx": 88,
-      "nextTermIdx": [],
+      "nextTermIdx": [
+        89
+      ],
       "prevTermIdx": [
         87
       ],
@@ -11490,6 +11632,66 @@
       "markupTag": false,
       "sentenceIdx": 30,
       "sectionIdx": 18
+    },
+    {
+      "content": "choice",
+      "cues": [],
+      "termIdx": 89,
+      "nextTermIdx": [
+        90
+      ],
+      "prevTermIdx": [
+        88
+      ],
+      "altpronunciation": "",
+      "altrecognition": "",
+      "recitable": true,
+      "heading": false,
+      "audible": true,
+      "linkable": false,
+      "visible": true,
+      "visited": false,
+      "numberAsNumerals": false,
+      "linkIdx": -9999,
+      "hintsIdx": -9999,
+      "fillin": {
+        "sectionIdx": -9999,
+        "responseIdx": -9999
+      },
+      "bold": false,
+      "italics": false,
+      "markupTag": false,
+      "sentenceIdx": 30,
+      "sectionIdx": 18
+    },
+    {
+      "content": "abc",
+      "cues": [],
+      "termIdx": 90,
+      "nextTermIdx": [],
+      "prevTermIdx": [
+        89
+      ],
+      "altpronunciation": "",
+      "altrecognition": "",
+      "recitable": true,
+      "heading": false,
+      "audible": true,
+      "linkable": false,
+      "visible": true,
+      "visited": false,
+      "numberAsNumerals": false,
+      "linkIdx": -9999,
+      "hintsIdx": -9999,
+      "fillin": {
+        "sectionIdx": -9999,
+        "responseIdx": -9999
+      },
+      "bold": false,
+      "italics": false,
+      "markupTag": false,
+      "sentenceIdx": 31,
+      "sectionIdx": 19
     }
   ],
   "headingList": [
@@ -11539,7 +11741,7 @@
       "headingLevel": 1,
       "title": "Multiple Choice",
       "firstTermIdx": 74,
-      "lastTermIdx": 88,
+      "lastTermIdx": 90,
       "terminalCountPriorToHeading": -9999
     }
   ],
@@ -11631,12 +11833,17 @@
     },
     {
       "firstTermIdx": 85,
-      "lastTermIdx": 86,
+      "lastTermIdx": 87,
       "type": "paragraph"
     },
     {
-      "firstTermIdx": 87,
-      "lastTermIdx": 88,
+      "firstTermIdx": 88,
+      "lastTermIdx": 89,
+      "type": "paragraph"
+    },
+    {
+      "firstTermIdx": 90,
+      "lastTermIdx": 90,
       "type": "paragraph"
     }
   ],
@@ -11784,16 +11991,21 @@
     {
       "firstTermIdx": 83,
       "lastTermIdx": 84,
-      "lastPunctuation": "/"
-    },
-    {
-      "firstTermIdx": 85,
-      "lastTermIdx": 86,
       "lastPunctuation": ""
     },
     {
-      "firstTermIdx": 87,
-      "lastTermIdx": 88,
+      "firstTermIdx": 85,
+      "lastTermIdx": 87,
+      "lastPunctuation": ""
+    },
+    {
+      "firstTermIdx": 88,
+      "lastTermIdx": 89,
+      "lastPunctuation": ""
+    },
+    {
+      "firstTermIdx": 90,
+      "lastTermIdx": 90,
       "lastPunctuation": ""
     }
   ],
@@ -12046,28 +12258,28 @@
       "placement": "cursorUnchanged",
       "listening": "notListening",
       "span": 1,
-      "label": "a",
+      "label": "b",
       "hint": "words without icon",
       "rate": 4,
       "voiceIndex": 0,
-      "toBeRecited": " Fill in"
+      "toBeRecited": " True or false"
     },
     {
-      "termIdx": 86,
+      "termIdx": 87,
       "action": "recite",
       "scope": "sentence",
       "reference": "following",
       "placement": "cursorUnchanged",
       "listening": "notListening",
       "span": 1,
-      "label": "b",
+      "label": "a",
       "hint": "words without icon",
       "rate": 4,
       "voiceIndex": 0,
       "toBeRecited": " Multiple choice"
     },
     {
-      "termIdx": 88,
+      "termIdx": 89,
       "action": "recite",
       "scope": "sentence",
       "reference": "following",
@@ -12078,7 +12290,7 @@
       "hint": "words without icon",
       "rate": 4,
       "voiceIndex": 0,
-      "toBeRecited": ""
+      "toBeRecited": " abc"
     }
   ]
 }
