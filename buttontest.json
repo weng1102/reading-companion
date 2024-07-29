@@ -10,8 +10,8 @@
   "version": "20240724.1",
   "pageFormatType": 0,
   "created": "5/31/2024",
-  "modified": "Sun Jul 28 2024 20:55:33 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Sun Jul 28 2024 20:55:33 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Mon Jul 29 2024 07:47:32 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Mon Jul 29 2024 07:47:32 GMT-0700 (Pacific Daylight Time)",
   "showTags": false,
   "columnCount": 0,
   "firstTermIdx": -9999,
@@ -181,7 +181,7 @@
         "sentences": [
           {
             "id": 1,
-            "content": "Click on this button [button: words2-cursorAtBeginning-startListening, words2, 5,css attributes/] to do action. ",
+            "content": "Click on this button [button: label, words2, 5,css attributes/] to do action. ",
             "firstTermIdx": 2,
             "lastTermIdx": 8,
             "terminals": [
@@ -1457,7 +1457,7 @@
           },
           {
             "id": 4,
-            "content": "[button: recite-hint, hint , just a hint, 4, css attributes/] The quick brown fox jumped over the lazy dog.",
+            "content": "[button: recite-hint, hint , just a hint, 1.5, css attributes/] The quick brown fox jumped over the lazy dog.",
             "firstTermIdx": 15,
             "lastTermIdx": 23,
             "terminals": [
@@ -5754,7 +5754,7 @@
         "sentences": [
           {
             "id": 25,
-            "content": "[button: recite-label, Who, who uses this object is this, 4, css attributes/] Who uses this object",
+            "content": "[button: recite-label, Who, who uses this object is this, 1, css attributes/] Who uses this object",
             "firstTermIdx": 56,
             "lastTermIdx": 59,
             "terminals": [
@@ -6096,7 +6096,7 @@
         "sentences": [
           {
             "id": 26,
-            "content": "[button: recite-label, What, What kind of object is this, 4, css attributes/] What kind of object",
+            "content": "[button: recite-label, What, What kind of object is this, 1, css attributes/] What kind of object",
             "firstTermIdx": 60,
             "lastTermIdx": 63,
             "terminals": [
@@ -6590,7 +6590,7 @@
         "sentences": [
           {
             "id": 28,
-            "content": "[button: recite-label, Joe, , 4, css attributes/] Who am I to you?",
+            "content": "[button: recite-label, Joe, , , css attributes/] Who am I to you?",
             "firstTermIdx": 66,
             "lastTermIdx": 70,
             "terminals": [
@@ -7056,7 +7056,7 @@
         "sentences": [
           {
             "id": 29,
-            "content": "[button: recite-label, Ronlyn, , 4, css attributes/] I am your friend.",
+            "content": "[button: recite-label, Ronlyn, , , css attributes/] I am your friend.",
             "firstTermIdx": 71,
             "lastTermIdx": 74,
             "terminals": [
@@ -8254,7 +8254,7 @@
                         "sentences": [
                           {
                             "id": 32,
-                            "content": "[button: choice, a, words without icon, 4, css attributes/] True or false ",
+                            "content": "[button: choice, a, words without icon, , css attributes/] True or false ",
                             "firstTermIdx": 84,
                             "lastTermIdx": 86,
                             "terminals": [
@@ -8567,7 +8567,7 @@
                         "sentences": [
                           {
                             "id": 33,
-                            "content": "[button: choice, b, words without icon, 4, css attributes/] Fill in ",
+                            "content": "[button: choice, b, words without icon, , css attributes/] Fill in ",
                             "firstTermIdx": 87,
                             "lastTermIdx": 88,
                             "terminals": [
@@ -8796,7 +8796,7 @@
                         "sentences": [
                           {
                             "id": 34,
-                            "content": "[button: choice, c, words without icon, 4, css attributes/] Multiple choice ",
+                            "content": "[button: choice, c, words without icon, , css attributes/] Multiple choice ",
                             "firstTermIdx": 89,
                             "lastTermIdx": 90,
                             "terminals": [
@@ -12341,7 +12341,7 @@
       "span": 1,
       "label": "hint",
       "cues": "just a hint",
-      "rate": 4,
+      "rate": 1.5,
       "voiceIndex": 0,
       "toBeRecited": "hint"
     },
@@ -12471,7 +12471,7 @@
       "span": 1,
       "label": "Who",
       "cues": "who uses this object is this",
-      "rate": 4,
+      "rate": 1,
       "voiceIndex": 0,
       "toBeRecited": "Who"
     },
@@ -12481,7 +12481,7 @@
       "span": 1,
       "label": "What",
       "cues": "What kind of object is this",
-      "rate": 4,
+      "rate": 1,
       "voiceIndex": 0,
       "toBeRecited": "What"
     },
@@ -12491,7 +12491,7 @@
       "span": 1,
       "label": "Joe",
       "cues": "",
-      "rate": 4,
+      "rate": 0,
       "voiceIndex": 0,
       "toBeRecited": "Joe"
     },
@@ -12501,7 +12501,7 @@
       "span": 1,
       "label": "Ronlyn",
       "cues": "",
-      "rate": 4,
+      "rate": 0,
       "voiceIndex": 0,
       "toBeRecited": "Ronlyn"
     },
@@ -12511,7 +12511,7 @@
       "span": 1,
       "label": "a",
       "cues": "words without icon",
-      "rate": 4,
+      "rate": 0,
       "voiceIndex": 0,
       "toBeRecited": ""
     },
@@ -12521,7 +12521,7 @@
       "span": 1,
       "label": "b",
       "cues": "words without icon",
-      "rate": 4,
+      "rate": 0,
       "voiceIndex": 0,
       "toBeRecited": ""
     },
@@ -12531,7 +12531,7 @@
       "span": 1,
       "label": "c",
       "cues": "words without icon",
-      "rate": 4,
+      "rate": 0,
       "voiceIndex": 0,
       "toBeRecited": ""
     }
