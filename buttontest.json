@@ -10,8 +10,8 @@
   "version": "20240724.1",
   "pageFormatType": 0,
   "created": "5/31/2024",
-  "modified": "Mon Jul 29 2024 07:47:32 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Mon Jul 29 2024 07:47:32 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Sat Aug 03 2024 11:12:39 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Sat Aug 03 2024 11:12:39 GMT-0700 (Pacific Daylight Time)",
   "showTags": false,
   "columnCount": 0,
   "firstTermIdx": -9999,
@@ -838,7 +838,7 @@
           },
           {
             "id": 2,
-            "content": "[button: recite-words, words1, hint 2, .5, css attributes/]",
+            "content": "[button: hint, words1, hint 2, .5, css attributes/]",
             "firstTermIdx": 9,
             "lastTermIdx": 8,
             "terminals": [
@@ -1457,7 +1457,7 @@
           },
           {
             "id": 4,
-            "content": "[button: recite-hint, hint , just a hint, 1.5, css attributes/] The quick brown fox jumped over the lazy dog.",
+            "content": "[button: hint, hint , just a hint, 1.5, css attributes/] The quick brown fox jumped over the lazy dog.",
             "firstTermIdx": 15,
             "lastTermIdx": 23,
             "terminals": [
@@ -5754,7 +5754,7 @@
         "sentences": [
           {
             "id": 25,
-            "content": "[button: recite-label, Who, who uses this object is this, 1, css attributes/] Who uses this object",
+            "content": "[button: label, Who, who uses this object is this, 1, css attributes/] Who uses this object",
             "firstTermIdx": 56,
             "lastTermIdx": 59,
             "terminals": [
@@ -6096,7 +6096,7 @@
         "sentences": [
           {
             "id": 26,
-            "content": "[button: recite-label, What, What kind of object is this, 1, css attributes/] What kind of object",
+            "content": "[button: label, What, What kind of object is this, 1, css attributes/] What kind of object",
             "firstTermIdx": 60,
             "lastTermIdx": 63,
             "terminals": [
@@ -8254,7 +8254,7 @@
                         "sentences": [
                           {
                             "id": 32,
-                            "content": "[button: choice, a, words without icon, , css attributes/] True or false ",
+                            "content": "[button: choice, correct, words without icon, , css attributes/] True or false ",
                             "firstTermIdx": 84,
                             "lastTermIdx": 86,
                             "terminals": [
@@ -8274,7 +8274,7 @@
                                 "type": 1,
                                 "meta": {
                                   "buttonIdx": 20,
-                                  "label": "a",
+                                  "label": "correct",
                                   "attributes": ""
                                 }
                               },
@@ -8567,7 +8567,7 @@
                         "sentences": [
                           {
                             "id": 33,
-                            "content": "[button: choice, b, words without icon, , css attributes/] Fill in ",
+                            "content": "[button: choice, incorrect, words without icon, , css attributes/] Fill in ",
                             "firstTermIdx": 87,
                             "lastTermIdx": 88,
                             "terminals": [
@@ -8587,7 +8587,7 @@
                                 "type": 1,
                                 "meta": {
                                   "buttonIdx": 21,
-                                  "label": "b",
+                                  "label": "incorrect",
                                   "attributes": ""
                                 }
                               },
@@ -8796,7 +8796,7 @@
                         "sentences": [
                           {
                             "id": 34,
-                            "content": "[button: choice, c, words without icon, , css attributes/] Multiple choice ",
+                            "content": "[button: choice, incorrect, words without icon, , css attributes/] Multiple choice ",
                             "firstTermIdx": 89,
                             "lastTermIdx": 90,
                             "terminals": [
@@ -8816,7 +8816,7 @@
                                 "type": 1,
                                 "meta": {
                                   "buttonIdx": 22,
-                                  "label": "c",
+                                  "label": "incorrect",
                                   "attributes": ""
                                 }
                               },
@@ -12509,7 +12509,7 @@
       "termIdx": 83,
       "action": "choice",
       "span": 1,
-      "label": "a",
+      "label": "correct",
       "cues": "words without icon",
       "rate": 0,
       "voiceIndex": 0,
@@ -12519,7 +12519,7 @@
       "termIdx": 86,
       "action": "choice",
       "span": 1,
-      "label": "b",
+      "label": "incorrect",
       "cues": "words without icon",
       "rate": 0,
       "voiceIndex": 0,
@@ -12529,7 +12529,7 @@
       "termIdx": 88,
       "action": "choice",
       "span": 1,
-      "label": "c",
+      "label": "incorrect",
       "cues": "words without icon",
       "rate": 0,
       "voiceIndex": 0,
