@@ -10,8 +10,8 @@
   "version": "20240724.1",
   "pageFormatType": 0,
   "created": "5/31/2024",
-  "modified": "Sat Aug 03 2024 11:12:39 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Sat Aug 03 2024 11:12:39 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Sun Aug 04 2024 19:00:42 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Sun Aug 04 2024 19:00:42 GMT-0700 (Pacific Daylight Time)",
   "showTags": false,
   "columnCount": 0,
   "firstTermIdx": -9999,
@@ -838,7 +838,7 @@
           },
           {
             "id": 2,
-            "content": "[button: hint, words1, hint 2, .5, css attributes/]",
+            "content": "[button: cues, words1, hint 2, .5, css attributes/]",
             "firstTermIdx": 9,
             "lastTermIdx": 8,
             "terminals": [
@@ -1457,7 +1457,7 @@
           },
           {
             "id": 4,
-            "content": "[button: hint, hint , just a hint, 1.5, css attributes/] The quick brown fox jumped over the lazy dog.",
+            "content": "[button: cues, hint , just a hint, 1.5, css attributes/] The quick brown fox jumped over the lazy dog.",
             "firstTermIdx": 15,
             "lastTermIdx": 23,
             "terminals": [
@@ -2777,7 +2777,7 @@
           },
           {
             "id": 7,
-            "content": "[button: label, hint , label labeled as a hint, 4, css attributes/] ",
+            "content": "[button: hint, hint , label labeled as a hint, 4, css attributes/] ",
             "firstTermIdx": 29,
             "lastTermIdx": 28,
             "terminals": [
@@ -3724,7 +3724,7 @@
           },
           {
             "id": 15,
-            "content": "[button: recite-hint, hint , just a hint, 4, css attributes/] ",
+            "content": "[button: cues, hint , just a hint, 4, css attributes/] ",
             "firstTermIdx": 37,
             "lastTermIdx": 36,
             "terminals": [
@@ -12317,13 +12317,13 @@
     },
     {
       "termIdx": 8,
-      "action": "label",
+      "action": "cues",
       "span": 1,
       "label": "words1",
       "cues": "hint 2",
       "rate": 0.5,
       "voiceIndex": 0,
-      "toBeRecited": "words1"
+      "toBeRecited": "hint 2"
     },
     {
       "termIdx": 11,
@@ -12337,13 +12337,13 @@
     },
     {
       "termIdx": 14,
-      "action": "label",
+      "action": "cues",
       "span": 1,
       "label": "hint",
       "cues": "just a hint",
       "rate": 1.5,
       "voiceIndex": 0,
-      "toBeRecited": "hint"
+      "toBeRecited": "just a hint"
     },
     {
       "termIdx": 28,
@@ -12397,13 +12397,13 @@
     },
     {
       "termIdx": 36,
-      "action": "label",
+      "action": "cues",
       "span": 1,
       "label": "hint",
       "cues": "just a hint",
       "rate": 4,
       "voiceIndex": 0,
-      "toBeRecited": "hint"
+      "toBeRecited": "just a hint"
     },
     {
       "termIdx": 41,
