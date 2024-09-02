@@ -10,8 +10,8 @@
   "version": "20240821.1",
   "pageFormatType": 0,
   "created": "5/31/2024",
-  "modified": "Sat Aug 31 2024 19:52:21 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Sat Aug 31 2024 19:52:21 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Mon Sep 02 2024 08:02:36 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Mon Sep 02 2024 08:02:36 GMT-0700 (Pacific Daylight Time)",
   "showTags": false,
   "columnCount": 0,
   "firstTermIdx": -9999,
@@ -556,6 +556,26 @@
               "label": "the 1,000 one",
               "attributes": ""
             }
+          },
+          {
+            "id": 0,
+            "termIdx": -9999,
+            "content": "the 2,000 one",
+            "cueList": "",
+            "cues": {
+              "partOfSpeech": "untagged",
+              "definition": "",
+              "image": "",
+              "alternatives": []
+            },
+            "firstTermIdx": -9999,
+            "lastTermIdx": -9999,
+            "type": 1,
+            "meta": {
+              "buttonIdx": 2,
+              "label": "the 2,000 one",
+              "attributes": ""
+            }
           }
         ]
       }
@@ -743,16 +763,6 @@
       "firstTermIdx": 0,
       "lastTermIdx": 4,
       "lastPunctuation": ")"
-    },
-    {
-      "firstTermIdx": 5,
-      "lastTermIdx": 4,
-      "lastPunctuation": ""
-    },
-    {
-      "firstTermIdx": 5,
-      "lastTermIdx": 4,
-      "lastPunctuation": ""
     }
   ],
   "linkList": [],
@@ -780,7 +790,19 @@
       "voiceIndex": 0,
       "grouping": -9999,
       "nextTermIdx": -9999,
-      "toBeRecited": "label: the 1,000 one"
+      "toBeRecited": "the 1,000 one"
+    },
+    {
+      "termIdx": 4,
+      "action": "term",
+      "span": 1,
+      "label": "the 2,000 one",
+      "cues": "",
+      "rate": 0.5,
+      "voiceIndex": 0,
+      "grouping": -9999,
+      "nextTermIdx": -9999,
+      "toBeRecited": "the 2,000 one"
     }
   ]
 }
