@@ -10,8 +10,8 @@
   "version": "20240821.1",
   "pageFormatType": 0,
   "created": "8/10/2024",
-  "modified": "Mon Sep 02 2024 15:54:05 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Mon Sep 02 2024 15:54:05 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Mon Sep 02 2024 16:02:16 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Mon Sep 02 2024 16:02:16 GMT-0700 (Pacific Daylight Time)",
   "showTags": false,
   "columnCount": 0,
   "firstTermIdx": -9999,
@@ -186,7 +186,28 @@
         "sorted": false,
         "groupedBy": false,
         "rate": 0.5,
-        "buttons": []
+        "buttons": [
+          {
+            "id": 0,
+            "termIdx": -9999,
+            "content": "ant",
+            "cueList": "",
+            "cues": {
+              "partOfSpeech": "untagged",
+              "definition": "",
+              "image": "",
+              "alternatives": []
+            },
+            "firstTermIdx": -9999,
+            "lastTermIdx": -9999,
+            "type": 1,
+            "meta": {
+              "buttonIdx": 0,
+              "label": "ant",
+              "attributes": ""
+            }
+          }
+        ]
       }
     },
     {
@@ -698,5 +719,18 @@
     }
   ],
   "fillinList": [],
-  "inlineButtonList": []
+  "inlineButtonList": [
+    {
+      "termIdx": -9999,
+      "action": "term",
+      "span": 1,
+      "label": "ant",
+      "cues": "",
+      "rate": 0,
+      "voiceIndex": 0,
+      "grouping": -9999,
+      "nextTermIdx": -9999,
+      "toBeRecited": "ant"
+    }
+  ]
 }
