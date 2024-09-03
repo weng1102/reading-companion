@@ -10,8 +10,8 @@
   "version": "20240821.1",
   "pageFormatType": 0,
   "created": "8/10/2024",
-  "modified": "Tue Sep 03 2024 13:10:31 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Tue Sep 03 2024 13:10:31 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Tue Sep 03 2024 13:15:59 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Tue Sep 03 2024 13:15:59 GMT-0700 (Pacific Daylight Time)",
   "showTags": false,
   "columnCount": 0,
   "firstTermIdx": -9999,
@@ -30,14 +30,14 @@
       "meta": {
         "heading": {
           "id": 0,
-          "content": "Multiple Choice",
+          "content": "Labeled button",
           "firstTermIdx": 0,
           "lastTermIdx": 1,
           "terminals": [
             {
               "id": 0,
               "termIdx": 0,
-              "content": "Multiple",
+              "content": "Labeled",
               "cueList": "",
               "cues": {
                 "partOfSpeech": "untagged",
@@ -49,7 +49,7 @@
               "lastTermIdx": 0,
               "type": 18,
               "meta": {
-                "content": "Multiple",
+                "content": "Labeled",
                 "cues": [],
                 "termIdx": 0,
                 "nextTermIdx": [
@@ -119,7 +119,7 @@
             {
               "id": 0,
               "termIdx": 1,
-              "content": "Choice",
+              "content": "button",
               "cueList": "",
               "cues": {
                 "partOfSpeech": "untagged",
@@ -131,7 +131,7 @@
               "lastTermIdx": 1,
               "type": 18,
               "meta": {
-                "content": "Choice",
+                "content": "button",
                 "cues": [],
                 "termIdx": 1,
                 "nextTermIdx": [
@@ -171,46 +171,14 @@
       "id": 0,
       "name": "",
       "description": "",
-      "firstTermIdx": 2,
-      "lastTermIdx": 1,
+      "firstTermIdx": -9999,
+      "lastTermIdx": -9999,
       "showTags": false,
       "columnCount": 0,
       "items": [],
-      "type": "paragraph",
+      "type": "empty",
       "meta": {
-        "sentences": [
-          {
-            "id": 0,
-            "content": "[button: label, hi, words without icon, , css attributes/]  ",
-            "firstTermIdx": -9999,
-            "lastTermIdx": -9999,
-            "terminals": [
-              {
-                "id": 0,
-                "termIdx": -9999,
-                "content": "",
-                "cueList": "",
-                "cues": {
-                  "partOfSpeech": "untagged",
-                  "definition": "",
-                  "image": "",
-                  "alternatives": []
-                },
-                "firstTermIdx": -9999,
-                "lastTermIdx": -9999,
-                "type": 1,
-                "meta": {
-                  "buttonIdx": -9999,
-                  "label": "Recite",
-                  "attributes": ""
-                }
-              }
-            ],
-            "lastPunctuation": ""
-          }
-        ],
-        "style": "",
-        "class": "p"
+        "count": 1
       }
     },
     {
@@ -384,7 +352,7 @@
           "columnCount": 0,
           "items": [
             {
-              "id": 1,
+              "id": 0,
               "name": "",
               "description": "",
               "firstTermIdx": 4,
@@ -680,7 +648,7 @@
   ],
   "terminalList": [
     {
-      "content": "Multiple",
+      "content": "Labeled",
       "cues": [],
       "termIdx": 0,
       "nextTermIdx": [
@@ -709,7 +677,7 @@
       "sectionIdx": 0
     },
     {
-      "content": "Choice",
+      "content": "button",
       "cues": [],
       "termIdx": 1,
       "nextTermIdx": [
@@ -830,7 +798,7 @@
       "italics": false,
       "markupTag": false,
       "sentenceIdx": 2,
-      "sectionIdx": 1
+      "sectionIdx": 0
     },
     {
       "content": "word",
@@ -861,7 +829,7 @@
       "italics": false,
       "markupTag": false,
       "sentenceIdx": 2,
-      "sectionIdx": 1
+      "sectionIdx": 0
     },
     {
       "content": "Sentences",
@@ -890,13 +858,13 @@
       "italics": false,
       "markupTag": false,
       "sentenceIdx": 2,
-      "sectionIdx": 1
+      "sectionIdx": 0
     }
   ],
   "headingList": [
     {
       "headingLevel": 1,
-      "title": "Multiple Choice",
+      "title": "Labeled button",
       "firstTermIdx": 0,
       "lastTermIdx": 1,
       "terminalCountPriorToHeading": -9999
@@ -910,11 +878,6 @@
     }
   ],
   "sectionList": [
-    {
-      "firstTermIdx": 2,
-      "lastTermIdx": 1,
-      "type": "paragraph"
-    },
     {
       "firstTermIdx": 4,
       "lastTermIdx": 6,
