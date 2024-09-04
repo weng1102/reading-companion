@@ -10,8 +10,8 @@
   "version": "20240821.1",
   "pageFormatType": 0,
   "created": "8/10/2024",
-  "modified": "Tue Sep 03 2024 17:09:05 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Tue Sep 03 2024 17:09:05 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Tue Sep 03 2024 17:13:49 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Tue Sep 03 2024 17:13:49 GMT-0700 (Pacific Daylight Time)",
   "showTags": false,
   "columnCount": 0,
   "firstTermIdx": -9999,
@@ -181,30 +181,10 @@
         "sentences": [
           {
             "id": 1,
-            "content": "[button: label, hi, words without icon, , css attributes/]  the quick brown fox",
+            "content": "the quick brown fox",
             "firstTermIdx": 2,
             "lastTermIdx": 5,
             "terminals": [
-              {
-                "id": 0,
-                "termIdx": -9999,
-                "content": "hi",
-                "cueList": "",
-                "cues": {
-                  "partOfSpeech": "untagged",
-                  "definition": "",
-                  "image": "",
-                  "alternatives": []
-                },
-                "firstTermIdx": -9999,
-                "lastTermIdx": -9999,
-                "type": 1,
-                "meta": {
-                  "buttonIdx": 0,
-                  "label": "hi",
-                  "attributes": ""
-                }
-              },
               {
                 "id": 0,
                 "termIdx": 2,
@@ -1378,18 +1358,5 @@
     }
   ],
   "fillinList": [],
-  "inlineButtonList": [
-    {
-      "termIdx": -9999,
-      "action": "label",
-      "span": 1,
-      "label": "hi",
-      "cues": "words without icon",
-      "rate": 0,
-      "voiceIndex": 0,
-      "grouping": -9999,
-      "nextTermIdx": -9999,
-      "toBeRecited": "hi"
-    }
-  ]
+  "inlineButtonList": []
 }
