@@ -10,8 +10,8 @@
   "version": "20240821.1",
   "pageFormatType": 0,
   "created": "8/10/2024",
-  "modified": "Tue Sep 03 2024 22:29:14 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Tue Sep 03 2024 22:29:14 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Wed Sep 04 2024 07:58:01 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Wed Sep 04 2024 07:58:01 GMT-0700 (Pacific Daylight Time)",
   "showTags": false,
   "columnCount": 0,
   "firstTermIdx": -9999,
@@ -181,7 +181,7 @@
         "sentences": [
           {
             "id": 1,
-            "content": "The quick [button: brown, I /] fox",
+            "content": "The quick [button: label, brown, I /] fox",
             "firstTermIdx": 2,
             "lastTermIdx": 4,
             "terminals": [
@@ -356,7 +356,7 @@
               {
                 "id": 0,
                 "termIdx": -9999,
-                "content": "I",
+                "content": "brown",
                 "cueList": "",
                 "cues": {
                   "partOfSpeech": "untagged",
@@ -369,7 +369,7 @@
                 "type": 1,
                 "meta": {
                   "buttonIdx": 0,
-                  "label": "I",
+                  "label": "brown",
                   "attributes": ""
                 }
               },
@@ -1028,13 +1028,13 @@
       "termIdx": -9999,
       "action": "label",
       "span": 1,
-      "label": "I",
-      "cues": "",
+      "label": "brown",
+      "cues": "I",
       "rate": 0,
       "voiceIndex": 0,
       "grouping": -9999,
       "nextTermIdx": -9999,
-      "toBeRecited": "I"
+      "toBeRecited": "brown"
     }
   ]
 }
