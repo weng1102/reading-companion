@@ -7,11 +7,11 @@
   "author": "Wen",
   "category": "mc test",
   "headingNumbering": "",
-  "version": "20240916.1",
+  "version": "20241111.1",
   "pageFormatType": 0,
-  "created": "Sat Sep 21 2024 07:19:57 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Sat Sep 21 2024 07:19:57 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Sat Sep 21 2024 07:19:57 GMT-0700 (Pacific Daylight Time)",
+  "created": "Mon Nov 11 2024 20:41:03 GMT-0800 (Pacific Standard Time)",
+  "modified": "Mon Nov 11 2024 20:41:03 GMT-0800 (Pacific Standard Time)",
+  "transformed": "Mon Nov 11 2024 20:41:03 GMT-0800 (Pacific Standard Time)",
   "showTags": false,
   "columnCount": 0,
   "firstTermIdx": -9999,
@@ -391,8 +391,9 @@
                     "lastPunctuation": "?"
                   }
                 ],
+                "listItem": true,
                 "style": "",
-                "class": "no-wrap"
+                "class": "p"
               }
             },
             {
@@ -791,8 +792,9 @@
                             "lastPunctuation": "."
                           }
                         ],
+                        "listItem": true,
                         "style": "",
-                        "class": "no-wrap"
+                        "class": "p"
                       }
                     }
                   ],
@@ -2532,8 +2534,9 @@
                             "lastPunctuation": "."
                           }
                         ],
+                        "listItem": true,
                         "style": "",
-                        "class": "no-wrap"
+                        "class": "p"
                       }
                     }
                   ],
@@ -2929,8 +2932,9 @@
                             "lastPunctuation": "."
                           }
                         ],
+                        "listItem": true,
                         "style": "",
-                        "class": "no-wrap"
+                        "class": "p"
                       }
                     }
                   ],
@@ -4551,8 +4555,9 @@
                             "lastPunctuation": "."
                           }
                         ],
+                        "listItem": true,
                         "style": "",
-                        "class": "no-wrap"
+                        "class": "p"
                       }
                     }
                   ],
@@ -6304,8 +6309,9 @@
                             "lastPunctuation": "."
                           }
                         ],
+                        "listItem": true,
                         "style": "",
-                        "class": "no-wrap"
+                        "class": "p"
                       }
                     }
                   ],
@@ -8527,47 +8533,65 @@
     {
       "firstTermIdx": 0,
       "lastTermIdx": 3,
-      "lastPunctuation": "?"
+      "lastPunctuation": "?",
+      "transition": "choose",
+      "stopListeningAtEndOfSentence": true
     },
     {
       "firstTermIdx": 4,
       "lastTermIdx": 7,
-      "lastPunctuation": "."
+      "lastPunctuation": ".",
+      "transition": "announce",
+      "stopListeningAtEndOfSentence": false
     },
     {
       "firstTermIdx": 8,
       "lastTermIdx": 27,
-      "lastPunctuation": "."
+      "lastPunctuation": ".",
+      "transition": "announce",
+      "stopListeningAtEndOfSentence": false
     },
     {
       "firstTermIdx": 28,
       "lastTermIdx": 31,
-      "lastPunctuation": "."
+      "lastPunctuation": ".",
+      "transition": "announce",
+      "stopListeningAtEndOfSentence": false
     },
     {
       "firstTermIdx": 32,
       "lastTermIdx": 35,
-      "lastPunctuation": "."
+      "lastPunctuation": ".",
+      "transition": "announce",
+      "stopListeningAtEndOfSentence": false
     },
     {
       "firstTermIdx": 36,
       "lastTermIdx": 49,
-      "lastPunctuation": "."
+      "lastPunctuation": ".",
+      "transition": "announce",
+      "stopListeningAtEndOfSentence": false
     },
     {
       "firstTermIdx": 50,
       "lastTermIdx": 53,
-      "lastPunctuation": "."
+      "lastPunctuation": ".",
+      "transition": "announce",
+      "stopListeningAtEndOfSentence": false
     },
     {
       "firstTermIdx": 54,
       "lastTermIdx": 61,
-      "lastPunctuation": "."
+      "lastPunctuation": ".",
+      "transition": "announce",
+      "stopListeningAtEndOfSentence": false
     },
     {
       "firstTermIdx": 62,
       "lastTermIdx": 68,
-      "lastPunctuation": "."
+      "lastPunctuation": ".",
+      "transition": "announce",
+      "stopListeningAtEndOfSentence": false
     }
   ],
   "linkList": [],

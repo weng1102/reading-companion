@@ -7,11 +7,11 @@
   "author": "Wen",
   "category": "Sentence Completion (trailing word)",
   "headingNumbering": "",
-  "version": "20240916.1",
+  "version": "20241111.1",
   "pageFormatType": 0,
-  "created": "Sat Sep 21 2024 07:19:54 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Sat Sep 21 2024 07:19:54 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Sat Sep 21 2024 07:19:54 GMT-0700 (Pacific Daylight Time)",
+  "created": "Mon Nov 11 2024 20:41:01 GMT-0800 (Pacific Standard Time)",
+  "modified": "Mon Nov 11 2024 20:41:01 GMT-0800 (Pacific Standard Time)",
+  "transformed": "Mon Nov 11 2024 20:41:01 GMT-0800 (Pacific Standard Time)",
   "showTags": false,
   "columnCount": 0,
   "firstTermIdx": -9999,
@@ -2471,6 +2471,7 @@
             "lastPunctuation": "."
           }
         ],
+        "listItem": false,
         "style": "",
         "class": "p"
       }
@@ -3083,8 +3084,9 @@
                           "lastPunctuation": "."
                         }
                       ],
+                      "listItem": true,
                       "style": "",
-                      "class": "no-wrap"
+                      "class": "p"
                     }
                   }
                 ],
@@ -3420,8 +3422,9 @@
                           "lastPunctuation": "."
                         }
                       ],
+                      "listItem": true,
                       "style": "",
-                      "class": "no-wrap"
+                      "class": "p"
                     }
                   }
                 ],
@@ -4009,8 +4012,9 @@
                           "lastPunctuation": "."
                         }
                       ],
+                      "listItem": true,
                       "style": "",
-                      "class": "no-wrap"
+                      "class": "p"
                     }
                   }
                 ],
@@ -4430,8 +4434,9 @@
                           "lastPunctuation": "."
                         }
                       ],
+                      "listItem": true,
                       "style": "",
-                      "class": "no-wrap"
+                      "class": "p"
                     }
                   }
                 ],
@@ -4851,8 +4856,9 @@
                           "lastPunctuation": "."
                         }
                       ],
+                      "listItem": true,
                       "style": "",
-                      "class": "no-wrap"
+                      "class": "p"
                     }
                   }
                 ],
@@ -5188,8 +5194,9 @@
                           "lastPunctuation": "."
                         }
                       ],
+                      "listItem": true,
                       "style": "",
-                      "class": "no-wrap"
+                      "class": "p"
                     }
                   }
                 ],
@@ -5609,8 +5616,9 @@
                           "lastPunctuation": "."
                         }
                       ],
+                      "listItem": true,
                       "style": "",
-                      "class": "no-wrap"
+                      "class": "p"
                     }
                   }
                 ],
@@ -6030,8 +6038,9 @@
                           "lastPunctuation": "."
                         }
                       ],
+                      "listItem": true,
                       "style": "",
-                      "class": "no-wrap"
+                      "class": "p"
                     }
                   }
                 ],
@@ -6683,8 +6692,9 @@
                           "lastPunctuation": "."
                         }
                       ],
+                      "listItem": true,
                       "style": "",
-                      "class": "no-wrap"
+                      "class": "p"
                     }
                   }
                 ],
@@ -7104,8 +7114,9 @@
                           "lastPunctuation": "."
                         }
                       ],
+                      "listItem": true,
                       "style": "",
-                      "class": "no-wrap"
+                      "class": "p"
                     }
                   }
                 ],
@@ -7609,8 +7620,9 @@
                           "lastPunctuation": "."
                         }
                       ],
+                      "listItem": true,
                       "style": "",
-                      "class": "no-wrap"
+                      "class": "p"
                     }
                   }
                 ],
@@ -8030,8 +8042,9 @@
                           "lastPunctuation": "."
                         }
                       ],
+                      "listItem": true,
                       "style": "",
-                      "class": "no-wrap"
+                      "class": "p"
                     }
                   }
                 ],
@@ -8619,8 +8632,9 @@
                           "lastPunctuation": "."
                         }
                       ],
+                      "listItem": true,
                       "style": "",
-                      "class": "no-wrap"
+                      "class": "p"
                     }
                   }
                 ],
@@ -9124,8 +9138,9 @@
                           "lastPunctuation": "."
                         }
                       ],
+                      "listItem": true,
                       "style": "",
-                      "class": "no-wrap"
+                      "class": "p"
                     }
                   }
                 ],
@@ -9545,8 +9560,9 @@
                           "lastPunctuation": "."
                         }
                       ],
+                      "listItem": true,
                       "style": "",
-                      "class": "no-wrap"
+                      "class": "p"
                     }
                   }
                 ],
@@ -9964,8 +9980,9 @@
                           "lastPunctuation": "."
                         }
                       ],
+                      "listItem": true,
                       "style": "",
-                      "class": "no-wrap"
+                      "class": "p"
                     }
                   }
                 ],
@@ -13294,97 +13311,135 @@
     {
       "firstTermIdx": 0,
       "lastTermIdx": 2,
-      "lastPunctuation": ""
+      "lastPunctuation": "",
+      "transition": "announce",
+      "stopListeningAtEndOfSentence": false
     },
     {
       "firstTermIdx": 3,
       "lastTermIdx": 28,
-      "lastPunctuation": "."
+      "lastPunctuation": ".",
+      "transition": "announce",
+      "stopListeningAtEndOfSentence": false
     },
     {
       "firstTermIdx": 29,
       "lastTermIdx": 30,
-      "lastPunctuation": ""
+      "lastPunctuation": "",
+      "transition": "announce",
+      "stopListeningAtEndOfSentence": false
     },
     {
       "firstTermIdx": 31,
       "lastTermIdx": 34,
-      "lastPunctuation": "."
+      "lastPunctuation": ".",
+      "transition": "announce",
+      "stopListeningAtEndOfSentence": false
     },
     {
       "firstTermIdx": 35,
       "lastTermIdx": 37,
-      "lastPunctuation": "."
+      "lastPunctuation": ".",
+      "transition": "announce",
+      "stopListeningAtEndOfSentence": false
     },
     {
       "firstTermIdx": 38,
       "lastTermIdx": 43,
-      "lastPunctuation": "."
+      "lastPunctuation": ".",
+      "transition": "announce",
+      "stopListeningAtEndOfSentence": false
     },
     {
       "firstTermIdx": 44,
       "lastTermIdx": 47,
-      "lastPunctuation": "."
+      "lastPunctuation": ".",
+      "transition": "announce",
+      "stopListeningAtEndOfSentence": false
     },
     {
       "firstTermIdx": 48,
       "lastTermIdx": 51,
-      "lastPunctuation": "."
+      "lastPunctuation": ".",
+      "transition": "announce",
+      "stopListeningAtEndOfSentence": false
     },
     {
       "firstTermIdx": 52,
       "lastTermIdx": 54,
-      "lastPunctuation": "."
+      "lastPunctuation": ".",
+      "transition": "announce",
+      "stopListeningAtEndOfSentence": false
     },
     {
       "firstTermIdx": 55,
       "lastTermIdx": 58,
-      "lastPunctuation": "."
+      "lastPunctuation": ".",
+      "transition": "announce",
+      "stopListeningAtEndOfSentence": false
     },
     {
       "firstTermIdx": 59,
       "lastTermIdx": 62,
-      "lastPunctuation": "."
+      "lastPunctuation": ".",
+      "transition": "announce",
+      "stopListeningAtEndOfSentence": false
     },
     {
       "firstTermIdx": 63,
       "lastTermIdx": 68,
-      "lastPunctuation": "."
+      "lastPunctuation": ".",
+      "transition": "announce",
+      "stopListeningAtEndOfSentence": false
     },
     {
       "firstTermIdx": 69,
       "lastTermIdx": 72,
-      "lastPunctuation": "."
+      "lastPunctuation": ".",
+      "transition": "announce",
+      "stopListeningAtEndOfSentence": false
     },
     {
       "firstTermIdx": 73,
       "lastTermIdx": 77,
-      "lastPunctuation": "."
+      "lastPunctuation": ".",
+      "transition": "announce",
+      "stopListeningAtEndOfSentence": false
     },
     {
       "firstTermIdx": 78,
       "lastTermIdx": 81,
-      "lastPunctuation": "."
+      "lastPunctuation": ".",
+      "transition": "announce",
+      "stopListeningAtEndOfSentence": false
     },
     {
       "firstTermIdx": 82,
       "lastTermIdx": 87,
-      "lastPunctuation": "."
+      "lastPunctuation": ".",
+      "transition": "announce",
+      "stopListeningAtEndOfSentence": false
     },
     {
       "firstTermIdx": 88,
       "lastTermIdx": 92,
-      "lastPunctuation": "."
+      "lastPunctuation": ".",
+      "transition": "announce",
+      "stopListeningAtEndOfSentence": false
     },
     {
       "firstTermIdx": 93,
       "lastTermIdx": 96,
-      "lastPunctuation": "."
+      "lastPunctuation": ".",
+      "transition": "announce",
+      "stopListeningAtEndOfSentence": false
     },
     {
       "firstTermIdx": 97,
       "lastTermIdx": 100,
-      "lastPunctuation": "."
+      "lastPunctuation": ".",
+      "transition": "announce",
+      "stopListeningAtEndOfSentence": false
     }
   ],
   "linkList": [],

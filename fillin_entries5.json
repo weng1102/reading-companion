@@ -7,11 +7,11 @@
   "author": "Wen",
   "category": "Fillins",
   "headingNumbering": "",
-  "version": "20240916.1",
+  "version": "20241111.1",
   "pageFormatType": 0,
-  "created": "Sat Sep 21 2024 07:19:35 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Sat Sep 21 2024 07:19:35 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Sat Sep 21 2024 07:19:35 GMT-0700 (Pacific Daylight Time)",
+  "created": "Mon Nov 11 2024 20:40:48 GMT-0800 (Pacific Standard Time)",
+  "modified": "Mon Nov 11 2024 20:40:48 GMT-0800 (Pacific Standard Time)",
+  "transformed": "Mon Nov 11 2024 20:40:48 GMT-0800 (Pacific Standard Time)",
   "showTags": false,
   "columnCount": 0,
   "firstTermIdx": -9999,
@@ -137,6 +137,7 @@
                   "lastPunctuation": ""
                 }
               ],
+              "listItem": false,
               "style": "",
               "class": "p",
               "subsectionOrdinal": 1
@@ -760,6 +761,7 @@
                   "lastPunctuation": "_"
                 }
               ],
+              "listItem": false,
               "style": "",
               "class": "p",
               "subsectionOrdinal": 2
@@ -1145,12 +1147,16 @@
     {
       "firstTermIdx": 0,
       "lastTermIdx": 0,
-      "lastPunctuation": ""
+      "lastPunctuation": "",
+      "transition": "announce",
+      "stopListeningAtEndOfSentence": false
     },
     {
       "firstTermIdx": 1,
       "lastTermIdx": 10,
-      "lastPunctuation": "_"
+      "lastPunctuation": "_",
+      "transition": "announce",
+      "stopListeningAtEndOfSentence": false
     }
   ],
   "linkList": [],

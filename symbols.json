@@ -7,11 +7,11 @@
   "author": "Wen",
   "category": "Testing",
   "headingNumbering": "",
-  "version": "20240916.1",
+  "version": "20241111.1",
   "pageFormatType": 0,
   "created": "6/26/2022",
-  "modified": "Sat Sep 21 2024 07:19:57 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Sat Sep 21 2024 07:19:57 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Mon Nov 11 2024 20:41:03 GMT-0800 (Pacific Standard Time)",
+  "transformed": "Mon Nov 11 2024 20:41:03 GMT-0800 (Pacific Standard Time)",
   "showTags": false,
   "columnCount": 0,
   "firstTermIdx": -9999,
@@ -821,8 +821,9 @@
                     "lastPunctuation": "."
                   }
                 ],
+                "listItem": true,
                 "style": "",
-                "class": "no-wrap"
+                "class": "p"
               }
             }
           ],
@@ -2494,8 +2495,9 @@
                     "lastPunctuation": "."
                   }
                 ],
+                "listItem": true,
                 "style": "",
-                "class": "no-wrap"
+                "class": "p"
               }
             }
           ],
@@ -3304,6 +3306,7 @@
             "lastPunctuation": "."
           }
         ],
+        "listItem": false,
         "style": "",
         "class": "p"
       }
@@ -4579,17 +4582,23 @@
     {
       "firstTermIdx": 0,
       "lastTermIdx": 8,
-      "lastPunctuation": "."
+      "lastPunctuation": ".",
+      "transition": "announce",
+      "stopListeningAtEndOfSentence": false
     },
     {
       "firstTermIdx": 9,
       "lastTermIdx": 28,
-      "lastPunctuation": "."
+      "lastPunctuation": ".",
+      "transition": "announce",
+      "stopListeningAtEndOfSentence": false
     },
     {
       "firstTermIdx": 29,
       "lastTermIdx": 37,
-      "lastPunctuation": "."
+      "lastPunctuation": ".",
+      "transition": "announce",
+      "stopListeningAtEndOfSentence": false
     }
   ],
   "linkList": [],
