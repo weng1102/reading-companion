@@ -10,8 +10,8 @@
   "version": "20250109.1",
   "pageFormatType": 0,
   "created": "2/3/2025",
-  "modified": "Tue Feb 04 2025 21:05:46 GMT-0800 (Pacific Standard Time)",
-  "transformed": "Tue Feb 04 2025 21:05:46 GMT-0800 (Pacific Standard Time)",
+  "modified": "Tue Feb 04 2025 21:45:14 GMT-0800 (Pacific Standard Time)",
+  "transformed": "Tue Feb 04 2025 21:45:14 GMT-0800 (Pacific Standard Time)",
   "showTags": false,
   "columnCount": 0,
   "firstTermIdx": -9999,
@@ -262,8 +262,8 @@
       "meta": {
         "title": "Back A Yard",
         "orientation": "left",
-        "percent": "33%",
-        "frameFormat": "20%",
+        "percent": "20%",
+        "frameFormat": "rounded-box box-shadow",
         "separator": "",
         "images": [
           {
@@ -296,7 +296,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": 0,
-              "className": "imageentry-image-left imageentry-image-20% ",
+              "className": "imageentry-image-left imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           },
@@ -330,7 +330,7 @@
                 "terminalIdx": -9999
               },
               "linkIdx": 1,
-              "className": "imageentry-image-left imageentry-image-20% ",
+              "className": "imageentry-image-left imageentry-image-rounded-box imageentry-image-box-shadow ",
               "style": ""
             }
           }
@@ -2261,9 +2261,29 @@
       "showTags": false,
       "columnCount": 0,
       "items": [],
+      "type": "image_entry",
+      "meta": {
+        "title": "",
+        "orientation": "left",
+        "percent": "20%",
+        "frameFormat": "rounded-box box-shadow",
+        "separator": "",
+        "images": [],
+        "captions": []
+      }
+    },
+    {
+      "id": 0,
+      "name": "",
+      "description": "",
+      "firstTermIdx": -9999,
+      "lastTermIdx": -9999,
+      "showTags": false,
+      "columnCount": 0,
+      "items": [],
       "type": "empty",
       "meta": {
-        "count": 2
+        "count": 1
       }
     }
   ],
