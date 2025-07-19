@@ -7,11 +7,11 @@
   "author": "Wen",
   "category": "Verbs with images",
   "headingNumbering": "",
-  "version": "20250109.1",
+  "version": "20250718.1",
   "pageFormatType": 0,
-  "created": "Mon Jan 13 2025 20:38:44 GMT-0800 (Pacific Standard Time)",
-  "modified": "Mon Jan 13 2025 20:38:44 GMT-0800 (Pacific Standard Time)",
-  "transformed": "Mon Jan 13 2025 20:38:44 GMT-0800 (Pacific Standard Time)",
+  "created": "Sat Jul 19 2025 10:25:27 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Sat Jul 19 2025 10:25:27 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Sat Jul 19 2025 10:25:27 GMT-0700 (Pacific Daylight Time)",
   "showTags": false,
   "columnCount": 0,
   "firstTermIdx": -9999,
@@ -1135,9 +1135,49 @@
                               "lastTermIdx": -9999,
                               "type": 1,
                               "meta": {
-                                "buttonIdx": 2,
-                                "label": "",
+                                "buttonIdx": -9999,
+                                "label": "Recite",
                                 "attributes": ""
+                              }
+                            },
+                            {
+                              "id": 0,
+                              "termIdx": -9999,
+                              "content": " ",
+                              "cueList": "",
+                              "cues": {
+                                "partOfSpeech": "untagged",
+                                "definition": "",
+                                "image": "",
+                                "alternatives": []
+                              },
+                              "firstTermIdx": -9999,
+                              "lastTermIdx": -9999,
+                              "type": 17,
+                              "meta": {
+                                "content": " ",
+                                "cues": [],
+                                "termIdx": -9999,
+                                "nextTermIdx": [],
+                                "prevTermIdx": [],
+                                "altpronunciation": "",
+                                "altrecognition": "",
+                                "recitable": false,
+                                "heading": false,
+                                "audible": true,
+                                "linkable": false,
+                                "visible": true,
+                                "visited": false,
+                                "numberAsNumerals": false,
+                                "linkIdx": -9999,
+                                "hintsIdx": -9999,
+                                "fillin": {
+                                  "sectionIdx": -9999,
+                                  "responseIdx": -9999
+                                },
+                                "bold": false,
+                                "italics": false,
+                                "markupTag": false
                               }
                             },
                             {
@@ -1281,7 +1321,7 @@
                               "lastTermIdx": -9999,
                               "type": 1,
                               "meta": {
-                                "buttonIdx": 3,
+                                "buttonIdx": 2,
                                 "label": "",
                                 "attributes": ""
                               }
@@ -1847,7 +1887,7 @@
                               "lastTermIdx": -9999,
                               "type": 1,
                               "meta": {
-                                "buttonIdx": 4,
+                                "buttonIdx": 3,
                                 "label": "",
                                 "attributes": ""
                               }
@@ -3190,7 +3230,7 @@
       "firstTermIdx": 6,
       "lastTermIdx": 10,
       "lastPunctuation": ".",
-      "type": "mcquestion"
+      "type": "default"
     },
     {
       "firstTermIdx": 11,
@@ -3240,7 +3280,9 @@
       "voiceIndex": 0,
       "nextTermIdx": -9999,
       "nextButtonIdx": 1,
-      "toBeRecited": ""
+      "toBeRecited": "",
+      "continuation": 0,
+      "repetitions": 0
     },
     {
       "buttonIdx": 1,
@@ -3254,26 +3296,13 @@
       "rate": 0,
       "voiceIndex": 0,
       "nextTermIdx": -9999,
-      "nextButtonIdx": 3,
-      "toBeRecited": ""
+      "nextButtonIdx": 2,
+      "toBeRecited": "",
+      "continuation": 0,
+      "repetitions": 0
     },
     {
       "buttonIdx": 2,
-      "termIdx": 11,
-      "sectionIdx": 2,
-      "lastTermIdx": 11,
-      "action": "choice",
-      "span": 1,
-      "label": "",
-      "cues": "",
-      "rate": 0,
-      "voiceIndex": 0,
-      "nextTermIdx": -9999,
-      "nextButtonIdx": -9999,
-      "toBeRecited": ""
-    },
-    {
-      "buttonIdx": 3,
       "termIdx": 12,
       "sectionIdx": 3,
       "lastTermIdx": 17,
@@ -3284,11 +3313,13 @@
       "rate": 0,
       "voiceIndex": 0,
       "nextTermIdx": -9999,
-      "nextButtonIdx": 4,
-      "toBeRecited": ""
+      "nextButtonIdx": 3,
+      "toBeRecited": "",
+      "continuation": 0,
+      "repetitions": 0
     },
     {
-      "buttonIdx": 4,
+      "buttonIdx": 3,
       "termIdx": 18,
       "sectionIdx": 4,
       "lastTermIdx": 23,
@@ -3300,7 +3331,9 @@
       "voiceIndex": 0,
       "nextTermIdx": -9999,
       "nextButtonIdx": -9999,
-      "toBeRecited": ""
+      "toBeRecited": "",
+      "continuation": 0,
+      "repetitions": 0
     }
   ]
 }

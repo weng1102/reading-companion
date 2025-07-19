@@ -7,11 +7,11 @@
   "author": "Wen",
   "category": "Verbs with images",
   "headingNumbering": "",
-  "version": "20250109.1",
+  "version": "20250718.1",
   "pageFormatType": 0,
-  "created": "Sun Mar 30 2025 15:51:32 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Sun Mar 30 2025 15:51:32 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Sun Mar 30 2025 15:51:32 GMT-0700 (Pacific Daylight Time)",
+  "created": "Sat Jul 19 2025 10:25:27 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Sat Jul 19 2025 10:25:27 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Sat Jul 19 2025 10:25:27 GMT-0700 (Pacific Daylight Time)",
   "showTags": false,
   "columnCount": 0,
   "firstTermIdx": -9999,
@@ -888,9 +888,49 @@
                                       "lastTermIdx": -9999,
                                       "type": 1,
                                       "meta": {
-                                        "buttonIdx": 0,
-                                        "label": "",
+                                        "buttonIdx": -9999,
+                                        "label": "Recite",
                                         "attributes": ""
+                                      }
+                                    },
+                                    {
+                                      "id": 0,
+                                      "termIdx": -9999,
+                                      "content": " ",
+                                      "cueList": "",
+                                      "cues": {
+                                        "partOfSpeech": "untagged",
+                                        "definition": "",
+                                        "image": "",
+                                        "alternatives": []
+                                      },
+                                      "firstTermIdx": -9999,
+                                      "lastTermIdx": -9999,
+                                      "type": 17,
+                                      "meta": {
+                                        "content": " ",
+                                        "cues": [],
+                                        "termIdx": -9999,
+                                        "nextTermIdx": [],
+                                        "prevTermIdx": [],
+                                        "altpronunciation": "",
+                                        "altrecognition": "",
+                                        "recitable": false,
+                                        "heading": false,
+                                        "audible": true,
+                                        "linkable": false,
+                                        "visible": true,
+                                        "visited": false,
+                                        "numberAsNumerals": false,
+                                        "linkIdx": -9999,
+                                        "hintsIdx": -9999,
+                                        "fillin": {
+                                          "sectionIdx": -9999,
+                                          "responseIdx": -9999
+                                        },
+                                        "bold": false,
+                                        "italics": false,
+                                        "markupTag": false
                                       }
                                     },
                                     {
@@ -1286,9 +1326,49 @@
                                       "lastTermIdx": -9999,
                                       "type": 1,
                                       "meta": {
-                                        "buttonIdx": 1,
-                                        "label": "",
+                                        "buttonIdx": -9999,
+                                        "label": "Recite",
                                         "attributes": ""
+                                      }
+                                    },
+                                    {
+                                      "id": 0,
+                                      "termIdx": -9999,
+                                      "content": " ",
+                                      "cueList": "",
+                                      "cues": {
+                                        "partOfSpeech": "untagged",
+                                        "definition": "",
+                                        "image": "",
+                                        "alternatives": []
+                                      },
+                                      "firstTermIdx": -9999,
+                                      "lastTermIdx": -9999,
+                                      "type": 17,
+                                      "meta": {
+                                        "content": " ",
+                                        "cues": [],
+                                        "termIdx": -9999,
+                                        "nextTermIdx": [],
+                                        "prevTermIdx": [],
+                                        "altpronunciation": "",
+                                        "altrecognition": "",
+                                        "recitable": false,
+                                        "heading": false,
+                                        "audible": true,
+                                        "linkable": false,
+                                        "visible": true,
+                                        "visited": false,
+                                        "numberAsNumerals": false,
+                                        "linkIdx": -9999,
+                                        "hintsIdx": -9999,
+                                        "fillin": {
+                                          "sectionIdx": -9999,
+                                          "responseIdx": -9999
+                                        },
+                                        "bold": false,
+                                        "italics": false,
+                                        "markupTag": false
                                       }
                                     },
                                     {
@@ -16386,7 +16466,7 @@
       "firstTermIdx": 5,
       "lastTermIdx": 8,
       "lastPunctuation": "?",
-      "type": "mcquestion"
+      "type": "default"
     },
     {
       "firstTermIdx": 9,
@@ -16632,36 +16712,5 @@
     }
   ],
   "fillinList": [],
-  "inlineButtonList": [
-    {
-      "buttonIdx": 0,
-      "termIdx": 9,
-      "sectionIdx": 1,
-      "lastTermIdx": 12,
-      "action": "choice",
-      "span": 1,
-      "label": "",
-      "cues": "",
-      "rate": 0,
-      "voiceIndex": 0,
-      "nextTermIdx": -9999,
-      "nextButtonIdx": -9999,
-      "toBeRecited": ""
-    },
-    {
-      "buttonIdx": 1,
-      "termIdx": 13,
-      "sectionIdx": 2,
-      "lastTermIdx": 16,
-      "action": "choice",
-      "span": 1,
-      "label": "",
-      "cues": "",
-      "rate": 0,
-      "voiceIndex": 0,
-      "nextTermIdx": -9999,
-      "nextButtonIdx": -9999,
-      "toBeRecited": ""
-    }
-  ]
+  "inlineButtonList": []
 }
