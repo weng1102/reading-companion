@@ -9,9 +9,9 @@
   "headingNumbering": "",
   "version": "20250718.1",
   "pageFormatType": 0,
-  "created": "Sat Jul 19 2025 10:25:12 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Sat Jul 19 2025 10:25:12 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Sat Jul 19 2025 10:25:12 GMT-0700 (Pacific Daylight Time)",
+  "created": "Sun Jul 20 2025 22:16:44 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Sun Jul 20 2025 22:16:44 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Sun Jul 20 2025 22:16:44 GMT-0700 (Pacific Daylight Time)",
   "showTags": false,
   "columnCount": 0,
   "firstTermIdx": -9999,
@@ -97,7 +97,7 @@
         "sentences": [
           {
             "id": 1,
-            "content": "[button: model, 3, , , css attributes/] The person is cooking.",
+            "content": "[button: model, 3, 7, 4, 5, css attributes/] The person is cooking.",
             "firstTermIdx": 1,
             "lastTermIdx": 4,
             "terminals": [
@@ -480,7 +480,7 @@
         "sentences": [
           {
             "id": 2,
-            "content": "[button: model, 3, , , css attributes/] The person is walking.",
+            "content": "[button: model, 3, 7, 4, 5, css attributes/] The person is walking.",
             "firstTermIdx": 5,
             "lastTermIdx": 8,
             "terminals": [
@@ -863,7 +863,7 @@
         "sentences": [
           {
             "id": 3,
-            "content": "[button: model, 3, , , css attributes/] The person is running.",
+            "content": "[button: model, 3, 7, 5, 5, css attributes/] The person is running.",
             "firstTermIdx": 9,
             "lastTermIdx": 12,
             "terminals": [
@@ -1246,7 +1246,7 @@
         "sentences": [
           {
             "id": 4,
-            "content": "[button: model, 3, , , css attributes/] The person is washing.",
+            "content": "[button: model, 3, 7, 3, 5, css attributes/] The person is washing.",
             "firstTermIdx": 13,
             "lastTermIdx": 16,
             "terminals": [
@@ -2228,13 +2228,14 @@
       "span": 1,
       "label": "",
       "cues": "",
-      "rate": 0,
+      "rate": 4,
       "voiceIndex": 0,
       "nextTermIdx": -9999,
       "nextButtonIdx": 1,
       "toBeRecited": "",
-      "continuation": 0,
-      "repetitions": 0
+      "continuation": 3,
+      "repetitions": 7,
+      "obscurityIndex": 5
     },
     {
       "buttonIdx": 1,
@@ -2245,13 +2246,14 @@
       "span": 1,
       "label": "",
       "cues": "",
-      "rate": 0,
+      "rate": 4,
       "voiceIndex": 0,
       "nextTermIdx": -9999,
       "nextButtonIdx": 2,
       "toBeRecited": "",
-      "continuation": 0,
-      "repetitions": 0
+      "continuation": 3,
+      "repetitions": 7,
+      "obscurityIndex": 5
     },
     {
       "buttonIdx": 2,
@@ -2262,13 +2264,14 @@
       "span": 1,
       "label": "",
       "cues": "",
-      "rate": 0,
+      "rate": 5,
       "voiceIndex": 0,
       "nextTermIdx": -9999,
       "nextButtonIdx": 3,
       "toBeRecited": "",
-      "continuation": 0,
-      "repetitions": 0
+      "continuation": 3,
+      "repetitions": 7,
+      "obscurityIndex": 5
     },
     {
       "buttonIdx": 3,
@@ -2279,13 +2282,14 @@
       "span": 1,
       "label": "",
       "cues": "",
-      "rate": 0,
+      "rate": 3,
       "voiceIndex": 0,
       "nextTermIdx": -9999,
       "nextButtonIdx": -9999,
       "toBeRecited": "",
-      "continuation": 0,
-      "repetitions": 0
+      "continuation": 3,
+      "repetitions": 7,
+      "obscurityIndex": 5
     }
   ]
 }
