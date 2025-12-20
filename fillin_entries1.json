@@ -9,9 +9,9 @@
   "headingNumbering": "",
   "version": "20250719.1",
   "pageFormatType": 0,
-  "created": "Sat Dec 20 2025 09:53:57 GMT-0800 (Pacific Standard Time)",
-  "modified": "Sat Dec 20 2025 09:53:57 GMT-0800 (Pacific Standard Time)",
-  "transformed": "Sat Dec 20 2025 09:53:57 GMT-0800 (Pacific Standard Time)",
+  "created": "Sat Dec 20 2025 10:13:29 GMT-0800 (Pacific Standard Time)",
+  "modified": "Sat Dec 20 2025 10:13:29 GMT-0800 (Pacific Standard Time)",
+  "transformed": "Sat Dec 20 2025 10:13:29 GMT-0800 (Pacific Standard Time)",
   "showTags": false,
   "columnCount": 0,
   "firstTermIdx": -9999,
@@ -67,7 +67,7 @@
               "sentences": [
                 {
                   "id": 0,
-                  "content": "The man is [_walking_] to the [_market_] from home.",
+                  "content": "The man is [_walking=(verb)_] to the [_market=(noun)_] from home.",
                   "firstTermIdx": 0,
                   "lastTermIdx": 8,
                   "terminals": [
@@ -341,9 +341,9 @@
                             "id": 0,
                             "termIdx": 3,
                             "content": "walking",
-                            "cueList": "",
+                            "cueList": "verb",
                             "cues": {
-                              "partOfSpeech": "untagged",
+                              "partOfSpeech": "verb",
                               "definition": "",
                               "image": "",
                               "alternatives": []
@@ -353,7 +353,9 @@
                             "type": 18,
                             "meta": {
                               "content": "walking",
-                              "cues": [],
+                              "cues": [
+                                "verb"
+                              ],
                               "termIdx": 3,
                               "nextTermIdx": [
                                 4
@@ -613,9 +615,9 @@
                             "id": 0,
                             "termIdx": 6,
                             "content": "market",
-                            "cueList": "",
+                            "cueList": "noun",
                             "cues": {
-                              "partOfSpeech": "untagged",
+                              "partOfSpeech": "noun",
                               "definition": "",
                               "image": "",
                               "alternatives": []
@@ -625,7 +627,9 @@
                             "type": 18,
                             "meta": {
                               "content": "market",
-                              "cues": [],
+                              "cues": [
+                                "noun"
+                              ],
                               "termIdx": 6,
                               "nextTermIdx": [
                                 7
@@ -977,7 +981,9 @@
     },
     {
       "content": "walking",
-      "cues": [],
+      "cues": [
+        "verb"
+      ],
       "termIdx": 3,
       "nextTermIdx": [
         4
@@ -1070,7 +1076,9 @@
     },
     {
       "content": "market",
-      "cues": [],
+      "cues": [
+        "noun"
+      ],
       "termIdx": 6,
       "nextTermIdx": [
         7
@@ -1222,18 +1230,19 @@
       "promptColumns": 1,
       "alternatives": [],
       "tags": [
-        "untagged"
+        "noun",
+        "verb"
       ],
       "responses": [
         {
           "content": "walking",
-          "tag": "untagged",
+          "tag": "verb",
           "alternatives": [],
           "referenceCount": 1
         },
         {
           "content": "market",
-          "tag": "untagged",
+          "tag": "noun",
           "alternatives": [],
           "referenceCount": 1
         }
