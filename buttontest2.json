@@ -7,11 +7,11 @@
   "author": "Wen",
   "category": "Test",
   "headingNumbering": "",
-  "version": "20250718.1",
+  "version": "20251227.1",
   "pageFormatType": 0,
   "created": "5/31/2024",
-  "modified": "Sat Jul 19 2025 10:25:04 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Sat Jul 19 2025 10:25:04 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Wed Dec 31 2025 09:27:02 GMT-0800 (Pacific Standard Time)",
+  "transformed": "Wed Dec 31 2025 09:27:02 GMT-0800 (Pacific Standard Time)",
   "showTags": false,
   "columnCount": 0,
   "firstTermIdx": -9999,
@@ -40,7 +40,7 @@
           {
             "id": 0,
             "termIdx": -9999,
-            "content": "",
+            "content": "alpha",
             "cueList": "",
             "cues": {
               "partOfSpeech": "untagged",
@@ -53,14 +53,14 @@
             "type": 1,
             "meta": {
               "buttonIdx": 0,
-              "label": "",
+              "label": "alpha",
               "attributes": ""
             }
           },
           {
             "id": 0,
             "termIdx": -9999,
-            "content": "",
+            "content": "quick",
             "cueList": "",
             "cues": {
               "partOfSpeech": "untagged",
@@ -73,14 +73,14 @@
             "type": 1,
             "meta": {
               "buttonIdx": 1,
-              "label": "",
+              "label": "quick",
               "attributes": ""
             }
           },
           {
             "id": 0,
             "termIdx": -9999,
-            "content": "",
+            "content": "beta",
             "cueList": "",
             "cues": {
               "partOfSpeech": "untagged",
@@ -93,14 +93,14 @@
             "type": 1,
             "meta": {
               "buttonIdx": 2,
-              "label": "",
+              "label": "beta",
               "attributes": ""
             }
           },
           {
             "id": 0,
             "termIdx": -9999,
-            "content": "",
+            "content": "gamma",
             "cueList": "",
             "cues": {
               "partOfSpeech": "untagged",
@@ -113,14 +113,14 @@
             "type": 1,
             "meta": {
               "buttonIdx": 3,
-              "label": "",
+              "label": "gamma",
               "attributes": ""
             }
           },
           {
             "id": 0,
             "termIdx": -9999,
-            "content": "",
+            "content": "SCVMC",
             "cueList": "",
             "cues": {
               "partOfSpeech": "untagged",
@@ -133,14 +133,14 @@
             "type": 1,
             "meta": {
               "buttonIdx": 4,
-              "label": "",
+              "label": "SCVMC",
               "attributes": ""
             }
           },
           {
             "id": 0,
             "termIdx": -9999,
-            "content": "",
+            "content": "the_quick_brown_fox",
             "cueList": "",
             "cues": {
               "partOfSpeech": "untagged",
@@ -153,7 +153,7 @@
             "type": 1,
             "meta": {
               "buttonIdx": 5,
-              "label": "",
+              "label": "the_quick_brown_fox",
               "attributes": ""
             }
           }
@@ -441,15 +441,16 @@
       "lastTermIdx": -9999,
       "action": "term",
       "span": 1,
-      "label": "",
+      "label": "alpha",
       "cues": "",
-      "rate": 0.5,
+      "rate": 0,
       "voiceIndex": 0,
       "nextTermIdx": -9999,
       "nextButtonIdx": -9999,
-      "toBeRecited": "",
+      "toBeRecited": "alpha",
       "continuation": 0,
-      "repetitions": 0
+      "repetitions": 0,
+      "obscurityIndex": 0
     },
     {
       "buttonIdx": 1,
@@ -458,15 +459,16 @@
       "lastTermIdx": -9999,
       "action": "term",
       "span": 1,
-      "label": "",
+      "label": "quick",
       "cues": "",
-      "rate": 0.5,
+      "rate": 0,
       "voiceIndex": 0,
       "nextTermIdx": -9999,
       "nextButtonIdx": -9999,
-      "toBeRecited": "",
+      "toBeRecited": "quick",
       "continuation": 0,
-      "repetitions": 0
+      "repetitions": 0,
+      "obscurityIndex": 0
     },
     {
       "buttonIdx": 2,
@@ -475,15 +477,16 @@
       "lastTermIdx": -9999,
       "action": "term",
       "span": 1,
-      "label": "",
+      "label": "beta",
       "cues": "",
-      "rate": 0.5,
+      "rate": 0,
       "voiceIndex": 0,
       "nextTermIdx": -9999,
       "nextButtonIdx": -9999,
-      "toBeRecited": "",
+      "toBeRecited": "beta",
       "continuation": 0,
-      "repetitions": 0
+      "repetitions": 0,
+      "obscurityIndex": 0
     },
     {
       "buttonIdx": 3,
@@ -492,15 +495,16 @@
       "lastTermIdx": -9999,
       "action": "term",
       "span": 1,
-      "label": "",
+      "label": "gamma",
       "cues": "",
-      "rate": 0.5,
+      "rate": 0,
       "voiceIndex": 0,
       "nextTermIdx": -9999,
       "nextButtonIdx": -9999,
-      "toBeRecited": "",
+      "toBeRecited": "gamma",
       "continuation": 0,
-      "repetitions": 0
+      "repetitions": 0,
+      "obscurityIndex": 0
     },
     {
       "buttonIdx": 4,
@@ -509,15 +513,16 @@
       "lastTermIdx": -9999,
       "action": "term",
       "span": 1,
-      "label": "",
+      "label": "SCVMC",
       "cues": "",
-      "rate": 0.5,
+      "rate": 0,
       "voiceIndex": 0,
       "nextTermIdx": -9999,
       "nextButtonIdx": -9999,
-      "toBeRecited": "",
+      "toBeRecited": "SCVMC",
       "continuation": 0,
-      "repetitions": 0
+      "repetitions": 0,
+      "obscurityIndex": 0
     },
     {
       "buttonIdx": 5,
@@ -526,15 +531,16 @@
       "lastTermIdx": -9999,
       "action": "term",
       "span": 1,
-      "label": "",
+      "label": "the_quick_brown_fox",
       "cues": "",
-      "rate": 0.5,
+      "rate": 0,
       "voiceIndex": 0,
       "nextTermIdx": -9999,
       "nextButtonIdx": -9999,
-      "toBeRecited": "",
+      "toBeRecited": "the_quick_brown_fox",
       "continuation": 0,
-      "repetitions": 0
+      "repetitions": 0,
+      "obscurityIndex": 0
     }
   ]
 }
