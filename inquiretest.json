@@ -10,8 +10,8 @@
   "version": "20260120.1",
   "pageFormatType": 0,
   "created": "2/11/2026",
-  "modified": "Mon Mar 02 2026 17:08:11 GMT-0800 (Pacific Standard Time)",
-  "transformed": "Mon Mar 02 2026 17:08:11 GMT-0800 (Pacific Standard Time)",
+  "modified": "Sat Mar 28 2026 14:39:48 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Sat Mar 28 2026 14:39:48 GMT-0700 (Pacific Daylight Time)",
   "showTags": false,
   "columnCount": 0,
   "firstTermIdx": -9999,
@@ -217,7 +217,7 @@
         ],
         "prompt": {
           "id": 1,
-          "content": "[button: label, you , you, .5, css attributes/] Question this here?",
+          "content": "[button: term, you , you, .5, css attributes/] Question this here?",
           "firstTermIdx": 2,
           "lastTermIdx": 4,
           "terminals": [
@@ -498,7 +498,7 @@
         },
         "response": {
           "id": 2,
-          "content": "[button: label, me, me, .5, css attributes/] Answer this here",
+          "content": "[button: term, me, me, .5, css attributes/] Answer this here",
           "firstTermIdx": 5,
           "lastTermIdx": 7,
           "terminals": [
@@ -1057,13 +1057,15 @@
       "delay": 0,
       "delayRepeat": 0,
       "promptSentIdx": 1,
-      "responseSentIdx": 2
+      "responseSentIdx": 2,
+      "minRemWidth": 0,
+      "backgroundColor": "light gray"
     },
     {
       "buttonIdx": 1,
       "termIdx": 1,
       "sectionIdx": -9999,
-      "action": "label",
+      "action": "term",
       "span": 1,
       "label": "you",
       "cues": "",
@@ -1071,7 +1073,7 @@
       "voiceIndex": 0,
       "nextTermIdx": -9999,
       "nextButtonIdx": -9999,
-      "toBeRecited": "",
+      "toBeRecited": "you",
       "continuation": 0,
       "repeats": 0,
       "obscurityIndex": 0,
@@ -1079,13 +1081,15 @@
       "delay": 0,
       "delayRepeat": 0,
       "promptSentIdx": -9999,
-      "responseSentIdx": -9999
+      "responseSentIdx": -9999,
+      "minRemWidth": 0,
+      "backgroundColor": "light gray"
     },
     {
       "buttonIdx": 2,
       "termIdx": 4,
       "sectionIdx": -9999,
-      "action": "label",
+      "action": "term",
       "span": 1,
       "label": "me",
       "cues": "",
@@ -1093,7 +1097,7 @@
       "voiceIndex": 0,
       "nextTermIdx": -9999,
       "nextButtonIdx": -9999,
-      "toBeRecited": "",
+      "toBeRecited": "me",
       "continuation": 0,
       "repeats": 0,
       "obscurityIndex": 0,
@@ -1101,7 +1105,9 @@
       "delay": 0,
       "delayRepeat": 0,
       "promptSentIdx": -9999,
-      "responseSentIdx": -9999
+      "responseSentIdx": -9999,
+      "minRemWidth": 0,
+      "backgroundColor": "light gray"
     }
   ]
 }
