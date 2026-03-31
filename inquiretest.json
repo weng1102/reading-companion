@@ -10,8 +10,8 @@
   "version": "20260120.1",
   "pageFormatType": 0,
   "created": "2/11/2026",
-  "modified": "Sat Mar 28 2026 14:39:48 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Sat Mar 28 2026 14:39:48 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Tue Mar 31 2026 14:54:02 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Tue Mar 31 2026 14:54:02 GMT-0700 (Pacific Daylight Time)",
   "showTags": false,
   "columnCount": 0,
   "firstTermIdx": -9999,
@@ -217,7 +217,7 @@
         ],
         "prompt": {
           "id": 1,
-          "content": "[button: term, you , you, .5, css attributes/] Question this here?",
+          "content": "[button: term, you, 3rem/] Question this here?",
           "firstTermIdx": 2,
           "lastTermIdx": 4,
           "terminals": [
@@ -498,7 +498,7 @@
         },
         "response": {
           "id": 2,
-          "content": "[button: term, me, me, .5, css attributes/] Answer this here",
+          "content": "[button: term, me, 3rem, /] Answer this here",
           "firstTermIdx": 5,
           "lastTermIdx": 7,
           "terminals": [
@@ -1058,7 +1058,7 @@
       "delayRepeat": 0,
       "promptSentIdx": 1,
       "responseSentIdx": 2,
-      "minRemWidth": 0,
+      "minWidth": "50px",
       "backgroundColor": "light gray"
     },
     {
@@ -1082,7 +1082,7 @@
       "delayRepeat": 0,
       "promptSentIdx": -9999,
       "responseSentIdx": -9999,
-      "minRemWidth": 0,
+      "minWidth": "3rem",
       "backgroundColor": "light gray"
     },
     {
@@ -1106,7 +1106,7 @@
       "delayRepeat": 0,
       "promptSentIdx": -9999,
       "responseSentIdx": -9999,
-      "minRemWidth": 0,
+      "minWidth": "3rem",
       "backgroundColor": "light gray"
     }
   ]
