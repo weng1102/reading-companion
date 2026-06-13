@@ -9,9 +9,9 @@
   "headingNumbering": "",
   "version": "20260120.1",
   "pageFormatType": 0,
-  "created": "Sat Jun 13 2026 07:19:28 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Sat Jun 13 2026 07:19:28 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Sat Jun 13 2026 07:19:28 GMT-0700 (Pacific Daylight Time)",
+  "created": "Sat Jun 13 2026 07:36:40 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Sat Jun 13 2026 07:36:40 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Sat Jun 13 2026 07:36:40 GMT-0700 (Pacific Daylight Time)",
   "showTags": false,
   "columnCount": 0,
   "firstTermIdx": -9999,
@@ -4269,30 +4269,10 @@
               },
               "response": {
                 "id": 11,
-                "content": "[button: choice, correct, , , css attributes/] The oven is used when baking.",
+                "content": "The oven is used when baking.",
                 "firstTermIdx": 47,
                 "lastTermIdx": 52,
                 "terminals": [
-                  {
-                    "id": 0,
-                    "termIdx": -9999,
-                    "content": "correct",
-                    "cueList": "",
-                    "cues": {
-                      "partOfSpeech": "untagged",
-                      "definition": "",
-                      "image": "",
-                      "alternatives": []
-                    },
-                    "firstTermIdx": -9999,
-                    "lastTermIdx": -9999,
-                    "type": 1,
-                    "meta": {
-                      "buttonIdx": 5,
-                      "label": "correct",
-                      "attributes": ""
-                    }
-                  },
                   {
                     "id": 0,
                     "termIdx": 47,
@@ -4819,7 +4799,7 @@
             "items": [],
             "type": "inquiry",
             "meta": {
-              "buttonIdx": 6,
+              "buttonIdx": 5,
               "buttons": [
                 {
                   "id": 0,
@@ -4836,7 +4816,7 @@
                   "lastTermIdx": -9999,
                   "type": 1,
                   "meta": {
-                    "buttonIdx": 6,
+                    "buttonIdx": 5,
                     "label": "",
                     "attributes": ""
                   }
@@ -8016,7 +7996,7 @@
       "rate": 0,
       "voiceIndex": 0,
       "nextTermIdx": -9999,
-      "nextButtonIdx": 6,
+      "nextButtonIdx": 5,
       "toBeRecited": "",
       "continuation": 1,
       "repeats": 0,
@@ -8031,30 +8011,6 @@
     },
     {
       "buttonIdx": 5,
-      "termIdx": 46,
-      "sectionIdx": -9999,
-      "action": "choice",
-      "span": 1,
-      "label": "correct",
-      "cues": "",
-      "rate": 0,
-      "voiceIndex": 0,
-      "nextTermIdx": -9999,
-      "nextButtonIdx": -9999,
-      "toBeRecited": "correct",
-      "continuation": 0,
-      "repeats": 0,
-      "obscurityIndex": 0,
-      "obscurityIndexRepeat": 0,
-      "delay": 0,
-      "delayRepeat": 0,
-      "promptSentIdx": -9999,
-      "responseSentIdx": -9999,
-      "minWidth": "",
-      "backgroundColor": "light gray"
-    },
-    {
-      "buttonIdx": 6,
       "termIdx": 53,
       "sectionIdx": 0,
       "action": "inquiry",
