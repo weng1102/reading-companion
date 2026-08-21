@@ -9,9 +9,9 @@
   "headingNumbering": "",
   "version": "20260120.1",
   "pageFormatType": 0,
-  "created": "Thu Aug 20 2026 13:53:44 GMT-0700 (Pacific Daylight Time)",
-  "modified": "Thu Aug 20 2026 13:53:45 GMT-0700 (Pacific Daylight Time)",
-  "transformed": "Thu Aug 20 2026 13:53:45 GMT-0700 (Pacific Daylight Time)",
+  "created": "Thu Aug 20 2026 19:32:29 GMT-0700 (Pacific Daylight Time)",
+  "modified": "Thu Aug 20 2026 19:32:29 GMT-0700 (Pacific Daylight Time)",
+  "transformed": "Thu Aug 20 2026 19:32:29 GMT-0700 (Pacific Daylight Time)",
   "showTags": false,
   "columnCount": 0,
   "firstTermIdx": -9999,
@@ -759,50 +759,17 @@
       }
     },
     {
-      "id": 1,
+      "id": 0,
       "name": "",
       "description": "",
-      "firstTermIdx": 9,
-      "lastTermIdx": 8,
+      "firstTermIdx": -9999,
+      "lastTermIdx": -9999,
       "showTags": false,
       "columnCount": 0,
       "items": [],
-      "type": "paragraph",
+      "type": "empty",
       "meta": {
-        "sentences": [
-          {
-            "id": 0,
-            "content": "[button: term, test /]",
-            "firstTermIdx": -9999,
-            "lastTermIdx": -9999,
-            "terminals": [
-              {
-                "id": 0,
-                "termIdx": -9999,
-                "content": "test",
-                "cueList": "",
-                "cues": {
-                  "partOfSpeech": "untagged",
-                  "definition": "",
-                  "image": "",
-                  "alternatives": []
-                },
-                "firstTermIdx": -9999,
-                "lastTermIdx": -9999,
-                "type": 1,
-                "meta": {
-                  "buttonIdx": 0,
-                  "label": "test",
-                  "attributes": ""
-                }
-              }
-            ],
-            "lastPunctuation": ""
-          }
-        ],
-        "listItem": false,
-        "style": "",
-        "class": "p"
+        "count": 1
       }
     },
     {
@@ -824,7 +791,7 @@
           "columnCount": 0,
           "items": [
             {
-              "id": 2,
+              "id": 1,
               "name": "",
               "description": "",
               "firstTermIdx": 9,
@@ -1328,7 +1295,7 @@
       "italics": false,
       "markupTag": false,
       "sentenceIdx": 1,
-      "sectionIdx": 2
+      "sectionIdx": 1
     },
     {
       "content": "page",
@@ -1357,18 +1324,13 @@
       "italics": false,
       "markupTag": false,
       "sentenceIdx": 1,
-      "sectionIdx": 2
+      "sectionIdx": 1
     }
   ],
   "headingList": [],
   "sectionList": [
     {
       "firstTermIdx": 0,
-      "lastTermIdx": 8,
-      "type": "paragraph"
-    },
-    {
-      "firstTermIdx": 9,
       "lastTermIdx": 8,
       "type": "paragraph"
     },
@@ -1407,30 +1369,5 @@
     }
   ],
   "fillinList": [],
-  "inlineButtonList": [
-    {
-      "buttonIdx": 0,
-      "termIdx": 8,
-      "sectionIdx": -9999,
-      "action": "term",
-      "span": 1,
-      "label": "test",
-      "cues": "",
-      "rate": 0,
-      "voiceIndex": 0,
-      "nextTermIdx": -9999,
-      "nextButtonIdx": -9999,
-      "toBeRecited": "test",
-      "continuation": 0,
-      "repeats": 0,
-      "obscurityIndex": 0,
-      "obscurityIndexRepeat": 0,
-      "delay": 0,
-      "delayRepeat": 0,
-      "promptSentIdx": -9999,
-      "responseSentIdx": -9999,
-      "minWidth": "",
-      "backgroundColor": "light gray"
-    }
-  ]
+  "inlineButtonList": []
 }
